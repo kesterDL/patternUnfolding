@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="211.42374mm"
+   height="243.50511mm"
+   viewBox="0 0 211.42374 243.50511"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="BardsCafeD20.svg"
+   inkscape:export-filename="D20.png"
+   inkscape:export-xdpi="13.76891"
+   inkscape:export-ydpi="13.76891"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.2102413"
+     inkscape:cx="292.52102"
+     inkscape:cy="561.25985"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="137.93674"
+       y="313.92499"
+       width="656.38861"
+       height="123.66742"
+       id="rect664" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1.258481,-22.972018)">
+    <path
+       id="path419"
+       style="opacity:1;fill:#a5a5a5;fill-rule:evenodd;stroke-width:0.293423;paint-order:stroke markers fill;fill-opacity:1"
+       transform="translate(81.800847,108.22881)"
+       d="M 128.36441,96.902544 23.194666,158.24832 -82.517202,97.841534 -83.059328,-23.911021 22.110414,-85.256792 127.82228,-24.85001 Z"
+       inkscape:export-filename="BardsCafeD20.png"
+       inkscape:export-xdpi="15.8582"
+       inkscape:export-ydpi="15.8582" />
+    <path
+       id="path421"
+       style="opacity:1;fill:#e7e7e7;fill-rule:evenodd;stroke-width:0.293423;paint-order:stroke markers fill"
+       inkscape:transform-center-x="-0.9003005"
+       inkscape:transform-center-y="-30.203391"
+       d="M 187.51271,193.80508 21.508636,194.00351 104.33883,50.140549 Z" />
+  </g>
+</svg>

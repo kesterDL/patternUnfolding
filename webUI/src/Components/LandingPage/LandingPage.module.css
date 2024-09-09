@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Caveat&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Nunito:wght@500;800&family=Raleway:wght@500&display=swap");
+
+.App {
+  position: relative;
+  z-index: 909;
+  text-align: center;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width: 450px) {
+  .big_stories {
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+  }
+  .signature {
+    font-size: 3rem;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .letter {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* Align items to the left */
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    max-width: 75rem; /* Set maximum width */
+    margin: 0 auto; /* Center horizontally */
+    text-align: left; /* Align text to the left */
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+
+.sectionTitle {
+  font-family: "Cinzel";
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.latestEpisodeTile {
+  background-color: #eeecea;
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Align items to the left */
+  justify-content: flex-start;
+  color: rgb(0, 0, 0);
+  max-width: 60rem; /* Set maximum width */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.latestTileImage {
+  height: 25rem;
+  filter: grayscale(30%);
+  object-fit: cover;
+}
+
+.episode {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items to the left */
+}
+
+.wreath {
+  height: 7rem;
+}
+
+.episodeTitle {
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: "Cinzel";
+}
+
+.description {
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: "Cormorant";
+}
+
+.listenNow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 10rem;
+  background-color: #c5a603;
+  color: #ffffff;
+  font-family: "Cormorant";
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-style: solid;
+  border-color: #554700;
+}
+
+.exploreSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  align-content: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}

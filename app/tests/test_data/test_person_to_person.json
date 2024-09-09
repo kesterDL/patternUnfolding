@@ -1,0 +1,5 @@
+{
+  "type": "persons_to_persons",
+  "persons": ["rand al'thor"],
+  "connections": ["matrum cauthon"]
+}
