@@ -1,0 +1,12 @@
+.tbdAdventureImg {
+  height: 7.25rem;
+  padding: 1vw;
+  width: 7.25rem;
+}
+
+@media (max-width: 550px) {
+  .tbdAdventureImg {
+    width: 30vw;
+    max-width: 150px;
+  }
+}

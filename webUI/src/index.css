@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans+Runic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --background-color: #4f374f;
+  --primary-color: #d9d9d9;
+  --black-text-color: #000000;
+  --light-text-color: #eeeeee;
+
+  --active-tab-color: #6d9cd5;
+
+  --linkedin-color: #007bb6;
+  --stroke-color: rgba(0, 0, 0, 0.25);
+  --dancing-font: "Dancing Script";
+  --nunito-font: "Nunito";
+}

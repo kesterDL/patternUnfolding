@@ -1,0 +1,6 @@
+test
+*.pyproject
+__pycache__
+*.venv
+*.aws-sam
+webUI

@@ -1,0 +1,115 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Nunito:wght@500;800&family=Raleway:wght@500&display=swap");
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+/* Center content horizontally and vertically */
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  margin-top: 5rem; /* Adjust margin as needed */
+}
+
+/* Responsive styles */
+.readingArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  width: 100%; /* Take up full width */
+  max-width: 60rem; /* Limit max width */
+  filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
+}
+
+/* Styles for the book cover and overlay */
+.bookCover {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.backgroundImage {
+  display: block;
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+}
+
+.gradientOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%; /* Adjust height as needed */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+/* Additional styles */
+h1 {
+  margin: 0;
+  font-weight: 200;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.storyText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  width: 100%;
+  min-height: 100vh;
+  margin-bottom: 10rem;
+  background-color: #ffffff;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 1024px) {
+  .podcastTitle {
+    font-size: 4rem; /* Decrease font size */
+  }
+}
+
+@media (max-width: 768px) {
+  .podcastTitle {
+    font-size: 4rem; /* Further decrease font size */
+    bottom: 7rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .podcastTitle {
+    bottom: 4rem;
+    font-size: 2.7rem; /* Decrease font size for smaller screens */
+  }
+}
+
+@media (max-width: 300px) {
+  .podcastTitle {
+    font-size: 1.2rem; /* Adjust font size for very small screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Add any additional styles specific to larger screens if needed */
+  .podcastTitle {
+    font-size: 6rem; /* Adjust font size for very small screens */
+  }
+}

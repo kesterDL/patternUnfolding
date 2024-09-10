@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 8.4179025 7.3439542"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="Helmet_Logo_V0.svg"
+   inkscape:export-filename="Helmet_Logo_V0_1024.svg"
+   inkscape:export-xdpi="3030.2905"
+   inkscape:export-ydpi="3030.2905"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="16"
+     inkscape:cx="17.90625"
+     inkscape:cy="25.6875"
+     inkscape:window-width="1720"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1186"
+       originx="0.033463546"
+       originy="0.05" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.0328524,-1.0914191)">
+    <path
+       id="path344"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.264999;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+       inkscape:transform-center-x="-0.00020227991"
+       inkscape:transform-center-y="1.158724"
+       transform="matrix(1.0020033,0,0,1.0002377,0.09920521,-0.39810176)"
+       d="M 8.2020831,1.6536458 C 8.2427547,1.7241051 6.2087684,5.1059169 6.1680847,5.1763692 6.127401,5.2468215 4.2150662,8.6988829 4.1337109,8.6988759 4.0523556,8.6988689 2.1406138,5.2464792 2.0999421,5.1760199 2.0592705,5.1055606 0.02586506,1.7233995 0.06654878,1.6529472 0.1072325,1.5824949 4.0529606,1.6530728 4.134316,1.6530798 c 0.081355,6.9e-6 4.0270955,-0.069893 4.0677671,5.66e-4 z" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer 4"
+     transform="translate(-0.0328524,-1.0914191)">
+    <path
+       style="opacity:1;fill:#282828;fill-opacity:1;fill-rule:nonzero;stroke:#282828;stroke-width:0.11396;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 4.3092103,6.9886274 2.1465102,5.8506721 2.1071884,3.8457034 c 0,0 0.01966,-2.7636057 2.5362574,-2.3300989 2.5165965,0.4335067 1.1599937,4.0821887 1.5532118,4.1002515 0.3932182,0.018062 -0.6684709,0.9212019 -0.6684709,0.9212019 0,0 -0.5111836,-1.986906 -0.2359309,-2.1133455 C 5.5675085,4.2972729 5.7444567,3.791515 5.7444567,3.791515 c 0,0 0.3932182,-0.1445022 0.2752527,-0.2528789 C 5.9017437,3.4302591 4.9186985,3.4121966 4.9580203,3.6289491 4.9973423,3.8457025 4.9973423,4.80303 4.9973423,4.80303 l -0.078644,0.415444 c 0,0 -0.3538964,-0.036126 -0.452201,-0.3973813 C 4.368193,4.459838 4.8400548,3.62895 4.3288712,3.5928244 3.8176875,3.5566989 3.1295557,3.5205732 3.1295557,3.5205732 c 0,0 0.1769481,0.6321975 0.7274536,0.7225114 0.5505056,0.090314 0.452201,2.7455428 0.452201,2.7455428 z"
+       id="path1763" />
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 512 512" style="transform:scale(0.8);" xmlns="http://www.w3.org/2000/svg">
+<g transform="matrix(1.0175 0 0 1.0087 -.086866 -.050785)" fill="none" stroke="#000" stroke-linecap="round">
+<path d="m5.1687 6.0302h194.69v232.59h-194.69z" stroke-linejoin="round" stroke-width="8.71" style="paint-order:markers stroke fill"/>
+<path d="m137.83 155.06h124.91v261.02h-124.91z" stroke-linejoin="round" stroke-width="2.9846" style="paint-order:markers stroke fill"/>
+<path d="m229.15 111.99h263.6v157.65h-263.6z" stroke-linejoin="round" stroke-width="2.9846" style="paint-order:markers stroke fill"/>
+<path d="m14.645 310.98h483.28v189.52h-483.28z" stroke-linejoin="round" stroke-width="7.9204" style="paint-order:markers stroke fill"/>
+<path d="m322.18 25.844h124.91v431.59h-124.91z" stroke-linejoin="round" stroke-width="15.225" style="paint-order:markers stroke fill"/>
+<path d="m181.77 204.16h116.3v138.69h-116.3z" stroke-linejoin="bevel" stroke-width="8.71" style="paint-order:markers stroke fill"/>
+</g>
+</svg>

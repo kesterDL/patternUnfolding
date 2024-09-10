@@ -1,0 +1,49 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true,
+        "jest": true
+    },
+    "rules": {
+        "react/jsx-props-no-spreading": "off",
+        "max-len": [
+            "error",
+            {
+                "code": 205
+            }
+        ],
+        "jsx-a11y/img-redundant-alt": [
+            0
+        ],
+        "jsx-a11y/click-events-have-key-events": [
+            0
+        ],
+        "jsx-a11y/no-static-element-interactions": [
+            0
+        ],
+        "jsx-a11y/no-noninteractive-element-interactions": [
+            0
+        ]
+    },
+    "parserOptions": {
+        "parser": "babel-eslint",
+        "babelOptions": {
+            "presets": [
+                "@babel/preset-react"
+            ]
+        },
+        "ecmaVersion": 9,
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "jsx-a11y"
+    ],
+    "extends": [
+        "prettier",
+        "plugin:jsx-a11y/recommended"
+    ]
+}

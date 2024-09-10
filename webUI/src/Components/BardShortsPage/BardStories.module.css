@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Caveat&family=Dancing+Script:wght@500&family=Nunito:wght@500;800&family=Raleway:wght@500&display=swap");
+
+/* Apply styles to the entire page */
+body {
+  margin: 0; /* Remove default margin to prevent unwanted spacing */
+  font-family: "Nunito", sans-serif; /* Use a fallback font */
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 2rem;
+}
+p {
+  margin: 1rem;
+}
+
+/* Center content horizontally and vertically */
+.page {
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Center vertically */
+  margin-top: 3rem;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #ffffff;
+}
+
+/* Limit content width to 75rem */
+.container {
+  max-width: 75rem; /* Set maximum width */
+  width: 100%; /* Take up full available width */
+  padding: 0 1rem; /* Add horizontal padding for spacing */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.title {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.letter {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  font-size: calc(10px + 2vmin);
+  color: black;
+  text-align: left; /* Align text to the left */
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+/* Styles for ValersNest container */
+.valersContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap into multiple rows */
+  justify-content:flex-start; /* Distribute items evenly with space around */
+  gap: 1rem; /* Add spacing between items */
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 0.5rem; /* Decrease padding on mobile for better use of space */
+  }
+
+  .valersContainer {
+    justify-content: flex-start; /* Adjust alignment for smaller screens */
+  }
+}

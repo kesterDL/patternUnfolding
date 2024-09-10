@@ -1,0 +1,80 @@
+/* StoryTile.module.css */
+h2 {
+  margin: 0;
+}
+h4 {
+  text-decoration: none;
+}
+
+.storyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25rem;
+  width: 23rem;
+  background-color: whitesmoke;
+}
+
+.storyImgContainer {
+  width: 40%; /* Ensure the image container takes full width */
+  height: 40%; /* Set a fixed height for the image container */
+  overflow: hidden;
+}
+
+.storyImgContainer img {
+  width: 100%;
+  height: 100%; /* Make the image take full height of its container */
+  object-fit: cover;
+}
+.textContainer {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "Cinzel", serif;
+  font-size: 1.5rem;
+  color: rgb(46, 45, 45);
+}
+
+.description {
+  font-family: "Cormorant", sans-serif;
+  font-size: 1rem;
+  color: rgb(46, 45, 45);
+}
+
+.button {
+  height: 3rem;
+  width: 70%;
+  font-family: "Cormorant", sans-serif;
+  font-size: 1.7rem;
+  color: rgb(46, 45, 45);
+  border-style: solid;
+  align-content: center;
+  justify-content: center;
+}
+
+@media (max-width: 850px) {
+  .textContainer {
+    margin-right: 2vw;
+    font-weight: normal;
+  }
+
+  .storyContainer {
+    height: 20rem;
+    width: 17rem;
+    margin: 1rem;
+    padding: 15px;
+    justify-content: flex-start; /* Adjust alignment as needed */
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.75rem;
+  }
+}

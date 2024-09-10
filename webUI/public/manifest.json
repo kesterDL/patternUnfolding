@@ -1,0 +1,25 @@
+{
+  "short_name": "Unfolded Pattern",
+  "name": "Unfolding the Pattern, weaves of the wheel",
+  "icons": [
+    {
+      "src": "logo_light.svg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/svg"
+    },
+    {
+      "src": "Blue_Ice_D20_192px.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "Blue_Ice_D20_512px.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "new_place",
+  "name": "emond's field",
+  "people": ["rand al'thor", "matrum cauthon", "tam al'thor", "perrin aybara"],
+  "places": {
+    "winespring inn": "The only inn of Emon's Field. Central gathering place and home to the Mayor and his family."
+  },
+  "things": { "sword of tam al'thor": "Heron marked sword from Illian." },
+  "events": { "Raising of the Flag of Manetherin": "" },
+  "description": "A small town in the Two Rivers, previously part of the ancient nation of Mantherin. Home to the main characters."
+}
