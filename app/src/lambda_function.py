@@ -23,7 +23,7 @@ def lambda_handler(event, contest):
 
     # Define the path to the local JSON document
     json_file_path = 'data/pattern.json'
-    updated_json_file_path = 'data/pattern.json'
+    updated_json_file_path = 'data/updated_pattern.json'
     try:
         strategy = ConnectionStrategyFactory.get_strategy(operation=input_type)
         # Update JSON document with new data

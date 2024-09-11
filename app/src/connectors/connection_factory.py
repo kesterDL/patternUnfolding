@@ -10,6 +10,11 @@ class ConnectionStrategyFactory:
             return PersonToPersonStrategy()
         elif operation == PERSON_TO_PLACE:
             return PlaceToPersonsStrategy()
-        # Add more cases for each operation
+        elif operation == UPDATE_PERSON:
+            # TODO: place holder
+            return PlaceToPersonsStrategy() # refactor strategy
+        elif operation == NEW_PERSON:
+            # TODO: place holder
+            return PlaceToPersonsStrategy() # refactor strategy
         else:
             raise ValueError(f"Unsupported operation: {operation}")

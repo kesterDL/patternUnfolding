@@ -31,7 +31,6 @@ class PlaceToPersonsStrategy(ConnectionStrategy):
             event_people: Final[list[str]] = event.get(PERSONS, [])
             new_place_connection_names: Final[list[str]] = event.get(CONNECTION, "")
             persons: list[dict] = self.person_node_creator.create_nodes(names=event_people, stored_data=stored_data)
-
             places: list[dict] = self.place_node_creator.create_nodes(place_names=new_place_connection_names, people_names=event_people, stored_data=stored_data)
             self.connect_people_to_place(people=persons, place_names=new_place_connection_names)
             self.connect_place_to_people(people=persons, places=places)
@@ -54,8 +53,8 @@ class PlaceToPersonsStrategy(ConnectionStrategy):
             for place in places:
                 place_people: list[str] = place.get(PEOPLE) # type: ignore This should always exist.
                 for person in people:
-                    if person in place_people:
-                        logging.info(f"person already connected to {place.get(NAME)}")
+                    if person.get(NAME) in place_people:
+                        self.logger.info(f"person already connected to {place.get(NAME)}")
                     else:
                         name: str = person.get(NAME) # type: ignore This should always exist.
                         place_people.append(name)
