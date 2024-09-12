@@ -134,17 +134,22 @@
       "people": [
         "rand al'thor",
         "mordeth",
-        "matrum cauthon",
+        "matrim cauthon",
         "perrin aybara",
         "nyanaeve al'mera",
         "moraine damodred",
         "lan mandragoran",
-        "egwene al'vere"
+        "egwene al'vere",
+        "balwen mayel",
+        "caar",
+        "thorin al'torin al ban"
       ],
       "places": {},
-      "things": {},
+      "things": {
+        "Mashadar": "The evil born from Aridhol that lives deep in the bed rock of the city."
+      },
       "events": {},
-      "description": ""
+      "description": "Formerly known as Aridhol, Shadar Logoth (The place where the shadow waits or shadow's waiting)."
     },
     "the stag and lion": {
       "name": "The Stag and Lion",
@@ -158,7 +163,13 @@
     "white bridge": {
       "name": "white bridge",
       "type": "Place",
-      "people": ["rand al'thor", "matrim cauthon", "thom merrilin"],
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "thom merrilin",
+        "bayle domon",
+        "floran gelb"
+      ],
       "places": {},
       "things": {},
       "events": {},
@@ -184,7 +195,9 @@
         "matrim cauthon",
         "perrin aybara",
         "master hightower",
-        "mordeth"
+        "mordeth",
+        "bayle domon",
+        "floran gelb"
       ],
       "places": [
         "dragonmount",
@@ -233,10 +246,16 @@
       "description": "Queen of Kandor. Shield of the North. Highseat of House Materasu. 5ft 4in tall and buxom with blue eyes and black hair with whisps of gray. Married Brys Noramaga who was murdered by Merean Redhill of the Black Ajah along with their son. Fought in the Last Battle with Lan's army. Her family likely derives from the Japanese Sun Goddess 'Amaterasu', which translates to English as 'Heaven's Shining Light'."
     },
     "matrim cauthon": {
-      "name": "matrum cauthon",
+      "name": "matrim cauthon",
       "type": "Person",
       "role": "",
-      "people": ["rand al'thor", "perrin aybara", "mordeth"],
+      "people": [
+        "rand al'thor",
+        "perrin aybara",
+        "mordeth",
+        "bayle domon",
+        "floran gelb"
+      ],
       "places": [
         "emond's field",
         "watch hill",
@@ -513,7 +532,7 @@
       "name": "thom merrilin",
       "type": "Person",
       "role": "",
-      "people": ["nyanaeve al'mera"],
+      "people": ["nyanaeve al'mera", "bayle domon", "floran gelb"],
       "places": ["white bridge"],
       "things": {
         "bargain of rogosh eagle-eye": "hunt for the horn tale",
@@ -589,13 +608,43 @@
       "role": "",
       "people": [
         "rand al'thor",
-        "matrum cauthon",
+        "matrim cauthon",
         "perrin aybara",
         "padan fain"
       ],
       "places": ["shadar logoth"],
       "things": {},
       "description": ""
+    },
+    "bayle domon": {
+      "name": "bayle domon",
+      "type": "Person",
+      "role": "Captain of the Spray",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "thom merrilin",
+        "floran gelb"
+      ],
+      "places": ["shadar logoth", "white bridge"],
+      "things": {
+        "seal to the dark one's prison": "a round disk made of cuendillar. One part black the other white divided by a senious line."
+      },
+      "description": "Stalky man with long hair to his thick shoulders and a beard that leaves his upper lip bare frames a round face. Round but not soft."
+    },
+    "floran gelb": {
+      "name": "floran gelb",
+      "type": "Person",
+      "role": "crew man on the Spray",
+      "people": [
+        "bayle domon",
+        "rand al'thor",
+        "matrim cauthon",
+        "thom merrilin"
+      ],
+      "places": ["shadar logoth", "white bridge"],
+      "things": {},
+      "description": "Narrow faced crewman on Captain Domon's river boat. He was asleep on watch when Rand, Mat, and Thom came over the side. Rand kicked him in the head on accident."
     }
   }
 }
