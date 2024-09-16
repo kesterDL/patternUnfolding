@@ -15,6 +15,7 @@ NEW_THING: Final[str] = "new_thing"
 NEW_PLACE: Final[str] = "new_place"
 PERSON_TO_PERSON: Final[str] = "person_to_person"
 PERSON_TO_PLACE: Final[str] = "person_to_place"
+PERSON_TO_THING: Final[str] = "person_to_thing"
 UPDATE_PERSON: Final[str] = "update_person"
 
 PERSON: Final[str] = "person"
