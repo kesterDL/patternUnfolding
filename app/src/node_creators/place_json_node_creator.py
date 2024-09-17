@@ -24,7 +24,7 @@ class PlaceJsonNodeCreator(PlaceNodeCreatorStrategy):
                         "name": place,
                         "type": "Place",
                         "people": [],
-                        "places": {},
+                        "places": [],
                         "things": {},
                         "events": {},
                         "description": ""

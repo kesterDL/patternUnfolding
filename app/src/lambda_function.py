@@ -3,7 +3,7 @@ import logging
 from src.connectors.connection_factory import ConnectionStrategyFactory
 from src.orchestrators.conductor import Conductor
 from src.validations.input_validator import InputValidator
-from src.utils.constants import (TYPE, NEW_PERSON, NEW_THING, NEW_PLACE, PERSON_TO_PERSON, PERSON_TO_PLACE, UPDATE_PERSON)
+from src.utils.constants import (TYPE, NEW_PERSON, NEW_THING, NEW_PLACE, PERSON_TO_PERSON, PERSON_TO_PLACE, PERSON_TO_THING, UPDATE_PERSON)
 from src.utils.file_handler import load_json_from_local
 from typing import Final
 
@@ -12,7 +12,7 @@ def lambda_handler(event, contest):
     logger.setLevel(logging.INFO)
 
     input_type: Final[str] = event.get(TYPE)
-    if input_type not in [NEW_PERSON, NEW_PLACE, NEW_THING, PERSON_TO_PERSON, PERSON_TO_PLACE, UPDATE_PERSON]:
+    if input_type not in [NEW_PERSON, NEW_PLACE, NEW_THING, PERSON_TO_PERSON, PERSON_TO_PLACE, UPDATE_PERSON, PERSON_TO_THING]:
         logger.error(f"Input Type was Invalid: {input_type}")
         return {
             'statusCode': 400,
@@ -23,7 +23,7 @@ def lambda_handler(event, contest):
 
     # Define the path to the local JSON document
     json_file_path = 'data/pattern.json'
-    updated_json_file_path = 'data/updated_pattern.json'
+    updated_json_file_path = 'data/pattern.json'
     try:
         strategy = ConnectionStrategyFactory.get_strategy(operation=input_type)
         # Update JSON document with new data

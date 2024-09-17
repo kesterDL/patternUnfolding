@@ -7,7 +7,7 @@ PEOPLE: Final[str] = "people"
 PLACES: Final[str] = "places"
 THINGS: Final[str] = "things"
 DESCRIPTION: Final[str] = "description"
-SEQUENCE: Final[int] = "sequence"
+SEQUENCE: Final[str] = "sequence"
 PERSONS: Final[str] = "persons"
 
 NEW_PERSON: Final[str] = "new_person"

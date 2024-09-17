@@ -34,10 +34,10 @@ class ThingToPersonStrategy(ConnectionStrategy):
                 for thing in thing_objs:
                     people_conn_thing: list[str] = thing.get(PEOPLE, [])
                     if person.get(NAME) not in people_conn_thing:
-                        people_conn_thing.append(thing.get(NAME)) # type: ignore
-                    person_conn_thing: list[str] = person.get(THINGS, [])
+                        people_conn_thing.append(person.get(NAME)) # type: ignore
+                    person_conn_thing: dict[str, str] = person.get(THINGS, [])
                     if thing.get(NAME) not in person_conn_thing:
-                        person_conn_thing.append(thing.get(NAME)) # type: ignore
+                        person_conn_thing[thing.get(NAME)] = "" # type: ignore
             return {SUCCESS: True, 'operation': 'thing_to_person'}
         except KeyError as ke:
             raise ke
