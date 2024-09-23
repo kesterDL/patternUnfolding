@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import { Helmet } from "react-helmet";
 import styles from "./Hero_Banner.module.css";
 import banner from "../../images/tyler-lastovich-8_LZ9UWTKLE-unsplash.jpg";
@@ -27,19 +28,20 @@ function Hero_Banner() {
         <div className={styles.actionCenter}>
           <div className={styles.podcastTitle}>The Pattern Unfolds</div>
           <div className={styles.subTitle}>- weaves of the wheel -</div>
-          <div className={styles.listen}>
+          {/* Wrap the 'listen' div in a Link to enable navigation */}
+          <Link to="/episodes" className={styles.listen}>
             <img
               src={headphones}
               alt="Listen to The Pattern Unfolding"
               className={styles.headphones}
             />
             <div>Listen | Watch</div>
-          </div>
+          </Link>
           <div className={styles.learnPlay}>
             <div className={styles.secondaryLink}>
               <img
                 src={eyeglasses}
-                alt="Listen to The Pattern Unfolding"
+                alt="Learn more about The Pattern Unfolding"
                 className={styles.eyeglasses}
               />
               <div>Learn</div>
@@ -47,7 +49,7 @@ function Hero_Banner() {
             <div className={styles.secondaryLink}>
               <img
                 src={fox}
-                alt="Listen to The Pattern Unfolding"
+                alt="Play games related to The Pattern Unfolding"
                 className={styles.fox}
               />
               <div>Play</div>

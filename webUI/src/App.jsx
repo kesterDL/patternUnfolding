@@ -2,10 +2,7 @@ import React from "react";
 import LandingPage from "./Components/LandingPage/LandingPage";
 import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 import Hero_Banner from "./Components/Home_Page_Banner/Hero_Banner";
-import NavTabs from "./Components/Navigation_Tabs/NavTabs";
-import Adventures from "./Components/Adventures/Adventures";
-import BardStories from "./Components/BardShortsPage/BardStories";
-import Reader from "./Components/Stories/story-components/Reader";
+import EpisodesPage from "./Components/EpisodesPage/EpisodesPage";
 import ValersNestReader from "./stories/ValersNestReader";
 
 function App() {
@@ -18,11 +15,10 @@ function App() {
 
   return (
     <HashRouter>
-      <Hero_Banner />
       <Routes>
         <Route exact path="/about" element={<LandingPage />} />
-        <Route exact path="/adventures" element={<Adventures />} />
-        {/* <Route exact path="/unfold" element={<FormSelector />} /> */}
+        <Route exact path="/episodes" element={<EpisodesPage />} />
+
         <Route exact path="/valersNest" element={<ValersNestReader />} />
         <Route path="*" element={<Navigate to="/about" replace />} />
       </Routes>

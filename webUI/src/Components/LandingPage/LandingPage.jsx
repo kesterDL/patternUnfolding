@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import styles from "./LandingPage.module.css";
+import Hero_Banner from "../Home_Page_Banner/Hero_Banner";
 import HeroTile from "../shared-components/LatestEpisodeTile/HeroTile";
 import ExploreTile from "../Stories/story-components/ExploreTile";
 import ShopTile from "../Stories/story-components/StoreTile";
@@ -18,6 +19,7 @@ function LandingPage() {
           content="Wheel of Time discussions, art, and nerd out safe space."
         />
       </Helmet>
+      <Hero_Banner />
       <div className={styles.App}>
         <h2 className={styles.sectionTitle}>- Latest Episode -</h2>
         <HeroTile />

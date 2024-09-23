@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import styles from "./Header.module.css";
 import Header_Logo from "./Header_Logo";
-import { Helmet } from "react-helmet";
 
 function Header() {
   return (
@@ -10,20 +11,33 @@ function Header() {
         <title>Unfolding the Pattern</title>
         <meta
           name="description"
-          content="Welcome to Bard's Cafe, your source for Dungeons & Dragons (D&D) podcast. Join us for epic DnD adventures, discussions, and more!"
+          content="Wheel of Time Podcast. Eye of the World and Robert Jordan"
         />
       </Helmet>
       <header className={styles.headerBackdrop}>
         <div className={styles.headerRow}>
           <Header_Logo />
-          <div className={styles.navigationGroup}>
+          <nav className={styles.navigationGroup}>
             <button className={styles.storeButton}>Store</button>
-            <div>Episodes</div>
-            <div>Community</div>
-            <div>Stories</div>
-            <div>Art</div>
-            <div>Contact</div>
-          </div>
+            <Link to="/" className={styles.navLink}>
+              Home
+            </Link>
+            <Link to="/episodes" className={styles.navLink}>
+              Episodes
+            </Link>
+            <Link to="/community" className={styles.navLink}>
+              Community
+            </Link>
+            <Link to="/stories" className={styles.navLink}>
+              Stories
+            </Link>
+            <Link to="/art" className={styles.navLink}>
+              Art
+            </Link>
+            <Link to="/contact" className={styles.navLink}>
+              Contact
+            </Link>
+          </nav>
           <div className={styles.signUp}>
             <button className={styles.signInButton}>Sign In</button>
             <button className={styles.registerButton}>Register</button>
