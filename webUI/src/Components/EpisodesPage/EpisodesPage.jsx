@@ -32,7 +32,28 @@ function EpisodesPage() {
         { name: "Apple Podcast", logo: applePodcast },
       ],
     },
-    // Add more episodes as needed
+    {
+      title: "Farming Life is Intense",
+      description:
+        "Tam and Rand walk all the way back to the farm the same day after a dangerous journey into town, and immediately start chores until nightfall.",
+      imageSrc: trail,
+      streamers: [
+        { name: "Spotify", logo: spotify },
+        { name: "YouTube", logo: youtube },
+        { name: "Apple Podcast", logo: applePodcast },
+      ],
+    },
+    {
+      title: "Thom and Moiraine?",
+      description:
+        "When did they start getting romantic? Was it always there from the beginning, or did RJ throw it in to get better ratings?",
+      imageSrc: trail,
+      streamers: [
+        { name: "Spotify", logo: spotify },
+        { name: "YouTube", logo: youtube },
+        { name: "Apple Podcast", logo: applePodcast },
+      ],
+    },
   ];
 
   return (

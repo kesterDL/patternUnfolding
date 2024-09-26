@@ -8,7 +8,8 @@
         "matrim cauthon",
         "thom merrilin",
         "bayle domon",
-        "floran gelb"
+        "floran gelb",
+        "padan fain"
       ],
       "places": [],
       "things": {},
@@ -178,6 +179,51 @@
       "things": {},
       "events": {},
       "description": ""
+    },
+    "wayfarer's rest": {
+      "name": "wayfarer's rest",
+      "type": "Place",
+      "people": [
+        "padan fain",
+        "rand al'thor",
+        "matrim cauthon",
+        "thom merrilin",
+        "floran gelb"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "raen's tinker camp": {
+      "name": "raen's tinker camp",
+      "type": "Place",
+      "people": [
+        "perrin aybara",
+        "egwene al'vere",
+        "elyas machera",
+        "raen",
+        "ila"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "arutur hawkwing's steading": {
+      "name": "arutur hawkwing's steading",
+      "type": "Place",
+      "people": [
+        "perrin aybara",
+        "egwene al'vere",
+        "elyas machera",
+        "jaret byar",
+        "geofram bornhald"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": "A steading at least a day outside of Caemlyn where Perrin and Egwene first encountered Lord Bornhald and Child Byar."
     }
   },
   "people": {
@@ -201,7 +247,8 @@
         "master hightower",
         "mordeth",
         "bayle domon",
-        "floran gelb"
+        "floran gelb",
+        "bartin"
       ],
       "places": [
         "dragonmount",
@@ -210,7 +257,8 @@
         "taren ferry",
         "baerlon",
         "shadar logoth",
-        "whitebridge"
+        "whitebridge",
+        "wayfarer's rest"
       ],
       "things": {},
       "description": "Tall with Red Hair. Likes Red Coats and sword fights."
@@ -258,7 +306,8 @@
         "perrin aybara",
         "mordeth",
         "bayle domon",
-        "floran gelb"
+        "floran gelb",
+        "bartin"
       ],
       "places": [
         "emond's field",
@@ -266,7 +315,8 @@
         "taren ferry",
         "baerlon",
         "shadar logoth",
-        "whitebridge"
+        "whitebridge",
+        "wayfarer's rest"
       ],
       "things": {},
       "description": ""
@@ -281,7 +331,8 @@
         "mordeth",
         "raen",
         "elyas machera",
-        "wind"
+        "wind",
+        "aram"
       ],
       "places": [
         "emond's field",
@@ -289,7 +340,9 @@
         "taren ferry",
         "baerlon",
         "shadar logoth",
-        "shadar logoth"
+        "shadar logoth",
+        "raen's tinker camp",
+        "arutur hawkwing's steading"
       ],
       "things": {},
       "description": ""
@@ -431,7 +484,7 @@
         "lan mandragoran",
         "moiraine damordred"
       ],
-      "places": ["baerlon"],
+      "places": ["baerlon", "arutur hawkwing's steading"],
       "things": [],
       "description": "Wears an unblinking and arrogant look, as well as a breastplate and conical steel cap that shines like silver. A long pristine white cloak embroidered on the left breast with a golden sunburst."
     },
@@ -445,9 +498,10 @@
         "bran al'vere",
         "cenn buie",
         "padan fain",
-        "mordeth"
+        "mordeth",
+        "bartin"
       ],
-      "places": ["emond's field", "baerlon"],
+      "places": ["emond's field", "baerlon", "whitebridge", "wayfarer's rest"],
       "things": [],
       "description": "Often dressed in rags and has a half starved and crazed look. Destroyed and rebuilt as the dark one's hound doomed to hunt out Rand al'Thor and never rest."
     },
@@ -527,8 +581,12 @@
       "name": "egwene al'vere",
       "type": "Person",
       "role": "",
-      "people": ["raen", "elyas machera", "wind"],
-      "places": ["shadar logoth"],
+      "people": ["raen", "elyas machera", "wind", "aram"],
+      "places": [
+        "shadar logoth",
+        "raen's tinker camp",
+        "arutur hawkwing's steading"
+      ],
       "things": {},
       "description": ""
     },
@@ -536,8 +594,21 @@
       "name": "thom merrilin",
       "type": "Person",
       "role": "",
-      "people": ["nyanaeve al'mera", "bayle domon", "floran gelb"],
-      "places": ["whitebridge"],
+      "people": [
+        "nyanaeve al'mera",
+        "bayle domon",
+        "floran gelb",
+        "bartin",
+        "owyn"
+      ],
+      "places": [
+        "emond's field",
+        "baerlon",
+        "the stag and lion",
+        "shadar logoth",
+        "whitebridge",
+        "wayfarer's rest"
+      ],
       "things": {
         "bargain of rogosh eagle-eye": "hunt for the horn tale",
         "wind that shakes the willow": "sad but popular song",
@@ -646,7 +717,7 @@
         "matrim cauthon",
         "thom merrilin"
       ],
-      "places": ["shadar logoth", "whitebridge"],
+      "places": ["shadar logoth", "whitebridge", "wayfarer's rest"],
       "things": {},
       "description": "Narrow faced crewman on Captain Domon's river boat. He was asleep on watch when Rand, Mat, and Thom came over the side. Rand kicked him in the head on accident."
     },
@@ -654,8 +725,8 @@
       "name": "elyas machera",
       "type": "Person",
       "role": "Wolf Brother",
-      "people": ["perrin aybara", "egwene al'vere", "raen", "wind"],
-      "places": [],
+      "people": ["perrin aybara", "egwene al'vere", "raen", "wind", "aram"],
+      "places": ["raen's tinker camp", "arutur hawkwing's steading"],
       "things": [],
       "description": "Greying brown hair and yellow wolf's eyes. Wears clothes made from animal skins and a flot-topped round fur hat."
     },
@@ -663,8 +734,14 @@
       "name": "raen",
       "type": "Person",
       "role": "Mahdi of a Tuatha'an group",
-      "people": ["perrin aybara", "egwene al'vere", "elyas machera", "raen"],
-      "places": [],
+      "people": [
+        "perrin aybara",
+        "egwene al'vere",
+        "elyas machera",
+        "raen",
+        "aram"
+      ],
+      "places": ["raen's tinker camp"],
       "things": [],
       "description": "Wirey gray-haired short man. Wearing a high collared red coat and baggy bright green trousers tucked into knee boots."
     },
@@ -731,6 +808,68 @@
       "places": [],
       "things": [],
       "description": "Wolf in Elyas and Hopper's wolf pack."
+    },
+    "bartin": {
+      "name": "bartin",
+      "type": "Person",
+      "role": "innkeeper in whitebridge",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "thom merrilin",
+        "floran gelb",
+        "padan fain"
+      ],
+      "places": ["whitebridge", "wayfarer's rest"],
+      "things": [],
+      "description": "Innkeepr of Wayfarer's rest in whitebridge. Thinning hair and sore feet."
+    },
+    "owyn": {
+      "name": "owyn",
+      "type": "Person",
+      "role": "Thom Merrilin's nephew. Murdered by the Red Adjah",
+      "people": ["thom merrilin", "owyn"],
+      "places": [],
+      "things": [],
+      "description": "Thom Merrilin's nephew that started to channel. He was murdered by the Red Adjah. Which motivated Thom to help Rand, Mat, and Perrin."
+    },
+    "aram": {
+      "name": "aram",
+      "type": "Person",
+      "role": "Tinker with a sword",
+      "people": [
+        "perrin aybara",
+        "egwene al'vere",
+        "elyas machera",
+        "raen",
+        "ila"
+      ],
+      "places": ["raen's tinker camp"],
+      "things": [],
+      "description": "Slender young man with more than his share of good looks, wearing green stripes."
+    },
+    "ila": {
+      "name": "ila",
+      "type": "Person",
+      "role": "Raen's wife",
+      "people": ["aram"],
+      "places": ["raen's tinker camp"],
+      "things": {},
+      "description": "Raen's wife. Smooth cheeked plump woman with gray hair."
+    },
+    "jaret byar": {
+      "name": "jaret byar",
+      "type": "Person",
+      "role": "Over Zealot White Cloak",
+      "people": [
+        "perrin aybara",
+        "egwene al'vere",
+        "elyas machera",
+        "jaret byar"
+      ],
+      "places": ["arutur hawkwing's steading"],
+      "things": [],
+      "description": "Tall with a long and gaunt face and eyes so deeply set the seemed to look out from caves. No excess flesh on him, none at all. His skin was pulled tight over the muscle and bone beneath. Over Zealous member of the children of the light. A core villian of Perrin's story. "
     }
   },
   "things": {

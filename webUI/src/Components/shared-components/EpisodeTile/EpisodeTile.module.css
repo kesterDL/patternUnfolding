@@ -40,7 +40,7 @@
 }
 
 .episodeDescription {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 15px;
   flex-grow: 1;
 }
@@ -48,6 +48,7 @@
 .streamingChannels {
   display: flex;
   justify-content: space-between; /* Ensure equal spacing between logos */
+  gap: 0.5rem;
 }
 
 .streamerCardLink {
@@ -55,8 +56,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 60px; /* Equal width for all boxes */
-  height: 60px; /* Equal height for all boxes */
+  width: 7.25rem; /* Equal width for all boxes */
+  height: 3.75rem; /* Equal height for all boxes */
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -65,7 +66,7 @@
 }
 
 .streamer_logo {
-  width: 30px;
-  height: 30px;
-  margin-bottom: 5px; /* Space between logo and label */
+  width: 2.25rem;
+  /* height: 1.875rem; */
+  margin-bottom: 0.3125rem; /* Space between logo and label */
 }

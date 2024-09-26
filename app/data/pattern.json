@@ -209,6 +209,21 @@
       "things": {},
       "events": {},
       "description": ""
+    },
+    "arutur hawkwing's steading": {
+      "name": "arutur hawkwing's steading",
+      "type": "Place",
+      "people": [
+        "perrin aybara",
+        "egwene al'vere",
+        "elyas machera",
+        "jaret byar",
+        "geofram bornhald"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": "A steading at least a day outside of Caemlyn where Perrin and Egwene first encountered Lord Bornhald and Child Byar."
     }
   },
   "people": {
@@ -326,7 +341,8 @@
         "baerlon",
         "shadar logoth",
         "shadar logoth",
-        "raen's tinker camp"
+        "raen's tinker camp",
+        "arutur hawkwing's steading"
       ],
       "things": {},
       "description": ""
@@ -468,7 +484,7 @@
         "lan mandragoran",
         "moiraine damordred"
       ],
-      "places": ["baerlon"],
+      "places": ["baerlon", "arutur hawkwing's steading"],
       "things": [],
       "description": "Wears an unblinking and arrogant look, as well as a breastplate and conical steel cap that shines like silver. A long pristine white cloak embroidered on the left breast with a golden sunburst."
     },
@@ -566,7 +582,11 @@
       "type": "Person",
       "role": "",
       "people": ["raen", "elyas machera", "wind", "aram"],
-      "places": ["shadar logoth", "raen's tinker camp"],
+      "places": [
+        "shadar logoth",
+        "raen's tinker camp",
+        "arutur hawkwing's steading"
+      ],
       "things": {},
       "description": ""
     },
@@ -706,7 +726,7 @@
       "type": "Person",
       "role": "Wolf Brother",
       "people": ["perrin aybara", "egwene al'vere", "raen", "wind", "aram"],
-      "places": ["raen's tinker camp"],
+      "places": ["raen's tinker camp", "arutur hawkwing's steading"],
       "things": [],
       "description": "Greying brown hair and yellow wolf's eyes. Wears clothes made from animal skins and a flot-topped round fur hat."
     },
@@ -836,6 +856,20 @@
       "places": ["raen's tinker camp"],
       "things": {},
       "description": "Raen's wife. Smooth cheeked plump woman with gray hair."
+    },
+    "jaret byar": {
+      "name": "jaret byar",
+      "type": "Person",
+      "role": "Over Zealot White Cloak",
+      "people": [
+        "perrin aybara",
+        "egwene al'vere",
+        "elyas machera",
+        "jaret byar"
+      ],
+      "places": ["arutur hawkwing's steading"],
+      "things": [],
+      "description": "Tall with a long and gaunt face and eyes so deeply set the seemed to look out from caves. No excess flesh on him, none at all. His skin was pulled tight over the muscle and bone beneath. Over Zealous member of the children of the light. A core villian of Perrin's story. "
     }
   },
   "things": {

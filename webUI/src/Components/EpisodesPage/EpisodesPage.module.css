@@ -1,0 +1,10 @@
+.episodesContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allow the items to wrap into multiple rows */
+  justify-content: space-around; /* Space evenly between items */
+  gap: 2rem; /* Spacing between cards */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 2rem 0; /* Padding for spacing */
+  width: 81.25rem;
+  height: 100%; /* Equal height for all boxes */
+}
