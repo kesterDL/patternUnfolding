@@ -332,7 +332,9 @@
         "raen",
         "elyas machera",
         "wind",
-        "aram"
+        "aram",
+        "jaret byar",
+        "geofram bornhald"
       ],
       "places": [
         "emond's field",
@@ -479,14 +481,16 @@
       "role": "Captain of the Children of the Light",
       "people": [
         "rand al'thor",
-        "geofram bornhald",
         "avin",
         "lan mandragoran",
-        "moiraine damordred"
+        "moiraine damordred",
+        "perrin aybara",
+        "egwene al'vere",
+        "jaret byar"
       ],
       "places": ["baerlon", "arutur hawkwing's steading"],
       "things": [],
-      "description": "Wears an unblinking and arrogant look, as well as a breastplate and conical steel cap that shines like silver. A long pristine white cloak embroidered on the left breast with a golden sunburst."
+      "description": "Wears an unblinking and arrogant look, as well as a breastplate and conical steel cap that shines like silver. A long pristine white cloak embroidered on the left breast with a golden sunburst. Dark-eyed, grand-fatherly face at odds  with the white-and-gold tabard and burnshed armor over a pure-white under-coat. Kindly face, bluff and dignified. He keeps simple spartan furnishings that are of high craftsmanship."
     },
     "padan fain": {
       "name": "padan fain",
@@ -581,7 +585,14 @@
       "name": "egwene al'vere",
       "type": "Person",
       "role": "",
-      "people": ["raen", "elyas machera", "wind", "aram"],
+      "people": [
+        "raen",
+        "elyas machera",
+        "wind",
+        "aram",
+        "jaret byar",
+        "geofram bornhald"
+      ],
       "places": [
         "shadar logoth",
         "raen's tinker camp",
@@ -865,11 +876,11 @@
         "perrin aybara",
         "egwene al'vere",
         "elyas machera",
-        "jaret byar"
+        "geofram bornhald"
       ],
       "places": ["arutur hawkwing's steading"],
       "things": [],
-      "description": "Tall with a long and gaunt face and eyes so deeply set the seemed to look out from caves. No excess flesh on him, none at all. His skin was pulled tight over the muscle and bone beneath. Over Zealous member of the children of the light. A core villian of Perrin's story. "
+      "description": "Tall with a long and gaunt face and eyes so deeply set they seemed to look out from caves. No excess flesh on him, none at all. His skin was pulled tight over the muscle and bone beneath. Over Zealous member of the children of the light. A core villian of Perrin's story."
     }
   },
   "things": {
@@ -878,6 +889,22 @@
       "type": "Thing",
       "people": ["moiraine damodred"],
       "places": [],
+      "events": {},
+      "description": ""
+    },
+    "tam's sword": {
+      "name": "tam's sword",
+      "type": "Thing",
+      "people": ["tam al'thor", "rand al'thor"],
+      "places": ["illian", "emond's field"],
+      "events": {},
+      "description": ""
+    },
+    "lan's sword": {
+      "name": "lan's sword",
+      "type": "Thing",
+      "people": ["lan mandragoran"],
+      "places": ["manethoran"],
       "events": {},
       "description": ""
     }
