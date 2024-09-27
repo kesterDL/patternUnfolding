@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import styles from "./EpisodeHeroBanner.module.css";
-import banner from "../../images/peter-conlan-axYF1KFjoDY-unsplash.jpg";
+import banner from "../../images/peter-conlan-axYF1KFjoDY-unsplash.webp";
 import skyline from "../../images/mountain_skyline.svg";
 import spotify from "../../logos/Spotify_Logo_only_RGB_Black.png";
 import youtube from "../../logos/yt_logo_only_mono_light.png";

@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import styles from "./HeroTile.module.css";
-import latest from "../../../images/peter-conlan-axYF1KFjoDY-unsplash.jpg";
 import wreath from "../../../logos/wovenWreath.svg";
 
 function HeroTile() {

@@ -31,7 +31,7 @@ function Header() {
             <Link to="/stories" className={styles.navLink}>
               Stories
             </Link>
-            <Link to="/art" className={styles.navLink}>
+            <Link to="/artgallery" className={styles.navLink}>
               Art
             </Link>
             <Link to="/contact" className={styles.navLink}>

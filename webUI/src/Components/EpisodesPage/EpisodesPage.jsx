@@ -3,7 +3,12 @@ import { Helmet } from "react-helmet";
 import styles from "./EpisodesPage.module.css";
 import EpisodeHeroBanner from "./EpisodeHeroBanner";
 import EpisodeTile from "../shared-components/EpisodeTile/EpisodeTile";
-import trail from "../../images/peter-conlan-axYF1KFjoDY-unsplash.jpg";
+
+import thomMoiraine from "../../images/frank-mckenna-cRLEVt6SZxI-unsplash.webp";
+import channeler from "../../images/nathan-cima-y5aFdoCjB5U-unsplash.webp";
+import sheep from "../../images/ariana-prestes-24bzOuENxHc-unsplash.webp";
+import samurai from "../../images/sorasak-_UIN-pFfJ7c-unsplash.webp";
+
 import spotify from "../../logos/Spotify_Logo_only_RGB_Black.png";
 import youtube from "../../logos/yt_logo_only_mono_light.png";
 import applePodcast from "../../logos/Apple_Podcasts_Icon_blk_lg_060623.svg";
@@ -14,7 +19,7 @@ function EpisodesPage() {
       title: "Channeling is a Problem",
       description:
         "What if people actually live for 1,000 years and have magic powers? How would that impact society and human progress?",
-      imageSrc: trail,
+      imageSrc: channeler,
       streamers: [
         { name: "Spotify", logo: spotify },
         { name: "YouTube", logo: youtube },
@@ -22,10 +27,10 @@ function EpisodesPage() {
       ],
     },
     {
-      title: "The Dragon Reborn",
+      title: "The Borderlands",
       description:
-        "What does it mean for someone to be born as the Dragon Reborn? A discussion on the Wheel of Time prophecies.",
-      imageSrc: trail,
+        "The Borderlands are a culturally unique place. Art seems to pervade all elements of daily life, in harmony with intense martial and militant practices.",
+      imageSrc: samurai,
       streamers: [
         { name: "Spotify", logo: spotify },
         { name: "YouTube", logo: youtube },
@@ -36,7 +41,7 @@ function EpisodesPage() {
       title: "Farming Life is Intense",
       description:
         "Tam and Rand walk all the way back to the farm the same day after a dangerous journey into town, and immediately start chores until nightfall.",
-      imageSrc: trail,
+      imageSrc: sheep,
       streamers: [
         { name: "Spotify", logo: spotify },
         { name: "YouTube", logo: youtube },
@@ -47,7 +52,7 @@ function EpisodesPage() {
       title: "Thom and Moiraine?",
       description:
         "When did they start getting romantic? Was it always there from the beginning, or did RJ throw it in to get better ratings?",
-      imageSrc: trail,
+      imageSrc: thomMoiraine,
       streamers: [
         { name: "Spotify", logo: spotify },
         { name: "YouTube", logo: youtube },
