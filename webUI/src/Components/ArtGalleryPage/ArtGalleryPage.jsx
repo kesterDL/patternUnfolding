@@ -10,6 +10,8 @@ import channeler from "../../images/nathan-cima-y5aFdoCjB5U-unsplash.webp";
 import sheep from "../../images/ariana-prestes-24bzOuENxHc-unsplash.webp";
 import samurai from "../../images/sorasak-_UIN-pFfJ7c-unsplash.webp";
 import gallery from "../../images/claudio-testa-iqeG5xA96M4-unsplash.webp";
+import switzerland from "../../images/peter-conlan-axYF1KFjoDY-unsplash.webp";
+import mist from "../../images/tyler-lastovich-8_LZ9UWTKLE-unsplash.webp";
 
 function ArtGalleryPage() {
   const [selectedArt, setSelectedArt] = useState(null);
@@ -53,6 +55,21 @@ function ArtGalleryPage() {
       imageSrc: gallery,
       imageLink:
         "https://unsplash.com/photos/brown-cathedral-during-daytimer-iqeG5xA96M4",
+    },
+    {
+      title: "Mountain Covered with Mist",
+      artist: "Tyler Lastovich",
+      artistLink: "https://unsplash.com/@lastly",
+      imageSrc: mist,
+      imageLink:
+        "https://unsplash.com/photos/photo-of-mountain-covered-with-mist-8_LZ9UWTKLE",
+    },
+    {
+      title: "Seeing Switzerland",
+      artist: "Peter Conlan",
+      artistLink: "https://unsplash.com/@peterconlan",
+      imageSrc: switzerland,
+      imageLink: "https://unsplash.com/photos/grass-field-pathway-axYF1KFjoDY",
     },
   ];
 
