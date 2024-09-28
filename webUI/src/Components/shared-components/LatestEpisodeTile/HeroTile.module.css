@@ -5,21 +5,17 @@
 }
 
 .latestEpisodeTile {
-  /* Div Size */
   width: 60rem; /* Set maximum width */
-  height: 25rem;
+  height: auto; /* Let the height adjust with the content */
   margin: 0 auto; /* Center horizontally */
   padding-top: 2rem;
-  /* Background Image */
   background-image: url("../../../images/peter-conlan-axYF1KFjoDY-unsplash.webp");
-  background-size: cover; /* <------ */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   filter: grayscale(25%);
-  /* Position Elements */
   display: flex;
   flex-direction: column;
-  align-items: left; /* Align items to the left */
   justify-content: flex-start;
   color: rgb(0, 0, 0);
   position: relative;
@@ -29,7 +25,7 @@
 .episode {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Align items to the left */
+  align-items: center;
 }
 
 .wreath {
@@ -66,4 +62,18 @@
   font-weight: 700;
   border-style: solid;
   border-color: #554700;
+  cursor: pointer; /* Add pointer for hover */
+}
+
+.spotifyPlayer {
+  width: 80%; /* Match the width of the tile */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%); /* Initially hidden */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.latestEpisodeTile .spotifyPlayer {
+  transform: translateY(0); /* Show player when it's active */
 }
