@@ -9,7 +9,8 @@
         "thom merrilin",
         "bayle domon",
         "floran gelb",
-        "padan fain"
+        "padan fain",
+        "howal gode"
       ],
       "places": [],
       "things": {},
@@ -224,6 +225,79 @@
       "things": {},
       "events": {},
       "description": "A steading at least a day outside of Caemlyn where Perrin and Egwene first encountered Lord Bornhald and Child Byar."
+    },
+    "Grinwell's Farm": {
+      "name": "Grinwell's Farm",
+      "type": "Place",
+      "people": [],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "grinwell's farm": {
+      "name": "grinwell's farm",
+      "type": "Place",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "mistress grinwell",
+        "master grinwell"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "Four Kings": {
+      "name": "Four Kings",
+      "type": "Place",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "saml hake",
+        "jak",
+        "strom",
+        "howal gode"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "The Dancing Cartman": {
+      "name": "The Dancing Cartman",
+      "type": "Place",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "saml hake",
+        "jak",
+        "strom",
+        "howal gode"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "Royal Inn": {
+      "name": "Royal Inn",
+      "type": "Place",
+      "people": ["howal gode"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "Arien": {
+      "name": "Arien",
+      "type": "Place",
+      "people": ["rand al'thor", "matrim cauthon", "eazil fortney"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": "First town after the Grinwell's farm on the road to Caemlyn where Rand and Mat first tried out their Gleeman skills."
     }
   },
   "people": {
@@ -248,7 +322,15 @@
         "mordeth",
         "bayle domon",
         "floran gelb",
-        "bartin"
+        "bartin",
+        "mistress grinwell",
+        "else grinwell",
+        "master grinwell",
+        "eazil fortney",
+        "saml hake",
+        "jak",
+        "strom",
+        "howal gode"
       ],
       "places": [
         "dragonmount",
@@ -258,7 +340,11 @@
         "baerlon",
         "shadar logoth",
         "whitebridge",
-        "wayfarer's rest"
+        "wayfarer's rest",
+        "grinwell's farm",
+        "Four Kings",
+        "The Dancing Cartman",
+        "Arien"
       ],
       "things": {},
       "description": "Tall with Red Hair. Likes Red Coats and sword fights."
@@ -307,7 +393,15 @@
         "mordeth",
         "bayle domon",
         "floran gelb",
-        "bartin"
+        "bartin",
+        "mistress grinwell",
+        "else grinwell",
+        "master grinwell",
+        "eazil fortney",
+        "saml hake",
+        "jak",
+        "strom",
+        "howal gode"
       ],
       "places": [
         "emond's field",
@@ -316,7 +410,11 @@
         "baerlon",
         "shadar logoth",
         "whitebridge",
-        "wayfarer's rest"
+        "wayfarer's rest",
+        "grinwell's farm",
+        "Four Kings",
+        "The Dancing Cartman",
+        "Arien"
       ],
       "things": {},
       "description": ""
@@ -881,6 +979,127 @@
       "places": ["arutur hawkwing's steading"],
       "things": [],
       "description": "Tall with a long and gaunt face and eyes so deeply set they seemed to look out from caves. No excess flesh on him, none at all. His skin was pulled tight over the muscle and bone beneath. Over Zealous member of the children of the light. A core villian of Perrin's story."
+    },
+    "else grinwell": {
+      "name": "else grinwell",
+      "type": "Person",
+      "role": "Farm Girl with hots for Rand",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "mistress grinwell",
+        "else grinwell",
+        "master grinwell"
+      ],
+      "places": ["grinwell's farm"],
+      "things": [],
+      "description": "Dark hiared, big eyed, and very pretty"
+    },
+    "mistress grinwell": {
+      "name": "mistress grinwell",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "else grinwell",
+        "master grinwell"
+      ],
+      "places": ["grinwell's farm"],
+      "things": {},
+      "description": ""
+    },
+    "master grinwell": {
+      "name": "master grinwell",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "mistress grinwell",
+        "else grinwell",
+        "rand al'thor",
+        "matrim cauthon"
+      ],
+      "places": ["grinwell's farm"],
+      "things": {},
+      "description": ""
+    },
+    "eazil fortney": {
+      "name": "eazil fortney",
+      "type": "Person",
+      "role": "",
+      "people": ["rand al'thor", "matrim cauthon"],
+      "places": ["Arien"],
+      "things": {},
+      "description": "Farmer gave rand and mat a riide out of Arien in his cart after their first night of gleemanship."
+    },
+    "saml hake": {
+      "name": "saml hake",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "saml hake",
+        "jak",
+        "strom",
+        "howal gode"
+      ],
+      "places": ["Four Kings", "The Dancing Cartman"],
+      "things": {},
+      "description": ""
+    },
+    "jak": {
+      "name": "jak",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "saml hake",
+        "jak",
+        "strom",
+        "howal gode"
+      ],
+      "places": ["Four Kings", "The Dancing Cartman"],
+      "things": {},
+      "description": "Bouncer in the Dancing Cartman"
+    },
+    "strom": {
+      "name": "strom",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "saml hake",
+        "jak",
+        "strom",
+        "howal gode"
+      ],
+      "places": ["Four Kings", "The Dancing Cartman"],
+      "things": {},
+      "description": "Bouncer in the Dancing Cartman"
+    },
+    "howal gode": {
+      "name": "howal gode",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "saml hake",
+        "jak",
+        "strom",
+        "howal gode"
+      ],
+      "places": [
+        "Four Kings",
+        "The Dancing Cartman",
+        "whitebridge",
+        "Royal Inn"
+      ],
+      "things": {},
+      "description": "Rich dark friend in The Dancing Cartman. Rand saw his coach in Whitebridge as well. Possibly a male channeler? He said - I know what you are, perhaps better than you do. I can feel it coming off you in waves."
     }
   },
   "things": {

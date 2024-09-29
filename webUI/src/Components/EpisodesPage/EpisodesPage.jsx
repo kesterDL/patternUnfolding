@@ -64,7 +64,6 @@ function EpisodesPage() {
   return (
     <>
       <Helmet>
-        <title>The Pattern Unfolds</title>
         <meta
           name="description"
           content="Wheel of Time discussions, art, and nerd out safe space."

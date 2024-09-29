@@ -12,7 +12,7 @@ function Episode_Hero_Banner() {
   return (
     <>
       <Helmet>
-        <title>Unfolding the Pattern</title>
+        <title>Episodes Woven</title>
         <meta name="description" content="Wheel of Time Podcast" />
       </Helmet>
       <div className={styles.overlay}>

@@ -8,7 +8,6 @@ function Header() {
   return (
     <>
       <Helmet>
-        <title>Unfolding the Pattern</title>
         <meta
           name="description"
           content="Wheel of Time Podcast. Eye of the World and Robert Jordan"

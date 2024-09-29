@@ -1,15 +1,15 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import styles from "./ArtGalleryHeroBanner.module.css";
+import styles from "./ExploreTheMindHeroBanner.module.css";
 import skyline from "../../images/mountain_skyline.svg";
 import Header from "../Header/Header";
 import gallery from "../../images/claudio-testa-iqeG5xA96M4-unsplash.webp";
 
-function ArtGalleryHeroBanner() {
+function ExploreTheMindHeroBanner() {
   return (
     <>
       <Helmet>
-        <title>Art of the Pattern</title>
+        <title>Explore the Pattern</title>
         <meta name="description" content="Wheel of Time Podcast" />
       </Helmet>
       <div className={styles.overlay}>
@@ -22,7 +22,7 @@ function ArtGalleryHeroBanner() {
           className={styles.backgroundImage}
         />
         <div className={styles.actionCenter}>
-          <div className={styles.artTitle}>Art Gallery</div>
+          <div className={styles.artTitle}>Threads of the Pattern</div>
         </div>
         <div className={styles.gradientOverlay}>
           <img
@@ -36,4 +36,4 @@ function ArtGalleryHeroBanner() {
   );
 }
 
-export default ArtGalleryHeroBanner;
+export default ExploreTheMindHeroBanner;

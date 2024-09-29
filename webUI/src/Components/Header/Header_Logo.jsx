@@ -8,7 +8,6 @@ function Header_Logo() {
   return (
     <>
       <Helmet>
-        <title>Unfolding the Pattern</title>
         <meta
           name="description"
           content="The Pattern Unfolding, a Wheel of Time discussion podcast. Join us for epic adventures, discussions, and more!"
