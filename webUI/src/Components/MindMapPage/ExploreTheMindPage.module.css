@@ -7,11 +7,8 @@
 
 .card {
   background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  width: 100%; /* Set to 100% for full responsiveness */
-  max-width: 800px; /* Max width to limit the card size */
+  width: 75rem; /* Set to 100% for full responsiveness */
   height: auto;
   display: flex;
   flex-direction: column;

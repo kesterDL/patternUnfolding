@@ -8,10 +8,7 @@ function Header() {
   return (
     <>
       <Helmet>
-        <meta
-          name="description"
-          content="Wheel of Time Podcast. Eye of the World and Robert Jordan"
-        />
+        <meta name="description" content="Wheel of Time Podcast" />
       </Helmet>
       <header className={styles.headerBackdrop}>
         <div className={styles.headerRow}>

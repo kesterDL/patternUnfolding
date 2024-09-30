@@ -1,8 +1,8 @@
-.react-flow__node {
-  font-family: "Arial", sans-serif;
-  font-size: 12px;
-  background-color: #fff;
-  border-radius: 5px;
-  padding: 10px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+.mapCard {
+  height: 40rem; /* Remove quotes */
+  width: 100%;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
 }

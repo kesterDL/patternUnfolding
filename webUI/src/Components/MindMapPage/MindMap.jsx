@@ -1,46 +1,110 @@
-import React, { useState, useEffect } from "react";
-import ReactFlow, {
-  Background,
+import React, { useCallback, useEffect, useState } from "react";
+import Dagre from "@dagrejs/dagre";
+import {
+  ReactFlow,
+  MiniMap,
   Controls,
-  ReactFlowProvider, // Import the provider
-} from "react-flow-renderer";
+  Background,
+  useNodesState,
+  useEdgesState,
+  addEdge,
+} from "@xyflow/react";
+import "@xyflow/react/dist/style.css";
+import styles from "./MindMap.module.css";
+import { generateNodesAndEdges } from "../../Utils/mapUtils";
+
+const nodeWidth = 172;
+const nodeHeight = 36;
+
+const DagreGraph = new Dagre.graphlib.Graph();
+DagreGraph.setDefaultEdgeLabel(() => ({}));
+
+// Function to apply Dagre layout
+const getLayoutedElements = (nodes, edges, direction = "LR") => {
+  const isHorizontal = direction === "LR";
+  DagreGraph.setGraph({ rankdir: direction });
+
+  nodes.forEach((node) => {
+    DagreGraph.setNode(node.id, { width: nodeWidth, height: nodeHeight });
+  });
+
+  edges.forEach((edge) => {
+    DagreGraph.setEdge(edge.source, edge.target);
+  });
+
+  Dagre.layout(DagreGraph);
+
+  nodes.forEach((node) => {
+    const nodeWithPosition = DagreGraph.node(node.id);
+    node.targetPosition = isHorizontal ? "left" : "top";
+    node.sourcePosition = isHorizontal ? "right" : "bottom";
+
+    node.position = {
+      x: nodeWithPosition.x - nodeWidth / 2,
+      y: nodeWithPosition.y - nodeHeight / 2,
+    };
+
+    return node;
+  });
+
+  return { nodes, edges };
+};
 
 function MindMap({ json }) {
-  const [elements, setElements] = useState([]);
+  const [nodes, setNodes, onNodesChange] = useNodesState([]);
+  const [edges, setEdges, onEdgesChange] = useEdgesState([]);
+  const [layoutDirection, setLayoutDirection] = useState("LR"); // State for layout direction
 
   useEffect(() => {
-    if (json && json.nodes && json.edges) {
-      const nodes = json.nodes.map((node) => ({
-        id: node.id,
-        data: { label: node.label },
-        position: node.position,
-        type: "default",
-      }));
+    const { nodes: generatedNodes, edges: generatedEdges } =
+      generateNodesAndEdges(json);
 
-      const edges = json.edges.map((edge) => ({
-        id: `e${edge.source}-${edge.target}`,
-        source: edge.source,
-        target: edge.target,
-        type: "smoothstep",
-        label: edge.label,
-      }));
+    // Apply the selected Dagre layout
+    const { nodes: layoutedNodes, edges: layoutedEdges } = getLayoutedElements(
+      generatedNodes,
+      generatedEdges,
+      layoutDirection // Use the selected layout direction
+    );
 
-      console.log("Nodes:", nodes); // Debugging nodes
-      console.log("Edges:", edges); // Debugging edges
+    setNodes(layoutedNodes);
+    setEdges(layoutedEdges);
+  }, [json, layoutDirection]); // Re-run when layoutDirection changes
 
-      setElements([...nodes, ...edges]);
-    }
-  }, [json]);
+  const onConnect = useCallback(
+    (params) => setEdges((eds) => addEdge(params, eds)),
+    [setEdges]
+  );
+
+  const switchToHorizontal = () => {
+    setLayoutDirection("LR");
+  };
+
+  const switchToVertical = () => {
+    setLayoutDirection("TB");
+  };
 
   return (
-    <ReactFlowProvider>
-      <div style={{ height: "500px", width: "100%" }}>
-        <ReactFlow elements={elements}>
-          <Background color="#aaa" gap={16} />
-          <Controls />
-        </ReactFlow>
+    <div className={styles.mapCard}>
+      {/* Buttons to switch between layouts */}
+      <div className={styles.layoutButtons}>
+        <button onClick={switchToHorizontal}>Horizontal Layout</button>
+        <button onClick={switchToVertical}>Vertical Layout</button>
       </div>
-    </ReactFlowProvider>
+
+      <ReactFlow
+        colorMode="dark"
+        nodes={nodes}
+        edges={edges}
+        onNodesChange={onNodesChange}
+        onEdgesChange={onEdgesChange}
+        onConnect={onConnect}
+        fitView
+      >
+        <Controls />
+        <MiniMap />
+        <Background variant="dots" gap={12} size={1} />
+      </ReactFlow>
+    </div>
   );
 }
 

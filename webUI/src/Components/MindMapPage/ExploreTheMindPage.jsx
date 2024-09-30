@@ -1,30 +1,31 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import styles from "./ExploreTheMindPage.module.css";
 import ExploreTheMindHeroBanner from "./ExploreTheMindHeroBanner";
 import MindMap from "./MindMap";
 
-const mindMapData = {
-  nodes: [
-    { id: "1", label: "Wheel of Time", position: { x: 100, y: 100 } },
-    { id: "2", label: "Aes Sedai", position: { x: 200, y: 150 } },
-    { id: "3", label: "The Pattern", position: { x: 300, y: 250 } },
-  ],
-  edges: [
-    { source: "1", target: "2", label: "Is linked to" },
-    { source: "1", target: "3", label: "Follows" },
-  ],
-};
+import eow from "../../data/pattern.json";
 
 function ExploreTheMindPage() {
   return (
-    <>
-      <ExploreTheMindHeroBanner />
-      <div className={styles.pageContainer}>
-        <div className={styles.card}>
-          <MindMap json={mindMapData} />
+    <HelmetProvider>
+      <div>
+        <Helmet>
+          <title>The Pattern Unfolds</title>
+          <meta
+            name="description"
+            content="Wheel of Time discussions, art, and nerd out safe space."
+          />
+        </Helmet>
+        {/* Rest of the page content */}
+        <ExploreTheMindHeroBanner />
+        <div className={styles.pageContainer}>
+          <div className={styles.card}>
+            <MindMap json={eow} />
+          </div>
         </div>
       </div>
-    </>
+    </HelmetProvider>
   );
 }
 
