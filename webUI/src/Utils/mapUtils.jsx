@@ -6,11 +6,33 @@ export function generateNodesAndEdges(json) {
   // Create nodes first
   Object.keys(json).forEach((key) => {
     const entity = json[key];
-    nodes.push({
-      id: entity.name,
-      position: { x: Math.random() * 500, y: Math.random() * 500 },
-      data: { label: entity.name },
-    });
+    var backgroundColor = "#fffff";
+    var styling = {};
+    if (entity.type === "Place") {
+      backgroundColor = "#376443";
+    }
+    if (entity.type === "Thing") {
+      backgroundColor = "#558aa1";
+    }
+    if (
+      entity.name === "rand al'thor" ||
+      entity.name === "perrin aybara" ||
+      entity.name === "matrim cauthon"
+    ) {
+      nodes.push({
+        id: entity.name,
+        position: { x: Math.random() * 500, y: Math.random() * 500 },
+        data: { label: entity.name },
+        style: { background: "#901100", width: "10rem", height: "7rem" },
+      });
+    } else {
+      nodes.push({
+        id: entity.name,
+        position: { x: Math.random() * 500, y: Math.random() * 500 },
+        data: { label: entity.name },
+        style: { background: backgroundColor },
+      });
+    }
   });
 
   // Create edges between places and people, and between people
@@ -29,6 +51,7 @@ export function generateNodesAndEdges(json) {
             id: uniqueEdgeId,
             source: sortedEdge[0],
             target: sortedEdge[1],
+            style: { stroke: "#796b40" },
             type: "smoothstep",
           });
           edgeSet.add(uniqueEdgeId);

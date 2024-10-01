@@ -216,15 +216,6 @@
     "events": {},
     "description": "A steading at least a day outside of Caemlyn where Perrin and Egwene first encountered Lord Bornhald and Child Byar."
   },
-  "Grinwell's Farm": {
-    "name": "Grinwell's Farm",
-    "type": "Place",
-    "people": [],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
   "grinwell's farm": {
     "name": "grinwell's farm",
     "type": "Place",
