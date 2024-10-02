@@ -2,13 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
 
 .card {
   background-color: white;
   padding: 20px;
-  width: 75rem; /* Set to 100% for full responsiveness */
+  width: 80rem; /* Set to 100% for full responsiveness */
   height: auto;
   display: flex;
   flex-direction: column;

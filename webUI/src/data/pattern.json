@@ -90,7 +90,7 @@
     "name": "taren ferry",
     "type": "Place",
     "people": ["perrin aybara"],
-    "places": {},
+    "places": [],
     "things": {},
     "events": {},
     "description": ""
@@ -148,7 +148,7 @@
     "name": "The Stag and Lion",
     "type": "Place",
     "people": ["ara", "mari", "cinda", "min", "master fitch"],
-    "places": [],
+    "places": ["baerlon"],
     "things": {},
     "events": {},
     "description": "Inn where Min grew up and the Emond's Field crew stayed on their way out of the Two Rivers."
@@ -181,7 +181,7 @@
       "thom merrilin",
       "floran gelb"
     ],
-    "places": [],
+    "places": ["whitebridge"],
     "things": {},
     "events": {},
     "description": ""
@@ -230,8 +230,8 @@
     "events": {},
     "description": ""
   },
-  "Four Kings": {
-    "name": "Four Kings",
+  "four kings": {
+    "name": "four kings",
     "type": "Place",
     "people": [
       "rand al'thor",
@@ -241,13 +241,13 @@
       "strom",
       "howal gode"
     ],
-    "places": [],
+    "places": ["Royal Inn"],
     "things": {},
     "events": {},
     "description": ""
   },
-  "The Dancing Cartman": {
-    "name": "The Dancing Cartman",
+  "the dancing cartman": {
+    "name": "the dancing cartman",
     "type": "Place",
     "people": [
       "rand al'thor",
@@ -257,7 +257,7 @@
       "strom",
       "howal gode"
     ],
-    "places": [],
+    "places": ["four kings"],
     "things": {},
     "events": {},
     "description": ""

@@ -4,8 +4,6 @@ import styles from "./LandingPage.module.css";
 import Hero_Banner from "../Home_Page_Banner/Hero_Banner";
 import HeroTile from "../shared-components/LatestEpisodeTile/HeroTile";
 import ExploreTile from "../Stories/story-components/ExploreTile";
-import ShopTile from "../Stories/story-components/StoreTile";
-import CommunityTile from "../Stories/story-components/CommunityTile";
 import ArtTile from "../Stories/story-components/ArtTile";
 import CommunityStories from "../Stories/story-components/CommunityStoriesTile";
 
@@ -27,8 +25,6 @@ function LandingPage() {
           <h2 className={styles.sectionTitle}>- Explore the Pattern -</h2>
           <div className={styles.cards}>
             <ExploreTile />
-            <ShopTile />
-            <CommunityTile />
             <ArtTile />
             <CommunityStories />
           </div>

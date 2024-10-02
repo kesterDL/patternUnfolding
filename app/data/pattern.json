@@ -100,7 +100,7 @@
       "name": "taren ferry",
       "type": "Place",
       "people": ["perrin aybara"],
-      "places": {},
+      "places": [],
       "things": {},
       "events": {},
       "description": ""
@@ -158,7 +158,7 @@
       "name": "The Stag and Lion",
       "type": "Place",
       "people": ["ara", "mari", "cinda", "min", "master fitch"],
-      "places": [],
+      "places": ["baerlon"],
       "things": {},
       "events": {},
       "description": "Inn where Min grew up and the Emond's Field crew stayed on their way out of the Two Rivers."
@@ -1126,6 +1126,13 @@
       "places": ["manethoran"],
       "events": {},
       "description": ""
+    },
+    "mashadar": {
+      "name": "mashadar",
+      "type": "Thing",
+      "people": [],
+      "places": ["shadar logoth"],
+      "description": "The evil born from Aridhol that lives deep in the bed rock of the city."
     }
   }
 }

@@ -7,13 +7,13 @@ export function generateNodesAndEdges(json) {
   Object.keys(json).forEach((key) => {
     const entity = json[key];
     var backgroundColor = "#fffff";
-    var styling = {};
     if (entity.type === "Place") {
       backgroundColor = "#376443";
     }
     if (entity.type === "Thing") {
       backgroundColor = "#558aa1";
     }
+
     if (
       entity.name === "rand al'thor" ||
       entity.name === "perrin aybara" ||
@@ -42,7 +42,6 @@ export function generateNodesAndEdges(json) {
     // Create edges between places and people
     if (entity.type === "Place") {
       entity.people.forEach((person) => {
-        const edgeId = `e${entity.name}-${person}`;
         const sortedEdge = [entity.name, person].sort(); // Sort to standardize
         const uniqueEdgeId = `e${sortedEdge[0]}-${sortedEdge[1]}`;
 
@@ -62,7 +61,6 @@ export function generateNodesAndEdges(json) {
     // Create edges between people
     if (entity.type === "Person") {
       entity.people.forEach((person) => {
-        const edgeId = `e${entity.name}-${person}`;
         const sortedEdge = [entity.name, person].sort(); // Sort to standardize
         const uniqueEdgeId = `e${sortedEdge[0]}-${sortedEdge[1]}`;
 
@@ -78,7 +76,6 @@ export function generateNodesAndEdges(json) {
 
       // Create edges between people and places they are associated with
       entity.places.forEach((place) => {
-        const edgeId = `e${entity.name}-${place}`;
         const sortedEdge = [entity.name, place].sort(); // Sort to standardize
         const uniqueEdgeId = `e${sortedEdge[0]}-${sortedEdge[1]}`;
 
@@ -87,6 +84,8 @@ export function generateNodesAndEdges(json) {
             id: uniqueEdgeId,
             source: sortedEdge[0],
             target: sortedEdge[1],
+            style: { stroke: "#796b40" },
+            type: "smoothstep",
           });
           edgeSet.add(uniqueEdgeId);
         }
@@ -94,11 +93,30 @@ export function generateNodesAndEdges(json) {
     }
   });
 
-  // Ensure all nodes and edges are generated
-  console.log(
-    "Nodes: ",
-    nodes.map((node) => node.id)
-  ); // Debugging
-  console.log("Edges: ", edges); // Debugging
+  // Create edges between Place nodes
+  Object.keys(json).forEach((key) => {
+    const entity = json[key];
+
+    if (entity.type === "Place") {
+      entity.places.forEach((place) => {
+        if (json[place] && json[place].type === "Place") {
+          const sortedEdge = [entity.name, place].sort(); // Sort to standardize
+          const uniqueEdgeId = `e${sortedEdge[0]}-${sortedEdge[1]}`;
+
+          if (!edgeSet.has(uniqueEdgeId)) {
+            edges.push({
+              id: uniqueEdgeId,
+              source: sortedEdge[0],
+              target: sortedEdge[1],
+              style: { stroke: "#376443" }, // Different stroke color for Place-to-Place edges
+              type: "smoothstep",
+            });
+            edgeSet.add(uniqueEdgeId);
+          }
+        }
+      });
+    }
+  });
+
   return { nodes, edges };
 }

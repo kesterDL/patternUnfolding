@@ -15,7 +15,7 @@ function ExploreTile() {
       imageElement={storyCover}
       title="Weave the Threads"
       description={exploreDesc}
-      storyLink="/starlessSky"
+      storyLink="/threads"
       buttonText="Explore"
     />
   );

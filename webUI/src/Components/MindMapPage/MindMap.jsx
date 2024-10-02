@@ -85,12 +85,6 @@ function MindMap({ json }) {
 
   return (
     <div className={styles.mapCard}>
-      {/* Buttons to switch between layouts */}
-      <div className={styles.layoutButtons}>
-        <button onClick={switchToHorizontal}>Horizontal Layout</button>
-        <button onClick={switchToVertical}>Vertical Layout</button>
-      </div>
-
       <ReactFlow
         colorMode="dark"
         nodes={nodes}
@@ -104,6 +98,11 @@ function MindMap({ json }) {
         <MiniMap />
         <Background variant="dots" gap={12} size={1} />
       </ReactFlow>
+      {/* Buttons to switch between layouts */}
+      <div className={styles.layoutButtons}>
+        <button onClick={switchToHorizontal}>Vertical Layout</button>
+        <button onClick={switchToVertical}>Horizontal Layout</button>
+      </div>
     </div>
   );
 }

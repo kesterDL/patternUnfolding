@@ -18,7 +18,7 @@ function CommunityStories() {
       imageElement={stories}
       title="Stories"
       description={storiesDesc}
-      storyLink="/valersNest"
+      storyLink="/stories"
       buttonText="Read"
     />
   );

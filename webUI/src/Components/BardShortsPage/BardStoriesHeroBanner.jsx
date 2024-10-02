@@ -1,10 +1,11 @@
 import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import styles from "./ExploreTheMindHeroBanner.module.css";
+import styles from "./BardStoriesHeroBanner.module.css";
+import skyline from "../../images/mountain_skyline.svg";
 import Header from "../Header/Header";
-import pattern from "../../images/max-kleinen-GhrqMkA4cVA-unsplash.jpg";
+import bardStories from "../../images/paul-schafer-t6oZEgL0z18-unsplash.webp";
 
-function ExploreTheMindHeroBanner() {
+function BardStoriesHeroBanner() {
   return (
     <>
       <HelmetProvider>
@@ -22,12 +23,19 @@ function ExploreTheMindHeroBanner() {
           </div>
           <div className={styles.fullWidthImageContainer}>
             <img
-              src={pattern}
-              alt="Pattern Threads | Photo by Max Kleinen on Unsplash https://unsplash.com/photos/black-and-white-abstract-painting-GhrqMkA4cVA"
+              src={bardStories}
+              alt="Bard Stories | Photo by Paul Schafer on Unsplash https://unsplash.com/photos/book-lot-in-bookcase-t6oZEgL0z18"
               className={styles.backgroundImage}
             />
             <div className={styles.actionCenter}>
-              <div className={styles.artTitle}>Threads of the Pattern</div>
+              <div className={styles.artTitle}>Bard Stories</div>
+            </div>
+            <div className={styles.gradientOverlay}>
+              <img
+                src={skyline}
+                alt="Wheel of Time Skyline"
+                className={styles.gradientOverlay}
+              />
             </div>
           </div>
         </div>
@@ -36,4 +44,4 @@ function ExploreTheMindHeroBanner() {
   );
 }
 
-export default ExploreTheMindHeroBanner;
+export default BardStoriesHeroBanner;

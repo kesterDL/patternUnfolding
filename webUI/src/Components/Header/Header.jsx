@@ -14,15 +14,15 @@ function Header() {
         <div className={styles.headerRow}>
           <Header_Logo />
           <nav className={styles.navigationGroup}>
-            <button className={styles.storeButton}>Store</button>
+            {/* <button className={styles.storeButton}>Store</button> */}
             <Link to="/" className={styles.navLink}>
               Home
             </Link>
             <Link to="/episodes" className={styles.navLink}>
               Episodes
             </Link>
-            <Link to="/community" className={styles.navLink}>
-              Community
+            <Link to="/threads" className={styles.navLink}>
+              Threads
             </Link>
             <Link to="/stories" className={styles.navLink}>
               Stories

@@ -38,22 +38,22 @@ function Hero_Banner() {
             <div>Listen | Watch</div>
           </Link>
           <div className={styles.learnPlay}>
-            <div className={styles.secondaryLink}>
+            <Link to="/threads" className={styles.secondaryLink}>
               <img
                 src={eyeglasses}
                 alt="Learn more about The Pattern Unfolding"
                 className={styles.eyeglasses}
               />
               <div>Learn</div>
-            </div>
-            <div className={styles.secondaryLink}>
+            </Link>
+            <Link to="/artgallery" className={styles.secondaryLink}>
               <img
                 src={fox}
                 alt="Play games related to The Pattern Unfolding"
                 className={styles.fox}
               />
-              <div>Play</div>
-            </div>
+              <div>Art</div>
+            </Link>
           </div>
         </div>
         <div className={styles.gradientOverlay}>

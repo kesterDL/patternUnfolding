@@ -3,8 +3,9 @@ import LandingPage from "./Components/LandingPage/LandingPage";
 import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 import EpisodesPage from "./Components/EpisodesPage/EpisodesPage";
 import ArtGalleryPage from "./Components/ArtGalleryPage/ArtGalleryPage";
-import ValersNestReader from "./stories/ValersNestReader";
 import ExploreTheMindPage from "./Components/MindMapPage/ExploreTheMindPage";
+import BardStories from "./Components/BardShortsPage/BardStories";
+import ValersNest from "./Components/Stories/story-components/ValersNest";
 
 function App() {
   // when in prod, don't be outputting to console.
@@ -20,8 +21,9 @@ function App() {
         <Route exact path="/about" element={<LandingPage />} />
         <Route exact path="/episodes" element={<EpisodesPage />} />
         <Route exact path="/artgallery" element={<ArtGalleryPage />} />
-        <Route exact path="/valersNest" element={<ValersNestReader />} />
-        <Route exact path="/mindMap" element={<ExploreTheMindPage />} />
+        <Route exact path="/stories" element={<BardStories />} />
+        <Route exact path="/threads" element={<ExploreTheMindPage />} />
+        <Route exact path="/valersNest" element={<ValersNest />} />
         <Route path="*" element={<Navigate to="/about" replace />} />
       </Routes>
     </HashRouter>

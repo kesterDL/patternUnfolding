@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   height: 4rem;
   display: flex;
-  background-color: #eeedea;
+  background-color: #eeecea;
 }
 
 .headerRow {
@@ -15,9 +15,10 @@
 }
 
 .navLink {
-  color: #2b2b2b; /* Example color */
+  color: #2b2b2b;
   text-decoration: none;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .navLink:hover {

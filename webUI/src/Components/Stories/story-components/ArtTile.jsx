@@ -18,7 +18,7 @@ function ArtTile() {
       imageElement={art}
       title="Art Gallery"
       description={artGalleryDesc}
-      storyLink="/valersNest"
+      storyLink="/artgallery"
       buttonText="View"
     />
   );
