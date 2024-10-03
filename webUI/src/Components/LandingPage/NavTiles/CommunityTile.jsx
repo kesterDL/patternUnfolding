@@ -1,6 +1,6 @@
-import StoryTile from "./StoryTile";
 import React from "react";
 import longhouse from "../../../logos/longhouse.svg";
+import NavigationCard from "./NavigationCard";
 
 function CommunityTile() {
   const community = (
@@ -14,7 +14,7 @@ function CommunityTile() {
     "Our community is a great place to share your love for the Wheel of Time and other fantasy novels. A place we like to nerd out and everyone else is totally in to it.";
 
   return (
-    <StoryTile
+    <NavigationCard
       imageElement={community}
       title="Community"
       description={communityDesc}

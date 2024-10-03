@@ -1,6 +1,6 @@
-import StoryTile from "./StoryTile";
 import React from "react";
 import fountainpen from "../../../logos/fountain_pen.svg";
+import NavigationCard from "./NavigationCard";
 
 function CommunityStories() {
   const stories = (
@@ -14,7 +14,7 @@ function CommunityStories() {
     "Short stories written by you, the members of the community. Share your stories and read stories written by others.";
 
   return (
-    <StoryTile
+    <NavigationCard
       imageElement={stories}
       title="Stories"
       description={storiesDesc}

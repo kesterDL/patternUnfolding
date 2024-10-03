@@ -21,8 +21,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: top;
-  z-index: 900;
+  z-index: 10;
 }
 h1 {
   font-weight: 200;

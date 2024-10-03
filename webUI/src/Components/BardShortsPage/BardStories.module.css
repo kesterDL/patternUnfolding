@@ -16,12 +16,14 @@ p {
 
 /* Center content horizontally and vertically */
 .page {
+  position: relative;
   display: flex; /* Use flexbox for centering */
   justify-content: center; /* Center horizontally */
   align-items: flex-start; /* Center vertically */
   margin-top: 3rem;
   min-height: 100vh; /* Full viewport height */
   background-color: #ffffff;
+  z-index: 100;
 }
 
 /* Limit content width to 75rem */
@@ -56,17 +58,36 @@ p {
 .valersContainer {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap into multiple rows */
-  justify-content:flex-start; /* Distribute items evenly with space around */
+  justify-content: flex-start; /* Distribute items evenly with space around */
   gap: 1rem; /* Add spacing between items */
+  z-index: 100;
 }
 
-/* Media query for mobile devices */
-@media screen and (max-width: 768px) {
-  .container {
-    padding: 0 0.5rem; /* Decrease padding on mobile for better use of space */
-  }
+.modalOverlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
 
-  .valersContainer {
-    justify-content: flex-start; /* Adjust alignment for smaller screens */
-  }
+.modalContent {
+  background: white;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 90vh; /* Limit modal content height to 90% of viewport */
+  overflow-y: auto; /* Allow vertical scrolling if content exceeds modal height */
+  position: relative;
+  border-radius: 8px;
+  z-index: 1001;
+}
+
+body.modal-open {
+  overflow: hidden; /* Prevent background page from scrolling */
 }

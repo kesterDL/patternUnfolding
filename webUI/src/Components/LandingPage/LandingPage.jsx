@@ -3,9 +3,9 @@ import { Helmet } from "react-helmet";
 import styles from "./LandingPage.module.css";
 import Hero_Banner from "../Home_Page_Banner/Hero_Banner";
 import HeroTile from "../shared-components/LatestEpisodeTile/HeroTile";
-import ExploreTile from "../Stories/story-components/ExploreTile";
-import ArtTile from "../Stories/story-components/ArtTile";
-import CommunityStories from "../Stories/story-components/CommunityStoriesTile";
+import ExploreTile from "./NavTiles/ExploreTile";
+import ArtTile from "./NavTiles/ArtTile";
+import CommunityStories from "./NavTiles/CommunityStoriesTile";
 
 function LandingPage() {
   return (

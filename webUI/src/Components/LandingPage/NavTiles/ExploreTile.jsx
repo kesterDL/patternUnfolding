@@ -1,6 +1,6 @@
-import StoryTile from "./StoryTile";
 import React from "react";
 import knot from "../../../logos/celtic_knot.svg";
+import NavigationCard from "./NavigationCard";
 
 function ExploreTile() {
   const storyCover = (
@@ -11,7 +11,7 @@ function ExploreTile() {
     "Explore new areas of the pattern in a manner you may not have seen before.";
 
   return (
-    <StoryTile
+    <NavigationCard
       imageElement={storyCover}
       title="Weave the Threads"
       description={exploreDesc}

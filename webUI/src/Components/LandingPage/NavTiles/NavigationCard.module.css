@@ -17,7 +17,7 @@ h4 {
 }
 
 .storyImgContainer {
-  width: 100%; /* Ensure the image container takes full width */
+  width: 40%; /* Ensure the image container takes full width */
   height: 40%; /* Set a fixed height for the image container */
   overflow: hidden;
 }
@@ -43,8 +43,6 @@ h4 {
 .description {
   font-family: "Cormorant", sans-serif;
   font-size: 1rem;
-  height: 6.5rem;
-  overflow: scroll;
   color: rgb(46, 45, 45);
 }
 
