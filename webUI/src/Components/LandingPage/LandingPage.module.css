@@ -108,7 +108,7 @@ body {
   }
 
   .sectionTitle {
-    font-size: 2rem; /* Smaller title size */
+    font-size: 1.75rem; /* Smaller title size */
   }
 
   .latestEpisodeTile {
@@ -117,6 +117,7 @@ body {
 
   .cards {
     flex-direction: column;
+    align-content: center;
   }
 }
 

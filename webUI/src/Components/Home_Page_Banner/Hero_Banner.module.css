@@ -187,3 +187,11 @@
   transform: translateY(7rem);
   z-index: 2;
 }
+
+@media (max-width: 768px) {
+  /* Gradient Overlay */
+  .gradientOverlay {
+    transform: translateY(0rem);
+    transform: translatex(1rem);
+  }
+}
