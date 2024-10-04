@@ -17,15 +17,6 @@
       "events": {},
       "description": "A city around the only bridge spanning the Arinelle south of Maradon in Saldaea."
     },
-    "empty": {
-      "name": "",
-      "type": "Place",
-      "people": [],
-      "places": [],
-      "things": {},
-      "events": {},
-      "description": ""
-    },
     "borderlands": {
       "name": "Borderlands",
       "type": "Place",
@@ -73,7 +64,7 @@
         "Blind Pig"
       ],
       "things": {
-        "The Strike at Shayol Ghul": "Fragment of a manuscript reavealing significant aspects on the War of the Shadow."
+        "the strike at shayol ghul": "Fragment of a manuscript reavealing significant aspects on the War of the Shadow."
       },
       "events": {},
       "description": "Located at a cross roads for the Borderlands for roads leading to Tar Valon, Bandar Evan and Fal Moran. Comparable in size to Tear. Noteably the main events of A New Spring and where Lan was bonded to Moiraine."
@@ -81,7 +72,7 @@
     "emond's field": {
       "name": "emond's field",
       "type": "Place",
-      "people": ["rand al'thor"],
+      "people": ["rand al'thor", "alsbet luhan", "marin al'vere"],
       "places": [],
       "things": {},
       "events": {},
@@ -166,7 +157,7 @@
     "illian": {
       "name": "illian",
       "type": "Place",
-      "people": ["loial"],
+      "people": ["loial", "kari al'thor"],
       "places": [],
       "things": {},
       "events": {},
@@ -175,7 +166,7 @@
     "tar valon": {
       "name": "tar valon",
       "type": "Place",
-      "people": [],
+      "people": ["lan mandragoran", "elyas machera"],
       "places": [],
       "things": {},
       "events": {},
@@ -382,15 +373,6 @@
     }
   },
   "people": {
-    "empty": {
-      "name": "",
-      "type": "Person",
-      "role": "",
-      "people": [],
-      "places": [],
-      "things": {},
-      "description": ""
-    },
     "rand al'thor": {
       "name": "rand al'thor",
       "type": "Person",
@@ -420,7 +402,8 @@
         "almen bunt",
         "raimun holdwin",
         "basel gill",
-        "loial"
+        "loial",
+        "marin al'vere"
       ],
       "places": [
         "dragonmount",
@@ -507,7 +490,8 @@
         "almen bunt",
         "raimun holdwin",
         "basel gill",
-        "loial"
+        "loial",
+        "marin al'vere"
       ],
       "places": [
         "emond's field",
@@ -578,9 +562,10 @@
         "ara",
         "geofram bornhald",
         "nyanaeve al'mera",
-        "master hightower"
+        "master hightower",
+        "marin al'vere"
       ],
-      "places": ["shadar logoth"],
+      "places": ["shadar logoth", "tar valon"],
       "things": {},
       "description": ""
     },
@@ -600,7 +585,8 @@
         "egwene al'vere",
         "thom merrilin",
         "avin",
-        "geofram bornhald"
+        "geofram bornhald",
+        "marin al'vere"
       ],
       "places": [
         "cairhein",
@@ -724,7 +710,13 @@
       "name": "tam al'thor",
       "type": "Person",
       "role": "",
-      "people": ["kari al'thor", "rand al'thor", "bran al'vere", "padan fain"],
+      "people": [
+        "kari al'thor",
+        "rand al'thor",
+        "bran al'vere",
+        "padan fain",
+        "marin al'vere"
+      ],
       "places": ["emond's field", "illian", "tar valon", "emond's field"],
       "things": {},
       "description": ""
@@ -733,7 +725,7 @@
       "name": "bran al'vere",
       "type": "Person",
       "role": "",
-      "people": [],
+      "people": ["egwene al'vere", "marin al'vere"],
       "places": [],
       "things": {},
       "description": ""
@@ -758,7 +750,7 @@
       "type": "Person",
       "role": "Tam al'Thor's late wife",
       "people": ["tam al'thor", "rand al'thor"],
-      "places": ["illian", "tar valon", "emond's field"],
+      "places": ["illian", "tar valon", "emond's field", "illian"],
       "things": {},
       "description": ""
     },
@@ -802,7 +794,9 @@
         "wind",
         "aram",
         "jaret byar",
-        "geofram bornhald"
+        "geofram bornhald",
+        "bran al'vere",
+        "marin al'vere"
       ],
       "places": [
         "shadar logoth",
@@ -825,7 +819,8 @@
         "basil gill",
         "gareth bryne",
         "morgase trakand",
-        "elaida a'roihan"
+        "elaida a'roihan",
+        "marin al'vere"
       ],
       "places": [
         "emond's field",
@@ -872,7 +867,7 @@
       "type": "Person",
       "role": "",
       "people": [],
-      "places": [],
+      "places": ["emond's field"],
       "things": {},
       "description": ""
     },
@@ -952,7 +947,11 @@
       "type": "Person",
       "role": "Wolf Brother",
       "people": ["perrin aybara", "egwene al'vere", "raen", "wind", "aram"],
-      "places": ["raen's tinker camp", "arutur hawkwing's steading"],
+      "places": [
+        "raen's tinker camp",
+        "arutur hawkwing's steading",
+        "tar valon"
+      ],
       "things": [],
       "description": "Greying brown hair and yellow wolf's eyes. Wears clothes made from animal skins and a flot-topped round fur hat."
     },
@@ -1340,6 +1339,24 @@
       "places": [],
       "things": {},
       "description": ""
+    },
+    "marin al'vere": {
+      "name": "marin al'vere",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "bran al'vere",
+        "egwene al'vere",
+        "rand al'thor",
+        "tam al'thor",
+        "moiraine damodred",
+        "thom merrilin",
+        "lan mandragoran",
+        "matrim cauthon"
+      ],
+      "places": ["emond's field"],
+      "things": {},
+      "description": ""
     }
   },
   "things": {
@@ -1373,6 +1390,13 @@
       "people": [],
       "places": ["shadar logoth"],
       "description": "The evil born from Aridhol that lives deep in the bed rock of the city."
+    },
+    "the strike at shayol ghul": {
+      "name": "the strike at shayol ghul",
+      "type": "Thing",
+      "people": [],
+      "places": ["chachin"],
+      "description": "Fragment of a manuscript reavealing significant aspects on the War of the Shadow."
     }
   }
 }

@@ -2,14 +2,18 @@
 
 .backgroundImage {
   width: 100%;
+  min-height: 50rem;
   height: auto; /* Adjust height automatically */
   flex: 1; /* Take remaining space */
   object-fit: cover; /* Ensure the image covers the container */
   margin-top: -100px;
+  transform: translateZ(0);
+  will-change: transform;
 }
 @media (max-width: 768px) {
   .backgroundImage {
     width: 100%;
+    min-height: 10rem;
   }
 }
 

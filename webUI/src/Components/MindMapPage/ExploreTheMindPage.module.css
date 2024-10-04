@@ -7,7 +7,7 @@
 .card {
   background-color: white;
   padding: 20px;
-  width: 80rem; /* Set to 100% for full responsiveness */
+  width: 90%; /* Set to 100% for full responsiveness */
   height: auto;
   display: flex;
   flex-direction: column;

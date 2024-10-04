@@ -63,7 +63,7 @@
       "Blind Pig"
     ],
     "things": {
-      "The Strike at Shayol Ghul": "Fragment of a manuscript reavealing significant aspects on the War of the Shadow."
+      "the strike at shayol ghul": "Fragment of a manuscript reavealing significant aspects on the War of the Shadow."
     },
     "events": {},
     "description": "Located at a cross roads for the Borderlands for roads leading to Tar Valon, Bandar Evan and Fal Moran. Comparable in size to Tear. Noteably the main events of A New Spring and where Lan was bonded to Moiraine."
@@ -71,7 +71,7 @@
   "emond's field": {
     "name": "emond's field",
     "type": "Place",
-    "people": ["rand al'thor"],
+    "people": ["rand al'thor", "alsbet luhan", "marin al'vere"],
     "places": [],
     "things": {},
     "events": {},
@@ -156,7 +156,7 @@
   "illian": {
     "name": "illian",
     "type": "Place",
-    "people": [],
+    "people": ["loial", "kari al'thor"],
     "places": [],
     "things": {},
     "events": {},
@@ -165,7 +165,7 @@
   "tar valon": {
     "name": "tar valon",
     "type": "Place",
-    "people": [],
+    "people": ["lan mandragoran", "elyas machera"],
     "places": [],
     "things": {},
     "events": {},
@@ -181,7 +181,7 @@
       "thom merrilin",
       "floran gelb"
     ],
-    "places": ["whitebridge"],
+    "places": [],
     "things": {},
     "events": {},
     "description": ""
@@ -216,6 +216,15 @@
     "events": {},
     "description": "A steading at least a day outside of Caemlyn where Perrin and Egwene first encountered Lord Bornhald and Child Byar."
   },
+  "Grinwell's Farm": {
+    "name": "Grinwell's Farm",
+    "type": "Place",
+    "people": [],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
   "grinwell's farm": {
     "name": "grinwell's farm",
     "type": "Place",
@@ -230,8 +239,8 @@
     "events": {},
     "description": ""
   },
-  "four kings": {
-    "name": "four kings",
+  "Four Kings": {
+    "name": "Four Kings",
     "type": "Place",
     "people": [
       "rand al'thor",
@@ -241,13 +250,13 @@
       "strom",
       "howal gode"
     ],
-    "places": ["Royal Inn"],
+    "places": [],
     "things": {},
     "events": {},
     "description": ""
   },
-  "the dancing cartman": {
-    "name": "the dancing cartman",
+  "The Dancing Cartman": {
+    "name": "The Dancing Cartman",
     "type": "Place",
     "people": [
       "rand al'thor",
@@ -257,7 +266,7 @@
       "strom",
       "howal gode"
     ],
-    "places": ["four kings"],
+    "places": [],
     "things": {},
     "events": {},
     "description": ""
@@ -280,6 +289,87 @@
     "events": {},
     "description": "First town after the Grinwell's farm on the road to Caemlyn where Rand and Mat first tried out their Gleeman skills."
   },
+  "market sheran": {
+    "name": "market sheran",
+    "type": "Place",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "the queen's man": {
+    "name": "the queen's man",
+    "type": "Place",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "goose and crown": {
+    "name": "goose and crown",
+    "type": "Place",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "the queen's blessing": {
+    "name": "the queen's blessing",
+    "type": "Place",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "breen's sprint": {
+    "name": "breen's sprint",
+    "type": "Place",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "carysford": {
+    "name": "carysford",
+    "type": "Place",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": "Village on the road to Caemlyn next to the River Cary. Three days of travel from Four Kings. Two from Market Sheran. One day from The Queen's Man. Chapter 34"
+  },
+  "caemlyn": {
+    "name": "caemlyn",
+    "type": "Place",
+    "people": ["rand al'thor", "matrim cauthon", "loial"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": "Captial of Andor"
+  },
+  "cairhein": {
+    "name": "cairhein",
+    "type": "Place",
+    "people": ["loial"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "tear": {
+    "name": "tear",
+    "type": "Place",
+    "people": ["loial"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
   "rand al'thor": {
     "name": "rand al'thor",
     "type": "Person",
@@ -300,7 +390,17 @@
       "saml hake",
       "jak",
       "strom",
-      "howal gode"
+      "howal gode",
+      "hyam kinch",
+      "alpurt mull",
+      "rulan allwine",
+      "woman in green silk",
+      "paitr",
+      "almen bunt",
+      "raimun holdwin",
+      "basel gill",
+      "loial",
+      "marin al'vere"
     ],
     "places": [
       "dragonmount",
@@ -314,7 +414,14 @@
       "grinwell's farm",
       "Four Kings",
       "The Dancing Cartman",
-      "Arien"
+      "Arien",
+      "breen's sprint",
+      "carysford",
+      "market sheran",
+      "the queen's man",
+      "goose and crown",
+      "caemlyn",
+      "the queen's blessing"
     ],
     "things": {},
     "description": "Tall with Red Hair. Likes Red Coats and sword fights."
@@ -371,7 +478,17 @@
       "saml hake",
       "jak",
       "strom",
-      "howal gode"
+      "howal gode",
+      "hyam kinch",
+      "alpurt mull",
+      "rulan allwine",
+      "woman in green silk",
+      "paitr",
+      "almen bunt",
+      "raimun holdwin",
+      "basel gill",
+      "loial",
+      "marin al'vere"
     ],
     "places": [
       "emond's field",
@@ -384,7 +501,14 @@
       "grinwell's farm",
       "Four Kings",
       "The Dancing Cartman",
-      "Arien"
+      "Arien",
+      "breen's sprint",
+      "carysford",
+      "market sheran",
+      "the queen's man",
+      "goose and crown",
+      "caemlyn",
+      "the queen's blessing"
     ],
     "things": {},
     "description": ""
@@ -435,9 +559,10 @@
       "ara",
       "geofram bornhald",
       "nyanaeve al'mera",
-      "master hightower"
+      "master hightower",
+      "marin al'vere"
     ],
-    "places": ["shadar logoth"],
+    "places": ["shadar logoth", "tar valon"],
     "things": {},
     "description": ""
   },
@@ -457,7 +582,8 @@
       "egwene al'vere",
       "thom merrilin",
       "avin",
-      "geofram bornhald"
+      "geofram bornhald",
+      "marin al'vere"
     ],
     "places": [
       "cairhein",
@@ -581,7 +707,13 @@
     "name": "tam al'thor",
     "type": "Person",
     "role": "",
-    "people": ["kari al'thor", "rand al'thor", "bran al'vere", "padan fain"],
+    "people": [
+      "kari al'thor",
+      "rand al'thor",
+      "bran al'vere",
+      "padan fain",
+      "marin al'vere"
+    ],
     "places": ["emond's field", "illian", "tar valon", "emond's field"],
     "things": {},
     "description": ""
@@ -590,7 +722,7 @@
     "name": "bran al'vere",
     "type": "Person",
     "role": "",
-    "people": [],
+    "people": ["egwene al'vere", "marin al'vere"],
     "places": [],
     "things": {},
     "description": ""
@@ -615,7 +747,7 @@
     "type": "Person",
     "role": "Tam al'Thor's late wife",
     "people": ["tam al'thor", "rand al'thor"],
-    "places": ["illian", "tar valon", "emond's field"],
+    "places": ["illian", "tar valon", "emond's field", "illian"],
     "things": {},
     "description": ""
   },
@@ -659,7 +791,9 @@
       "wind",
       "aram",
       "jaret byar",
-      "geofram bornhald"
+      "geofram bornhald",
+      "bran al'vere",
+      "marin al'vere"
     ],
     "places": [
       "shadar logoth",
@@ -678,7 +812,12 @@
       "bayle domon",
       "floran gelb",
       "bartin",
-      "owyn"
+      "owyn",
+      "basil gill",
+      "gareth bryne",
+      "morgase trakand",
+      "elaida a'roihan",
+      "marin al'vere"
     ],
     "places": [
       "emond's field",
@@ -725,7 +864,7 @@
     "type": "Person",
     "role": "",
     "people": [],
-    "places": [],
+    "places": ["emond's field"],
     "things": {},
     "description": ""
   },
@@ -800,7 +939,7 @@
     "type": "Person",
     "role": "Wolf Brother",
     "people": ["perrin aybara", "egwene al'vere", "raen", "wind", "aram"],
-    "places": ["raen's tinker camp", "arutur hawkwing's steading"],
+    "places": ["raen's tinker camp", "arutur hawkwing's steading", "tar valon"],
     "things": [],
     "description": "Greying brown hair and yellow wolf's eyes. Wears clothes made from animal skins and a flot-topped round fur hat."
   },
@@ -1061,6 +1200,141 @@
     "things": {},
     "description": "Rich dark friend in The Dancing Cartman. Rand saw his coach in Whitebridge as well. Possibly a male channeler? He said - I know what you are, perhaps better than you do. I can feel it coming off you in waves."
   },
+  "hyam kinch": {
+    "name": "hyam kinch",
+    "type": "Person",
+    "role": "Farmer",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": [],
+    "things": [],
+    "description": "Leathery faced and taciturn farmer with a pipe who gave Rand and Mat a ride in his hay cart."
+  },
+  "alpurt mull": {
+    "name": "alpurt mull",
+    "type": "Person",
+    "role": "Farmer",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": [],
+    "things": [],
+    "description": "First farmer to give Rand and Mat a ride the morning after the four kings. Stolid man with a square face and square hands. Gave Rand and Mat scarfs to help keep them warm."
+  },
+  "rulan allwine": {
+    "name": "rulan allwine",
+    "type": "Person",
+    "role": "inn keeper",
+    "people": ["rand al'thor", "matrim cauthon", "paitr"],
+    "places": ["market sheran"],
+    "things": [],
+    "description": "Inn keeper of Market Sheran, the first place Rand and Mat stayed at after the Four Kings."
+  },
+  "paitr": {
+    "name": "paitr",
+    "type": "Person",
+    "role": "dark friend",
+    "people": ["rand al'thor", "matrim cauthon", "rulan allwine"],
+    "places": ["market sheran"],
+    "things": [],
+    "description": "Darkfriend at the inn in Market Sheran. Dark curls, and a cap with a feather."
+  },
+  "woman in green silk": {
+    "name": "woman in green silk",
+    "type": "Person",
+    "role": "dark friend",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": ["the queen's man"],
+    "things": ["dagger of fire"],
+    "description": "Darkfriend tried to kill Mat with an enchanted dagger."
+  },
+  "almen bunt": {
+    "name": "almen bunt",
+    "type": "Person",
+    "role": "farmer",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": ["goose and crown"],
+    "things": [],
+    "description": "Farmer that gave Rand and Mat their last ride into Caemlyn through the night."
+  },
+  "raimun holdwin": {
+    "name": "raimun holdwin",
+    "type": "Person",
+    "role": "darkfriend inn keeper",
+    "people": ["rand al'thor", "matrim cauthon", "almen bunt"],
+    "places": ["goose and crown"],
+    "things": [],
+    "description": "Inn keeper of the Goose and Crown. Rand and Mat saw him speaking with a fade and told Almen Bunt to look out for two farm lads with a stolen sword."
+  },
+  "basel gill": {
+    "name": "basel gill",
+    "type": "Person",
+    "role": "inn keeper of The Queen's Blessing",
+    "people": ["rand al'thor", "matrim cauthon", "thom merrilin", "loial"],
+    "places": ["the queen's blessing"],
+    "things": [],
+    "description": "Inn keeper of The Queen's Blessing, and a good friend of Thom's."
+  },
+  "loial": {
+    "name": "loial",
+    "type": "Person",
+    "role": "inn keeper of The Queen's Blessing",
+    "people": ["rand al'thor", "matrim cauthon", "basil gill", "loial"],
+    "places": ["the queen's blessing", "cairhein", "tear", "illian", "caemlyn"],
+    "things": [],
+    "description": "90 year old hasty Ogier and future best selling novelest."
+  },
+  "basil gill": {
+    "name": "basil gill",
+    "type": "Person",
+    "role": "",
+    "people": ["thom merrilin"],
+    "places": [],
+    "things": {},
+    "description": ""
+  },
+  "gareth bryne": {
+    "name": "gareth bryne",
+    "type": "Person",
+    "role": "",
+    "people": ["thom merrilin", "morgase trakand", "elaida a'roihan"],
+    "places": [],
+    "things": {},
+    "description": ""
+  },
+  "morgase trakand": {
+    "name": "morgase trakand",
+    "type": "Person",
+    "role": "",
+    "people": ["thom merrilin", "gareth bryne", "elaida a'roihan"],
+    "places": [],
+    "things": {},
+    "description": ""
+  },
+  "elaida a'roihan": {
+    "name": "elaida a'roihan",
+    "type": "Person",
+    "role": "",
+    "people": ["thom merrilin", "morgase trakand", "gareth bryne"],
+    "places": [],
+    "things": {},
+    "description": ""
+  },
+  "marin al'vere": {
+    "name": "marin al'vere",
+    "type": "Person",
+    "role": "",
+    "people": [
+      "bran al'vere",
+      "egwene al'vere",
+      "rand al'thor",
+      "tam al'thor",
+      "moiraine damodred",
+      "thom merrilin",
+      "lan mandragoran",
+      "matrim cauthon"
+    ],
+    "places": ["emond's field"],
+    "things": {},
+    "description": ""
+  },
   "woman in flowing robes": {
     "name": "woman in flowing robes",
     "type": "Thing",
@@ -1084,5 +1358,19 @@
     "places": ["manethoran"],
     "events": {},
     "description": ""
+  },
+  "mashadar": {
+    "name": "mashadar",
+    "type": "Thing",
+    "people": [],
+    "places": ["shadar logoth"],
+    "description": "The evil born from Aridhol that lives deep in the bed rock of the city."
+  },
+  "the strike at shayol ghul": {
+    "name": "the strike at shayol ghul",
+    "type": "Thing",
+    "people": [],
+    "places": ["chachin"],
+    "description": "Fragment of a manuscript reavealing significant aspects on the War of the Shadow."
   }
 }
