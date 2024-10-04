@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import styles from "./ExploreTheMindHeroBanner.module.css";
 import Header from "../Header/Header";
-import pattern from "../../images/max-kleinen-GhrqMkA4cVA-unsplash.jpg";
+import pattern from "../../images/max-kleinen-GhrqMkA4cVA-unsplash.webp";
 
 function ExploreTheMindHeroBanner() {
   return (
