@@ -11,7 +11,7 @@ function BardStoriesHeroBanner() {
       <HelmetProvider>
         <div>
           <Helmet>
-            <title>The Pattern Unfolds</title>
+            <title>Short Stories</title>
             <meta
               name="description"
               content="Wheel of Time discussions, art, and nerd out safe space."

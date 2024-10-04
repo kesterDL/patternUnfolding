@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import styles from "./BardStories.module.css";
-import ValersNest from "../Stories/story-components/ValersNest";
-import Placeholder from "../Stories/story-components/StoryTile";
 import StoryTile from "../Stories/story-components/StoryTile";
 import BardStoriesHeroBanner from "./BardStoriesHeroBanner";
 import Modal from "react-modal";
@@ -52,10 +50,10 @@ function BardStories() {
   return (
     <>
       <Helmet>
-        <title>Unfolding the Pattern</title>
+        <title>Short Stories</title>
         <meta
           name="description"
-          content="Dungeons & Dragons (D&D) stories. Bards share DnD stories without all the boring stuff. Just the epic adventure part."
+          content="Short Stories Written by the Community"
         />
       </Helmet>
       <BardStoriesHeroBanner />

@@ -16,6 +16,10 @@ function LandingPage() {
           name="description"
           content="Wheel of Time discussions, art, and nerd out safe space."
         />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
       </Helmet>
       <Hero_Banner />
       <div className={styles.App}>

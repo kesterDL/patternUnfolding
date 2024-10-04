@@ -49,14 +49,17 @@ h4 {
 }
 
 .button {
+  display: flex;
   height: 3rem;
   width: 70%;
   font-family: "Cormorant", sans-serif;
   font-size: 1.7rem;
   color: rgb(46, 45, 45);
-  border-style: solid;
-  align-content: center;
-  justify-content: center;
+  border: 1px solid rgb(46, 45, 45);
+  align-items: center; /* Vertically center the text */
+  justify-content: center; /* Horizontally center the text */
+  text-align: center; /* Ensure text stays centered */
+  cursor: pointer; /* Add pointer cursor to indicate button */
 }
 
 @media (max-width: 850px) {

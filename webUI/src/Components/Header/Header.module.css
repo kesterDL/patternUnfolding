@@ -1,17 +1,21 @@
+/* Header backdrop styles */
 .headerBackdrop {
   width: 100%;
   flex-wrap: wrap;
   height: 4rem;
   display: flex;
   background-color: #eeecea;
+  z-index: 1002; /* Ensure header appears above other elements */
+  position: relative;
 }
 
 .headerRow {
   flex-wrap: nowrap;
   display: flex;
   align-items: center;
-  margin-left: 1rem;
+  justify-content: space-between; /* Space items apart */
   width: 100%;
+  margin-left: 1rem;
 }
 
 .navLink {
@@ -25,41 +29,85 @@
   text-decoration: underline;
 }
 
-/* ======== Buttons ======== */
+/* Navigation group visible on desktop */
+.headerContent {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .navigationGroup {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 75%;
   gap: 1rem;
   margin-right: 1rem;
+  z-index: 1003;
 }
 
-.storeButton {
-  height: 1.75rem;
-  width: 5rem;
-  background-color: white;
-  border-radius: 0.5rem;
-}
-
+/* Sign up button group */
 .signUp {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 20%;
   gap: 1rem;
   margin-right: 1rem;
 }
 
-.signInButton {
-  height: 1.75rem;
-  width: 5rem;
+/* Hide navigation and sign up buttons on mobile */
+@media (max-width: 768px) {
+  .navigationGroup,
+  .signUp {
+    display: none;
+  }
 }
 
-.registerButton {
-  height: 2.75rem !important;
-  width: 5rem;
-  background-color: black;
-  color: whitesmoke;
-  border-radius: 0.5rem;
+/* Hamburger icon displayed on mobile */
+.hamburgerIcon {
+  display: none;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right: 1rem;
+  z-index: 1003;
+}
+
+/* Display the hamburger icon on mobile */
+@media (max-width: 768px) {
+  .hamburgerIcon {
+    display: block;
+    z-index: 1003;
+  }
+}
+
+/* Hamburger dropdown menu styling */
+.hamburgerMenu {
+  position: absolute;
+  right: 0;
+  top: 4rem;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1003;
+}
+
+.hamburgerMenuLink {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  text-decoration: none;
+  color: #2b2b2b;
+  z-index: 1003;
+}
+
+.hamburgerMenuLink:hover {
+  background-color: #f4f4f4;
+}
+
+/* Style for sign in/register in the hamburger menu */
+.hamburgerSignUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
 }

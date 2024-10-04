@@ -8,9 +8,3 @@
     width: 2rem; /* Adjust the width for smaller screens */
   }
 }
-
-@media (max-width: 1024) {
-  .logo {
-    width: 4rem; /* Adjust the width for smaller screens */
-  }
-}

@@ -1,94 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Caveat&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Nunito:wght@500;800&family=Raleway:wght@500&display=swap");
 
+:root {
+  --main-background-color: #ffffff;
+  --content-max-width: 80rem; /* 9 inches */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* App Container */
 .App {
   position: relative;
   z-index: 909;
   text-align: center;
-  background-color: #ffffff;
+  background-color: var(--main-background-color);
   align-items: center;
   justify-content: center;
   margin-bottom: 5rem;
+  padding: 0 1.5rem; /* Add some padding for smaller screens */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@media (max-width: 450px) {
-  .big_stories {
-    font-family: Georgia, serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 1.8rem;
-    margin-top: 3rem;
-  }
-  .signature {
-    font-size: 3rem;
-    font-family: "Dancing Script", cursive;
-  }
-
-  .letter {
-    background-color: #ffffff;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: left; /* Align items to the left */
-    justify-content: flex-start;
-    font-size: calc(10px + 2vmin);
-    color: black;
-    max-width: 75rem; /* Set maximum width */
-    margin: 0 auto; /* Center horizontally */
-    text-align: left; /* Align text to the left */
-    font-family: Georgia, serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-}
-
+/* Section Title */
 .sectionTitle {
   font-family: "Cinzel";
   font-size: 2.5rem;
   font-weight: 400;
+  margin: 2rem 0;
 }
 
+/* Latest Episode Tile */
 .latestEpisodeTile {
   background-color: #eeecea;
   display: flex;
   flex-direction: column;
-  align-items: left; /* Align items to the left */
+  align-items: flex-start; /* Align items to the left */
   justify-content: flex-start;
-  color: rgb(0, 0, 0);
-  max-width: 60rem; /* Set maximum width */
-  margin: 0 auto; /* Center horizontally */
+  color: #000000;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
-.latestTileImage {
-  height: 25rem;
-  filter: grayscale(30%);
-  object-fit: cover;
+@media (min-width: 1200px) {
+  .latestEpisodeTile {
+    max-width: var(
+      --content-max-width
+    ); /* Limit width to 8.5 inches on large screens */
+  }
 }
 
-.episode {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Align items to the left */
-}
-
-.wreath {
-  height: 7rem;
-}
-
+/* Episode Title and Description */
 .episodeTitle {
   color: #000000;
   margin-top: 0;
@@ -105,6 +68,7 @@
   font-family: "Cormorant";
 }
 
+/* Listen Now Button */
 .listenNow {
   display: flex;
   align-items: center;
@@ -116,10 +80,10 @@
   font-family: "Cormorant";
   font-size: 1.5rem;
   font-weight: 700;
-  border-style: solid;
-  border-color: #554700;
+  border: solid 1px #554700;
 }
 
+/* Explore Section */
 .exploreSection {
   display: flex;
   flex-direction: column;
@@ -129,9 +93,38 @@
   gap: 2rem;
 }
 
+/* Cards */
 .cards {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .App {
+    padding: 0 1rem; /* Narrow padding for smaller devices */
+  }
+
+  .sectionTitle {
+    font-size: 2rem; /* Smaller title size */
+  }
+
+  .latestEpisodeTile {
+    max-width: 100%;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1200px) {
+  .App {
+    max-width: var(
+      --content-max-width
+    ); /* Limit content width on large monitors */
+    margin: 0;
+  }
 }
