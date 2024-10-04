@@ -1,3 +1,8 @@
+.episodePage {
+  display: flex;
+  justify-content: center;
+}
+
 .episodesContainer {
   display: flex;
   flex-wrap: wrap; /* Allow the items to wrap into multiple rows */
@@ -7,4 +12,13 @@
   padding: 2rem 0; /* Padding for spacing */
   width: 81.25rem;
   height: 100%; /* Equal height for all boxes */
+}
+
+@media (max-width: 768px) {
+  .episodesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+  }
 }

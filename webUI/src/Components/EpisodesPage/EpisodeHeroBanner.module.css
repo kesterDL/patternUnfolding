@@ -1,228 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Nunito:wght@500;800&&family=Cinzel:wght@400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Raleway:wght@500&display=swap");
 
-/* Define breakpoints for responsive design */
-@media (max-width: 1024px) {
-  .episodeTitle {
-    font-size: 5rem !important; /* Font size for screens smaller than 950px */
-  }
-  /* Additional styles for the Header component */
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
+.backgroundImage {
+  width: 100%;
+  height: auto; /* Adjust height automatically */
+  flex: 1; /* Take remaining space */
+  object-fit: cover; /* Ensure the image covers the container */
+  margin-top: -100px;
+}
+@media (max-width: 768px) {
+  .backgroundImage {
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    z-index: 900;
-  }
-
-  .episodeTitle {
-    position: absolute;
-    white-space: nowrap;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Cinzel";
-    font-size: 8rem;
-    font-weight: 600;
-    color: #2b2b2b;
-  }
-  .episodeDescription {
-    font-family: "Cinzel";
-    font-size: 2rem;
-    font-weight: 600;
-    color: #2b2b2b;
-    text-align: center;
+    height: 30rem;
   }
 }
 
+.fullWidthImageContainer {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  position: relative;
+}
+@media (max-width: 768px) {
+  .fullWidthImageContainer {
+    width: 100%;
+    height: 29rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 3rem;
+  }
+}
+
+/* Additional styles for the Header component */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  z-index: 900;
+}
+
+.episodeTitle {
+  position: absolute;
+  white-space: nowrap;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Cinzel";
+  font-size: 5rem;
+  font-weight: 600;
+  color: #2b2b2b;
+}
+.episodeDescription {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Cormorant";
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2b2b2b;
+  text-align: center;
+}
 @media (max-width: 768px) {
   .episodeTitle {
-    font-size: 3rem !important; /* Font size for screens smaller than 768px */
-  }
-  /* Additional styles for the Header component */
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-  }
-
-  .episodeTitle {
-    position: absolute;
-    white-space: nowrap;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Cinzel";
-    font-size: 12rem;
-    font-weight: 600;
-    color: #2b2b2b;
-  }
-  .backgroundImage {
-    width: auto; /* Reset width to auto */
-    height: 100%; /* Take full height */
-    object-fit: cover; /* Cover the container */
-    object-position: center; /* Center the image */
-  }
-}
-
-@media (max-width: 450px) {
-  .episodeTitle {
-    font-size: 2.5rem !important; /* Font size for screens smaller than 768px */
-  }
-  .backgroundImage {
-    width: auto; /* Reset width to auto */
-    height: 45rem; /* Set height to 200% of its container */
-    min-width: 100%; /* Ensure the image is at least as wide as its container */
-    object-fit: cover; /* Cover the container */
-    object-position: center; /* Center the image */
-    background-size: auto 100%;
-    margin-left: -5rem; /* Ensure the image's width is auto and height is 100% */
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    z-index: 900;
-  }
-  .fullWidthImageContainer {
-    position: absolute;
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    position: relative;
-    z-index: 100;
-  }
-  .navigationLinks {
-    position: absolute; /* Position the navigation links */
-    bottom: 0.5rem; /* Adjust the distance from the bottom */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-    display: flex;
-    justify-content: center;
-    gap: 2rem; /* Adjust the gap between links */
-  }
-
-  .socialLogo {
-    height: 1rem;
-    width: auto;
-  }
-  .navLink {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 300px) {
-  .episodeTitle {
-    font-size: 1.5rem !important; /* Font size for screens smaller than 768px */
-  }
-  .backgroundImage {
-    width: auto; /* Reset width to auto */
-    height: 45rem; /* Set height to 200% of its container */
-    min-width: 100%; /* Ensure the image is at least as wide as its container */
-    object-fit: cover; /* Cover the container */
-    object-position: center; /* Center the image */
-    background-size: auto 100%;
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-  }
-  .fullWidthImageContainer {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    position: relative;
-  }
-  .navigationLinks {
-    position: absolute; /* Position the navigation links */
-    bottom: 0.5rem; /* Adjust the distance from the bottom */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-    display: flex;
-    justify-content: center;
-    gap: 2rem; /* Adjust the gap between links */
-  }
-
-  .socialLogo {
-    height: 1rem;
-    width: auto;
-  }
-  .navLink {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .backgroundImage {
-    width: 100%;
-    height: auto; /* Adjust height automatically */
-    flex: 1; /* Take remaining space */
-    object-fit: cover; /* Ensure the image covers the container */
-    margin-top: -100px;
-  }
-  .fullWidthImageContainer {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    position: relative;
-  }
-  /* Additional styles for the Header component */
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    z-index: 900;
-  }
-  h1 {
-    font-weight: 200;
-  }
-
-  .episodeTitle {
-    position: absolute;
-    white-space: nowrap;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Cinzel";
-    font-size: 5rem;
-    font-weight: 600;
-    color: #2b2b2b;
+    font-size: 2.3rem; /* Smaller text size for mobile */
   }
   .episodeDescription {
-    position: absolute;
-    top: 33%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Cormorant";
-    font-size: 2rem;
-    font-weight: 600;
-    color: #2b2b2b;
-    text-align: center;
+    display: flex;
+    width: 90%;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
   }
 }
 
@@ -240,9 +94,10 @@
   align-items: center;
   transform: translate(-50%, -50%);
   position: absolute;
-  z-index: 1001;
+  z-index: 99;
   width: 25rem;
   height: 7rem;
+  margin-top: 4rem;
 }
 .streamerLink {
   width: 15rem;

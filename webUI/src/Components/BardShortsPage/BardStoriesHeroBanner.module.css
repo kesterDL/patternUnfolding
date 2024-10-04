@@ -7,11 +7,24 @@
   object-fit: cover; /* Ensure the image covers the container */
   margin-top: -100px;
 }
+@media (max-width: 768px) {
+  .backgroundImage {
+    width: 100%;
+  }
+}
+
 .fullWidthImageContainer {
   display: flex;
   flex-direction: column; /* Stack items vertically */
   position: relative;
 }
+@media (max-width: 768px) {
+  .fullWidthImageContainer {
+    width: 100%;
+    height: 30rem;
+  }
+}
+
 /* Additional styles for the Header component */
 .overlay {
   position: absolute;
@@ -21,7 +34,8 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  z-index: 10;
+  align-items: top;
+  z-index: 99;
 }
 h1 {
   font-weight: 200;
@@ -41,6 +55,12 @@ h1 {
     1px 1px 0 #6b6a6a;
 }
 
+@media (max-width: 768px) {
+  .artTitle {
+    font-size: 2.5rem; /* Smaller text size for mobile */
+  }
+}
+
 .Header {
   position: absolute;
   z-index: 1001; /* Ensure the Header component is above the background image */
@@ -53,4 +73,11 @@ h1 {
   width: 100%;
   transform: translateY(7rem);
   z-index: 2;
+}
+
+@media (max-width: 768px) {
+  /* Gradient Overlay */
+  .gradientOverlay {
+    transform: translateY(0rem);
+  }
 }

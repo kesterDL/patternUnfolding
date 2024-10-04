@@ -59,7 +59,7 @@ function BardStories() {
       <BardStoriesHeroBanner />
       <div className={styles.page}>
         <div className={styles.container}>
-          <div className={styles.valersContainer}>
+          <div className={styles.storiesContainer}>
             {stories.map((story, index) => (
               <div key={index} onClick={() => openModal(story)}>
                 <StoryTile

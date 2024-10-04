@@ -70,16 +70,18 @@ function EpisodesPage() {
         />
       </Helmet>
       <EpisodeHeroBanner />
-      <div className={styles.episodesContainer}>
-        {episodes.map((episode, index) => (
-          <EpisodeTile
-            key={index}
-            imageSrc={episode.imageSrc}
-            title={episode.title}
-            description={episode.description}
-            streamers={episode.streamers}
-          />
-        ))}
+      <div className={styles.episodePage}>
+        <div className={styles.episodesContainer}>
+          {episodes.map((episode, index) => (
+            <EpisodeTile
+              key={index}
+              imageSrc={episode.imageSrc}
+              title={episode.title}
+              description={episode.description}
+              streamers={episode.streamers}
+            />
+          ))}
+        </div>
       </div>
     </>
   );

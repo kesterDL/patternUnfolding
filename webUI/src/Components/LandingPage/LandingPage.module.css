@@ -13,6 +13,8 @@ body {
 
 /* App Container */
 .App {
+  display: flex;
+  flex-direction: column;
   position: relative;
   z-index: 909;
   text-align: center;
@@ -21,6 +23,11 @@ body {
   justify-content: center;
   margin-bottom: 5rem;
   padding: 0 1.5rem; /* Add some padding for smaller screens */
+}
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Section Title */
@@ -105,6 +112,9 @@ body {
 @media (max-width: 768px) {
   .App {
     padding: 0 1rem; /* Narrow padding for smaller devices */
+  }
+  .exploreSection {
+    gap: 0.5rem;
   }
 
   .sectionTitle {

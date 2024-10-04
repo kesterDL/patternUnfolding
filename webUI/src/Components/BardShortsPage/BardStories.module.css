@@ -28,10 +28,19 @@ p {
 
 /* Limit content width to 75rem */
 .container {
-  max-width: 75rem; /* Set maximum width */
+  display: flex;
+  max-width: 80rem; /* Set maximum width */
   width: 100%; /* Take up full available width */
   padding: 0 1rem; /* Add horizontal padding for spacing */
   margin: 0 auto; /* Center horizontally */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .container {
+    align-content: center;
+    justify-content: center;
+  }
 }
 
 .title {
@@ -55,12 +64,19 @@ p {
 }
 
 /* Styles for ValersNest container */
-.valersContainer {
+.storiesContainer {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap into multiple rows */
   justify-content: flex-start; /* Distribute items evenly with space around */
   gap: 1rem; /* Add spacing between items */
-  z-index: 100;
+  z-index: 99;
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .storiesContainer {
+    align-content: center;
+    justify-content: center;
+  }
 }
 
 .modalOverlay {
@@ -86,6 +102,12 @@ p {
   position: relative;
   border-radius: 8px;
   z-index: 1001;
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .modalContent {
+    max-width: 85%;
+  }
 }
 
 body.modal-open {

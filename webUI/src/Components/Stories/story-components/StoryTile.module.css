@@ -61,27 +61,3 @@ h4 {
   text-align: center; /* Ensure text stays centered */
   cursor: pointer; /* Add pointer cursor to indicate button */
 }
-
-@media (max-width: 850px) {
-  .textContainer {
-    margin-right: 2vw;
-    font-weight: normal;
-  }
-
-  .storyContainer {
-    height: 20rem;
-    width: 17rem;
-    margin: 1rem;
-    padding: 15px;
-    justify-content: flex-start; /* Adjust alignment as needed */
-    z-index: 100;
-  }
-
-  .title {
-    font-size: 1.5rem;
-  }
-
-  .description {
-    font-size: 0.75rem;
-  }
-}

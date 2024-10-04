@@ -22,15 +22,17 @@ function LandingPage() {
         ></meta>
       </Helmet>
       <Hero_Banner />
-      <div className={styles.App}>
-        <h2 className={styles.sectionTitle}>- Latest Episode -</h2>
-        <HeroTile />
-        <div className={styles.exploreSection}>
-          <h2 className={styles.sectionTitle}>- Explore the Pattern -</h2>
-          <div className={styles.cards}>
-            <ExploreTile />
-            <ArtTile />
-            <CommunityStories />
+      <div className={styles.column}>
+        <div className={styles.App}>
+          <h2 className={styles.sectionTitle}>- Latest Episode -</h2>
+          <HeroTile />
+          <div className={styles.exploreSection}>
+            <h2 className={styles.sectionTitle}>- Explore the Pattern -</h2>
+            <div className={styles.cards}>
+              <ExploreTile />
+              <ArtTile />
+              <CommunityStories />
+            </div>
           </div>
         </div>
       </div>
