@@ -12,6 +12,7 @@
 }
 
 .artImage {
+  min-height: 4rem;
   height: 70%; /* Top 80% of the card height */
   overflow: hidden;
 }

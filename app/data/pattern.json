@@ -10,9 +10,12 @@
         "bayle domon",
         "floran gelb",
         "padan fain",
-        "howal gode"
+        "howal gode",
+        "lan mandragoran",
+        "moiraine damodred",
+        "nyanaeve al'mera"
       ],
-      "places": [],
+      "places": ["wayfarer's rest"],
       "things": {},
       "events": {},
       "description": "A city around the only bridge spanning the Arinelle south of Maradon in Saldaea."
@@ -21,7 +24,7 @@
       "name": "Borderlands",
       "type": "Place",
       "people": [],
-      "places": ["Arafel", "Kandor", "Sheinar", "Saldea"],
+      "places": ["Arafel", "Kandor", "Shienar", "Saldea"],
       "things": {},
       "events": {},
       "description": "The borderlands are named because they share a border against the Great Blight. Trollocs and Myrdrall (Fades) are a regular occurance in these lands, forcing the borderlanders to be a hard warrior people where all people no matter their occupation must be familar with and capable of using weapons to defend themselves, others, and their animals.  In the borderlands it is illegal to hide your face in a town as a defense against fades, and the towns all have lamps lit during the night."
@@ -39,10 +42,10 @@
       "name": "Shienar",
       "type": "Place",
       "people": ["Easar Togita", "Lady Merean Tihomar"],
-      "places": ["fal moran", "tarwin's gap"],
+      "places": ["fal moran", "tarwin's gap", "fal dara"],
       "things": {},
       "events": {},
-      "description": "One of the borderland nations with the Spine of the World to the East, Arafel to the West, and the Blight and Tarwins Gap to the North. Men shave portions of their head and fashion their hair into top knots, similar to the Japanese Samurai. Women were held in high regard and enjoyed saftey anywhere they went, in Sheinar a woman's rights were whatever she said they were. Sheinar had large public bathes of tiled pools were all people bathed together. Sheinar had a good number of gold mines, and was the largest source of firedrops. Timber and furs also were major exports."
+      "description": "One of the borderland nations with the Spine of the World to the East, Arafel to the West, and the Blight and Tarwins Gap to the North. Men shave portions of their head and fashion their hair into top knots, similar to the Japanese Samurai. Women were held in high regard and enjoyed saftey anywhere they went, in shienar a woman's rights were whatever she said they were. shienar had large public bathes of tiled pools were all people bathed together. shienar had a good number of gold mines, and was the largest source of firedrops. Timber and furs also were major exports."
     },
     "kandor": {
       "name": "Kandor",
@@ -72,7 +75,7 @@
     "emond's field": {
       "name": "emond's field",
       "type": "Place",
-      "people": ["rand al'thor", "alsbet luhan", "marin al'vere"],
+      "people": ["rand al'thor", "alsbet luhan", "marin al'vere", "cloud"],
       "places": [],
       "things": {},
       "events": {},
@@ -90,7 +93,7 @@
     "taren ferry": {
       "name": "taren ferry",
       "type": "Place",
-      "people": ["perrin aybara"],
+      "people": ["perrin aybara", "cloud"],
       "places": [],
       "things": {},
       "events": {},
@@ -106,7 +109,8 @@
         "Ara",
         "Mari",
         "Cinda",
-        "Min"
+        "Min",
+        "cloud"
       ],
       "places": ["the stag and lion"],
       "things": {},
@@ -136,7 +140,8 @@
         "egwene al'vere",
         "balwen mayel",
         "caar",
-        "thorin al'torin al ban"
+        "thorin al'torin al ban",
+        "cloud"
       ],
       "places": [],
       "things": {
@@ -148,7 +153,7 @@
     "the stag and lion": {
       "name": "The Stag and Lion",
       "type": "Place",
-      "people": ["ara", "mari", "cinda", "min", "master fitch"],
+      "people": ["ara", "mari", "cinda", "min", "master fitch", "cloud"],
       "places": ["baerlon"],
       "things": {},
       "events": {},
@@ -182,7 +187,7 @@
         "thom merrilin",
         "floran gelb"
       ],
-      "places": [],
+      "places": ["whitebridge"],
       "things": {},
       "events": {},
       "description": ""
@@ -320,11 +325,22 @@
     "the queen's blessing": {
       "name": "the queen's blessing",
       "type": "Place",
-      "people": ["rand al'thor", "matrim cauthon"],
-      "places": [],
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "lamgwin dorn",
+        "lan mandragoran",
+        "moiraine damodred",
+        "nyanaeve al'mera",
+        "basil gill",
+        "thom merrilin",
+        "ramey",
+        "red"
+      ],
+      "places": ["caemlyn"],
       "things": {},
       "events": {},
-      "description": ""
+      "description": "The inn where Thom Merrilin told Rand and Mat to go to in Caemlyn. The inn keeper Basil Gill is fiercly loyal to the queen."
     },
     "breen's sprint": {
       "name": "breen's sprint",
@@ -347,8 +363,30 @@
     "caemlyn": {
       "name": "caemlyn",
       "type": "Place",
-      "people": ["rand al'thor", "matrim cauthon", "loial"],
-      "places": [],
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "loial",
+        "lamgwin dorn",
+        "lan mandragoran",
+        "moiraine damodred",
+        "nyanaeve al'mera",
+        "basil gill",
+        "padan fain",
+        "elayne trakand",
+        "gawyn trakand",
+        "galadedrid damodred",
+        "martyn tallanvor",
+        "morgase trakand",
+        "gareth bryne",
+        "elaida a'roihan",
+        "logain ablar",
+        "tarangail damodred",
+        "thom merrilin",
+        "ramey",
+        "red"
+      ],
+      "places": ["the crown and lion", "the queen's blessing"],
       "things": {},
       "events": {},
       "description": "Captial of Andor"
@@ -370,6 +408,52 @@
       "things": {},
       "events": {},
       "description": ""
+    },
+    "the crown and lion": {
+      "name": "the crown and lion",
+      "type": "Place",
+      "people": ["rand al'thor"],
+      "places": ["caemlyn"],
+      "things": {},
+      "events": {},
+      "description": "Rand told Elaida he was staying in the crown and lion during their first meeting."
+    },
+    "the ways": {
+      "name": "the ways",
+      "type": "Place",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "red"
+      ],
+      "places": [],
+      "things": { "machin shin": "the black wind" },
+      "events": {},
+      "description": ""
+    },
+    "fal dara": {
+      "name": "fal dara",
+      "type": "Place",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "padan fain",
+        "red"
+      ],
+      "places": ["shienar"],
+      "things": {},
+      "events": {},
+      "description": "Once called Mafal Dadaranell before the trolloc wars, it is the northern most city in Shienar and closest city to the blight."
     }
   },
   "people": {
@@ -403,7 +487,22 @@
         "raimun holdwin",
         "basel gill",
         "loial",
-        "marin al'vere"
+        "marin al'vere",
+        "lamgwin dorn",
+        "elayne trakand",
+        "gawyn trakand",
+        "galadedrid damodred",
+        "martyn tallanvor",
+        "morgase trakand",
+        "gareth bryne",
+        "logain ablar",
+        "elaida a'roihan",
+        "gilda",
+        "ishamael",
+        "ramey",
+        "cloud",
+        "red",
+        "bella"
       ],
       "places": [
         "dragonmount",
@@ -424,7 +523,10 @@
         "the queen's man",
         "goose and crown",
         "caemlyn",
-        "the queen's blessing"
+        "the queen's blessing",
+        "the crown and lion",
+        "the ways",
+        "fal dara"
       ],
       "things": {},
       "description": "Tall with Red Hair. Likes Red Coats and sword fights."
@@ -434,9 +536,9 @@
       "type": "Person",
       "role": "King of Shienar",
       "people": ["lan mandragoran", "rand al'thor"],
-      "places": ["Sheinar", "Tarwins Gap"],
+      "places": ["shienar", "Tarwins Gap"],
       "things": {},
-      "description": "King of Shienar. Stood about 5ft 7in tall with an unwrinkled slim square face. In the style of Sheinaran men he shaved his head except for a white top knot. Hosted the party from the Eye of the World at his manor. Provided aid to the WoT's heros on several occasions. Notably he backhanded Rand to test if he really was the Dragon, and writes poetry. In Japanese 'Togita' translates to 'Sharpened'."
+      "description": "King of Shienar. Stood about 5ft 7in tall with an unwrinkled slim square face. In the style of shienaran men he shaved his head except for a white top knot. Hosted the party from the Eye of the World at his manor. Provided aid to the WoT's heros on several occasions. Notably he backhanded Rand to test if he really was the Dragon, and writes poetry. In Japanese 'Togita' translates to 'Sharpened'."
     },
     "paitar nachiman": {
       "name": "Paitar Nachiman",
@@ -491,7 +593,10 @@
         "raimun holdwin",
         "basel gill",
         "loial",
-        "marin al'vere"
+        "marin al'vere",
+        "lamgwin dorn",
+        "ishamael",
+        "ramey"
       ],
       "places": [
         "emond's field",
@@ -511,7 +616,9 @@
         "the queen's man",
         "goose and crown",
         "caemlyn",
-        "the queen's blessing"
+        "the queen's blessing",
+        "the ways",
+        "fal dara"
       ],
       "things": {},
       "description": ""
@@ -529,7 +636,11 @@
         "wind",
         "aram",
         "jaret byar",
-        "geofram bornhald"
+        "geofram bornhald",
+        "loial",
+        "ishamael",
+        "ramey",
+        "bella"
       ],
       "places": [
         "emond's field",
@@ -539,7 +650,9 @@
         "shadar logoth",
         "shadar logoth",
         "raen's tinker camp",
-        "arutur hawkwing's steading"
+        "arutur hawkwing's steading",
+        "the ways",
+        "fal dara"
       ],
       "things": {},
       "description": ""
@@ -563,9 +676,27 @@
         "geofram bornhald",
         "nyanaeve al'mera",
         "master hightower",
-        "marin al'vere"
+        "marin al'vere",
+        "jaret byar",
+        "elyas machera",
+        "lamgwin dorn",
+        "loial",
+        "ramey",
+        "mandarb"
       ],
-      "places": ["shadar logoth", "tar valon"],
+      "places": [
+        "emond's field",
+        "watch hill",
+        "taren ferry",
+        "baerlon",
+        "the stag and lion",
+        "shadar logoth",
+        "whitebridge",
+        "caemlyn",
+        "the queen's blessing",
+        "the ways",
+        "fal dara"
+      ],
       "things": {},
       "description": ""
     },
@@ -586,18 +717,25 @@
         "thom merrilin",
         "avin",
         "geofram bornhald",
-        "marin al'vere"
+        "marin al'vere",
+        "lamgwin dorn",
+        "gilda",
+        "loial",
+        "ramey",
+        "aldieb"
       ],
       "places": [
-        "cairhein",
-        "tar valon",
-        "white tower",
-        "kandor",
-        "fal dara",
-        "baerlon",
         "emond's field",
+        "watch hill",
+        "taren ferry",
         "baerlon",
-        "shadar logoth"
+        "the stag and lion",
+        "shadar logoth",
+        "whitebridge",
+        "caemlyn",
+        "the queen's blessing",
+        "the ways",
+        "fal dara"
       ],
       "things": { "woman in flowing robes": "" },
       "description": ""
@@ -702,7 +840,14 @@
         "mordeth",
         "bartin"
       ],
-      "places": ["emond's field", "baerlon", "whitebridge", "wayfarer's rest"],
+      "places": [
+        "emond's field",
+        "baerlon",
+        "whitebridge",
+        "wayfarer's rest",
+        "caemlyn",
+        "fal dara"
+      ],
       "things": [],
       "description": "Often dressed in rags and has a half starved and crazed look. Destroyed and rebuilt as the dark one's hound doomed to hunt out Rand al'Thor and never rest."
     },
@@ -773,13 +918,22 @@
         "master hightower",
         "min",
         "thom merrilin",
-        "mavra mallen"
+        "mavra mallen",
+        "lamgwin dorn",
+        "loial",
+        "ramey",
+        "bella"
       ],
       "places": [
         "emond's field",
         "baerlon",
         "the stag and lion",
-        "shadar logoth"
+        "shadar logoth",
+        "whitebridge",
+        "caemlyn",
+        "the queen's blessing",
+        "the ways",
+        "fal dara"
       ],
       "things": [],
       "description": "Short, pretty, with dark hair and eyes. Stout shoes and dresses made of good two rivers wool. Wears her hair in a thick braid down to her waist."
@@ -796,12 +950,18 @@
         "jaret byar",
         "geofram bornhald",
         "bran al'vere",
-        "marin al'vere"
+        "marin al'vere",
+        "lamgwin dorn",
+        "loial",
+        "ramey",
+        "bella"
       ],
       "places": [
         "shadar logoth",
         "raen's tinker camp",
-        "arutur hawkwing's steading"
+        "arutur hawkwing's steading",
+        "the ways",
+        "fal dara"
       ],
       "things": {},
       "description": ""
@@ -828,7 +988,9 @@
         "the stag and lion",
         "shadar logoth",
         "whitebridge",
-        "wayfarer's rest"
+        "wayfarer's rest",
+        "the queen's blessing",
+        "caemlyn"
       ],
       "things": {
         "bargain of rogosh eagle-eye": "hunt for the horn tale",
@@ -946,7 +1108,14 @@
       "name": "elyas machera",
       "type": "Person",
       "role": "Wolf Brother",
-      "people": ["perrin aybara", "egwene al'vere", "raen", "wind", "aram"],
+      "people": [
+        "perrin aybara",
+        "egwene al'vere",
+        "raen",
+        "wind",
+        "aram",
+        "lan mandragoran"
+      ],
       "places": [
         "raen's tinker camp",
         "arutur hawkwing's steading",
@@ -1090,7 +1259,8 @@
         "perrin aybara",
         "egwene al'vere",
         "elyas machera",
-        "geofram bornhald"
+        "geofram bornhald",
+        "lan mandragoran"
       ],
       "places": ["arutur hawkwing's steading"],
       "things": [],
@@ -1206,7 +1376,8 @@
         "saml hake",
         "jak",
         "strom",
-        "howal gode"
+        "howal gode",
+        "ishamael"
       ],
       "places": [
         "Four Kings",
@@ -1293,7 +1464,18 @@
       "name": "loial",
       "type": "Person",
       "role": "inn keeper of The Queen's Blessing",
-      "people": ["rand al'thor", "matrim cauthon", "basil gill", "loial"],
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "basil gill",
+        "loial",
+        "gilda",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera"
+      ],
       "places": [
         "the queen's blessing",
         "cairhein",
@@ -1308,17 +1490,8 @@
       "name": "basil gill",
       "type": "Person",
       "role": "",
-      "people": ["thom merrilin"],
-      "places": [],
-      "things": {},
-      "description": ""
-    },
-    "gareth bryne": {
-      "name": "gareth bryne",
-      "type": "Person",
-      "role": "",
-      "people": ["thom merrilin", "morgase trakand", "elaida a'roihan"],
-      "places": [],
+      "people": ["thom merrilin", "lamgwin dorn", "gilda", "ramey"],
+      "places": ["caemlyn", "the queen's blessing"],
       "things": {},
       "description": ""
     },
@@ -1326,17 +1499,38 @@
       "name": "morgase trakand",
       "type": "Person",
       "role": "",
-      "people": ["thom merrilin", "gareth bryne", "elaida a'roihan"],
-      "places": [],
+      "people": [
+        "thom merrilin",
+        "elaida a'roihan",
+        "elayne trakand",
+        "rand al'thor",
+        "gawyn trakand",
+        "galadedrid damodred",
+        "martyn tallanvor",
+        "gareth bryne",
+        "logain ablar",
+        "tarangail damodred"
+      ],
+      "places": ["caemlyn"],
       "things": {},
       "description": ""
     },
     "elaida a'roihan": {
       "name": "elaida a'roihan",
       "type": "Person",
-      "role": "",
-      "people": ["thom merrilin", "morgase trakand", "gareth bryne"],
-      "places": [],
+      "role": "aes sedai of the red adjah and adviser to queen morgase",
+      "people": [
+        "thom merrilin",
+        "morgase trakand",
+        "rand al'thor",
+        "elayne trakand",
+        "gawyn trakand",
+        "galadedrid damodred",
+        "martyn tallanvor",
+        "gareth bryne",
+        "logain ablar"
+      ],
+      "places": ["caemlyn"],
       "things": {},
       "description": ""
     },
@@ -1357,6 +1551,260 @@
       "places": ["emond's field"],
       "things": {},
       "description": ""
+    },
+    "lamgwin dorn": {
+      "name": "lamgwin dorn",
+      "type": "Person",
+      "role": "Bouncer at The Queen's Blessing",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "basil gill",
+        "lamgwin dorn",
+        "lan mandragoran",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "moiraine damodred"
+      ],
+      "places": ["the queen's blessing", "caemlyn"],
+      "things": [],
+      "description": "Heavy lidded eyes and bullish bulk with sunken knuckles, but can move like a cat. Thinks the queen is the light made flesh."
+    },
+    "elayne trakand": {
+      "name": "elayne trakand",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "gawyn trakand",
+        "galadedrid damodred",
+        "martyn tallanvor",
+        "morgase trakand",
+        "gareth bryne",
+        "logain ablar",
+        "elaida a'roihan"
+      ],
+      "places": ["caemlyn"],
+      "things": {},
+      "description": ""
+    },
+    "gawyn trakand": {
+      "name": "gawyn trakand",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "elayne trakand",
+        "rand al'thor",
+        "galadedrid damodred",
+        "martyn tallanvor",
+        "morgase trakand",
+        "gareth bryne",
+        "logain ablar",
+        "elaida a'roihan"
+      ],
+      "places": ["caemlyn"],
+      "things": {},
+      "description": ""
+    },
+    "galadedrid damodred": {
+      "name": "galadedrid damodred",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "elayne trakand",
+        "rand al'thor",
+        "gawyn trakand",
+        "martyn tallanvor",
+        "morgase trakand",
+        "gareth bryne",
+        "logain ablar",
+        "elaida a'roihan",
+        "tarangail damodred"
+      ],
+      "places": ["caemlyn"],
+      "things": {},
+      "description": ""
+    },
+    "martyn tallanvor": {
+      "name": "martyn tallanvor",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "elayne trakand",
+        "rand al'thor",
+        "gawyn trakand",
+        "galadedrid damodred",
+        "morgase trakand",
+        "gareth bryne",
+        "logain ablar",
+        "elaida a'roihan"
+      ],
+      "places": ["caemlyn"],
+      "things": {},
+      "description": ""
+    },
+    "gareth bryne": {
+      "name": "gareth bryne",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "elayne trakand",
+        "rand al'thor",
+        "gawyn trakand",
+        "galadedrid damodred",
+        "martyn tallanvor",
+        "morgase trakand",
+        "logain ablar",
+        "elaida a'roihan",
+        "tarangail damodred"
+      ],
+      "places": ["caemlyn"],
+      "things": {},
+      "description": ""
+    },
+    "logain ablar": {
+      "name": "logain ablar",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "morgase trakand",
+        "gareth bryne",
+        "elaida a'roihan"
+      ],
+      "places": ["caemlyn"],
+      "things": {},
+      "description": ""
+    },
+    "tarangail damodred": {
+      "name": "tarangail damodred",
+      "type": "Person",
+      "role": "",
+      "people": ["galadedrid damodred", "morgase trakand", "gareth bryne"],
+      "places": ["caemlyn"],
+      "things": {},
+      "description": ""
+    },
+    "gilda": {
+      "name": "gilda",
+      "type": "Person",
+      "role": "",
+      "people": ["rand al'thor", "moiraine damodred", "loial", "basil gill"],
+      "places": [],
+      "things": {},
+      "description": ""
+    },
+    "ishamael": {
+      "name": "ishamael",
+      "type": "Person",
+      "role": "Forsaken",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "howal gode"
+      ],
+      "places": [],
+      "things": {},
+      "description": "Once named Elan Morin Tedronai. Never fully sealed into the patch on the bore, took the name Ba'alzamon."
+    },
+    "ramey": {
+      "name": "ramey",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "basil gill"
+      ],
+      "places": ["the queen's blessing", "caemlyn"],
+      "things": {},
+      "description": "Head groom of The Queen's Blessing. Opened the secret passage at the back of the stables for the part to sneak out."
+    },
+    "cloud": {
+      "name": "cloud",
+      "type": "Person",
+      "role": "",
+      "people": ["rand al'thor"],
+      "places": [
+        "emond's field",
+        "taren ferry",
+        "baerlon",
+        "the stag and lion",
+        "shadar logoth"
+      ],
+      "things": {},
+      "description": "Horse Rand rode out of Emond's field, that loved to run. Rand was forced to abandoned him outside shadar logoth. Assumed to be eaten by trollocs."
+    },
+    "red": {
+      "name": "red",
+      "type": "Person",
+      "role": "",
+      "people": ["rand al'thor"],
+      "places": ["the queen's blessing", "caemlyn", "the ways", "fal dara"],
+      "things": {},
+      "description": ""
+    },
+    "bella": {
+      "name": "bella",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "egwene al'vere",
+        "perrin aybara",
+        "nyanaeve al'mera"
+      ],
+      "places": [],
+      "things": {},
+      "description": ""
+    },
+    "mandarb": {
+      "name": "mandarb",
+      "type": "Person",
+      "role": "Lan's Horse",
+      "people": ["lan mandragoran"],
+      "places": [
+        "emond's field",
+        "watch hill",
+        "taren ferry",
+        "baerlon",
+        "the stag and lion",
+        "shadar logoth",
+        "whitebridge",
+        "caemlyn",
+        "the queen's blessing",
+        "the ways",
+        "fal dara"
+      ],
+      "things": {},
+      "description": "Dark stallion. Trained war mount and almost as bad ass as Lan himself."
+    },
+    "aldieb": {
+      "name": "aldieb",
+      "type": "Person",
+      "role": "Moiraine's horse",
+      "people": ["moiraine damodred"],
+      "places": [
+        "emond's field",
+        "watch hill",
+        "taren ferry",
+        "baerlon",
+        "the stag and lion",
+        "shadar logoth",
+        "whitebridge",
+        "caemlyn",
+        "the queen's blessing",
+        "the ways",
+        "fal dara"
+      ],
+      "things": {},
+      "description": "Stark white mare. Typically very calm and collected, just like her rider."
     }
   },
   "things": {
@@ -1380,7 +1828,7 @@
       "name": "lan's sword",
       "type": "Thing",
       "people": ["lan mandragoran"],
-      "places": ["manethoran"],
+      "places": [],
       "events": {},
       "description": ""
     },
@@ -1397,6 +1845,13 @@
       "people": [],
       "places": ["chachin"],
       "description": "Fragment of a manuscript reavealing significant aspects on the War of the Shadow."
+    },
+    "machin shin": {
+      "name": "machin shin",
+      "type": "Thing",
+      "people": [],
+      "places": ["the ways"],
+      "description": "The black wind. A thing similar to mashadar that consumes and kills people. Nobody knows what it really is, or how it came to be."
     }
   }
 }

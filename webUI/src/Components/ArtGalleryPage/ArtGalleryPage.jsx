@@ -12,6 +12,8 @@ import samurai from "../../images/sorasak-_UIN-pFfJ7c-unsplash.webp";
 import gallery from "../../images/claudio-testa-iqeG5xA96M4-unsplash.webp";
 import switzerland from "../../images/peter-conlan-axYF1KFjoDY-unsplash.webp";
 import mist from "../../images/tyler-lastovich-8_LZ9UWTKLE-unsplash.webp";
+import books from "../../images/paul-schafer-t6oZEgL0z18-unsplash.webp";
+import thread from "../../images/max-kleinen-GhrqMkA4cVA-unsplash.webp";
 
 function ArtGalleryPage() {
   const [selectedArt, setSelectedArt] = useState(null);
@@ -70,6 +72,21 @@ function ArtGalleryPage() {
       artistLink: "https://unsplash.com/@peterconlan",
       imageSrc: switzerland,
       imageLink: "https://unsplash.com/photos/grass-field-pathway-axYF1KFjoDY",
+    },
+    {
+      title: "Read Between the Lines",
+      artist: "Paul Schafer",
+      artistLink: "https://unsplash.com/@paul__schafer",
+      imageSrc: books,
+      imageLink: "https://unsplash.com/photos/book-lot-in-bookcase-t6oZEgL0z18",
+    },
+    {
+      title: "Black and White Experimental Pattern",
+      artist: "Max Kleinen",
+      artistLink: "https://unsplash.com/@hirmin",
+      imageSrc: thread,
+      imageLink:
+        "https://unsplash.com/photos/black-and-white-abstract-painting-GhrqMkA4cVA",
     },
   ];
 
