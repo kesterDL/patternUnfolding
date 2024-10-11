@@ -41,7 +41,21 @@
     "shienar": {
       "name": "Shienar",
       "type": "Place",
-      "people": ["Easar Togita", "Lady Merean Tihomar"],
+      "people": [
+        "Easar Togita",
+        "Lady Merean Tihomar",
+        "agelmar jagad",
+        "ingtar shinowa",
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "padan fain",
+        "ragan"
+      ],
       "places": ["fal moran", "tarwin's gap", "fal dara"],
       "things": {},
       "events": {},
@@ -221,15 +235,6 @@
       "things": {},
       "events": {},
       "description": "A steading at least a day outside of Caemlyn where Perrin and Egwene first encountered Lord Bornhald and Child Byar."
-    },
-    "Grinwell's Farm": {
-      "name": "Grinwell's Farm",
-      "type": "Place",
-      "people": [],
-      "places": [],
-      "things": {},
-      "events": {},
-      "description": ""
     },
     "grinwell's farm": {
       "name": "grinwell's farm",
@@ -448,7 +453,10 @@
         "egwene al'vere",
         "nyanaeve al'mera",
         "padan fain",
-        "red"
+        "red",
+        "agelmar jagad",
+        "ingtar shinowa",
+        "ragan"
       ],
       "places": ["shienar"],
       "things": {},
@@ -502,7 +510,9 @@
         "ramey",
         "cloud",
         "red",
-        "bella"
+        "bella",
+        "agelmar jagad",
+        "ingtar shinowa"
       ],
       "places": [
         "dragonmount",
@@ -526,7 +536,8 @@
         "the queen's blessing",
         "the crown and lion",
         "the ways",
-        "fal dara"
+        "fal dara",
+        "shienar"
       ],
       "things": {},
       "description": "Tall with Red Hair. Likes Red Coats and sword fights."
@@ -596,7 +607,9 @@
         "marin al'vere",
         "lamgwin dorn",
         "ishamael",
-        "ramey"
+        "ramey",
+        "agelmar jagad",
+        "ingtar shinowa"
       ],
       "places": [
         "emond's field",
@@ -618,7 +631,8 @@
         "caemlyn",
         "the queen's blessing",
         "the ways",
-        "fal dara"
+        "fal dara",
+        "shienar"
       ],
       "things": {},
       "description": ""
@@ -640,7 +654,9 @@
         "loial",
         "ishamael",
         "ramey",
-        "bella"
+        "bella",
+        "agelmar jagad",
+        "ingtar shinowa"
       ],
       "places": [
         "emond's field",
@@ -652,7 +668,8 @@
         "raen's tinker camp",
         "arutur hawkwing's steading",
         "the ways",
-        "fal dara"
+        "fal dara",
+        "shienar"
       ],
       "things": {},
       "description": ""
@@ -682,7 +699,10 @@
         "lamgwin dorn",
         "loial",
         "ramey",
-        "mandarb"
+        "mandarb",
+        "agelmar jagad",
+        "ingtar shinowa",
+        "ragan"
       ],
       "places": [
         "emond's field",
@@ -695,7 +715,8 @@
         "caemlyn",
         "the queen's blessing",
         "the ways",
-        "fal dara"
+        "fal dara",
+        "shienar"
       ],
       "things": {},
       "description": ""
@@ -722,7 +743,9 @@
         "gilda",
         "loial",
         "ramey",
-        "aldieb"
+        "aldieb",
+        "agelmar jagad",
+        "ingtar shinowa"
       ],
       "places": [
         "emond's field",
@@ -735,7 +758,8 @@
         "caemlyn",
         "the queen's blessing",
         "the ways",
-        "fal dara"
+        "fal dara",
+        "shienar"
       ],
       "things": { "woman in flowing robes": "" },
       "description": ""
@@ -838,7 +862,9 @@
         "cenn buie",
         "padan fain",
         "mordeth",
-        "bartin"
+        "bartin",
+        "agelmar jagad",
+        "ingtar shinowa"
       ],
       "places": [
         "emond's field",
@@ -846,7 +872,8 @@
         "whitebridge",
         "wayfarer's rest",
         "caemlyn",
-        "fal dara"
+        "fal dara",
+        "shienar"
       ],
       "things": [],
       "description": "Often dressed in rags and has a half starved and crazed look. Destroyed and rebuilt as the dark one's hound doomed to hunt out Rand al'Thor and never rest."
@@ -922,7 +949,9 @@
         "lamgwin dorn",
         "loial",
         "ramey",
-        "bella"
+        "bella",
+        "agelmar jagad",
+        "ingtar shinowa"
       ],
       "places": [
         "emond's field",
@@ -933,7 +962,8 @@
         "caemlyn",
         "the queen's blessing",
         "the ways",
-        "fal dara"
+        "fal dara",
+        "shienar"
       ],
       "things": [],
       "description": "Short, pretty, with dark hair and eyes. Stout shoes and dresses made of good two rivers wool. Wears her hair in a thick braid down to her waist."
@@ -954,14 +984,17 @@
         "lamgwin dorn",
         "loial",
         "ramey",
-        "bella"
+        "bella",
+        "agelmar jagad",
+        "ingtar shinowa"
       ],
       "places": [
         "shadar logoth",
         "raen's tinker camp",
         "arutur hawkwing's steading",
         "the ways",
-        "fal dara"
+        "fal dara",
+        "shienar"
       ],
       "things": {},
       "description": ""
@@ -1805,6 +1838,53 @@
       ],
       "things": {},
       "description": "Stark white mare. Typically very calm and collected, just like her rider."
+    },
+    "agelmar jagad": {
+      "name": "agelmar jagad",
+      "type": "Person",
+      "role": "Lord of Fal Dara and Commander of Shienar's armies.",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "padan fain",
+        "ingtar shinowa"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": "Old Shienar general. Head Shaved except for a pure white top knot."
+    },
+    "ingtar shinowa": {
+      "name": "ingtar shinowa",
+      "type": "Person",
+      "role": "Shienaran Captain and Darkfriend",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "padan fain",
+        "agelmar jagad"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "ragan": {
+      "name": "ragan",
+      "type": "Person",
+      "role": "Guard in Fal Dara",
+      "people": ["lan mandragoran"],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": "First man to ask Lan if the Golden Crane will fly again."
     }
   },
   "things": {
