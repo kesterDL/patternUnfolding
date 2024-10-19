@@ -6,14 +6,15 @@ export function generateNodesAndEdges(json) {
   // Create nodes first
   Object.keys(json).forEach((key) => {
     const entity = json[key];
-    var backgroundColor = "#fffff";
+    var backgroundColor = "#636567"; // Default background
     if (entity.type === "Place") {
-      backgroundColor = "#376443";
+      backgroundColor = "#376443"; // Greenish color for places
     }
     if (entity.type === "Thing") {
-      backgroundColor = "#558aa1";
+      backgroundColor = "#558aa1"; // Bluish color for things
     }
 
+    // Centralize "rand al'thor", "perrin aybara", and "matrim cauthon"
     if (
       entity.name === "rand al'thor" ||
       entity.name === "perrin aybara" ||
@@ -21,14 +22,17 @@ export function generateNodesAndEdges(json) {
     ) {
       nodes.push({
         id: entity.name,
-        position: { x: Math.random() * 500, y: Math.random() * 500 },
+        position: { x: Math.random() * 3, y: Math.random() * 3 }, // Place near the center
         data: { label: entity.name },
-        style: { background: "#901100", width: "10rem", height: "7rem" },
+        style: { background: "#901100", width: "15rem", height: "15rem" }, // Unique style for these nodes
       });
     } else {
       nodes.push({
         id: entity.name,
-        position: { x: Math.random() * 500, y: Math.random() * 500 },
+        position: {
+          x: Math.random() * 500 - 250,
+          y: Math.random() * 500 - 250,
+        }, // Spread around the map
         data: { label: entity.name },
         style: { background: backgroundColor },
       });

@@ -3,12 +3,23 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import styles from "./Header.module.css";
 import Header_Logo from "./Header_Logo";
+import UserAuthModal from "../shared-components/UserAuthModal/UserAuthModal";
+import UserSignUp from "../Users/UserSignUp";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [showSignUpModal, setShowSignUpModal] = useState(false); // Track modal state
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  };
+
+  const openSignUpModal = () => {
+    setShowSignUpModal(true);
+  };
+
+  const closeSignUpModal = () => {
+    setShowSignUpModal(false);
   };
 
   return (
@@ -46,7 +57,12 @@ function Header() {
             </nav>
             <div className={styles.signUp}>
               <button className={styles.signInButton}>Sign In</button>
-              <button className={styles.registerButton}>Register</button>
+              <button
+                className={styles.registerButton}
+                onClick={openSignUpModal}
+              >
+                Register
+              </button>
             </div>
           </div>
         </div>
@@ -75,10 +91,17 @@ function Header() {
           </Link>
           <div className={styles.hamburgerSignUp}>
             <button className={styles.signInButton}>Sign In</button>
-            <button className={styles.registerButton}>Register</button>
+            <button className={styles.registerButton} onClick={openSignUpModal}>
+              Register
+            </button>
           </div>
         </div>
       )}
+
+      {/* Modal for Sign Up */}
+      <UserAuthModal show={showSignUpModal} onClose={closeSignUpModal}>
+        <UserSignUp />
+      </UserAuthModal>
     </>
   );
 }

@@ -56,10 +56,18 @@
         "padan fain",
         "ragan"
       ],
-      "places": ["fal moran", "tarwin's gap", "fal dara"],
+      "places": [
+        "fal moran",
+        "tarwin's gap",
+        "fal dara",
+        "ankor dail",
+        "mos shirare",
+        "fal sion",
+        "camron caan"
+      ],
       "things": {},
       "events": {},
-      "description": "One of the borderland nations with the Spine of the World to the East, Arafel to the West, and the Blight and Tarwins Gap to the North. Men shave portions of their head and fashion their hair into top knots, similar to the Japanese Samurai. Women were held in high regard and enjoyed saftey anywhere they went, in shienar a woman's rights were whatever she said they were. shienar had large public bathes of tiled pools were all people bathed together. shienar had a good number of gold mines, and was the largest source of firedrops. Timber and furs also were major exports."
+      "description": "One of the borderland nations with the Spine of the World to the East, Arafel to the West, and the Blight and tarwin's gap to the North. Men shave portions of their head and fashion their hair into top knots, similar to the Japanese Samurai. Women were held in high regard and enjoyed saftey anywhere they went, in shienar a woman's rights were whatever she said they were. shienar had large public bathes of tiled pools were all people bathed together. shienar had a good number of gold mines, and was the largest source of firedrops. Timber and furs also were major exports."
     },
     "kandor": {
       "name": "Kandor",
@@ -89,8 +97,40 @@
     "emond's field": {
       "name": "emond's field",
       "type": "Place",
-      "people": ["rand al'thor", "alsbet luhan", "marin al'vere", "cloud"],
-      "places": [],
+      "people": [
+        "rand al'thor",
+        "alsbet luhan",
+        "marin al'vere",
+        "cloud",
+        "matrim cauthon",
+        "perrin aybara",
+        "thom merrilin",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "aldieb",
+        "mandarb",
+        "tam al'thor",
+        "kari al'thor",
+        "bran al'vere",
+        "cenn buie",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "padan fain",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["winespring inn"],
       "things": {},
       "events": {},
       "description": "Small farming village in the Two Rivers. Home town of the main characters."
@@ -98,7 +138,16 @@
     "watch hill": {
       "name": "watch hill",
       "type": "Place",
-      "people": ["rand al'thor"],
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "thom merrilin",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera"
+      ],
       "places": [],
       "things": {},
       "events": {},
@@ -107,7 +156,20 @@
     "taren ferry": {
       "name": "taren ferry",
       "type": "Place",
-      "people": ["perrin aybara", "cloud"],
+      "people": [
+        "perrin aybara",
+        "cloud",
+        "rand al'thor",
+        "matrim cauthon",
+        "thom merrilin",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "bella",
+        "aldieb",
+        "mandarb"
+      ],
       "places": [],
       "things": {},
       "events": {},
@@ -124,7 +186,8 @@
         "Mari",
         "Cinda",
         "Min",
-        "cloud"
+        "cloud",
+        "heran adan"
       ],
       "places": ["the stag and lion"],
       "things": {},
@@ -250,8 +313,8 @@
       "events": {},
       "description": ""
     },
-    "Four Kings": {
-      "name": "Four Kings",
+    "four kings": {
+      "name": "four kings",
       "type": "Place",
       "people": [
         "rand al'thor",
@@ -363,7 +426,7 @@
       "places": [],
       "things": {},
       "events": {},
-      "description": "Village on the road to Caemlyn next to the River Cary. Three days of travel from Four Kings. Two from Market Sheran. One day from The Queen's Man. Chapter 34"
+      "description": "Village on the road to Caemlyn next to the River Cary. Three days of travel from four kings. Two from Market Sheran. One day from The Queen's Man. Chapter 34"
     },
     "caemlyn": {
       "name": "caemlyn",
@@ -462,6 +525,187 @@
       "things": {},
       "events": {},
       "description": "Once called Mafal Dadaranell before the trolloc wars, it is the northern most city in Shienar and closest city to the blight."
+    },
+    "malkier": {
+      "name": "malkier",
+      "type": "Place",
+      "people": [
+        "jain charin",
+        "al'akir mandragoran",
+        "el'leanna mandragoran",
+        "lain mandragoran",
+        "breyan mandragoran",
+        "isam mandragoran",
+        "cowen fairheart",
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera"
+      ],
+      "places": ["stair of jehaan", "the blight"],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "the blight": {
+      "name": "the blight",
+      "type": "Place",
+      "people": [
+        "jain charin",
+        "al'akir mandragoran",
+        "el'leanna mandragoran",
+        "lain mandragoran",
+        "cowen fairheart",
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "padan fain"
+      ],
+      "places": ["stair of jehaan", "malkier"],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "stair of jehaan": {
+      "name": "stair of jehaan",
+      "type": "Place",
+      "people": ["al'akir mandragoran", "el'leanna mandragoran"],
+      "places": ["the blight", "malkier"],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "tarwin's gap": {
+      "name": "tarwin's gap",
+      "type": "Place",
+      "people": ["agelmar jagad", "ingtar shinowa", "rand al'thor"],
+      "places": ["shienar"],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "murandy": {
+      "name": "murandy",
+      "type": "Place",
+      "people": ["padan fain"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "sahyol ghul": {
+      "name": "sahyol ghul",
+      "type": "Place",
+      "people": ["padan fain", "lain mandragoran"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "two rivers": {
+      "name": "two rivers",
+      "type": "Place",
+      "people": [],
+      "places": ["emond's field", "taren ferry", "watch hill", "deven ride"],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "lugard": {
+      "name": "lugard",
+      "type": "Place",
+      "people": ["padan fain"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "eye of the world": {
+      "name": "eye of the world",
+      "type": "Place",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "someshta",
+        "balthamel",
+        "aginor",
+        "loial"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "stedding shaingtai": {
+      "name": "stedding shaingtai",
+      "type": "Place",
+      "people": ["loial", "elder haman"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "deven ride": {
+      "name": "deven ride",
+      "type": "Place",
+      "people": ["mavra mallen"],
+      "places": ["two rivers"],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "winespring inn": {
+      "name": "winespring inn",
+      "type": "Place",
+      "people": [
+        "rand al'thor",
+        "alsbet luhan",
+        "marin al'vere",
+        "cloud",
+        "matrim cauthon",
+        "perrin aybara",
+        "thom merrilin",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "aldieb",
+        "mandarb",
+        "tam al'thor",
+        "kari al'thor",
+        "bran al'vere",
+        "cenn buie",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "padan fain",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
     }
   },
   "people": {
@@ -512,7 +756,23 @@
         "red",
         "bella",
         "agelmar jagad",
-        "ingtar shinowa"
+        "ingtar shinowa",
+        "someshta",
+        "aginor",
+        "balthamel",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
       ],
       "places": [
         "dragonmount",
@@ -524,9 +784,9 @@
         "whitebridge",
         "wayfarer's rest",
         "grinwell's farm",
-        "Four Kings",
+        "four kings",
         "The Dancing Cartman",
-        "Arien",
+        "arien",
         "breen's sprint",
         "carysford",
         "market sheran",
@@ -537,7 +797,12 @@
         "the crown and lion",
         "the ways",
         "fal dara",
-        "shienar"
+        "shienar",
+        "the blight",
+        "malkier",
+        "eye of the world",
+        "tarwin's gap",
+        "winespring inn"
       ],
       "things": {},
       "description": "Tall with Red Hair. Likes Red Coats and sword fights."
@@ -547,7 +812,7 @@
       "type": "Person",
       "role": "King of Shienar",
       "people": ["lan mandragoran", "rand al'thor"],
-      "places": ["shienar", "Tarwins Gap"],
+      "places": ["shienar", "tarwin's gap"],
       "things": {},
       "description": "King of Shienar. Stood about 5ft 7in tall with an unwrinkled slim square face. In the style of shienaran men he shaved his head except for a white top knot. Hosted the party from the Eye of the World at his manor. Provided aid to the WoT's heros on several occasions. Notably he backhanded Rand to test if he really was the Dragon, and writes poetry. In Japanese 'Togita' translates to 'Sharpened'."
     },
@@ -609,7 +874,23 @@
         "ishamael",
         "ramey",
         "agelmar jagad",
-        "ingtar shinowa"
+        "ingtar shinowa",
+        "someshta",
+        "aginor",
+        "balthamel",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
       ],
       "places": [
         "emond's field",
@@ -620,7 +901,7 @@
         "whitebridge",
         "wayfarer's rest",
         "grinwell's farm",
-        "Four Kings",
+        "four kings",
         "The Dancing Cartman",
         "Arien",
         "breen's sprint",
@@ -632,7 +913,11 @@
         "the queen's blessing",
         "the ways",
         "fal dara",
-        "shienar"
+        "shienar",
+        "the blight",
+        "malkier",
+        "eye of the world",
+        "winespring inn"
       ],
       "things": {},
       "description": ""
@@ -656,7 +941,23 @@
         "ramey",
         "bella",
         "agelmar jagad",
-        "ingtar shinowa"
+        "ingtar shinowa",
+        "someshta",
+        "aginor",
+        "balthamel",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
       ],
       "places": [
         "emond's field",
@@ -669,7 +970,11 @@
         "arutur hawkwing's steading",
         "the ways",
         "fal dara",
-        "shienar"
+        "shienar",
+        "the blight",
+        "malkier",
+        "eye of the world",
+        "winespring inn"
       ],
       "things": {},
       "description": ""
@@ -702,7 +1007,21 @@
         "mandarb",
         "agelmar jagad",
         "ingtar shinowa",
-        "ragan"
+        "ragan",
+        "al'akir mandragoran",
+        "el'leanna mandragoran",
+        "lain mandragoran",
+        "breyan mandragoran",
+        "isam mandragoran",
+        "someshta",
+        "aginor",
+        "balthamel",
+        "ewin finngar",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
       ],
       "places": [
         "emond's field",
@@ -716,7 +1035,11 @@
         "the queen's blessing",
         "the ways",
         "fal dara",
-        "shienar"
+        "shienar",
+        "the blight",
+        "malkier",
+        "eye of the world",
+        "winespring inn"
       ],
       "things": {},
       "description": ""
@@ -745,7 +1068,16 @@
         "ramey",
         "aldieb",
         "agelmar jagad",
-        "ingtar shinowa"
+        "ingtar shinowa",
+        "someshta",
+        "aginor",
+        "balthamel",
+        "ewin finngar",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
       ],
       "places": [
         "emond's field",
@@ -759,7 +1091,13 @@
         "the queen's blessing",
         "the ways",
         "fal dara",
-        "shienar"
+        "shienar",
+        "the blight",
+        "malkier",
+        "eye of the world",
+        "watch hill",
+        "taren ferry",
+        "winespring inn"
       ],
       "things": { "woman in flowing robes": "" },
       "description": ""
@@ -864,7 +1202,14 @@
         "mordeth",
         "bartin",
         "agelmar jagad",
-        "ingtar shinowa"
+        "ingtar shinowa",
+        "ishamael",
+        "haral luhan",
+        "ewin finngar",
+        "wit congar",
+        "hu barran",
+        "tad barran",
+        "ewal coplin"
       ],
       "places": [
         "emond's field",
@@ -873,7 +1218,14 @@
         "wayfarer's rest",
         "caemlyn",
         "fal dara",
-        "shienar"
+        "shienar",
+        "murandy",
+        "the blight",
+        "sahyol ghul",
+        "two rivers",
+        "lugard",
+        "emond's field",
+        "winespring inn"
       ],
       "things": [],
       "description": "Often dressed in rags and has a half starved and crazed look. Destroyed and rebuilt as the dark one's hound doomed to hunt out Rand al'Thor and never rest."
@@ -881,15 +1233,35 @@
     "tam al'thor": {
       "name": "tam al'thor",
       "type": "Person",
-      "role": "",
+      "role": "Rand's Father",
       "people": [
         "kari al'thor",
         "rand al'thor",
         "bran al'vere",
         "padan fain",
-        "marin al'vere"
+        "marin al'vere",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
       ],
-      "places": ["emond's field", "illian", "tar valon", "emond's field"],
+      "places": [
+        "emond's field",
+        "illian",
+        "tar valon",
+        "dragonmount",
+        "emond's field",
+        "winespring inn"
+      ],
       "things": {},
       "description": ""
     },
@@ -897,8 +1269,23 @@
       "name": "bran al'vere",
       "type": "Person",
       "role": "",
-      "people": ["egwene al'vere", "marin al'vere"],
-      "places": [],
+      "people": [
+        "egwene al'vere",
+        "marin al'vere",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "hu barran",
+        "tad barran",
+        "ewal coplin",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
       "things": {},
       "description": ""
     },
@@ -911,9 +1298,15 @@
         "tam al'thor",
         "bran al'vere",
         "padan fain",
-        "cenn buie"
+        "cenn buie",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
       ],
-      "places": ["emond's field"],
+      "places": ["emond's field", "winespring inn"],
       "things": {},
       "description": ""
     },
@@ -921,8 +1314,16 @@
       "name": "kari al'thor",
       "type": "Person",
       "role": "Tam al'Thor's late wife",
-      "people": ["tam al'thor", "rand al'thor"],
-      "places": ["illian", "tar valon", "emond's field", "illian"],
+      "people": [
+        "tam al'thor",
+        "rand al'thor",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["illian", "tar valon", "emond's field", "winespring inn"],
       "things": {},
       "description": ""
     },
@@ -951,7 +1352,23 @@
         "ramey",
         "bella",
         "agelmar jagad",
-        "ingtar shinowa"
+        "ingtar shinowa",
+        "someshta",
+        "aginor",
+        "balthamel",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
       ],
       "places": [
         "emond's field",
@@ -963,7 +1380,14 @@
         "the queen's blessing",
         "the ways",
         "fal dara",
-        "shienar"
+        "shienar",
+        "the blight",
+        "malkier",
+        "eye of the world",
+        "watch hill",
+        "emond's field",
+        "taren ferry",
+        "winespring inn"
       ],
       "things": [],
       "description": "Short, pretty, with dark hair and eyes. Stout shoes and dresses made of good two rivers wool. Wears her hair in a thick braid down to her waist."
@@ -986,7 +1410,23 @@
         "ramey",
         "bella",
         "agelmar jagad",
-        "ingtar shinowa"
+        "ingtar shinowa",
+        "someshta",
+        "aginor",
+        "balthamel",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
       ],
       "places": [
         "shadar logoth",
@@ -994,7 +1434,14 @@
         "arutur hawkwing's steading",
         "the ways",
         "fal dara",
-        "shienar"
+        "shienar",
+        "the blight",
+        "malkier",
+        "eye of the world",
+        "watch hill",
+        "emond's field",
+        "taren ferry",
+        "winespring inn"
       ],
       "things": {},
       "description": ""
@@ -1013,7 +1460,13 @@
         "gareth bryne",
         "morgase trakand",
         "elaida a'roihan",
-        "marin al'vere"
+        "marin al'vere",
+        "ewin finngar",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
       ],
       "places": [
         "emond's field",
@@ -1023,7 +1476,11 @@
         "whitebridge",
         "wayfarer's rest",
         "the queen's blessing",
-        "caemlyn"
+        "caemlyn",
+        "watch hill",
+        "emond's field",
+        "taren ferry",
+        "winespring inn"
       ],
       "things": {
         "bargain of rogosh eagle-eye": "hunt for the horn tale",
@@ -1051,7 +1508,8 @@
         "rand al'thor",
         "perrin aybara",
         "alsbet luhan",
-        "haral luhan"
+        "haral luhan",
+        "padan fain"
       ],
       "places": ["emond's field"],
       "things": [],
@@ -1061,8 +1519,15 @@
       "name": "alsbet luhan",
       "type": "Person",
       "role": "",
-      "people": [],
-      "places": ["emond's field"],
+      "people": [
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
       "things": {},
       "description": ""
     },
@@ -1363,7 +1828,7 @@
         "strom",
         "howal gode"
       ],
-      "places": ["Four Kings", "The Dancing Cartman"],
+      "places": ["four kings", "The Dancing Cartman"],
       "things": {},
       "description": ""
     },
@@ -1379,7 +1844,7 @@
         "strom",
         "howal gode"
       ],
-      "places": ["Four Kings", "The Dancing Cartman"],
+      "places": ["four kings", "The Dancing Cartman"],
       "things": {},
       "description": "Bouncer in the Dancing Cartman"
     },
@@ -1395,7 +1860,7 @@
         "strom",
         "howal gode"
       ],
-      "places": ["Four Kings", "The Dancing Cartman"],
+      "places": ["four kings", "The Dancing Cartman"],
       "things": {},
       "description": "Bouncer in the Dancing Cartman"
     },
@@ -1413,7 +1878,7 @@
         "ishamael"
       ],
       "places": [
-        "Four Kings",
+        "four kings",
         "The Dancing Cartman",
         "whitebridge",
         "Royal Inn"
@@ -1446,7 +1911,7 @@
       "people": ["rand al'thor", "matrim cauthon", "paitr"],
       "places": ["market sheran"],
       "things": [],
-      "description": "Inn keeper of Market Sheran, the first place Rand and Mat stayed at after the Four Kings."
+      "description": "Inn keeper of Market Sheran, the first place Rand and Mat stayed at after the four kings."
     },
     "paitr": {
       "name": "paitr",
@@ -1507,14 +1972,19 @@
         "lan mandragoran",
         "moiraine damodred",
         "egwene al'vere",
-        "nyanaeve al'mera"
+        "nyanaeve al'mera",
+        "aginor",
+        "balthamel",
+        "elder haman"
       ],
       "places": [
         "the queen's blessing",
         "cairhein",
         "tear",
         "illian",
-        "caemlyn"
+        "caemlyn",
+        "eye of the world",
+        "stedding shaingtai"
       ],
       "things": [],
       "description": "90 year old hasty Ogier and future best selling novelest."
@@ -1579,9 +2049,21 @@
         "moiraine damodred",
         "thom merrilin",
         "lan mandragoran",
-        "matrim cauthon"
+        "matrim cauthon",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
       ],
-      "places": ["emond's field"],
+      "places": ["emond's field", "emond's field", "winespring inn"],
       "things": {},
       "description": ""
     },
@@ -1735,7 +2217,8 @@
         "rand al'thor",
         "matrim cauthon",
         "perrin aybara",
-        "howal gode"
+        "howal gode",
+        "padan fain"
       ],
       "places": [],
       "things": {},
@@ -1763,13 +2246,21 @@
       "name": "cloud",
       "type": "Person",
       "role": "",
-      "people": ["rand al'thor"],
+      "people": [
+        "rand al'thor",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
       "places": [
         "emond's field",
         "taren ferry",
         "baerlon",
         "the stag and lion",
-        "shadar logoth"
+        "shadar logoth",
+        "winespring inn"
       ],
       "things": {},
       "description": "Horse Rand rode out of Emond's field, that loved to run. Rand was forced to abandoned him outside shadar logoth. Assumed to be eaten by trollocs."
@@ -1793,7 +2284,7 @@
         "perrin aybara",
         "nyanaeve al'mera"
       ],
-      "places": [],
+      "places": ["taren ferry"],
       "things": {},
       "description": ""
     },
@@ -1801,7 +2292,14 @@
       "name": "mandarb",
       "type": "Person",
       "role": "Lan's Horse",
-      "people": ["lan mandragoran"],
+      "people": [
+        "lan mandragoran",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
       "places": [
         "emond's field",
         "watch hill",
@@ -1813,7 +2311,10 @@
         "caemlyn",
         "the queen's blessing",
         "the ways",
-        "fal dara"
+        "fal dara",
+        "taren ferry",
+        "emond's field",
+        "winespring inn"
       ],
       "things": {},
       "description": "Dark stallion. Trained war mount and almost as bad ass as Lan himself."
@@ -1822,7 +2323,14 @@
       "name": "aldieb",
       "type": "Person",
       "role": "Moiraine's horse",
-      "people": ["moiraine damodred"],
+      "people": [
+        "moiraine damodred",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
       "places": [
         "emond's field",
         "watch hill",
@@ -1834,7 +2342,10 @@
         "caemlyn",
         "the queen's blessing",
         "the ways",
-        "fal dara"
+        "fal dara",
+        "taren ferry",
+        "emond's field",
+        "winespring inn"
       ],
       "things": {},
       "description": "Stark white mare. Typically very calm and collected, just like her rider."
@@ -1854,7 +2365,7 @@
         "padan fain",
         "ingtar shinowa"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "tarwin's gap"],
       "things": {},
       "description": "Old Shienar general. Head Shaved except for a pure white top knot."
     },
@@ -1873,7 +2384,7 @@
         "padan fain",
         "agelmar jagad"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "tarwin's gap"],
       "things": {},
       "description": ""
     },
@@ -1885,6 +2396,636 @@
       "places": ["fal dara", "shienar"],
       "things": {},
       "description": "First man to ask Lan if the Golden Crane will fly again."
+    },
+    "al'akir mandragoran": {
+      "name": "al'akir mandragoran",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "lan mandragoran",
+        "el'leanna mandragoran",
+        "lain mandragoran",
+        "breyan mandragoran",
+        "isam mandragoran",
+        "jain charin",
+        "cowen fairheart"
+      ],
+      "places": ["malkier", "the blight", "stair of jehaan"],
+      "things": {},
+      "description": ""
+    },
+    "el'leanna mandragoran": {
+      "name": "el'leanna mandragoran",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "lan mandragoran",
+        "al'akir mandragoran",
+        "lain mandragoran",
+        "breyan mandragoran",
+        "isam mandragoran",
+        "jain charin",
+        "cowen fairheart"
+      ],
+      "places": ["malkier", "the blight", "stair of jehaan"],
+      "things": {},
+      "description": ""
+    },
+    "lain mandragoran": {
+      "name": "lain mandragoran",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "lan mandragoran",
+        "al'akir mandragoran",
+        "el'leanna mandragoran",
+        "breyan mandragoran",
+        "isam mandragoran",
+        "jain charin",
+        "cowen fairheart"
+      ],
+      "places": ["malkier", "the blight", "sahyol ghul"],
+      "things": {},
+      "description": ""
+    },
+    "breyan mandragoran": {
+      "name": "breyan mandragoran",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "lan mandragoran",
+        "al'akir mandragoran",
+        "el'leanna mandragoran",
+        "lain mandragoran",
+        "isam mandragoran",
+        "jain charin",
+        "cowen fairheart"
+      ],
+      "places": ["malkier"],
+      "things": {},
+      "description": ""
+    },
+    "isam mandragoran": {
+      "name": "isam mandragoran",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "lan mandragoran",
+        "al'akir mandragoran",
+        "el'leanna mandragoran",
+        "lain mandragoran",
+        "breyan mandragoran",
+        "jain charin",
+        "cowen fairheart"
+      ],
+      "places": ["malkier"],
+      "things": {},
+      "description": ""
+    },
+    "jain charin": {
+      "name": "jain charin",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "al'akir mandragoran",
+        "el'leanna mandragoran",
+        "lain mandragoran",
+        "breyan mandragoran",
+        "isam mandragoran",
+        "cowen fairheart"
+      ],
+      "places": ["malkier", "the blight"],
+      "things": {},
+      "description": ""
+    },
+    "cowen fairheart": {
+      "name": "cowen fairheart",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "jain charin",
+        "al'akir mandragoran",
+        "el'leanna mandragoran",
+        "lain mandragoran",
+        "breyan mandragoran",
+        "isam mandragoran"
+      ],
+      "places": ["malkier", "the blight"],
+      "things": {},
+      "description": ""
+    },
+    "someshta": {
+      "name": "someshta",
+      "type": "Person",
+      "role": "The Green Man",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera"
+      ],
+      "places": ["eye of the world"],
+      "things": {},
+      "description": "The Green Man"
+    },
+    "aginor": {
+      "name": "aginor",
+      "type": "Person",
+      "role": "Forsaken",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "balthamel",
+        "loial"
+      ],
+      "places": ["eye of the world"],
+      "things": {},
+      "description": ""
+    },
+    "balthamel": {
+      "name": "balthamel",
+      "type": "Person",
+      "role": "Forsaken",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "aginor",
+        "loial"
+      ],
+      "places": ["eye of the world"],
+      "things": {},
+      "description": ""
+    },
+    "elder haman": {
+      "name": "elder haman",
+      "type": "Person",
+      "role": "",
+      "people": ["loial"],
+      "places": ["stedding shaingtai"],
+      "things": {},
+      "description": ""
+    },
+    "heran adan": {
+      "name": "heran adan",
+      "type": "Person",
+      "role": "",
+      "people": [],
+      "places": ["baerlon"],
+      "things": {},
+      "description": ""
+    },
+    "wit congar": {
+      "name": "wit congar",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "tam al'thor",
+        "rand al'thor",
+        "nyanaeve al'mera",
+        "matrim cauthon",
+        "perrin aybara",
+        "egwene al'vere",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "padan fain",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
+      "things": {},
+      "description": ""
+    },
+    "daise congar": {
+      "name": "daise congar",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "tam al'thor",
+        "rand al'thor",
+        "nyanaeve al'mera",
+        "matrim cauthon",
+        "perrin aybara",
+        "egwene al'vere",
+        "wit congar",
+        "bran al'vere",
+        "marin al'vere",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
+      "things": {},
+      "description": ""
+    },
+    "mistress al'donel": {
+      "name": "mistress al'donel",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "tam al'thor",
+        "rand al'thor",
+        "nyanaeve al'mera",
+        "matrim cauthon",
+        "perrin aybara",
+        "egwene al'vere",
+        "wit congar",
+        "bran al'vere",
+        "marin al'vere",
+        "daise congar",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
+      "things": {},
+      "description": ""
+    },
+    "dav ayellin": {
+      "name": "dav ayellin",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "tam al'thor",
+        "rand al'thor",
+        "nyanaeve al'mera",
+        "matrim cauthon",
+        "perrin aybara",
+        "egwene al'vere",
+        "wit congar",
+        "bran al'vere",
+        "marin al'vere",
+        "daise congar",
+        "mistress al'donel",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
+      "things": {},
+      "description": ""
+    },
+    "elam dowtry": {
+      "name": "elam dowtry",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "tam al'thor",
+        "rand al'thor",
+        "nyanaeve al'mera",
+        "matrim cauthon",
+        "perrin aybara",
+        "egwene al'vere",
+        "wit congar",
+        "bran al'vere",
+        "marin al'vere",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
+      "things": {},
+      "description": ""
+    },
+    "jon thane": {
+      "name": "jon thane",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "tam al'thor",
+        "rand al'thor",
+        "nyanaeve al'mera",
+        "matrim cauthon",
+        "perrin aybara",
+        "egwene al'vere",
+        "wit congar",
+        "bran al'vere",
+        "marin al'vere",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "ewin finngar",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
+      "things": {},
+      "description": ""
+    },
+    "ewin finngar": {
+      "name": "ewin finngar",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "tam al'thor",
+        "rand al'thor",
+        "nyanaeve al'mera",
+        "matrim cauthon",
+        "perrin aybara",
+        "egwene al'vere",
+        "wit congar",
+        "bran al'vere",
+        "marin al'vere",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "moiraine damodred",
+        "lan mandragoran",
+        "thom merrilin",
+        "padan fain",
+        "ewal coplin",
+        "tad barran",
+        "hu barran",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
+      "things": {},
+      "description": ""
+    },
+    "hu barran": {
+      "name": "hu barran",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "padan fain",
+        "bran al'vere",
+        "tad barran",
+        "ewal coplin",
+        "rand al'thor",
+        "alsbet luhan",
+        "marin al'vere",
+        "cloud",
+        "matrim cauthon",
+        "perrin aybara",
+        "thom merrilin",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "aldieb",
+        "mandarb",
+        "tam al'thor",
+        "kari al'thor",
+        "cenn buie",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
+      "things": {},
+      "description": ""
+    },
+    "tad barran": {
+      "name": "tad barran",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "padan fain",
+        "bran al'vere",
+        "hu barran",
+        "ewal coplin",
+        "rand al'thor",
+        "alsbet luhan",
+        "marin al'vere",
+        "cloud",
+        "matrim cauthon",
+        "perrin aybara",
+        "thom merrilin",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "aldieb",
+        "mandarb",
+        "tam al'thor",
+        "kari al'thor",
+        "cenn buie",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
+      "things": {},
+      "description": ""
+    },
+    "ewal coplin": {
+      "name": "ewal coplin",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "tad barran",
+        "hu barran",
+        "rand al'thor",
+        "alsbet luhan",
+        "marin al'vere",
+        "matrim cauthon",
+        "perrin aybara",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "tam al'thor",
+        "bran al'vere",
+        "cenn buie",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "padan fain",
+        "berin thane",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
+      "things": {},
+      "description": ""
+    },
+    "berin thane": {
+      "name": "berin thane",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "tad barran",
+        "hu barran",
+        "rand al'thor",
+        "alsbet luhan",
+        "marin al'vere",
+        "cloud",
+        "matrim cauthon",
+        "perrin aybara",
+        "thom merrilin",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "aldieb",
+        "mandarb",
+        "tam al'thor",
+        "kari al'thor",
+        "bran al'vere",
+        "cenn buie",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "mistress calder",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
+      "things": {},
+      "description": ""
+    },
+    "mistress calder": {
+      "name": "mistress calder",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "berin thane",
+        "tad barran",
+        "hu barran",
+        "rand al'thor",
+        "alsbet luhan",
+        "marin al'vere",
+        "cloud",
+        "matrim cauthon",
+        "perrin aybara",
+        "thom merrilin",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "aldieb",
+        "mandarb",
+        "tam al'thor",
+        "kari al'thor",
+        "bran al'vere",
+        "cenn buie",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin",
+        "abell cauthon"
+      ],
+      "places": ["emond's field", "winespring inn"],
+      "things": {},
+      "description": ""
+    },
+    "abell cauthon": {
+      "name": "abell cauthon",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "mistress calder",
+        "berin thane",
+        "tad barran",
+        "hu barran",
+        "rand al'thor",
+        "alsbet luhan",
+        "marin al'vere",
+        "matrim cauthon",
+        "perrin aybara",
+        "thom merrilin",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "tam al'thor",
+        "kari al'thor",
+        "bran al'vere",
+        "cenn buie",
+        "wit congar",
+        "daise congar",
+        "mistress al'donel",
+        "dav ayellin",
+        "elam dowtry",
+        "jon thane",
+        "ewin finngar",
+        "ewal coplin"
+      ],
+      "places": ["emond's field", "winespring inn"],
+      "things": {},
+      "description": ""
     }
   },
   "things": {
@@ -1932,6 +3073,20 @@
       "people": [],
       "places": ["the ways"],
       "description": "The black wind. A thing similar to mashadar that consumes and kills people. Nobody knows what it really is, or how it came to be."
+    },
+    "seal#1": {
+      "name": "seal#1",
+      "type": "Thing",
+      "people": [],
+      "places": ["eye of the world"],
+      "description": "Found inside the Eye of the World. It was broken when they pulled it out, though the shards were still hard cuendillar."
+    },
+    "dragon banner": {
+      "name": "dragon banner",
+      "type": "Thing",
+      "people": [],
+      "places": ["eye of the world"],
+      "description": "Found inside the Eye of the World."
     }
   }
 }
