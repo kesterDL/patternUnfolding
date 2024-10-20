@@ -10,6 +10,7 @@ const confirmSignUp = (username, confirmationCode) => {
   const cognitoUser = new CognitoUser({
     Username: username,
     Pool: userPool,
+    Prefered,
   });
 
   cognitoUser.confirmRegistration(confirmationCode, true, (err, result) => {

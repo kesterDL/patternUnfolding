@@ -1,29 +1,24 @@
-import React, { useState } from "react";
-import confirmSignUp from "../../user/confirmSignUp";
+import { CognitoUserPool, CognitoUser } from "amazon-cognito-identity-js";
+import cognitoConfig from "./cognitoConfig";
 
-const ConfirmSignUp = () => {
-  const [username, setUsername] = useState("");
-  const [confirmationCode, setConfirmationCode] = useState("");
+const confirmSignUp = (username, confirmationCode) => {
+  const userPool = new CognitoUserPool({
+    UserPoolId: cognitoConfig.UserPoolId,
+    ClientId: cognitoConfig.ClientId,
+  });
 
-  const handleConfirmSignUp = () => {
-    confirmSignUp(username, confirmationCode);
-  };
+  const cognitoUser = new CognitoUser({
+    Username: username,
+    Pool: userPool,
+  });
 
-  return (
-    <div>
-      <input
-        type="text"
-        placeholder="Username"
-        onChange={(e) => setUsername(e.target.value)}
-      />
-      <input
-        type="text"
-        placeholder="Confirmation Code"
-        onChange={(e) => setConfirmationCode(e.target.value)}
-      />
-      <button onClick={handleConfirmSignUp}>Confirm Sign Up</button>
-    </div>
-  );
+  cognitoUser.confirmRegistration(confirmationCode, true, (err, result) => {
+    if (err) {
+      console.error("Error confirming sign-up:", err.message);
+      return;
+    }
+    console.log("Sign-up confirmed:", result);
+  });
 };
 
-export default ConfirmSignUp;
+export default confirmSignUp;

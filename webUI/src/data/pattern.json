@@ -1,4 +1,684 @@
 {
+  "whitebridge": {
+    "name": "whitebridge",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "matrim cauthon",
+      "thom merrilin",
+      "bayle domon",
+      "floran gelb",
+      "padan fain",
+      "howal gode",
+      "lan mandragoran",
+      "moiraine damodred",
+      "nyanaeve al'mera"
+    ],
+    "places": ["wayfarer's rest"],
+    "things": {},
+    "events": {},
+    "description": "A city around the only bridge spanning the Arinelle south of Maradon in Saldaea."
+  },
+  "borderlands": {
+    "name": "Borderlands",
+    "type": "Place",
+    "people": [],
+    "places": ["Arafel", "Kandor", "Shienar", "Saldea"],
+    "things": {},
+    "events": {},
+    "description": "The borderlands are named because they share a border against the Great Blight. Trollocs and Myrdrall (Fades) are a regular occurance in these lands, forcing the borderlanders to be a hard warrior people where all people no matter their occupation must be familar with and capable of using weapons to defend themselves, others, and their animals.  In the borderlands it is illegal to hide your face in a town as a defense against fades, and the towns all have lamps lit during the night."
+  },
+  "arafel": {
+    "name": "Arafel",
+    "type": "Place",
+    "people": ["Paitar Nachiman", "Lady Mahira Svetanya", "Setsuko"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": "One of the borderlands between Shienar to the east and Kandor to the west. Arafel has kings but the queen rules while the king is on campaign. Both the men and women wear their hair in two braids. One braid over each ear which usually fall below the shoulder. Arafellin were generally considered 'touchy' and the men regularly fight duels. The choice of weapon goes to the one challenged. They are known to be creative with the choice such as fighting in a dark room. The women fight duels as well, though rarely, and deny they have done so if they did. Women don't use swords but have been known to use knives, whips, and lances. The primary exports are timber and furs. They also have several gem stone mines that produce firedrops and other gems, as well as gold and silver mines. Like all borderlands it is illegal to hide your face in a town as a defense against fades, and the towns all have lamps lit during the night."
+  },
+  "shienar": {
+    "name": "Shienar",
+    "type": "Place",
+    "people": [
+      "agelmar jagad",
+      "ingtar shinowa",
+      "rand al'thor",
+      "matrim cauthon",
+      "perrin aybara",
+      "lan mandragoran",
+      "moiraine damodred",
+      "egwene al'vere",
+      "nyanaeve al'mera",
+      "padan fain",
+      "ragan"
+    ],
+    "places": [
+      "fal moran",
+      "tarwin's gap",
+      "fal dara",
+      "ankor dail",
+      "mos shirare",
+      "fal sion",
+      "camron caan"
+    ],
+    "things": {},
+    "events": {},
+    "description": "One of the borderland nations with the Spine of the World to the East, Arafel to the West, and the Blight and tarwin's gap to the North. Men shave portions of their head and fashion their hair into top knots, similar to the Japanese Samurai. Women were held in high regard and enjoyed saftey anywhere they went, in shienar a woman's rights were whatever she said they were. shienar had large public bathes of tiled pools were all people bathed together. shienar had a good number of gold mines, and was the largest source of firedrops. Timber and furs also were major exports."
+  },
+  "emond's field": {
+    "name": "emond's field",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "alsbet luhan",
+      "marin al'vere",
+      "cloud",
+      "matrim cauthon",
+      "perrin aybara",
+      "thom merrilin",
+      "lan mandragoran",
+      "moiraine damodred",
+      "egwene al'vere",
+      "nyanaeve al'mera",
+      "aldieb",
+      "mandarb",
+      "tam al'thor",
+      "kari al'thor",
+      "bran al'vere",
+      "cenn buie",
+      "wit congar",
+      "daise congar",
+      "mistress al'donel",
+      "dav ayellin",
+      "elam dowtry",
+      "jon thane",
+      "ewin finngar",
+      "ewal coplin",
+      "tad barran",
+      "hu barran",
+      "padan fain",
+      "berin thane",
+      "mistress calder",
+      "abell cauthon"
+    ],
+    "places": ["winespring inn"],
+    "things": {},
+    "events": {},
+    "description": "Small farming village in the Two Rivers. Home town of the main characters."
+  },
+  "watch hill": {
+    "name": "watch hill",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "matrim cauthon",
+      "perrin aybara",
+      "thom merrilin",
+      "lan mandragoran",
+      "moiraine damodred",
+      "egwene al'vere",
+      "nyanaeve al'mera"
+    ],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": "Small farming village in the Two Rivers close to Emond's Field."
+  },
+  "taren ferry": {
+    "name": "taren ferry",
+    "type": "Place",
+    "people": [
+      "perrin aybara",
+      "cloud",
+      "rand al'thor",
+      "matrim cauthon",
+      "thom merrilin",
+      "lan mandragoran",
+      "moiraine damodred",
+      "egwene al'vere",
+      "nyanaeve al'mera",
+      "bella",
+      "aldieb",
+      "mandarb"
+    ],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "baerlon": {
+    "name": "baerlon",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "avin",
+      "master fitch",
+      "Ara",
+      "Mari",
+      "Cinda",
+      "Min",
+      "cloud",
+      "heran adan"
+    ],
+    "places": ["the stag and lion"],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "dragonmount": {
+    "name": "dragonmount",
+    "type": "Place",
+    "people": ["rand al'thor"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "shadar logoth": {
+    "name": "shadar logoth",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "mordeth",
+      "matrim cauthon",
+      "perrin aybara",
+      "nyanaeve al'mera",
+      "moraine damodred",
+      "lan mandragoran",
+      "egwene al'vere",
+      "balwen mayel",
+      "caar",
+      "thorin al'torin al ban",
+      "cloud"
+    ],
+    "places": [],
+    "things": {
+      "Mashadar": "The evil born from Aridhol that lives deep in the bed rock of the city."
+    },
+    "events": {},
+    "description": "Formerly known as Aridhol, Shadar Logoth (The place where the shadow waits or shadow's waiting)."
+  },
+  "the stag and lion": {
+    "name": "The Stag and Lion",
+    "type": "Place",
+    "people": ["ara", "mari", "cinda", "min", "master fitch", "cloud"],
+    "places": ["baerlon"],
+    "things": {},
+    "events": {},
+    "description": "Inn where Min grew up and the Emond's Field crew stayed on their way out of the Two Rivers."
+  },
+  "illian": {
+    "name": "illian",
+    "type": "Place",
+    "people": ["loial", "kari al'thor"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "tar valon": {
+    "name": "tar valon",
+    "type": "Place",
+    "people": ["lan mandragoran", "elyas machera"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "wayfarer's rest": {
+    "name": "wayfarer's rest",
+    "type": "Place",
+    "people": [
+      "padan fain",
+      "rand al'thor",
+      "matrim cauthon",
+      "thom merrilin",
+      "floran gelb"
+    ],
+    "places": ["whitebridge"],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "raen's tinker camp": {
+    "name": "raen's tinker camp",
+    "type": "Place",
+    "people": [
+      "perrin aybara",
+      "egwene al'vere",
+      "elyas machera",
+      "raen",
+      "ila"
+    ],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "arutur hawkwing's steading": {
+    "name": "arutur hawkwing's steading",
+    "type": "Place",
+    "people": [
+      "perrin aybara",
+      "egwene al'vere",
+      "elyas machera",
+      "jaret byar",
+      "geofram bornhald"
+    ],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": "A steading at least a day outside of Caemlyn where Perrin and Egwene first encountered Lord Bornhald and Child Byar."
+  },
+  "grinwell's farm": {
+    "name": "grinwell's farm",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "matrim cauthon",
+      "mistress grinwell",
+      "master grinwell"
+    ],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "four kings": {
+    "name": "four kings",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "matrim cauthon",
+      "saml hake",
+      "jak",
+      "strom",
+      "howal gode"
+    ],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "The Dancing Cartman": {
+    "name": "The Dancing Cartman",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "matrim cauthon",
+      "saml hake",
+      "jak",
+      "strom",
+      "howal gode"
+    ],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "Royal Inn": {
+    "name": "Royal Inn",
+    "type": "Place",
+    "people": ["howal gode"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "Arien": {
+    "name": "Arien",
+    "type": "Place",
+    "people": ["rand al'thor", "matrim cauthon", "eazil fortney"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": "First town after the Grinwell's farm on the road to Caemlyn where Rand and Mat first tried out their Gleeman skills."
+  },
+  "market sheran": {
+    "name": "market sheran",
+    "type": "Place",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "the queen's man": {
+    "name": "the queen's man",
+    "type": "Place",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "goose and crown": {
+    "name": "goose and crown",
+    "type": "Place",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "the queen's blessing": {
+    "name": "the queen's blessing",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "matrim cauthon",
+      "lamgwin dorn",
+      "lan mandragoran",
+      "moiraine damodred",
+      "nyanaeve al'mera",
+      "basil gill",
+      "thom merrilin",
+      "ramey",
+      "red"
+    ],
+    "places": ["caemlyn"],
+    "things": {},
+    "events": {},
+    "description": "The inn where Thom Merrilin told Rand and Mat to go to in Caemlyn. The inn keeper Basil Gill is fiercly loyal to the queen."
+  },
+  "breen's sprint": {
+    "name": "breen's sprint",
+    "type": "Place",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "carysford": {
+    "name": "carysford",
+    "type": "Place",
+    "people": ["rand al'thor", "matrim cauthon"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": "Village on the road to Caemlyn next to the River Cary. Three days of travel from four kings. Two from Market Sheran. One day from The Queen's Man. Chapter 34"
+  },
+  "caemlyn": {
+    "name": "caemlyn",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "matrim cauthon",
+      "loial",
+      "lamgwin dorn",
+      "lan mandragoran",
+      "moiraine damodred",
+      "nyanaeve al'mera",
+      "basil gill",
+      "padan fain",
+      "elayne trakand",
+      "gawyn trakand",
+      "galadedrid damodred",
+      "martyn tallanvor",
+      "morgase trakand",
+      "gareth bryne",
+      "elaida a'roihan",
+      "logain ablar",
+      "tarangail damodred",
+      "thom merrilin",
+      "ramey",
+      "red"
+    ],
+    "places": ["the crown and lion", "the queen's blessing"],
+    "things": {},
+    "events": {},
+    "description": "Captial of Andor"
+  },
+  "cairhein": {
+    "name": "cairhein",
+    "type": "Place",
+    "people": ["loial"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "tear": {
+    "name": "tear",
+    "type": "Place",
+    "people": ["loial"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "the crown and lion": {
+    "name": "the crown and lion",
+    "type": "Place",
+    "people": ["rand al'thor"],
+    "places": ["caemlyn"],
+    "things": {},
+    "events": {},
+    "description": "Rand told Elaida he was staying in the crown and lion during their first meeting."
+  },
+  "the ways": {
+    "name": "the ways",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "matrim cauthon",
+      "perrin aybara",
+      "lan mandragoran",
+      "moiraine damodred",
+      "egwene al'vere",
+      "nyanaeve al'mera",
+      "red"
+    ],
+    "places": [],
+    "things": { "machin shin": "the black wind" },
+    "events": {},
+    "description": ""
+  },
+  "fal dara": {
+    "name": "fal dara",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "matrim cauthon",
+      "perrin aybara",
+      "lan mandragoran",
+      "moiraine damodred",
+      "egwene al'vere",
+      "nyanaeve al'mera",
+      "padan fain",
+      "red",
+      "agelmar jagad",
+      "ingtar shinowa",
+      "ragan"
+    ],
+    "places": ["shienar"],
+    "things": {},
+    "events": {},
+    "description": "Once called Mafal Dadaranell before the trolloc wars, it is the northern most city in Shienar and closest city to the blight."
+  },
+  "malkier": {
+    "name": "malkier",
+    "type": "Place",
+    "people": [
+      "jain charin",
+      "al'akir mandragoran",
+      "el'leanna mandragoran",
+      "lain mandragoran",
+      "breyan mandragoran",
+      "isam mandragoran",
+      "cowen fairheart",
+      "rand al'thor",
+      "matrim cauthon",
+      "perrin aybara",
+      "lan mandragoran",
+      "moiraine damodred",
+      "egwene al'vere",
+      "nyanaeve al'mera"
+    ],
+    "places": ["stair of jehaan", "the blight"],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "the blight": {
+    "name": "the blight",
+    "type": "Place",
+    "people": [
+      "jain charin",
+      "al'akir mandragoran",
+      "el'leanna mandragoran",
+      "lain mandragoran",
+      "cowen fairheart",
+      "rand al'thor",
+      "matrim cauthon",
+      "perrin aybara",
+      "lan mandragoran",
+      "moiraine damodred",
+      "egwene al'vere",
+      "nyanaeve al'mera",
+      "padan fain"
+    ],
+    "places": ["stair of jehaan", "malkier"],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "stair of jehaan": {
+    "name": "stair of jehaan",
+    "type": "Place",
+    "people": ["al'akir mandragoran", "el'leanna mandragoran"],
+    "places": ["the blight", "malkier"],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "tarwin's gap": {
+    "name": "tarwin's gap",
+    "type": "Place",
+    "people": ["agelmar jagad", "ingtar shinowa", "rand al'thor"],
+    "places": ["shienar"],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "murandy": {
+    "name": "murandy",
+    "type": "Place",
+    "people": ["padan fain"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "sahyol ghul": {
+    "name": "sahyol ghul",
+    "type": "Place",
+    "people": ["padan fain", "lain mandragoran"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "two rivers": {
+    "name": "two rivers",
+    "type": "Place",
+    "people": [],
+    "places": ["emond's field", "taren ferry", "watch hill", "deven ride"],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "lugard": {
+    "name": "lugard",
+    "type": "Place",
+    "people": ["padan fain"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "eye of the world": {
+    "name": "eye of the world",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "matrim cauthon",
+      "perrin aybara",
+      "lan mandragoran",
+      "moiraine damodred",
+      "egwene al'vere",
+      "nyanaeve al'mera",
+      "someshta",
+      "balthamel",
+      "aginor",
+      "loial"
+    ],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "stedding shaingtai": {
+    "name": "stedding shaingtai",
+    "type": "Place",
+    "people": ["loial", "elder haman"],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "deven ride": {
+    "name": "deven ride",
+    "type": "Place",
+    "people": ["mavra mallen"],
+    "places": ["two rivers"],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
+  "winespring inn": {
+    "name": "winespring inn",
+    "type": "Place",
+    "people": [
+      "rand al'thor",
+      "alsbet luhan",
+      "marin al'vere",
+      "cloud",
+      "matrim cauthon",
+      "perrin aybara",
+      "thom merrilin",
+      "lan mandragoran",
+      "moiraine damodred",
+      "egwene al'vere",
+      "nyanaeve al'mera",
+      "aldieb",
+      "mandarb",
+      "tam al'thor",
+      "kari al'thor",
+      "bran al'vere",
+      "cenn buie",
+      "wit congar",
+      "daise congar",
+      "mistress al'donel",
+      "dav ayellin",
+      "elam dowtry",
+      "jon thane",
+      "ewin finngar",
+      "ewal coplin",
+      "tad barran",
+      "hu barran",
+      "padan fain",
+      "berin thane",
+      "mistress calder",
+      "abell cauthon"
+    ],
+    "places": [],
+    "things": {},
+    "events": {},
+    "description": ""
+  },
   "rand al'thor": {
     "name": "rand al'thor",
     "type": "Person",
@@ -67,6 +747,7 @@
     "places": [
       "dragonmount",
       "emond's field",
+      "winespring inn",
       "watch hill",
       "taren ferry",
       "baerlon",
@@ -92,44 +773,10 @@
       "malkier",
       "eye of the world",
       "tarwin's gap",
-      "winespring inn"
+      "fal dara"
     ],
     "things": {},
     "description": "Tall with Red Hair. Likes Red Coats and sword fights."
-  },
-  "easar togita": {
-    "name": "Easar Togita",
-    "type": "Person",
-    "role": "King of Shienar",
-    "people": ["lan mandragoran", "rand al'thor"],
-    "places": ["shienar", "tarwin's gap"],
-    "things": {},
-    "description": "King of Shienar. Stood about 5ft 7in tall with an unwrinkled slim square face. In the style of shienaran men he shaved his head except for a white top knot. Hosted the party from the Eye of the World at his manor. Provided aid to the WoT's heros on several occasions. Notably he backhanded Rand to test if he really was the Dragon, and writes poetry. In Japanese 'Togita' translates to 'Sharpened'."
-  },
-  "paitar nachiman": {
-    "name": "Paitar Nachiman",
-    "type": "Person",
-    "role": "King of Arafel",
-    "people": [],
-    "places": [],
-    "things": {},
-    "description": "Paitar Neramovni Nachiman, King of Arafel. name comes from the Japanese god of archery and war Hachiman."
-  },
-  "ethenielle materasu": {
-    "name": "Ethenielle Materasu",
-    "type": "Person",
-    "role": "Queen of Kandor",
-    "people": [
-      "lan mandragoran",
-      "Kalyan Ramsin",
-      "Diryk",
-      "Brys Noramaga",
-      "Merean Redhill",
-      "moiraine damodred"
-    ],
-    "places": ["Kandor"],
-    "things": {},
-    "description": "Queen of Kandor. Shield of the North. Highseat of House Materasu. 5ft 4in tall and buxom with blue eyes and black hair with whisps of gray. Married Brys Noramaga who was murdered by Merean Redhill of the Black Ajah along with their son. Fought in the Last Battle with Lan's army. Her family likely derives from the Japanese Sun Goddess 'Amaterasu', which translates to English as 'Heaven's Shining Light'."
   },
   "matrim cauthon": {
     "name": "matrim cauthon",
@@ -184,6 +831,7 @@
     ],
     "places": [
       "emond's field",
+      "winespring inn",
       "watch hill",
       "taren ferry",
       "baerlon",
@@ -207,7 +855,7 @@
       "the blight",
       "malkier",
       "eye of the world",
-      "winespring inn"
+      "fal dara"
     ],
     "things": {},
     "description": ""
@@ -251,20 +899,22 @@
     ],
     "places": [
       "emond's field",
+      "winespring inn",
       "watch hill",
       "taren ferry",
       "baerlon",
       "shadar logoth",
-      "shadar logoth",
       "raen's tinker camp",
       "arutur hawkwing's steading",
+      "caemlyn",
+      "the queen's blessing",
       "the ways",
       "fal dara",
       "shienar",
       "the blight",
       "malkier",
       "eye of the world",
-      "winespring inn"
+      "fal dara"
     ],
     "things": {},
     "description": ""
@@ -272,7 +922,7 @@
   "master hightower": {
     "name": "master hightower",
     "type": "Person",
-    "role": "",
+    "role": "Ferry Man into and out of the two rivers",
     "people": ["lan mandragoran", "nyanaeve al'mera"],
     "places": ["taren ferry"],
     "things": {},
@@ -283,7 +933,7 @@
     "type": "Person",
     "role": "Warder and King of Malkier",
     "people": [
-      "Avin",
+      "avin",
       "ara",
       "geofram bornhald",
       "nyanaeve al'mera",
@@ -315,6 +965,7 @@
     ],
     "places": [
       "emond's field",
+      "winespring inn",
       "watch hill",
       "taren ferry",
       "baerlon",
@@ -328,8 +979,7 @@
       "shienar",
       "the blight",
       "malkier",
-      "eye of the world",
-      "winespring inn"
+      "eye of the world"
     ],
     "things": {},
     "description": ""
@@ -371,6 +1021,7 @@
     ],
     "places": [
       "emond's field",
+      "winespring inn",
       "watch hill",
       "taren ferry",
       "baerlon",
@@ -386,8 +1037,7 @@
       "malkier",
       "eye of the world",
       "watch hill",
-      "taren ferry",
-      "winespring inn"
+      "taren ferry"
     ],
     "things": { "woman in flowing robes": "" },
     "description": ""
@@ -395,7 +1045,7 @@
   "avin": {
     "name": "avin",
     "type": "Person",
-    "role": "",
+    "role": "Gate Guard",
     "people": [
       "lan mandragoran",
       "moiraine damodred",
@@ -411,7 +1061,7 @@
     "name": "master fitch",
     "type": "Person",
     "role": "Inn Keeper of The Stag and Lion",
-    "people": ["ara", "mari", "cinda", "min", "master fitch", "mutch"],
+    "people": ["ara", "mari", "cinda", "min", "mutch"],
     "places": ["the stag and lion"],
     "things": [],
     "description": "Inn keeper of The Stag and Lion in Baerlon. Round man that wears a white apron and has wispy hair sticking out in all directions."
@@ -434,7 +1084,7 @@
     "name": "mari",
     "type": "Person",
     "role": "Inn Maid",
-    "people": ["Master Fitch"],
+    "people": ["master fitch"],
     "places": ["the stag and lion"],
     "things": {},
     "description": ""
@@ -443,7 +1093,7 @@
     "name": "cinda",
     "type": "Person",
     "role": "Inn Maid",
-    "people": ["Master Fitch"],
+    "people": ["master fitch"],
     "places": ["the stag and lion"],
     "things": {},
     "description": ""
@@ -1521,22 +2171,15 @@
   "cloud": {
     "name": "cloud",
     "type": "Person",
-    "role": "",
-    "people": [
-      "rand al'thor",
-      "tad barran",
-      "hu barran",
-      "berin thane",
-      "mistress calder",
-      "abell cauthon"
-    ],
+    "role": "Rand's Horse",
+    "people": ["rand al'thor", "tad barran", "hu barran"],
     "places": [
       "emond's field",
+      "winespring inn",
       "taren ferry",
       "baerlon",
       "the stag and lion",
-      "shadar logoth",
-      "winespring inn"
+      "shadar logoth"
     ],
     "things": {},
     "description": "Horse Rand rode out of Emond's field, that loved to run. Rand was forced to abandoned him outside shadar logoth. Assumed to be eaten by trollocs."
@@ -1544,17 +2187,18 @@
   "red": {
     "name": "red",
     "type": "Person",
-    "role": "",
+    "role": "Rand's Horse",
     "people": ["rand al'thor"],
     "places": ["the queen's blessing", "caemlyn", "the ways", "fal dara"],
     "things": {},
-    "description": ""
+    "description": "Horse Rand rode out of the Queen's Blessing and into the blight."
   },
   "bella": {
     "name": "bella",
     "type": "Person",
-    "role": "",
+    "role": "The Creator",
     "people": [
+      "tam al'thor",
       "rand al'thor",
       "egwene al'vere",
       "perrin aybara",
@@ -1562,20 +2206,13 @@
     ],
     "places": ["taren ferry"],
     "things": {},
-    "description": ""
+    "description": "Tam al'Thor's farm horse."
   },
   "mandarb": {
     "name": "mandarb",
     "type": "Person",
     "role": "Lan's Horse",
-    "people": [
-      "lan mandragoran",
-      "tad barran",
-      "hu barran",
-      "berin thane",
-      "mistress calder",
-      "abell cauthon"
-    ],
+    "people": ["lan mandragoran", "tad barran", "hu barran"],
     "places": [
       "emond's field",
       "watch hill",
@@ -1599,14 +2236,7 @@
     "name": "aldieb",
     "type": "Person",
     "role": "Moiraine's horse",
-    "people": [
-      "moiraine damodred",
-      "tad barran",
-      "hu barran",
-      "berin thane",
-      "mistress calder",
-      "abell cauthon"
-    ],
+    "people": ["moiraine damodred", "tad barran", "hu barran"],
     "places": [
       "emond's field",
       "watch hill",
@@ -2199,16 +2829,10 @@
       "rand al'thor",
       "alsbet luhan",
       "marin al'vere",
-      "cloud",
       "matrim cauthon",
       "perrin aybara",
-      "thom merrilin",
-      "lan mandragoran",
-      "moiraine damodred",
       "egwene al'vere",
       "nyanaeve al'mera",
-      "aldieb",
-      "mandarb",
       "tam al'thor",
       "kari al'thor",
       "bran al'vere",
@@ -2281,9 +2905,6 @@
       "marin al'vere",
       "matrim cauthon",
       "perrin aybara",
-      "thom merrilin",
-      "lan mandragoran",
-      "moiraine damodred",
       "egwene al'vere",
       "nyanaeve al'mera",
       "tam al'thor",
@@ -2303,711 +2924,63 @@
     "things": {},
     "description": ""
   },
-  "whitebridge": {
-    "name": "whitebridge",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "matrim cauthon",
-      "thom merrilin",
-      "bayle domon",
-      "floran gelb",
-      "padan fain",
-      "howal gode",
-      "lan mandragoran",
-      "moiraine damodred",
-      "nyanaeve al'mera"
-    ],
-    "places": ["wayfarer's rest"],
-    "things": {},
+  "woman in flowing robes": {
+    "name": "woman in flowing robes",
+    "type": "Thing",
+    "people": ["moiraine damodred"],
+    "places": [],
     "events": {},
-    "description": "A city around the only bridge spanning the Arinelle south of Maradon in Saldaea."
+    "description": ""
   },
-  "borderlands": {
-    "name": "Borderlands",
-    "type": "Place",
+  "tam's sword": {
+    "name": "tam's sword",
+    "type": "Thing",
+    "people": ["tam al'thor", "rand al'thor"],
+    "places": ["illian", "emond's field"],
+    "events": {},
+    "description": ""
+  },
+  "lan's sword": {
+    "name": "lan's sword",
+    "type": "Thing",
+    "people": ["lan mandragoran"],
+    "places": [],
+    "events": {},
+    "description": ""
+  },
+  "mashadar": {
+    "name": "mashadar",
+    "type": "Thing",
     "people": [],
-    "places": ["Arafel", "Kandor", "Shienar", "Saldea"],
-    "things": {},
-    "events": {},
-    "description": "The borderlands are named because they share a border against the Great Blight. Trollocs and Myrdrall (Fades) are a regular occurance in these lands, forcing the borderlanders to be a hard warrior people where all people no matter their occupation must be familar with and capable of using weapons to defend themselves, others, and their animals.  In the borderlands it is illegal to hide your face in a town as a defense against fades, and the towns all have lamps lit during the night."
+    "places": ["shadar logoth"],
+    "description": "The evil born from Aridhol that lives deep in the bed rock of the city."
   },
-  "arafel": {
-    "name": "Arafel",
-    "type": "Place",
-    "people": ["Paitar Nachiman", "Lady Mahira Svetanya", "Setsuko"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": "One of the borderlands between Shienar to the east and Kandor to the west. Arafel has kings but the queen rules while the king is on campaign. Both the men and women wear their hair in two braids. One braid over each ear which usually fall below the shoulder. Arafellin were generally considered 'touchy' and the men regularly fight duels. The choice of weapon goes to the one challenged. They are known to be creative with the choice such as fighting in a dark room. The women fight duels as well, though rarely, and deny they have done so if they did. Women don't use swords but have been known to use knives, whips, and lances. The primary exports are timber and furs. They also have several gem stone mines that produce firedrops and other gems, as well as gold and silver mines. Like all borderlands it is illegal to hide your face in a town as a defense against fades, and the towns all have lamps lit during the night."
-  },
-  "shienar": {
-    "name": "Shienar",
-    "type": "Place",
-    "people": [
-      "Easar Togita",
-      "Lady Merean Tihomar",
-      "agelmar jagad",
-      "ingtar shinowa",
-      "rand al'thor",
-      "matrim cauthon",
-      "perrin aybara",
-      "lan mandragoran",
-      "moiraine damodred",
-      "egwene al'vere",
-      "nyanaeve al'mera",
-      "padan fain",
-      "ragan"
-    ],
-    "places": [
-      "fal moran",
-      "tarwin's gap",
-      "fal dara",
-      "ankor dail",
-      "mos shirare",
-      "fal sion",
-      "camron caan"
-    ],
-    "things": {},
-    "events": {},
-    "description": "One of the borderland nations with the Spine of the World to the East, Arafel to the West, and the Blight and tarwin's gap to the North. Men shave portions of their head and fashion their hair into top knots, similar to the Japanese Samurai. Women were held in high regard and enjoyed saftey anywhere they went, in shienar a woman's rights were whatever she said they were. shienar had large public bathes of tiled pools were all people bathed together. shienar had a good number of gold mines, and was the largest source of firedrops. Timber and furs also were major exports."
-  },
-  "kandor": {
-    "name": "Kandor",
-    "type": "Place",
-    "people": ["Ethenielle Materasu"],
-    "places": ["Chachin"],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "chachin": {
-    "name": "Chachin",
-    "type": "Place",
-    "people": ["Ethenielle Materasu"],
-    "places": [
-      "The Silver Penny",
-      "The Ruffled Goose",
-      "Evening Star",
-      "Blind Pig"
-    ],
-    "things": {
-      "the strike at shayol ghul": "Fragment of a manuscript reavealing significant aspects on the War of the Shadow."
-    },
-    "events": {},
-    "description": "Located at a cross roads for the Borderlands for roads leading to Tar Valon, Bandar Evan and Fal Moran. Comparable in size to Tear. Noteably the main events of A New Spring and where Lan was bonded to Moiraine."
-  },
-  "emond's field": {
-    "name": "emond's field",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "alsbet luhan",
-      "marin al'vere",
-      "cloud",
-      "matrim cauthon",
-      "perrin aybara",
-      "thom merrilin",
-      "lan mandragoran",
-      "moiraine damodred",
-      "egwene al'vere",
-      "nyanaeve al'mera",
-      "aldieb",
-      "mandarb",
-      "tam al'thor",
-      "kari al'thor",
-      "bran al'vere",
-      "cenn buie",
-      "wit congar",
-      "daise congar",
-      "mistress al'donel",
-      "dav ayellin",
-      "elam dowtry",
-      "jon thane",
-      "ewin finngar",
-      "ewal coplin",
-      "tad barran",
-      "hu barran",
-      "padan fain",
-      "berin thane",
-      "mistress calder",
-      "abell cauthon"
-    ],
-    "places": ["winespring inn"],
-    "things": {},
-    "events": {},
-    "description": "Small farming village in the Two Rivers. Home town of the main characters."
-  },
-  "watch hill": {
-    "name": "watch hill",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "matrim cauthon",
-      "perrin aybara",
-      "thom merrilin",
-      "lan mandragoran",
-      "moiraine damodred",
-      "egwene al'vere",
-      "nyanaeve al'mera"
-    ],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": "Small farming village in the Two Rivers close to Emond's Field."
-  },
-  "taren ferry": {
-    "name": "taren ferry",
-    "type": "Place",
-    "people": [
-      "perrin aybara",
-      "cloud",
-      "rand al'thor",
-      "matrim cauthon",
-      "thom merrilin",
-      "lan mandragoran",
-      "moiraine damodred",
-      "egwene al'vere",
-      "nyanaeve al'mera",
-      "bella",
-      "aldieb",
-      "mandarb"
-    ],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "baerlon": {
-    "name": "baerlon",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "Avin",
-      "Master Fitch",
-      "Ara",
-      "Mari",
-      "Cinda",
-      "Min",
-      "cloud",
-      "heran adan"
-    ],
-    "places": ["the stag and lion"],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "dragonmount": {
-    "name": "dragonmount",
-    "type": "Place",
-    "people": ["rand al'thor"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "shadar logoth": {
-    "name": "shadar logoth",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "mordeth",
-      "matrim cauthon",
-      "perrin aybara",
-      "nyanaeve al'mera",
-      "moraine damodred",
-      "lan mandragoran",
-      "egwene al'vere",
-      "balwen mayel",
-      "caar",
-      "thorin al'torin al ban",
-      "cloud"
-    ],
-    "places": [],
-    "things": {
-      "Mashadar": "The evil born from Aridhol that lives deep in the bed rock of the city."
-    },
-    "events": {},
-    "description": "Formerly known as Aridhol, Shadar Logoth (The place where the shadow waits or shadow's waiting)."
-  },
-  "the stag and lion": {
-    "name": "The Stag and Lion",
-    "type": "Place",
-    "people": ["ara", "mari", "cinda", "min", "master fitch", "cloud"],
-    "places": ["baerlon"],
-    "things": {},
-    "events": {},
-    "description": "Inn where Min grew up and the Emond's Field crew stayed on their way out of the Two Rivers."
-  },
-  "illian": {
-    "name": "illian",
-    "type": "Place",
-    "people": ["loial", "kari al'thor"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "tar valon": {
-    "name": "tar valon",
-    "type": "Place",
-    "people": ["lan mandragoran", "elyas machera"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "wayfarer's rest": {
-    "name": "wayfarer's rest",
-    "type": "Place",
-    "people": [
-      "padan fain",
-      "rand al'thor",
-      "matrim cauthon",
-      "thom merrilin",
-      "floran gelb"
-    ],
-    "places": ["whitebridge"],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "raen's tinker camp": {
-    "name": "raen's tinker camp",
-    "type": "Place",
-    "people": [
-      "perrin aybara",
-      "egwene al'vere",
-      "elyas machera",
-      "raen",
-      "ila"
-    ],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "arutur hawkwing's steading": {
-    "name": "arutur hawkwing's steading",
-    "type": "Place",
-    "people": [
-      "perrin aybara",
-      "egwene al'vere",
-      "elyas machera",
-      "jaret byar",
-      "geofram bornhald"
-    ],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": "A steading at least a day outside of Caemlyn where Perrin and Egwene first encountered Lord Bornhald and Child Byar."
-  },
-  "grinwell's farm": {
-    "name": "grinwell's farm",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "matrim cauthon",
-      "mistress grinwell",
-      "master grinwell"
-    ],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "four kings": {
-    "name": "four kings",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "matrim cauthon",
-      "saml hake",
-      "jak",
-      "strom",
-      "howal gode"
-    ],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "The Dancing Cartman": {
-    "name": "The Dancing Cartman",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "matrim cauthon",
-      "saml hake",
-      "jak",
-      "strom",
-      "howal gode"
-    ],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "Royal Inn": {
-    "name": "Royal Inn",
-    "type": "Place",
-    "people": ["howal gode"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "Arien": {
-    "name": "Arien",
-    "type": "Place",
-    "people": ["rand al'thor", "matrim cauthon", "eazil fortney"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": "First town after the Grinwell's farm on the road to Caemlyn where Rand and Mat first tried out their Gleeman skills."
-  },
-  "market sheran": {
-    "name": "market sheran",
-    "type": "Place",
-    "people": ["rand al'thor", "matrim cauthon"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "the queen's man": {
-    "name": "the queen's man",
-    "type": "Place",
-    "people": ["rand al'thor", "matrim cauthon"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "goose and crown": {
-    "name": "goose and crown",
-    "type": "Place",
-    "people": ["rand al'thor", "matrim cauthon"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "the queen's blessing": {
-    "name": "the queen's blessing",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "matrim cauthon",
-      "lamgwin dorn",
-      "lan mandragoran",
-      "moiraine damodred",
-      "nyanaeve al'mera",
-      "basil gill",
-      "thom merrilin",
-      "ramey",
-      "red"
-    ],
-    "places": ["caemlyn"],
-    "things": {},
-    "events": {},
-    "description": "The inn where Thom Merrilin told Rand and Mat to go to in Caemlyn. The inn keeper Basil Gill is fiercly loyal to the queen."
-  },
-  "breen's sprint": {
-    "name": "breen's sprint",
-    "type": "Place",
-    "people": ["rand al'thor", "matrim cauthon"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "carysford": {
-    "name": "carysford",
-    "type": "Place",
-    "people": ["rand al'thor", "matrim cauthon"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": "Village on the road to Caemlyn next to the River Cary. Three days of travel from four kings. Two from Market Sheran. One day from The Queen's Man. Chapter 34"
-  },
-  "caemlyn": {
-    "name": "caemlyn",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "matrim cauthon",
-      "loial",
-      "lamgwin dorn",
-      "lan mandragoran",
-      "moiraine damodred",
-      "nyanaeve al'mera",
-      "basil gill",
-      "padan fain",
-      "elayne trakand",
-      "gawyn trakand",
-      "galadedrid damodred",
-      "martyn tallanvor",
-      "morgase trakand",
-      "gareth bryne",
-      "elaida a'roihan",
-      "logain ablar",
-      "tarangail damodred",
-      "thom merrilin",
-      "ramey",
-      "red"
-    ],
-    "places": ["the crown and lion", "the queen's blessing"],
-    "things": {},
-    "events": {},
-    "description": "Captial of Andor"
-  },
-  "cairhein": {
-    "name": "cairhein",
-    "type": "Place",
-    "people": ["loial"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "tear": {
-    "name": "tear",
-    "type": "Place",
-    "people": ["loial"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "the crown and lion": {
-    "name": "the crown and lion",
-    "type": "Place",
-    "people": ["rand al'thor"],
-    "places": ["caemlyn"],
-    "things": {},
-    "events": {},
-    "description": "Rand told Elaida he was staying in the crown and lion during their first meeting."
-  },
-  "the ways": {
-    "name": "the ways",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "matrim cauthon",
-      "perrin aybara",
-      "lan mandragoran",
-      "moiraine damodred",
-      "egwene al'vere",
-      "nyanaeve al'mera",
-      "red"
-    ],
-    "places": [],
-    "things": { "machin shin": "the black wind" },
-    "events": {},
-    "description": ""
-  },
-  "fal dara": {
-    "name": "fal dara",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "matrim cauthon",
-      "perrin aybara",
-      "lan mandragoran",
-      "moiraine damodred",
-      "egwene al'vere",
-      "nyanaeve al'mera",
-      "padan fain",
-      "red",
-      "agelmar jagad",
-      "ingtar shinowa",
-      "ragan"
-    ],
-    "places": ["shienar"],
-    "things": {},
-    "events": {},
-    "description": "Once called Mafal Dadaranell before the trolloc wars, it is the northern most city in Shienar and closest city to the blight."
-  },
-  "malkier": {
-    "name": "malkier",
-    "type": "Place",
-    "people": [
-      "jain charin",
-      "al'akir mandragoran",
-      "el'leanna mandragoran",
-      "lain mandragoran",
-      "breyan mandragoran",
-      "isam mandragoran",
-      "cowen fairheart",
-      "rand al'thor",
-      "matrim cauthon",
-      "perrin aybara",
-      "lan mandragoran",
-      "moiraine damodred",
-      "egwene al'vere",
-      "nyanaeve al'mera"
-    ],
-    "places": ["stair of jehaan", "the blight"],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "the blight": {
-    "name": "the blight",
-    "type": "Place",
-    "people": [
-      "jain charin",
-      "al'akir mandragoran",
-      "el'leanna mandragoran",
-      "lain mandragoran",
-      "cowen fairheart",
-      "rand al'thor",
-      "matrim cauthon",
-      "perrin aybara",
-      "lan mandragoran",
-      "moiraine damodred",
-      "egwene al'vere",
-      "nyanaeve al'mera",
-      "padan fain"
-    ],
-    "places": ["stair of jehaan", "malkier"],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "stair of jehaan": {
-    "name": "stair of jehaan",
-    "type": "Place",
-    "people": ["al'akir mandragoran", "el'leanna mandragoran"],
-    "places": ["the blight", "malkier"],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "tarwin's gap": {
-    "name": "tarwin's gap",
-    "type": "Place",
-    "people": ["agelmar jagad", "ingtar shinowa", "rand al'thor"],
-    "places": ["shienar"],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "murandy": {
-    "name": "murandy",
-    "type": "Place",
-    "people": ["padan fain"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "sahyol ghul": {
-    "name": "sahyol ghul",
-    "type": "Place",
-    "people": ["padan fain", "lain mandragoran"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "two rivers": {
-    "name": "two rivers",
-    "type": "Place",
+  "the strike at shayol ghul": {
+    "name": "the strike at shayol ghul",
+    "type": "Thing",
     "people": [],
-    "places": ["emond's field", "taren ferry", "watch hill", "deven ride"],
-    "things": {},
-    "events": {},
-    "description": ""
+    "places": ["chachin"],
+    "description": "Fragment of a manuscript reavealing significant aspects on the War of the Shadow."
   },
-  "lugard": {
-    "name": "lugard",
-    "type": "Place",
-    "people": ["padan fain"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
+  "machin shin": {
+    "name": "machin shin",
+    "type": "Thing",
+    "people": [],
+    "places": ["the ways"],
+    "description": "The black wind. A thing similar to mashadar that consumes and kills people. Nobody knows what it really is, or how it came to be."
   },
-  "eye of the world": {
-    "name": "eye of the world",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "matrim cauthon",
-      "perrin aybara",
-      "lan mandragoran",
-      "moiraine damodred",
-      "egwene al'vere",
-      "nyanaeve al'mera",
-      "someshta",
-      "balthamel",
-      "aginor",
-      "loial"
-    ],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
+  "seal#1": {
+    "name": "seal#1",
+    "type": "Thing",
+    "people": [],
+    "places": ["eye of the world"],
+    "description": "Found inside the Eye of the World. It was broken when they pulled it out, though the shards were still hard cuendillar."
   },
-  "stedding shaingtai": {
-    "name": "stedding shaingtai",
-    "type": "Place",
-    "people": ["loial", "elder haman"],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "deven ride": {
-    "name": "deven ride",
-    "type": "Place",
-    "people": ["mavra mallen"],
-    "places": ["two rivers"],
-    "things": {},
-    "events": {},
-    "description": ""
-  },
-  "winespring inn": {
-    "name": "winespring inn",
-    "type": "Place",
-    "people": [
-      "rand al'thor",
-      "alsbet luhan",
-      "marin al'vere",
-      "cloud",
-      "matrim cauthon",
-      "perrin aybara",
-      "thom merrilin",
-      "lan mandragoran",
-      "moiraine damodred",
-      "egwene al'vere",
-      "nyanaeve al'mera",
-      "aldieb",
-      "mandarb",
-      "tam al'thor",
-      "kari al'thor",
-      "bran al'vere",
-      "cenn buie",
-      "wit congar",
-      "daise congar",
-      "mistress al'donel",
-      "dav ayellin",
-      "elam dowtry",
-      "jon thane",
-      "ewin finngar",
-      "ewal coplin",
-      "tad barran",
-      "hu barran",
-      "padan fain",
-      "berin thane",
-      "mistress calder",
-      "abell cauthon"
-    ],
-    "places": [],
-    "things": {},
-    "events": {},
-    "description": ""
+  "dragon banner": {
+    "name": "dragon banner",
+    "type": "Thing",
+    "people": [],
+    "places": ["eye of the world"],
+    "description": "Found inside the Eye of the World."
   }
 }

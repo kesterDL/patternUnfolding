@@ -4,6 +4,7 @@ import signUp from "../../user/signUp";
 const UserSignUp = () => {
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
   const [errors, setErrors] = useState([]);
   const [isRegistered, setIsRegistered] = useState(false); // Track registration status
 
@@ -33,13 +34,11 @@ const UserSignUp = () => {
     setErrors([]);
 
     // Call AWS Cognito sign-up function
-    signUp(email, password)
+    signUp(email, password, username) // Pass the username (preferred_username)
       .then(() => {
-        // If sign-up is successful, update state to show success message
         setIsRegistered(true);
       })
       .catch((err) => {
-        // If there's an error, show it in the errors array
         setErrors([err.message]);
       });
   };
@@ -56,6 +55,12 @@ const UserSignUp = () => {
         </div>
       ) : (
         <>
+          <input
+            type="text"
+            placeholder="Username"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+          />
           <input
             type="email"
             placeholder="Email"

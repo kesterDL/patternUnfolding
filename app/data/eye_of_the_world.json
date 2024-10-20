@@ -42,8 +42,6 @@
       "name": "Shienar",
       "type": "Place",
       "people": [
-        "Easar Togita",
-        "Lady Merean Tihomar",
         "agelmar jagad",
         "ingtar shinowa",
         "rand al'thor",
@@ -68,31 +66,6 @@
       "things": {},
       "events": {},
       "description": "One of the borderland nations with the Spine of the World to the East, Arafel to the West, and the Blight and tarwin's gap to the North. Men shave portions of their head and fashion their hair into top knots, similar to the Japanese Samurai. Women were held in high regard and enjoyed saftey anywhere they went, in shienar a woman's rights were whatever she said they were. shienar had large public bathes of tiled pools were all people bathed together. shienar had a good number of gold mines, and was the largest source of firedrops. Timber and furs also were major exports."
-    },
-    "kandor": {
-      "name": "Kandor",
-      "type": "Place",
-      "people": ["Ethenielle Materasu"],
-      "places": ["Chachin"],
-      "things": {},
-      "events": {},
-      "description": ""
-    },
-    "chachin": {
-      "name": "Chachin",
-      "type": "Place",
-      "people": ["Ethenielle Materasu"],
-      "places": [
-        "The Silver Penny",
-        "The Ruffled Goose",
-        "Evening Star",
-        "Blind Pig"
-      ],
-      "things": {
-        "the strike at shayol ghul": "Fragment of a manuscript reavealing significant aspects on the War of the Shadow."
-      },
-      "events": {},
-      "description": "Located at a cross roads for the Borderlands for roads leading to Tar Valon, Bandar Evan and Fal Moran. Comparable in size to Tear. Noteably the main events of A New Spring and where Lan was bonded to Moiraine."
     },
     "emond's field": {
       "name": "emond's field",
@@ -180,8 +153,8 @@
       "type": "Place",
       "people": [
         "rand al'thor",
-        "Avin",
-        "Master Fitch",
+        "avin",
+        "master fitch",
         "Ara",
         "Mari",
         "Cinda",
@@ -777,6 +750,7 @@
       "places": [
         "dragonmount",
         "emond's field",
+        "winespring inn",
         "watch hill",
         "taren ferry",
         "baerlon",
@@ -802,44 +776,10 @@
         "malkier",
         "eye of the world",
         "tarwin's gap",
-        "winespring inn"
+        "fal dara"
       ],
       "things": {},
       "description": "Tall with Red Hair. Likes Red Coats and sword fights."
-    },
-    "easar togita": {
-      "name": "Easar Togita",
-      "type": "Person",
-      "role": "King of Shienar",
-      "people": ["lan mandragoran", "rand al'thor"],
-      "places": ["shienar", "tarwin's gap"],
-      "things": {},
-      "description": "King of Shienar. Stood about 5ft 7in tall with an unwrinkled slim square face. In the style of shienaran men he shaved his head except for a white top knot. Hosted the party from the Eye of the World at his manor. Provided aid to the WoT's heros on several occasions. Notably he backhanded Rand to test if he really was the Dragon, and writes poetry. In Japanese 'Togita' translates to 'Sharpened'."
-    },
-    "paitar nachiman": {
-      "name": "Paitar Nachiman",
-      "type": "Person",
-      "role": "King of Arafel",
-      "people": [],
-      "places": [],
-      "things": {},
-      "description": "Paitar Neramovni Nachiman, King of Arafel. name comes from the Japanese god of archery and war Hachiman."
-    },
-    "ethenielle materasu": {
-      "name": "Ethenielle Materasu",
-      "type": "Person",
-      "role": "Queen of Kandor",
-      "people": [
-        "lan mandragoran",
-        "Kalyan Ramsin",
-        "Diryk",
-        "Brys Noramaga",
-        "Merean Redhill",
-        "moiraine damodred"
-      ],
-      "places": ["Kandor"],
-      "things": {},
-      "description": "Queen of Kandor. Shield of the North. Highseat of House Materasu. 5ft 4in tall and buxom with blue eyes and black hair with whisps of gray. Married Brys Noramaga who was murdered by Merean Redhill of the Black Ajah along with their son. Fought in the Last Battle with Lan's army. Her family likely derives from the Japanese Sun Goddess 'Amaterasu', which translates to English as 'Heaven's Shining Light'."
     },
     "matrim cauthon": {
       "name": "matrim cauthon",
@@ -894,6 +834,7 @@
       ],
       "places": [
         "emond's field",
+        "winespring inn",
         "watch hill",
         "taren ferry",
         "baerlon",
@@ -917,7 +858,7 @@
         "the blight",
         "malkier",
         "eye of the world",
-        "winespring inn"
+        "fal dara"
       ],
       "things": {},
       "description": ""
@@ -961,20 +902,22 @@
       ],
       "places": [
         "emond's field",
+        "winespring inn",
         "watch hill",
         "taren ferry",
         "baerlon",
         "shadar logoth",
-        "shadar logoth",
         "raen's tinker camp",
         "arutur hawkwing's steading",
+        "caemlyn",
+        "the queen's blessing",
         "the ways",
         "fal dara",
         "shienar",
         "the blight",
         "malkier",
         "eye of the world",
-        "winespring inn"
+        "fal dara"
       ],
       "things": {},
       "description": ""
@@ -982,7 +925,7 @@
     "master hightower": {
       "name": "master hightower",
       "type": "Person",
-      "role": "",
+      "role": "Ferry Man into and out of the two rivers",
       "people": ["lan mandragoran", "nyanaeve al'mera"],
       "places": ["taren ferry"],
       "things": {},
@@ -993,7 +936,7 @@
       "type": "Person",
       "role": "Warder and King of Malkier",
       "people": [
-        "Avin",
+        "avin",
         "ara",
         "geofram bornhald",
         "nyanaeve al'mera",
@@ -1025,6 +968,7 @@
       ],
       "places": [
         "emond's field",
+        "winespring inn",
         "watch hill",
         "taren ferry",
         "baerlon",
@@ -1038,8 +982,7 @@
         "shienar",
         "the blight",
         "malkier",
-        "eye of the world",
-        "winespring inn"
+        "eye of the world"
       ],
       "things": {},
       "description": ""
@@ -1081,6 +1024,7 @@
       ],
       "places": [
         "emond's field",
+        "winespring inn",
         "watch hill",
         "taren ferry",
         "baerlon",
@@ -1096,8 +1040,7 @@
         "malkier",
         "eye of the world",
         "watch hill",
-        "taren ferry",
-        "winespring inn"
+        "taren ferry"
       ],
       "things": { "woman in flowing robes": "" },
       "description": ""
@@ -1105,7 +1048,7 @@
     "avin": {
       "name": "avin",
       "type": "Person",
-      "role": "",
+      "role": "Gate Guard",
       "people": [
         "lan mandragoran",
         "moiraine damodred",
@@ -1121,7 +1064,7 @@
       "name": "master fitch",
       "type": "Person",
       "role": "Inn Keeper of The Stag and Lion",
-      "people": ["ara", "mari", "cinda", "min", "master fitch", "mutch"],
+      "people": ["ara", "mari", "cinda", "min", "mutch"],
       "places": ["the stag and lion"],
       "things": [],
       "description": "Inn keeper of The Stag and Lion in Baerlon. Round man that wears a white apron and has wispy hair sticking out in all directions."
@@ -1144,7 +1087,7 @@
       "name": "mari",
       "type": "Person",
       "role": "Inn Maid",
-      "people": ["Master Fitch"],
+      "people": ["master fitch"],
       "places": ["the stag and lion"],
       "things": {},
       "description": ""
@@ -1153,7 +1096,7 @@
       "name": "cinda",
       "type": "Person",
       "role": "Inn Maid",
-      "people": ["Master Fitch"],
+      "people": ["master fitch"],
       "places": ["the stag and lion"],
       "things": {},
       "description": ""
@@ -2245,22 +2188,15 @@
     "cloud": {
       "name": "cloud",
       "type": "Person",
-      "role": "",
-      "people": [
-        "rand al'thor",
-        "tad barran",
-        "hu barran",
-        "berin thane",
-        "mistress calder",
-        "abell cauthon"
-      ],
+      "role": "Rand's Horse",
+      "people": ["rand al'thor", "tad barran", "hu barran"],
       "places": [
         "emond's field",
+        "winespring inn",
         "taren ferry",
         "baerlon",
         "the stag and lion",
-        "shadar logoth",
-        "winespring inn"
+        "shadar logoth"
       ],
       "things": {},
       "description": "Horse Rand rode out of Emond's field, that loved to run. Rand was forced to abandoned him outside shadar logoth. Assumed to be eaten by trollocs."
@@ -2268,17 +2204,18 @@
     "red": {
       "name": "red",
       "type": "Person",
-      "role": "",
+      "role": "Rand's Horse",
       "people": ["rand al'thor"],
       "places": ["the queen's blessing", "caemlyn", "the ways", "fal dara"],
       "things": {},
-      "description": ""
+      "description": "Horse Rand rode out of the Queen's Blessing and into the blight."
     },
     "bella": {
       "name": "bella",
       "type": "Person",
-      "role": "",
+      "role": "The Creator",
       "people": [
+        "tam al'thor",
         "rand al'thor",
         "egwene al'vere",
         "perrin aybara",
@@ -2286,20 +2223,13 @@
       ],
       "places": ["taren ferry"],
       "things": {},
-      "description": ""
+      "description": "Tam al'Thor's farm horse."
     },
     "mandarb": {
       "name": "mandarb",
       "type": "Person",
       "role": "Lan's Horse",
-      "people": [
-        "lan mandragoran",
-        "tad barran",
-        "hu barran",
-        "berin thane",
-        "mistress calder",
-        "abell cauthon"
-      ],
+      "people": ["lan mandragoran", "tad barran", "hu barran"],
       "places": [
         "emond's field",
         "watch hill",
@@ -2323,14 +2253,7 @@
       "name": "aldieb",
       "type": "Person",
       "role": "Moiraine's horse",
-      "people": [
-        "moiraine damodred",
-        "tad barran",
-        "hu barran",
-        "berin thane",
-        "mistress calder",
-        "abell cauthon"
-      ],
+      "people": ["moiraine damodred", "tad barran", "hu barran"],
       "places": [
         "emond's field",
         "watch hill",
@@ -2923,16 +2846,10 @@
         "rand al'thor",
         "alsbet luhan",
         "marin al'vere",
-        "cloud",
         "matrim cauthon",
         "perrin aybara",
-        "thom merrilin",
-        "lan mandragoran",
-        "moiraine damodred",
         "egwene al'vere",
         "nyanaeve al'mera",
-        "aldieb",
-        "mandarb",
         "tam al'thor",
         "kari al'thor",
         "bran al'vere",
@@ -3005,9 +2922,6 @@
         "marin al'vere",
         "matrim cauthon",
         "perrin aybara",
-        "thom merrilin",
-        "lan mandragoran",
-        "moiraine damodred",
         "egwene al'vere",
         "nyanaeve al'mera",
         "tam al'thor",
