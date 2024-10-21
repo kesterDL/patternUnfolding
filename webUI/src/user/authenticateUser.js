@@ -26,16 +26,23 @@ const signIn = (username, password) => {
 
     cognitoUser.authenticateUser(authenticationDetails, {
       onSuccess: (result) => {
-        console.log("Access token:", result.getAccessToken().getJwtToken());
-        console.log("ID token:", result.getIdToken().getJwtToken());
-        console.log("Refresh token:", result.getRefreshToken().getToken());
+        // Get session tokens
+        const accessToken = result.getAccessToken().getJwtToken();
+        const idToken = result.getIdToken().getJwtToken();
 
-        // Resolve the Promise on success
+        console.log("Access token:", accessToken);
+        console.log("ID token:", idToken);
+
+        // Store sign-in status and username in localStorage
+        localStorage.setItem("isSignedIn", true);
+        localStorage.setItem("username", username);
+        localStorage.setItem("accessToken", accessToken);
+        localStorage.setItem("idToken", idToken);
+
         resolve(result);
       },
       onFailure: (err) => {
         console.error("Error signing in:", err.message);
-        // Reject the Promise on failure
         reject(err);
       },
     });

@@ -1,5 +1,8 @@
 import React, { useState } from "react";
+import styles from "./UserSignUp.module.css";
 import signUp from "../../user/signUp";
+import register from "../../images/jan-kahanek-fVUl6kzIvLg-unsplash_small.jpg";
+import skyline from "../../images/mountain_skyline.svg";
 
 const UserSignUp = () => {
   const [password, setPassword] = useState("");
@@ -47,43 +50,51 @@ const UserSignUp = () => {
     <div>
       {/* If the user is registered, display a success message */}
       {isRegistered ? (
-        <div style={{ color: "green" }}>
+        <div className={styles.successfulRegistration}>
           <h3>Registration Successful!</h3>
           <p>
             Please check your email to confirm your account before logging in.
           </p>
         </div>
       ) : (
-        <>
+        <div className={styles.registrationForm}>
+          <div className={styles.registerationImage}>
+            <img src={register} alt={`Photo named tabel day`} />
+          </div>
           <input
+            className={styles.inputField}
             type="text"
-            placeholder="Username"
+            placeholder="User Name"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
           <input
+            className={styles.inputField}
             type="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
+            className={styles.inputField}
             type="password"
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button onClick={handleSignUp}>Sign Up</button>
+          <button className={styles.registerButton} onClick={handleSignUp}>
+            Create Account
+          </button>
 
           {/* Display all error messages */}
           {errors.length > 0 && (
-            <ul style={{ color: "red" }}>
+            <ul styles={{ color: "red" }}>
               {errors.map((error, index) => (
                 <li key={index}>{error}</li>
               ))}
             </ul>
           )}
-        </>
+        </div>
       )}
     </div>
   );

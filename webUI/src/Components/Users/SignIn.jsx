@@ -5,6 +5,8 @@ import {
   CognitoUser,
 } from "amazon-cognito-identity-js";
 import cognitoConfig from "../../user/cognitoConfig";
+import styles from "./SignIn.module.css";
+import signInImage from "../../images/peter-robbins-zfKCB92H2ZI-unsplash_small.jpg";
 
 const SignIn = ({ onSignInSuccess }) => {
   const [email, setEmail] = useState("");
@@ -58,20 +60,28 @@ const SignIn = ({ onSignInSuccess }) => {
   };
 
   return (
-    <div>
+    <div className={styles.signInForm}>
+      <div className={styles.signInImage}>
+        <img src={signInImage} alt={`Photo by Peter Robbins on Unsplash`} />
+        <div className={styles.signInOverlayText}>Sign In</div>
+      </div>
       <input
+        className={styles.inputField}
         type="email"
         placeholder="Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
       <input
+        className={styles.inputField}
         type="password"
         placeholder="Password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
-      <button onClick={handleSignIn}>Sign In</button>
+      <button className={styles.signInButton} onClick={handleSignIn}>
+        Sign In
+      </button>
 
       {error && <div style={{ color: "red" }}>{error}</div>}
     </div>

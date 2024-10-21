@@ -39,6 +39,11 @@ function Header() {
   const handleSignInSuccess = (username) => {
     setIsSignedIn(true);
     setUsername(username);
+
+    // Persist sign-in status in localStorage
+    localStorage.setItem("isSignedIn", true);
+    localStorage.setItem("username", username);
+
     closeSignInModal();
   };
 
@@ -54,38 +59,25 @@ function Header() {
       cognitoUser.signOut();
       setIsSignedIn(false);
       setUsername("");
+
+      // Clear sign-in status from localStorage
+      localStorage.removeItem("isSignedIn");
+      localStorage.removeItem("username");
+      localStorage.removeItem("accessToken");
+      localStorage.removeItem("idToken");
     }
   };
 
-  // Optionally: check if user is still signed in on page reload
+  // Check if the user is signed in when the component mounts
   useEffect(() => {
-    const userPool = new CognitoUserPool({
-      UserPoolId: cognitoConfig.UserPoolId,
-      ClientId: cognitoConfig.ClientId,
-    });
+    const savedSignInStatus = localStorage.getItem("isSignedIn");
+    const savedUsername = localStorage.getItem("username");
 
-    const cognitoUser = userPool.getCurrentUser();
-
-    if (cognitoUser) {
-      cognitoUser.getSession((err, session) => {
-        if (session && session.isValid()) {
-          // Fetch the username from the session if it's valid
-          cognitoUser.getUserAttributes((err, attributes) => {
-            if (!err) {
-              const usernameAttr = attributes.find(
-                (attr) => attr.Name === "preferred_username"
-              );
-              const fetchedUsername = usernameAttr
-                ? usernameAttr.Value
-                : cognitoUser.getUsername();
-              setUsername(fetchedUsername);
-              setIsSignedIn(true);
-            }
-          });
-        }
-      });
+    if (savedSignInStatus === "true") {
+      setIsSignedIn(true);
+      setUsername(savedUsername);
     }
-  }, []);
+  }, []); // This effect runs only once when the component mounts
 
   return (
     <>

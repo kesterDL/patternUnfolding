@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Nunito:wght@500;800&&family=Cinzel:wght@400..900&family=Raleway:wght@500&display=swap");
+
 /* Header backdrop styles */
 .headerBackdrop {
   width: 100%;
@@ -52,6 +54,27 @@
   align-items: center;
   gap: 1rem;
   margin-right: 1rem;
+}
+
+.registerButton {
+  background-color: #812828;
+  color: #eeecea;
+  height: 2.5rem;
+  border-style: solid;
+  border-radius: 0.25rem;
+  border-color: #2b2b2b;
+  font-family: "Nunito";
+  font-weight: 700;
+}
+
+.signInButton {
+  background-color: #eeecea;
+  color: #2b2b2b;
+  border-style: solid;
+  border-radius: 0.25rem;
+  border-color: #2b2b2b;
+  font-family: "Nunito";
+  font-weight: 700;
 }
 
 /* Hide navigation and sign up buttons on mobile */
