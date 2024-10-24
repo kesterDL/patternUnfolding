@@ -8,6 +8,7 @@ import BardStories from "./Components/BardShortsPage/BardStories";
 import ValersNest from "./Components/Stories/story-components/ValersNest";
 import UserSignUp from "./Components/Users/UserSignUp";
 import SignIn from "./Components/Users/SignIn";
+import ContactUsPage from "./Components/ContactUsPage/ContactUsPage";
 
 function App() {
   // when in prod, don't be outputting to console.
@@ -25,9 +26,7 @@ function App() {
         <Route exact path="/artgallery" element={<ArtGalleryPage />} />
         <Route exact path="/stories" element={<BardStories />} />
         <Route exact path="/threads" element={<ExploreTheMindPage />} />
-        <Route exact path="/valersNest" element={<ValersNest />} />
-        <Route exact path="/signUp" element={<UserSignUp />} />
-        <Route exact path="/signIn" element={<SignIn />} />
+        <Route exact path="/contact" element={<ContactUsPage />} />
         <Route path="*" element={<Navigate to="/about" replace />} />
       </Routes>
     </HashRouter>
