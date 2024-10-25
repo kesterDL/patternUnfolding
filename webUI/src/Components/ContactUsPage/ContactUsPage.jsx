@@ -19,19 +19,22 @@ function ContactUsPage() {
     }
 
     const requestBody = {
-      name,
-      email,
-      message,
+      name: name,
+      email: email,
+      message: message,
     };
 
     try {
-      const response = await fetch("https://YOUR_API_GATEWAY_URL", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(requestBody),
-      });
+      const response = await fetch(
+        "https://8szksonyuc.execute-api.us-east-1.amazonaws.com/dev/contactus",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(requestBody),
+        }
+      );
 
       if (response.ok) {
         setIsSent(true);

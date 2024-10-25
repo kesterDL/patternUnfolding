@@ -4,10 +4,7 @@ import NavigationCard from "./NavigationCard";
 
 function CommunityStories() {
   const stories = (
-    <img
-      src={fountainpen}
-      alt="Engage other Fantasy and WoT enthusiasts like yourself!"
-    />
+    <img src={fountainpen} alt="Engage other WoT enthusiasts like yourself!" />
   );
 
   const storiesDesc =

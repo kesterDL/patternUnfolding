@@ -4,10 +4,7 @@ import NavigationCard from "./NavigationCard";
 
 function ArtTile() {
   const art = (
-    <img
-      src={squareFrames}
-      alt="Engage other Fantasy and WoT enthusiasts like yourself!"
-    />
+    <img src={squareFrames} alt="Engage other WoT enthusiasts like yourself!" />
   );
 
   const artGalleryDesc =
