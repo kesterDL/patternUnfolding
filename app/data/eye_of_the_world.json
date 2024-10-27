@@ -201,7 +201,7 @@
       "description": "Formerly known as Aridhol, Shadar Logoth (The place where the shadow waits or shadow's waiting)."
     },
     "the stag and lion": {
-      "name": "The Stag and Lion",
+      "name": "the stag and lion",
       "type": "Place",
       "people": ["ara", "mari", "cinda", "min", "master fitch", "cloud"],
       "places": ["baerlon"],
