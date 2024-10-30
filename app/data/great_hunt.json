@@ -71,6 +71,83 @@
       "things": {},
       "events": {},
       "description": ""
+    },
+    "tarabon": {
+      "name": "tarabon",
+      "type": "Place",
+      "people": ["geofram bornhald"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "almoth plain": {
+      "name": "almoth plain",
+      "type": "Place",
+      "people": ["geofram bornhald"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "amador": {
+      "name": "amador",
+      "type": "Place",
+      "people": ["geofram bornhald", "pedron niall"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "caemlyn": {
+      "name": "caemlyn",
+      "type": "Place",
+      "people": ["eamon valda", "dain bornhald", "elaida a'roihan"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "alcruna": {
+      "name": "alcruna",
+      "type": "Place",
+      "people": [
+        "geofram bornhald",
+        "einor saren",
+        "jaichim carridin",
+        "jaret byar"
+      ],
+      "places": ["amador"],
+      "things": {},
+      "events": {},
+      "description": "Village in Amaador that Geofram was ordered to travel, where he would recieve his final orders."
+    },
+    "tear": {
+      "name": "tear",
+      "type": "Place",
+      "people": ["siuan sanche"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "maule": {
+      "name": "maule",
+      "type": "Place",
+      "people": ["siuan sanche"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "the queen's blessing": {
+      "name": "the queen's blessing",
+      "type": "Place",
+      "people": ["elaida a'roihan"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
     }
   },
   "people": {
@@ -95,7 +172,12 @@
         "nidao",
         "elansu",
         "ronan",
-        "agelmar jagad"
+        "agelmar jagad",
+        "liandrin",
+        "ingtar shinowa",
+        "kajin",
+        "verin mathwin",
+        "sarafelle"
       ],
       "places": ["fal dara", "shienar"],
       "things": {},
@@ -234,8 +316,14 @@
       "name": "jaichim carridin",
       "type": "Person",
       "role": "",
-      "people": ["ishamael"],
-      "places": [],
+      "people": [
+        "ishamael",
+        "geofram bornhald",
+        "pedron niall",
+        "einor saren",
+        "jaichim carridin"
+      ],
+      "places": ["alcruna"],
       "things": {},
       "description": ""
     },
@@ -470,7 +558,9 @@
         "leana",
         "siuan sanche",
         "amalisa jagad",
-        "agelmar jagad"
+        "agelmar jagad",
+        "rand al'thor",
+        "ingtar shinowa"
       ],
       "places": ["fal dara", "shienar"],
       "things": {},
@@ -479,7 +569,7 @@
     "verin mathwin": {
       "name": "verin mathwin",
       "type": "Person",
-      "role": "",
+      "role": "Brown Aes Sedai",
       "people": [
         "moiraine damodred",
         "anaiya",
@@ -490,16 +580,18 @@
         "alanna mosvani",
         "leana",
         "siuan sanche",
-        "agelmar jagad"
+        "agelmar jagad",
+        "rand al'thor",
+        "ingtar shinowa"
       ],
       "places": ["fal dara", "shienar"],
       "things": {},
-      "description": ""
+      "description": "Studied the trolloc script written on the wall in blood and filth in Fal Dara prisons. Found it most interesting."
     },
     "sarafelle": {
       "name": "sarafelle",
       "type": "Person",
-      "role": "",
+      "role": "Brown Aes Sedai",
       "people": [
         "moiraine damodred",
         "anaiya",
@@ -510,11 +602,13 @@
         "alanna mosvani",
         "leana",
         "siuan sanche",
-        "agelmar jagad"
+        "agelmar jagad",
+        "rand al'thor",
+        "ingtar shinowa"
       ],
       "places": ["fal dara", "shienar"],
       "things": {},
-      "description": ""
+      "description": "Studied the trolloc script written on the wall in blood and filth in Fal Dara prisons. Found it most interesting."
     },
     "carlinya": {
       "name": "carlinya",
@@ -580,7 +674,7 @@
     "siuan sanche": {
       "name": "siuan sanche",
       "type": "Person",
-      "role": "",
+      "role": "Amyrlin Seat",
       "people": [
         "moiraine damodred",
         "anaiya",
@@ -593,18 +687,18 @@
         "siuan sanche",
         "agelmar jagad"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "tear", "maule"],
       "things": {},
       "description": ""
     },
     "amalisa jagad": {
       "name": "amalisa jagad",
       "type": "Person",
-      "role": "",
+      "role": "Lady of Fal Dara",
       "people": ["moiraine damodred", "anaiya", "liandrin", "agelmar jagad"],
       "places": ["fal dara", "shienar"],
       "things": {},
-      "description": ""
+      "description": "Tortured and manipulated by Liandrin Sedai into searching for Rand."
     },
     "agelmar jagad": {
       "name": "agelmar jagad",
@@ -638,6 +732,126 @@
         "amalisa jagad"
       ],
       "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "geofram bornhald": {
+      "name": "geofram bornhald",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "pedron niall",
+        "eamon valda",
+        "dain bornhald",
+        "einor saren",
+        "jaichim carridin",
+        "jaret byar"
+      ],
+      "places": ["tarabon", "almoth plain", "amador", "alcruna"],
+      "things": {},
+      "description": ""
+    },
+    "pedron niall": {
+      "name": "pedron niall",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "geofram bornhald",
+        "eamon valda",
+        "dain bornhald",
+        "einor saren",
+        "jaichim carridin"
+      ],
+      "places": ["amador"],
+      "things": {},
+      "description": ""
+    },
+    "eamon valda": {
+      "name": "eamon valda",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "geofram bornhald",
+        "pedron niall",
+        "eamon valda",
+        "dain bornhald"
+      ],
+      "places": ["caemlyn"],
+      "things": {},
+      "description": ""
+    },
+    "dain bornhald": {
+      "name": "dain bornhald",
+      "type": "Person",
+      "role": "",
+      "people": ["geofram bornhald", "pedron niall", "eamon valda"],
+      "places": ["caemlyn"],
+      "things": {},
+      "description": ""
+    },
+    "einor saren": {
+      "name": "einor saren",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "geofram bornhald",
+        "pedron niall",
+        "jaichim carridin",
+        "jaret byar"
+      ],
+      "places": ["alcruna"],
+      "things": {},
+      "description": ""
+    },
+    "jaret byar": {
+      "name": "jaret byar",
+      "type": "Person",
+      "role": "",
+      "people": ["geofram bornhald", "einor saren"],
+      "places": ["alcruna"],
+      "things": {},
+      "description": ""
+    },
+    "ingtar shinowa": {
+      "name": "ingtar shinowa",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "liandrin",
+        "rand al'thor",
+        "ingtar shinowa",
+        "kajin",
+        "verin mathwin",
+        "sarafelle"
+      ],
+      "places": [],
+      "things": {},
+      "description": ""
+    },
+    "kajin": {
+      "name": "kajin",
+      "type": "Person",
+      "role": "",
+      "people": ["rand al'thor", "ingtar shinowa"],
+      "places": [],
+      "things": {},
+      "description": "After the attack on Fal Dara keep, he checks for anybody missing. Indicating those missing people could be darkfriends that betrayed Fal Dara."
+    },
+    "elaida a'roihan": {
+      "name": "elaida a'roihan",
+      "type": "Person",
+      "role": "",
+      "people": ["basil gill"],
+      "places": ["caemlyn", "the queen's blessing"],
+      "things": {},
+      "description": ""
+    },
+    "basil gill": {
+      "name": "basil gill",
+      "type": "Person",
+      "role": "",
+      "people": ["elaida a'roihan"],
+      "places": [],
       "things": {},
       "description": ""
     }
