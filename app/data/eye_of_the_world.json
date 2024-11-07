@@ -185,13 +185,15 @@
         "matrim cauthon",
         "perrin aybara",
         "nyanaeve al'mera",
-        "moraine damodred",
+        "moiraine damodred",
         "lan mandragoran",
         "egwene al'vere",
         "balwen mayel",
         "caar",
         "thorin al'torin al ban",
-        "cloud"
+        "cloud",
+        "mandarb",
+        "aldieb"
       ],
       "places": [],
       "things": {
@@ -788,6 +790,9 @@
       "people": [
         "rand al'thor",
         "perrin aybara",
+        "tam al'thor",
+        "nyanaeve al'mera",
+        "egwene al'vere",
         "mordeth",
         "bayle domon",
         "floran gelb",
@@ -870,6 +875,7 @@
       "people": [
         "matrim cauthon",
         "rand al'thor",
+        "tam al'thor",
         "mordeth",
         "raen",
         "elyas machera",
@@ -997,7 +1003,7 @@
         "matrim cauthon",
         "perrin aybara",
         "nyanaeve al'mera",
-        "moraine damodred",
+        "moiraine damodred",
         "lan mandragoran",
         "bran al'vere",
         "egwene al'vere",
@@ -1123,7 +1129,7 @@
         "rand al'thor",
         "avin",
         "lan mandragoran",
-        "moiraine damordred",
+        "moiraine damodred",
         "perrin aybara",
         "egwene al'vere",
         "jaret byar"
@@ -1181,6 +1187,8 @@
         "kari al'thor",
         "rand al'thor",
         "bran al'vere",
+        "perrin aybara",
+        "matrim cauthon",
         "padan fain",
         "marin al'vere",
         "wit congar",
@@ -1266,7 +1274,7 @@
         "mistress calder",
         "abell cauthon"
       ],
-      "places": ["illian", "tar valon", "emond's field", "winespring inn"],
+      "places": ["caemlyn", "tar valon", "emond's field", "winespring inn"],
       "things": {},
       "description": ""
     },
@@ -1281,7 +1289,7 @@
         "bran al'vere",
         "egwene al'vere",
         "cenn buie",
-        "mat cauthin",
+        "matrim cauthon",
         "perrin aybara",
         "lan mandragoran",
         "moiraine damodred",
@@ -1340,6 +1348,11 @@
       "type": "Person",
       "role": "",
       "people": [
+        "rand al'thor",
+        "perrin aybara",
+        "matrim cauthon",
+        "moiraine damodred",
+        "lan mandragoran",
         "raen",
         "elyas machera",
         "wind",
