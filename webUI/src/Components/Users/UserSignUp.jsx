@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import styles from "./UserSignUp.module.css";
 import signUp from "../../user/signUp";
-import register from "../../images/jan-kahanek-fVUl6kzIvLg-unsplash_small.jpg";
-import skyline from "../../images/mountain_skyline.svg";
+import register from "../../images/jan-kahanek-fVUl6kzIvLg-unsplash_small.webp";
 
 const UserSignUp = () => {
   const [password, setPassword] = useState("");

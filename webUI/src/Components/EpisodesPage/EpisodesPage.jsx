@@ -4,10 +4,10 @@ import styles from "./EpisodesPage.module.css";
 import EpisodeHeroBanner from "./EpisodeHeroBanner";
 import EpisodeTile from "../shared-components/EpisodeTile/EpisodeTile";
 
-import thomMoiraine from "../../images/frank-mckenna-cRLEVt6SZxI-unsplash.webp";
-import channeler from "../../images/nathan-cima-y5aFdoCjB5U-unsplash.webp";
-import sheep from "../../images/ariana-prestes-24bzOuENxHc-unsplash.webp";
-import samurai from "../../images/sorasak-_UIN-pFfJ7c-unsplash.webp";
+import thomMoiraine from "../../images/frank-mckenna-cRLEVt6SZxI-unsplash_small.webp";
+import channeler from "../../images/nathan-cima-y5aFdoCjB5U-unsplash_small.webp";
+import sheep from "../../images/ariana-prestes-24bzOuENxHc-unsplash_small.webp";
+import samurai from "../../images/sorasak-_UIN-pFfJ7c-unsplash_small.webp";
 
 import spotify from "../../logos/Spotify_Logo_only_RGB_Black.png";
 import youtube from "../../logos/yt_logo_only_mono_light.png";
@@ -16,7 +16,7 @@ import applePodcast from "../../logos/Apple_Podcasts_Icon_blk_lg_060623.svg";
 function EpisodesPage() {
   const episodes = [
     {
-      title: "Channeling is a Problem",
+      title: "Channelers are a Problem",
       description:
         "What if people actually live for 1,000 years and have magic powers? How would that impact society and human progress?",
       imageSrc: channeler,

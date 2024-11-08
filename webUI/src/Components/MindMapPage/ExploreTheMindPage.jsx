@@ -17,7 +17,6 @@ function ExploreTheMindPage() {
             content="Wheel of Time discussions, art, and nerd out safe space."
           />
         </Helmet>
-        {/* Rest of the page content */}
         <ExploreTheMindHeroBanner />
         <div className={styles.pageContainer}>
           <div className={styles.card}>

@@ -5,15 +5,15 @@ import ArtGalleryHeroBanner from "./ArtGalleryHeroBanner";
 import ArtGalleryTile from "../shared-components/ArtGalleryTile/ArtGalleryTile";
 import Modal from "../shared-components/Modal/Modal";
 
-import thomMoiraine from "../../images/frank-mckenna-cRLEVt6SZxI-unsplash.webp";
-import channeler from "../../images/nathan-cima-y5aFdoCjB5U-unsplash.webp";
-import sheep from "../../images/ariana-prestes-24bzOuENxHc-unsplash.webp";
-import samurai from "../../images/sorasak-_UIN-pFfJ7c-unsplash.webp";
-import gallery from "../../images/claudio-testa-iqeG5xA96M4-unsplash.webp";
-import switzerland from "../../images/peter-conlan-axYF1KFjoDY-unsplash.webp";
-import mist from "../../images/tyler-lastovich-8_LZ9UWTKLE-unsplash.webp";
-import books from "../../images/paul-schafer-t6oZEgL0z18-unsplash.webp";
-import thread from "../../images/max-kleinen-GhrqMkA4cVA-unsplash.webp";
+import thomMoiraine from "../../images/frank-mckenna-cRLEVt6SZxI-unsplash_small.webp";
+import channeler from "../../images/nathan-cima-y5aFdoCjB5U-unsplash_small.webp";
+import sheep from "../../images/ariana-prestes-24bzOuENxHc-unsplash_small.webp";
+import samurai from "../../images/sorasak-_UIN-pFfJ7c-unsplash_small.webp";
+import gallery from "../../images/claudio-testa-iqeG5xA96M4-unsplash_small.webp";
+import switzerland from "../../images/peter-conlan-axYF1KFjoDY-unsplash_small.webp";
+import mist from "../../images/tyler-lastovich-8_LZ9UWTKLE-unsplash_small.webp";
+import books from "../../images/paul-schafer-t6oZEgL0z18-unsplash_small.webp";
+import thread from "../../images/max-kleinen-GhrqMkA4cVA-unsplash_small.webp";
 
 function ArtGalleryPage() {
   const [selectedArt, setSelectedArt] = useState(null);

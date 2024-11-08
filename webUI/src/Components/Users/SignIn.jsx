@@ -6,7 +6,7 @@ import {
 } from "amazon-cognito-identity-js";
 import cognitoConfig from "../../user/cognitoConfig";
 import styles from "./SignIn.module.css";
-import signInImage from "../../images/peter-robbins-zfKCB92H2ZI-unsplash_small.jpg";
+import signInImage from "../../images/peter-robbins-zfKCB92H2ZI-unsplash_small.webp";
 
 const SignIn = ({ onSignInSuccess }) => {
   const [email, setEmail] = useState("");

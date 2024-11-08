@@ -28,7 +28,7 @@ function Episode_Hero_Banner() {
           <div className={styles.episodeTitle}>The Wind Weaves</div>
           <div className={styles.episodeDescription}>
             - Opening the Eye of the World. Hot spiced cider, honey cakes, and
-            the Black Rider. Walking the well tred path of Tolkien, then going
+            the Black Rider. Walking the well trod path of Tolkien, then going
             beyond. -
           </div>
           <div className={styles.streamingChannels}>
