@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import styles from "./Header_Logo.module.css";
-import { ReactComponent as LogoLight } from "../../logos/tomoe_plain-min.svg";
+import { ReactComponent as LogoLight } from "../../logos/weave_wreath_black_7.svg";
 
 function Header_Logo() {
   return (

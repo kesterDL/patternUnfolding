@@ -14,6 +14,7 @@ import switzerland from "../../images/peter-conlan-axYF1KFjoDY-unsplash_small.we
 import mist from "../../images/tyler-lastovich-8_LZ9UWTKLE-unsplash_small.webp";
 import books from "../../images/paul-schafer-t6oZEgL0z18-unsplash_small.webp";
 import thread from "../../images/max-kleinen-GhrqMkA4cVA-unsplash_small.webp";
+import blight from "../../images/yousef-espanioly-AWYI4-h3VnM-unsplash_small.webp";
 
 function ArtGalleryPage() {
   const [selectedArt, setSelectedArt] = useState(null);
@@ -87,6 +88,14 @@ function ArtGalleryPage() {
       imageSrc: thread,
       imageLink:
         "https://unsplash.com/photos/black-and-white-abstract-painting-GhrqMkA4cVA",
+    },
+    {
+      title: "Succulent Plant",
+      artist: "Yousef Espanioly",
+      artistLink: "https://unsplash.com/@yespanioly",
+      imageSrc: blight,
+      imageLink:
+        "https://unsplash.com/photos/close-up-photography-of-succulent-plant-AWYI4-h3VnM",
     },
   ];
 

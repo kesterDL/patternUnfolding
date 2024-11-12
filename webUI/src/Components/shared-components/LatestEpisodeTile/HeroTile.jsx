@@ -38,10 +38,9 @@ function HeroTile() {
             <div className={styles.spotifyPlayer}>
               <iframe
                 style={{ borderRadius: "12px" }}
-                src="https://open.spotify.com/embed/episode/0J5rVspYAeZlvvzlqussUS?utm_source=generator"
+                src="https://podcasters.spotify.com/pod/show/weaveandthewheel/embed/episodes/The-Wind-Weaves--Wheel-of-Time-e2qjvrn/a-abk7o8v"
                 width="100%"
                 height="152" // Adjusted height for better layout
-                frameBorder="0"
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
                 title="Spotify Episode - The Wind Weaves"

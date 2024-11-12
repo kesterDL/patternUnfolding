@@ -1,10 +1,11 @@
 .logo {
   height: 4rem;
+  width: 4rem;
 }
 
 /* Add mobile responsiveness */
 @media (max-width: 768px) {
   .logo {
-    width: 2rem; /* Adjust the width for smaller screens */
+    width: 3rem; /* Adjust the width for smaller screens */
   }
 }

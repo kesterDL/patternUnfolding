@@ -1,21 +1,25 @@
 import React from "react";
 import styles from "./EpisodeTile.module.css";
 
-function EpisodeTile({ imageSrc, title, description, streamers }) {
+function EpisodeTile({ episode, onStreamerClick }) {
   return (
     <div className={styles.episodeTile}>
       <div className={styles.episodeImage}>
-        <img src={imageSrc} alt={`Listen to ${title}`} />
+        <img src={episode.imageSrc} alt={`Listen to ${episode.title}`} />
       </div>
       <div className={styles.episodeInfo}>
-        <div className={styles.episodeTitle}>{title}</div>
-        <div className={styles.episodeDescription}>{description}</div>
+        <div className={styles.episodeTitle}>{episode.title}</div>
+        <div className={styles.episodeDescription}>{episode.description}</div>
         <div className={styles.streamingChannels}>
-          {streamers.map((streamer, index) => (
-            <div key={index} className={styles.streamerCardLink}>
+          {episode.streamers.map((streamer, index) => (
+            <div
+              key={index}
+              className={styles.streamerCardLink}
+              onClick={() => onStreamerClick(streamer.url)}
+            >
               <img
                 src={streamer.logo}
-                alt={`Listen to ${title} on ${streamer.name}`}
+                alt={`Listen to ${episode.title} on ${streamer.name}`}
                 className={styles.streamer_logo}
               />
             </div>
