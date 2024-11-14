@@ -206,7 +206,7 @@
     "emond's field": {
       "name": "emond's field",
       "type": "Place",
-      "people": ["mavra mallen", "master thane"],
+      "people": ["mavra mallen", "master thane", "master padwhin"],
       "places": [],
       "things": {},
       "events": {},
@@ -271,6 +271,136 @@
       "things": {},
       "events": {},
       "description": "80 ft long with 2 masts and broad in the beam with room for cargo on the deck and in the hold."
+    },
+    "Medo": {
+      "name": "Medo",
+      "type": "Place",
+      "people": [
+        "leane sharif",
+        "siuan sanche",
+        "verin mathwin",
+        "alviarin freidhen",
+        "alanna mosvani",
+        "liandrin",
+        "anaiya",
+        "tomas",
+        "egwene al'vere",
+        "nyanaeve al'mera"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "River Queen": {
+      "name": "River Queen",
+      "type": "Place",
+      "people": [
+        "leane sharif",
+        "siuan sanche",
+        "verin mathwin",
+        "alviarin freidhen",
+        "alanna mosvani",
+        "liandrin",
+        "anaiya",
+        "tomas",
+        "egwene al'vere",
+        "nyanaeve al'mera"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "River Mora": {
+      "name": "River Mora",
+      "type": "Place",
+      "people": [
+        "leane sharif",
+        "siuan sanche",
+        "verin mathwin",
+        "alviarin freidhen",
+        "alanna mosvani",
+        "liandrin",
+        "anaiya",
+        "tomas",
+        "egwene al'vere",
+        "nyanaeve al'mera"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "river erinin": {
+      "name": "river erinin",
+      "type": "Place",
+      "people": [
+        "rand al'thor",
+        "hurin",
+        "loial",
+        "ingtar shinowa",
+        "kajin",
+        "ronan",
+        "ragan",
+        "masema",
+        "uno",
+        "padan fain",
+        "changu",
+        "nidao",
+        "matrim cauthon",
+        "perrin aybara"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "field of talidar": {
+      "name": "field of talidar",
+      "type": "Place",
+      "people": [
+        "rand al'thor",
+        "hurin",
+        "loial",
+        "ingtar shinowa",
+        "kajin",
+        "ronan",
+        "ragan",
+        "masema",
+        "uno",
+        "padan fain",
+        "changu",
+        "nidao",
+        "matrim cauthon",
+        "perrin aybara"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "harad dakar": {
+      "name": "harad dakar",
+      "type": "Place",
+      "people": [
+        "rand al'thor",
+        "hurin",
+        "loial",
+        "ingtar shinowa",
+        "kajin",
+        "ronan",
+        "ragan",
+        "masema",
+        "uno",
+        "padan fain",
+        "matrim cauthon",
+        "perrin aybara"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
     }
   },
   "people": {
@@ -309,7 +439,15 @@
         "rand al'thor",
         "hurin"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "river erinin",
+        "field of talidar",
+        "harad dakar",
+        "river erinin",
+        "field of talidar"
+      ],
       "things": {},
       "description": ""
     },
@@ -331,7 +469,15 @@
         "verin mathwin",
         "master thane"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "river erinin",
+        "field of talidar",
+        "harad dakar",
+        "river erinin",
+        "field of talidar"
+      ],
       "things": {},
       "description": ""
     },
@@ -360,7 +506,15 @@
         "perrin aybara",
         "hurin"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "river erinin",
+        "field of talidar",
+        "harad dakar",
+        "river erinin",
+        "field of talidar"
+      ],
       "things": {},
       "description": ""
     },
@@ -431,9 +585,18 @@
         "master thane",
         "amalisa jagad",
         "nisura",
-        "kajin"
+        "kajin",
+        "verin mathwin",
+        "leane sharif",
+        "siuan sanche",
+        "alviarin freidhen",
+        "alanna mosvani",
+        "liandrin",
+        "anaiya",
+        "tomas",
+        "master padwhin"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
       "things": {},
       "description": ""
     },
@@ -453,9 +616,17 @@
         "master thane",
         "nisura",
         "mavra mallen",
-        "amalisa jagad"
+        "amalisa jagad",
+        "verin mathwin",
+        "leane sharif",
+        "siuan sanche",
+        "alviarin freidhen",
+        "alanna mosvani",
+        "liandrin",
+        "anaiya",
+        "tomas"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
       "things": {},
       "description": ""
     },
@@ -508,7 +679,15 @@
         "nidao",
         "agelmar jagad"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "river erinin",
+        "field of talidar",
+        "harad dakar",
+        "river erinin",
+        "field of talidar"
+      ],
       "things": {},
       "description": ""
     },
@@ -554,7 +733,15 @@
         "perrin aybara",
         "hurin"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "river erinin",
+        "field of talidar",
+        "harad dakar",
+        "river erinin",
+        "field of talidar"
+      ],
       "things": {},
       "description": "Soldier and Guard in Fal Dara"
     },
@@ -580,7 +767,15 @@
         "perrin aybara",
         "hurin"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "river erinin",
+        "field of talidar",
+        "harad dakar",
+        "river erinin",
+        "field of talidar"
+      ],
       "things": {},
       "description": "Soldier and Guard in Fal Dara"
     },
@@ -606,7 +801,15 @@
         "perrin aybara",
         "hurin"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "river erinin",
+        "field of talidar",
+        "harad dakar",
+        "river erinin",
+        "field of talidar"
+      ],
       "things": {},
       "description": "Soldier and Guard in Fal Dara"
     },
@@ -629,7 +832,7 @@
         "agelmar jagad",
         "ingtar shinowa"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "river erinin", "field of talidar"],
       "things": {},
       "description": "Dungeon guard in Fal Dara. Was on watch when Rand and Egwene visited Padan Fain."
     },
@@ -652,7 +855,7 @@
         "agelmar jagad",
         "ingtar shinowa"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "river erinin", "field of talidar"],
       "things": {},
       "description": "Dungeon guard in Fal Dara. Was on watch when Rand and Egwene visited Padan Fain."
     },
@@ -694,7 +897,15 @@
         "leane sharif",
         "agelmar jagad"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "river erinin",
+        "field of talidar",
+        "harad dakar",
+        "river erinin",
+        "field of talidar"
+      ],
       "things": {},
       "description": ""
     },
@@ -713,9 +924,11 @@
         "leane sharif",
         "siuan sanche",
         "amalisa jagad",
-        "agelmar jagad"
+        "agelmar jagad",
+        "egwene al'vere",
+        "nyanaeve al'mera"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
       "things": {},
       "description": ""
     },
@@ -736,9 +949,11 @@
         "amalisa jagad",
         "agelmar jagad",
         "rand al'thor",
-        "ingtar shinowa"
+        "ingtar shinowa",
+        "egwene al'vere",
+        "nyanaeve al'mera"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
       "things": {},
       "description": ""
     },
@@ -759,9 +974,11 @@
         "agelmar jagad",
         "rand al'thor",
         "ingtar shinowa",
-        "matrim cauthon"
+        "matrim cauthon",
+        "egwene al'vere",
+        "nyanaeve al'mera"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
       "things": {},
       "description": "Studied the trolloc script written on the wall in blood and filth in Fal Dara prisons. Found it most interesting."
     },
@@ -821,9 +1038,11 @@
         "alanna mosvani",
         "leane sharif",
         "siuan sanche",
-        "agelmar jagad"
+        "agelmar jagad",
+        "egwene al'vere",
+        "nyanaeve al'mera"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
       "things": {},
       "description": ""
     },
@@ -842,9 +1061,11 @@
         "leane sharif",
         "siuan sanche",
         "rand al'thor",
-        "hurin"
+        "hurin",
+        "egwene al'vere",
+        "nyanaeve al'mera"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
       "things": {},
       "description": ""
     },
@@ -871,7 +1092,9 @@
         "loial",
         "rand al'thor",
         "perrin aybara",
-        "hurin"
+        "hurin",
+        "egwene al'vere",
+        "nyanaeve al'mera"
       ],
       "places": [
         "fal dara",
@@ -883,7 +1106,10 @@
         "fal dara",
         "shienar",
         "fal dara",
-        "shienar"
+        "shienar",
+        "Medo",
+        "River Queen",
+        "River Mora"
       ],
       "things": {},
       "description": ""
@@ -1044,7 +1270,15 @@
         "changu",
         "nidao"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "river erinin",
+        "field of talidar",
+        "harad dakar",
+        "river erinin",
+        "field of talidar"
+      ],
       "things": {},
       "description": ""
     },
@@ -1060,7 +1294,15 @@
         "agelmar jagad",
         "egwene al'vere"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "river erinin",
+        "field of talidar",
+        "harad dakar",
+        "river erinin",
+        "field of talidar"
+      ],
       "things": {},
       "description": "After the attack on Fal Dara keep, he checks for anybody missing. Indicating those missing people could be darkfriends that betrayed Fal Dara."
     },
@@ -1177,7 +1419,15 @@
         "perrin aybara",
         "hurin"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "river erinin",
+        "field of talidar",
+        "harad dakar",
+        "river erinin",
+        "field of talidar"
+      ],
       "things": {},
       "description": ""
     },
@@ -1197,7 +1447,17 @@
         "perrin aybara",
         "hurin"
       ],
-      "places": ["fal dara", "shienar", "cairhein", "maradon"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "cairhein",
+        "maradon",
+        "river erinin",
+        "field of talidar",
+        "harad dakar",
+        "river erinin",
+        "field of talidar"
+      ],
       "things": {},
       "description": ""
     },
@@ -1245,6 +1505,33 @@
       "places": ["illian", "the spray"],
       "things": {},
       "description": "Crewman on the spray who was tortured and killed by darkfriends in Illian when Bayle Domon refuest to go east."
+    },
+    "alviarin freidhen": {
+      "name": "alviarin freidhen",
+      "type": "Person",
+      "role": "",
+      "people": ["egwene al'vere", "nyanaeve al'mera"],
+      "places": ["Medo", "River Queen", "River Mora"],
+      "things": {},
+      "description": ""
+    },
+    "tomas": {
+      "name": "tomas",
+      "type": "Person",
+      "role": "",
+      "people": ["egwene al'vere", "nyanaeve al'mera"],
+      "places": ["Medo", "River Queen", "River Mora"],
+      "things": {},
+      "description": ""
+    },
+    "master padwhin": {
+      "name": "master padwhin",
+      "type": "Person",
+      "role": "Emond's Field Carpenter",
+      "people": ["egwene al'vere"],
+      "places": ["emond's field"],
+      "things": {},
+      "description": ""
     }
   },
   "things": {}

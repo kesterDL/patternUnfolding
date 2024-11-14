@@ -10,6 +10,7 @@ import sheep from "../../images/ariana-prestes-24bzOuENxHc-unsplash_small.webp";
 import samurai from "../../images/sorasak-_UIN-pFfJ7c-unsplash_small.webp";
 import switzerland from "../../images/peter-conlan-axYF1KFjoDY-unsplash_small.webp";
 import blight from "../../images/yousef-espanioly-AWYI4-h3VnM-unsplash_small.webp";
+import caemlynRoad from "../../images/antonio-janeski-cX5I1Wu_TYg-unsplash_small.webp";
 
 import spotify from "../../logos/Spotify_Logo_only_RGB_Black.png";
 import youtube from "../../logos/yt_logo_only_mono_light.png";
@@ -124,6 +125,29 @@ function EpisodesPage() {
     //       name: "Apple Podcast",
     //       logo: applePodcast,
     //       url: "https://embed.podcasts.apple.com/us/podcast/id[EXAMPLE_APPLE_PODCAST_ID_2]",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Road to Caemlyn",
+    //   description:
+    //     "Rand and Mat walk non-stop for 3-4 weeks. Counting on their wits, luck, and Thom Merrilin's teachings to survive.",
+    //   imageSrc: caemlynRoad,
+    //   streamers: [
+    //     {
+    //       name: "Spotify",
+    //       logo: spotify,
+    //       url: "https://open.spotify.com/embed/show/[id]?utm_source=generator",
+    //     },
+    //     {
+    //       name: "YouTube",
+    //       logo: youtube,
+    //       url: "https://www.youtube.com/embed/[id]",
+    //     },
+    //     {
+    //       name: "Apple Podcast",
+    //       logo: applePodcast,
+    //       url: "https://embed.podcasts.apple.com/us/podcast/id[YOUR_APPLE_PODCAST_ID]",
     //     },
     //   ],
     // },
