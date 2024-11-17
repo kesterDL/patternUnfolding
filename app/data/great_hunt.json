@@ -401,6 +401,51 @@
       "things": {},
       "events": {},
       "description": ""
+    },
+    "portal stone - hardan": {
+      "name": "portal stone - hardan",
+      "type": "Place",
+      "people": [
+        "rand al'thor",
+        "loial",
+        "hurin",
+        "lanfear",
+        "matrim cauthon",
+        "perrin aybara",
+        "ingtar shinowa",
+        "kajin",
+        "ronan",
+        "ragan",
+        "masema",
+        "uno"
+      ],
+      "places": ["hardan"],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "hardan": {
+      "name": "hardan",
+      "type": "Place",
+      "people": [
+        "rand al'thor",
+        "loial",
+        "hurin",
+        "lanfear",
+        "matrim cauthon",
+        "perrin aybara",
+        "ingtar shinowa",
+        "kajin",
+        "ronan",
+        "ragan",
+        "masema",
+        "uno",
+        "padan fain"
+      ],
+      "places": ["portal stone - hardan"],
+      "things": {},
+      "events": {},
+      "description": ""
     }
   },
   "people": {
@@ -446,7 +491,9 @@
         "field of talidar",
         "harad dakar",
         "river erinin",
-        "field of talidar"
+        "field of talidar",
+        "portal stone - hardan",
+        "hardan"
       ],
       "things": {},
       "description": ""
@@ -476,7 +523,9 @@
         "field of talidar",
         "harad dakar",
         "river erinin",
-        "field of talidar"
+        "field of talidar",
+        "hardan",
+        "portal stone - hardan"
       ],
       "things": {},
       "description": ""
@@ -513,7 +562,9 @@
         "field of talidar",
         "harad dakar",
         "river erinin",
-        "field of talidar"
+        "field of talidar",
+        "hardan",
+        "portal stone - hardan"
       ],
       "things": {},
       "description": ""
@@ -686,7 +737,8 @@
         "field of talidar",
         "harad dakar",
         "river erinin",
-        "field of talidar"
+        "field of talidar",
+        "hardan"
       ],
       "things": {},
       "description": ""
@@ -740,7 +792,9 @@
         "field of talidar",
         "harad dakar",
         "river erinin",
-        "field of talidar"
+        "field of talidar",
+        "hardan",
+        "portal stone - hardan"
       ],
       "things": {},
       "description": "Soldier and Guard in Fal Dara"
@@ -774,7 +828,9 @@
         "field of talidar",
         "harad dakar",
         "river erinin",
-        "field of talidar"
+        "field of talidar",
+        "hardan",
+        "portal stone - hardan"
       ],
       "things": {},
       "description": "Soldier and Guard in Fal Dara"
@@ -808,7 +864,9 @@
         "field of talidar",
         "harad dakar",
         "river erinin",
-        "field of talidar"
+        "field of talidar",
+        "hardan",
+        "portal stone - hardan"
       ],
       "things": {},
       "description": "Soldier and Guard in Fal Dara"
@@ -904,7 +962,9 @@
         "field of talidar",
         "harad dakar",
         "river erinin",
-        "field of talidar"
+        "field of talidar",
+        "hardan",
+        "portal stone - hardan"
       ],
       "things": {},
       "description": ""
@@ -1277,7 +1337,9 @@
         "field of talidar",
         "harad dakar",
         "river erinin",
-        "field of talidar"
+        "field of talidar",
+        "hardan",
+        "portal stone - hardan"
       ],
       "things": {},
       "description": ""
@@ -1301,7 +1363,9 @@
         "field of talidar",
         "harad dakar",
         "river erinin",
-        "field of talidar"
+        "field of talidar",
+        "hardan",
+        "portal stone - hardan"
       ],
       "things": {},
       "description": "After the attack on Fal Dara keep, he checks for anybody missing. Indicating those missing people could be darkfriends that betrayed Fal Dara."
@@ -1426,7 +1490,9 @@
         "field of talidar",
         "harad dakar",
         "river erinin",
-        "field of talidar"
+        "field of talidar",
+        "portal stone - hardan",
+        "hardan"
       ],
       "things": {},
       "description": ""
@@ -1445,7 +1511,8 @@
         "siuan sanche",
         "rand al'thor",
         "perrin aybara",
-        "hurin"
+        "hurin",
+        "melia"
       ],
       "places": [
         "fal dara",
@@ -1456,7 +1523,9 @@
         "field of talidar",
         "harad dakar",
         "river erinin",
-        "field of talidar"
+        "field of talidar",
+        "portal stone - hardan",
+        "hardan"
       ],
       "things": {},
       "description": ""
@@ -1530,6 +1599,24 @@
       "role": "Emond's Field Carpenter",
       "people": ["egwene al'vere"],
       "places": ["emond's field"],
+      "things": {},
+      "description": ""
+    },
+    "melia": {
+      "name": "melia",
+      "type": "Person",
+      "role": "",
+      "people": ["hurin"],
+      "places": [],
+      "things": {},
+      "description": ""
+    },
+    "lanfear": {
+      "name": "lanfear",
+      "type": "Person",
+      "role": "",
+      "people": [],
+      "places": ["portal stone - hardan", "hardan"],
       "things": {},
       "description": ""
     }
