@@ -206,7 +206,12 @@
     "emond's field": {
       "name": "emond's field",
       "type": "Place",
-      "people": ["mavra mallen", "master thane", "master padwhin"],
+      "people": [
+        "mavra mallen",
+        "master thane",
+        "master padwhin",
+        "whatley eldin"
+      ],
       "places": [],
       "things": {},
       "events": {},
@@ -440,9 +445,30 @@
         "ragan",
         "masema",
         "uno",
-        "padan fain"
+        "padan fain",
+        "smoke",
+        "two deer",
+        "winter dawn"
       ],
       "places": ["portal stone - hardan"],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "mirror of the wheel": {
+      "name": "mirror of the wheel",
+      "type": "Place",
+      "people": ["rand al'thor", "loial", "hurin", "lanfear"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "raven monument": {
+      "name": "raven monument",
+      "type": "Place",
+      "people": ["rand al'thor", "loial", "hurin", "lanfear"],
+      "places": [],
       "things": {},
       "events": {},
       "description": ""
@@ -493,7 +519,9 @@
         "river erinin",
         "field of talidar",
         "portal stone - hardan",
-        "hardan"
+        "hardan",
+        "mirror of the wheel",
+        "raven monument"
       ],
       "things": {},
       "description": ""
@@ -553,7 +581,11 @@
         "loial",
         "siuan sanche",
         "perrin aybara",
-        "hurin"
+        "hurin",
+        "smoke",
+        "two deer",
+        "winter dawn",
+        "verin mathwin"
       ],
       "places": [
         "fal dara",
@@ -783,7 +815,8 @@
         "leane sharif",
         "siuan sanche",
         "perrin aybara",
-        "hurin"
+        "hurin",
+        "verin mathwin"
       ],
       "places": [
         "fal dara",
@@ -819,7 +852,8 @@
         "leane sharif",
         "siuan sanche",
         "perrin aybara",
-        "hurin"
+        "hurin",
+        "verin mathwin"
       ],
       "places": [
         "fal dara",
@@ -855,7 +889,8 @@
         "leane sharif",
         "siuan sanche",
         "perrin aybara",
-        "hurin"
+        "hurin",
+        "verin mathwin"
       ],
       "places": [
         "fal dara",
@@ -953,7 +988,8 @@
         "elansu",
         "ronan",
         "leane sharif",
-        "agelmar jagad"
+        "agelmar jagad",
+        "verin mathwin"
       ],
       "places": [
         "fal dara",
@@ -1025,7 +1061,7 @@
         "moiraine damodred",
         "anaiya",
         "liandrin",
-        "verin mathwin",
+        "tomas",
         "sarafelle",
         "carlinya",
         "alanna mosvani",
@@ -1036,7 +1072,13 @@
         "ingtar shinowa",
         "matrim cauthon",
         "egwene al'vere",
-        "nyanaeve al'mera"
+        "nyanaeve al'mera",
+        "kajin",
+        "ronan",
+        "ragan",
+        "masema",
+        "uno",
+        "perrin aybara"
       ],
       "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
       "things": {},
@@ -1354,7 +1396,8 @@
         "lan mandragoran",
         "nisura",
         "agelmar jagad",
-        "egwene al'vere"
+        "egwene al'vere",
+        "verin mathwin"
       ],
       "places": [
         "fal dara",
@@ -1492,7 +1535,9 @@
         "river erinin",
         "field of talidar",
         "portal stone - hardan",
-        "hardan"
+        "hardan",
+        "mirror of the wheel",
+        "raven monument"
       ],
       "things": {},
       "description": ""
@@ -1525,7 +1570,9 @@
         "river erinin",
         "field of talidar",
         "portal stone - hardan",
-        "hardan"
+        "hardan",
+        "mirror of the wheel",
+        "raven monument"
       ],
       "things": {},
       "description": ""
@@ -1587,8 +1634,8 @@
     "tomas": {
       "name": "tomas",
       "type": "Person",
-      "role": "",
-      "people": ["egwene al'vere", "nyanaeve al'mera"],
+      "role": "Verin Mathwin's warder",
+      "people": ["egwene al'vere", "nyanaeve al'mera", "verin mathwin"],
       "places": ["Medo", "River Queen", "River Mora"],
       "things": {},
       "description": ""
@@ -1605,7 +1652,7 @@
     "melia": {
       "name": "melia",
       "type": "Person",
-      "role": "",
+      "role": "Hurin's Wife",
       "people": ["hurin"],
       "places": [],
       "things": {},
@@ -1616,9 +1663,50 @@
       "type": "Person",
       "role": "",
       "people": [],
-      "places": ["portal stone - hardan", "hardan"],
+      "places": [
+        "portal stone - hardan",
+        "hardan",
+        "mirror of the wheel",
+        "raven monument"
+      ],
       "things": {},
       "description": ""
+    },
+    "smoke": {
+      "name": "smoke",
+      "type": "Person",
+      "role": "wolf",
+      "people": ["perrin aybara", "two deer", "winter dawn"],
+      "places": ["hardan"],
+      "things": {},
+      "description": ""
+    },
+    "two deer": {
+      "name": "two deer",
+      "type": "Person",
+      "role": "wolf",
+      "people": ["perrin aybara", "smoke", "winter dawn"],
+      "places": ["hardan"],
+      "things": {},
+      "description": ""
+    },
+    "winter dawn": {
+      "name": "winter dawn",
+      "type": "Person",
+      "role": "wolf",
+      "people": ["perrin aybara", "smoke", "two deer"],
+      "places": ["hardan"],
+      "things": {},
+      "description": ""
+    },
+    "whatley eldin": {
+      "name": "whatley eldin",
+      "type": "Person",
+      "role": "",
+      "people": [],
+      "places": ["emond's field"],
+      "things": {},
+      "description": "Rand watched him paint a cart with pinstrips and bright colors."
     }
   },
   "things": {}
