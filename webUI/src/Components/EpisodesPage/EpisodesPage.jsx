@@ -105,29 +105,29 @@ function EpisodesPage() {
         },
       ],
     },
-    // {
-    //   title: "Thom and Moiraine?",
-    //   description:
-    //     "When did they start getting romantic? Was it always there from the beginning, or did RJ throw it in to get better ratings?",
-    //   imageSrc: thomMoiraine,
-    //   streamers: [
-    //     {
-    //       name: "Spotify",
-    //       logo: spotify,
-    //       url: "https://open.spotify.com/embed/show/5sHqxcoUkFoJJqXE2XIENB?utm_source=generator",
-    //     },
-    //     {
-    //       name: "YouTube",
-    //       logo: youtube,
-    //       url: "https://www.youtube.com/embed/Uqx-d6vQbeQ?si=7ha2BA8GH8aXwfal",
-    //     },
-    //     {
-    //       name: "Apple Podcast",
-    //       logo: applePodcast,
-    //       url: "https://embed.podcasts.apple.com/us/podcast/id[EXAMPLE_APPLE_PODCAST_ID_2]",
-    //     },
-    //   ],
-    // },
+    {
+      title: "Thom and Moiraine?",
+      description:
+        "When did they start getting romantic? Was it always there from the beginning, or did RJ throw it in to get better ratings?",
+      imageSrc: thomMoiraine,
+      streamers: [
+        {
+          name: "Spotify",
+          logo: spotify,
+          url: "https://open.spotify.com/embed/episode/56ejd9gTrLCvq3xbncFnlE?utm_source=generator",
+        },
+        {
+          name: "YouTube",
+          logo: youtube,
+          url: "https://www.youtube.com/embed/mDebSG3MbwM?si=qJDUiTsdeJi6vZwg",
+        },
+        {
+          name: "Apple Podcast",
+          logo: applePodcast,
+          url: "https://embed.podcasts.apple.com/us/podcast/thom-moiraine-wheel-of-time/id1779188209?i=1000678218128",
+        },
+      ],
+    },
     // {
     //   title: "Road to Caemlyn",
     //   description:
