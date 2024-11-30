@@ -210,7 +210,10 @@
         "mavra mallen",
         "master thane",
         "master padwhin",
-        "whatley eldin"
+        "whatley eldin",
+        "nela al'caar",
+        "paet al'caar",
+        "corin ayellin"
       ],
       "places": [],
       "things": {},
@@ -229,7 +232,7 @@
     "maradon": {
       "name": "maradon",
       "type": "Place",
-      "people": ["hurin"],
+      "people": ["hurin", "bayle domon"],
       "places": [],
       "things": {},
       "events": {},
@@ -459,7 +462,7 @@
       "name": "mirror of the wheel",
       "type": "Place",
       "people": ["rand al'thor", "loial", "hurin", "lanfear"],
-      "places": [],
+      "places": ["raven monument"],
       "things": {},
       "events": {},
       "description": ""
@@ -468,6 +471,130 @@
       "name": "raven monument",
       "type": "Place",
       "people": ["rand al'thor", "loial", "hurin", "lanfear"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "tar valon": {
+      "name": "tar valon",
+      "type": "Place",
+      "people": [
+        "anaiya",
+        "liandrin",
+        "sarafelle",
+        "carlinya",
+        "alanna mosvani",
+        "leane sharif",
+        "siuan sanche",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "sheriam bayanar"
+      ],
+      "places": ["the white tower"],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "kinslayer's dagger": {
+      "name": "kinslayer's dagger",
+      "type": "Place",
+      "people": ["loial", "hurin", "rand al'thor", "lanfear", "padan fain"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "tremonsien": {
+      "name": "tremonsien",
+      "type": "Place",
+      "people": ["rand al'thor", "hurin", "loial", "lanfear"],
+      "places": ["the nine rings"],
+      "things": {},
+      "events": {},
+      "description": "Cairhien village on a flattened hill top with terraces and retaining walls."
+    },
+    "the nine rings": {
+      "name": "the nine rings",
+      "type": "Place",
+      "people": [
+        "rand al'thor",
+        "hurin",
+        "loial",
+        "lanfear",
+        "maglin madwen",
+        "barin madwen",
+        "catrine",
+        "aldrin caldevwin",
+        "lidan",
+        "elricain tavolin"
+      ],
+      "places": ["tremonsien"],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "tifan's well": {
+      "name": "tifan's well",
+      "type": "Place",
+      "people": [
+        "lan mandragoran",
+        "moiraine damodred",
+        "vandene namelle",
+        "adeleas namelle",
+        "jaem"
+      ],
+      "places": ["arafell"],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "arafell": {
+      "name": "arafell",
+      "type": "Place",
+      "people": [
+        "lan mandragoran",
+        "moiraine damodred",
+        "vandene namelle",
+        "adeleas namelle",
+        "jaem"
+      ],
+      "places": ["tifan's well"],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "the white tower": {
+      "name": "the white tower",
+      "type": "Place",
+      "people": [
+        "nyanaeve al'mera",
+        "egwene al'vere",
+        "leane sharif",
+        "siuan sanche",
+        "alviarin freidhen",
+        "alanna mosvani",
+        "liandrin",
+        "anaiya",
+        "tomas",
+        "sheriam bayanar",
+        "min",
+        "elayne trakand",
+        "gawyn trakand",
+        "galadedrid damodred",
+        "logain ablar",
+        "pedra",
+        "else grinwell"
+      ],
+      "places": ["tar valon"],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "watch hill": {
+      "name": "watch hill",
+      "type": "Place",
+      "people": ["malena aylar"],
       "places": [],
       "things": {},
       "events": {},
@@ -508,7 +635,8 @@
         "leane sharif",
         "siuan sanche",
         "rand al'thor",
-        "hurin"
+        "hurin",
+        "galadedrid damodred"
       ],
       "places": [
         "fal dara",
@@ -521,7 +649,10 @@
         "portal stone - hardan",
         "hardan",
         "mirror of the wheel",
-        "raven monument"
+        "raven monument",
+        "kinslayer's dagger",
+        "tremonsien",
+        "the nine rings"
       ],
       "things": {},
       "description": ""
@@ -616,9 +747,13 @@
         "agelmar jagad",
         "ingtar shinowa",
         "kajin",
-        "nisura"
+        "nisura",
+        "lan mandragoran",
+        "vandene namelle",
+        "adeleas namelle",
+        "jaem"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "tifan's well", "arafell"],
       "things": {},
       "description": ""
     },
@@ -643,9 +778,13 @@
         "leane sharif",
         "siuan sanche",
         "amalisa jagad",
-        "agelmar jagad"
+        "agelmar jagad",
+        "moiraine damodred",
+        "vandene namelle",
+        "adeleas namelle",
+        "jaem"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "tifan's well", "arafell"],
       "things": {},
       "description": ""
     },
@@ -677,9 +816,26 @@
         "liandrin",
         "anaiya",
         "tomas",
-        "master padwhin"
+        "master padwhin",
+        "sheriam bayanar",
+        "min",
+        "elayne trakand",
+        "gawyn trakand",
+        "galadedrid damodred",
+        "egwene al'vere",
+        "pedra",
+        "else grinwell",
+        "logain ablar"
       ],
-      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "Medo",
+        "River Queen",
+        "River Mora",
+        "tar valon",
+        "the white tower"
+      ],
       "things": {},
       "description": ""
     },
@@ -707,9 +863,26 @@
         "alanna mosvani",
         "liandrin",
         "anaiya",
-        "tomas"
+        "tomas",
+        "sheriam bayanar",
+        "nela al'caar",
+        "paet al'caar",
+        "corin ayellin",
+        "malena aylar",
+        "sharina melloy",
+        "maric mandragoran",
+        "elnore mandragoran",
+        "elnore al'mera"
       ],
-      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "Medo",
+        "River Queen",
+        "River Mora",
+        "tar valon",
+        "the white tower"
+      ],
       "things": {},
       "description": ""
     },
@@ -770,7 +943,8 @@
         "harad dakar",
         "river erinin",
         "field of talidar",
-        "hardan"
+        "hardan",
+        "kinslayer's dagger"
       ],
       "things": {},
       "description": ""
@@ -1024,7 +1198,15 @@
         "egwene al'vere",
         "nyanaeve al'mera"
       ],
-      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "Medo",
+        "River Queen",
+        "River Mora",
+        "tar valon",
+        "the white tower"
+      ],
       "things": {},
       "description": ""
     },
@@ -1049,7 +1231,15 @@
         "egwene al'vere",
         "nyanaeve al'mera"
       ],
-      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "Medo",
+        "River Queen",
+        "River Mora",
+        "tar valon",
+        "the white tower"
+      ],
       "things": {},
       "description": ""
     },
@@ -1102,7 +1292,7 @@
         "rand al'thor",
         "ingtar shinowa"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "tar valon"],
       "things": {},
       "description": "Studied the trolloc script written on the wall in blood and filth in Fal Dara prisons. Found it most interesting."
     },
@@ -1122,7 +1312,7 @@
         "siuan sanche",
         "agelmar jagad"
       ],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "tar valon"],
       "things": {},
       "description": ""
     },
@@ -1144,7 +1334,15 @@
         "egwene al'vere",
         "nyanaeve al'mera"
       ],
-      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "Medo",
+        "River Queen",
+        "River Mora",
+        "tar valon",
+        "the white tower"
+      ],
       "things": {},
       "description": ""
     },
@@ -1167,7 +1365,15 @@
         "egwene al'vere",
         "nyanaeve al'mera"
       ],
-      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "Medo",
+        "River Queen",
+        "River Mora",
+        "tar valon",
+        "the white tower"
+      ],
       "things": {},
       "description": ""
     },
@@ -1196,7 +1402,8 @@
         "perrin aybara",
         "hurin",
         "egwene al'vere",
-        "nyanaeve al'mera"
+        "nyanaeve al'mera",
+        "sheriam bayanar"
       ],
       "places": [
         "fal dara",
@@ -1211,7 +1418,9 @@
         "shienar",
         "Medo",
         "River Queen",
-        "River Mora"
+        "River Mora",
+        "tar valon",
+        "the white tower"
       ],
       "things": {},
       "description": ""
@@ -1537,7 +1746,10 @@
         "portal stone - hardan",
         "hardan",
         "mirror of the wheel",
-        "raven monument"
+        "raven monument",
+        "kinslayer's dagger",
+        "tremonsien",
+        "the nine rings"
       ],
       "things": {},
       "description": ""
@@ -1572,7 +1784,10 @@
         "portal stone - hardan",
         "hardan",
         "mirror of the wheel",
-        "raven monument"
+        "raven monument",
+        "kinslayer's dagger",
+        "tremonsien",
+        "the nine rings"
       ],
       "things": {},
       "description": ""
@@ -1582,7 +1797,7 @@
       "type": "Person",
       "role": "Captain and Owner of The Spray",
       "people": ["nieda sidoro", "bili", "carn", "yarin maeldan"],
-      "places": ["illian", "easing the badger", "the spray"],
+      "places": ["illian", "easing the badger", "the spray", "maradon"],
       "things": {},
       "description": ""
     },
@@ -1627,7 +1842,7 @@
       "type": "Person",
       "role": "",
       "people": ["egwene al'vere", "nyanaeve al'mera"],
-      "places": ["Medo", "River Queen", "River Mora"],
+      "places": ["Medo", "River Queen", "River Mora", "the white tower"],
       "things": {},
       "description": ""
     },
@@ -1636,7 +1851,7 @@
       "type": "Person",
       "role": "Verin Mathwin's warder",
       "people": ["egwene al'vere", "nyanaeve al'mera", "verin mathwin"],
-      "places": ["Medo", "River Queen", "River Mora"],
+      "places": ["Medo", "River Queen", "River Mora", "the white tower"],
       "things": {},
       "description": ""
     },
@@ -1667,7 +1882,10 @@
         "portal stone - hardan",
         "hardan",
         "mirror of the wheel",
-        "raven monument"
+        "raven monument",
+        "kinslayer's dagger",
+        "tremonsien",
+        "the nine rings"
       ],
       "things": {},
       "description": ""
@@ -1707,6 +1925,285 @@
       "places": ["emond's field"],
       "things": {},
       "description": "Rand watched him paint a cart with pinstrips and bright colors."
+    },
+    "sheriam bayanar": {
+      "name": "sheriam bayanar",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "siuan sanche",
+        "min",
+        "elayne trakand"
+      ],
+      "places": ["tar valon", "the white tower"],
+      "things": {},
+      "description": ""
+    },
+    "maglin madwen": {
+      "name": "maglin madwen",
+      "type": "Person",
+      "role": "",
+      "people": [],
+      "places": ["the nine rings"],
+      "things": {},
+      "description": ""
+    },
+    "barin madwen": {
+      "name": "barin madwen",
+      "type": "Person",
+      "role": "",
+      "people": [],
+      "places": ["the nine rings"],
+      "things": {},
+      "description": ""
+    },
+    "catrine": {
+      "name": "catrine",
+      "type": "Person",
+      "role": "",
+      "people": [],
+      "places": ["the nine rings"],
+      "things": {},
+      "description": ""
+    },
+    "aldrin caldevwin": {
+      "name": "aldrin caldevwin",
+      "type": "Person",
+      "role": "",
+      "people": [],
+      "places": ["the nine rings"],
+      "things": {},
+      "description": ""
+    },
+    "lidan": {
+      "name": "lidan",
+      "type": "Person",
+      "role": "",
+      "people": [],
+      "places": ["the nine rings"],
+      "things": {},
+      "description": ""
+    },
+    "elricain tavolin": {
+      "name": "elricain tavolin",
+      "type": "Person",
+      "role": "",
+      "people": [],
+      "places": ["the nine rings"],
+      "things": {},
+      "description": ""
+    },
+    "vandene namelle": {
+      "name": "vandene namelle",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "lan mandragoran",
+        "moiraine damodred",
+        "vandene namelle",
+        "adeleas namelle",
+        "jaem"
+      ],
+      "places": ["tifan's well", "arafell"],
+      "things": {},
+      "description": ""
+    },
+    "adeleas namelle": {
+      "name": "adeleas namelle",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "lan mandragoran",
+        "moiraine damodred",
+        "vandene namelle",
+        "adeleas namelle",
+        "jaem"
+      ],
+      "places": ["tifan's well", "arafell"],
+      "things": {},
+      "description": ""
+    },
+    "jaem": {
+      "name": "jaem",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "lan mandragoran",
+        "moiraine damodred",
+        "vandene namelle",
+        "adeleas namelle",
+        "jaem"
+      ],
+      "places": ["tifan's well", "arafell"],
+      "things": {},
+      "description": ""
+    },
+    "min": {
+      "name": "min",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "egwene al'vere",
+        "galadedrid damodred",
+        "min",
+        "elayne trakand",
+        "gawyn trakand",
+        "sheriam bayanar"
+      ],
+      "places": ["the white tower"],
+      "things": {},
+      "description": ""
+    },
+    "elayne trakand": {
+      "name": "elayne trakand",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "egwene al'vere",
+        "galadedrid damodred",
+        "min",
+        "elayne trakand",
+        "gawyn trakand",
+        "sheriam bayanar",
+        "pedra",
+        "else grinwell",
+        "logain ablar"
+      ],
+      "places": ["the white tower"],
+      "things": {},
+      "description": ""
+    },
+    "gawyn trakand": {
+      "name": "gawyn trakand",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "egwene al'vere",
+        "galadedrid damodred",
+        "min",
+        "elayne trakand",
+        "gawyn trakand"
+      ],
+      "places": ["the white tower"],
+      "things": {},
+      "description": ""
+    },
+    "galadedrid damodred": {
+      "name": "galadedrid damodred",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "egwene al'vere",
+        "min",
+        "elayne trakand",
+        "rand al'thor",
+        "gawyn trakand",
+        "galadedrid damodred"
+      ],
+      "places": ["the white tower"],
+      "things": {},
+      "description": ""
+    },
+    "nela al'caar": {
+      "name": "nela al'caar",
+      "type": "Person",
+      "role": "",
+      "people": ["nyanaeve al'mera"],
+      "places": ["emond's field"],
+      "things": {},
+      "description": ""
+    },
+    "paet al'caar": {
+      "name": "paet al'caar",
+      "type": "Person",
+      "role": "",
+      "people": ["nyanaeve al'mera"],
+      "places": ["emond's field"],
+      "things": {},
+      "description": ""
+    },
+    "corin ayellin": {
+      "name": "corin ayellin",
+      "type": "Person",
+      "role": "",
+      "people": ["nyanaeve al'mera"],
+      "places": ["emond's field"],
+      "things": {},
+      "description": ""
+    },
+    "malena aylar": {
+      "name": "malena aylar",
+      "type": "Person",
+      "role": "",
+      "people": ["nyanaeve al'mera"],
+      "places": ["watch hill"],
+      "things": {},
+      "description": ""
+    },
+    "sharina melloy": {
+      "name": "sharina melloy",
+      "type": "Person",
+      "role": "",
+      "people": ["nyanaeve al'mera"],
+      "places": [],
+      "things": {},
+      "description": ""
+    },
+    "maric mandragoran": {
+      "name": "maric mandragoran",
+      "type": "Person",
+      "role": "",
+      "people": ["nyanaeve al'mera"],
+      "places": [],
+      "things": {},
+      "description": ""
+    },
+    "elnore mandragoran": {
+      "name": "elnore mandragoran",
+      "type": "Person",
+      "role": "",
+      "people": ["nyanaeve al'mera"],
+      "places": [],
+      "things": {},
+      "description": ""
+    },
+    "elnore al'mera": {
+      "name": "elnore al'mera",
+      "type": "Person",
+      "role": "",
+      "people": ["nyanaeve al'mera"],
+      "places": [],
+      "things": {},
+      "description": ""
+    },
+    "pedra": {
+      "name": "pedra",
+      "type": "Person",
+      "role": "",
+      "people": ["egwene al'vere", "elayne trakand"],
+      "places": ["the white tower"],
+      "things": {},
+      "description": ""
+    },
+    "else grinwell": {
+      "name": "else grinwell",
+      "type": "Person",
+      "role": "",
+      "people": ["egwene al'vere", "elayne trakand"],
+      "places": ["the white tower"],
+      "things": {},
+      "description": ""
+    },
+    "logain ablar": {
+      "name": "logain ablar",
+      "type": "Person",
+      "role": "",
+      "people": ["egwene al'vere", "elayne trakand"],
+      "places": ["the white tower"],
+      "things": {},
+      "description": ""
     }
   },
   "things": {}
