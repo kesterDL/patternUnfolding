@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./EpisodeTile.module.css";
 
-function EpisodeTile({ episode, onStreamerClick }) {
+function EpisodeTile({ episode, setPlayerUrl }) {
   return (
     <div className={styles.episodeTile}>
       <div className={styles.episodeImage}>
@@ -15,7 +15,7 @@ function EpisodeTile({ episode, onStreamerClick }) {
             <div
               key={index}
               className={styles.streamerCardLink}
-              onClick={() => onStreamerClick(streamer.url)}
+              onClick={() => setPlayerUrl(streamer.url)}
             >
               <img
                 src={streamer.logo}

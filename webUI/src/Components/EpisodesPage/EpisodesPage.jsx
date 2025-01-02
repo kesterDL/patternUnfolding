@@ -7,8 +7,8 @@ import EpisodeTile from "../shared-components/EpisodeTile/EpisodeTile";
 import thomMoiraine from "../../images/frank-mckenna-cRLEVt6SZxI-unsplash_small.webp";
 import channeler from "../../images/nathan-cima-y5aFdoCjB5U-unsplash_small.webp";
 import sheep from "../../images/ariana-prestes-24bzOuENxHc-unsplash_small.webp";
-import samurai from "../../images/sorasak-_UIN-pFfJ7c-unsplash_small.webp";
 import switzerland from "../../images/peter-conlan-axYF1KFjoDY-unsplash_small.webp";
+import samurai from "../../images/sorasak-_UIN-pFfJ7c-unsplash_small.webp";
 import blight from "../../images/yousef-espanioly-AWYI4-h3VnM-unsplash_small.webp";
 import caemlynRoad from "../../images/antonio-janeski-cX5I1Wu_TYg-unsplash_small.webp";
 
@@ -17,10 +17,10 @@ import youtube from "../../logos/yt_logo_only_mono_light.png";
 import applePodcast from "../../logos/Apple_Podcasts_Icon_blk_lg_060623.svg";
 
 function EpisodesPage() {
-  const [player, setPlayer] = useState(null);
+  const [playerUrl, setPlayerUrl] = useState(null);
 
-  const showPlayer = (url) => {
-    setPlayer(
+  const PlayerComponent = (url) => {
+    return (
       <iframe
         src={url}
         width="100%"
@@ -33,7 +33,9 @@ function EpisodesPage() {
     );
   };
 
-  const closePlayer = () => setPlayer(null);
+  const closePlayer = () => {
+    setPlayerUrl(null);
+  };
 
   const episodes = [
     {
@@ -128,52 +130,52 @@ function EpisodesPage() {
         },
       ],
     },
-    // {
-    //   title: "Road to Caemlyn",
-    //   description:
-    //     "Rand and Mat walk non-stop for 3-4 weeks. Counting on their wits, luck, and Thom Merrilin's teachings to survive.",
-    //   imageSrc: caemlynRoad,
-    //   streamers: [
-    //     {
-    //       name: "Spotify",
-    //       logo: spotify,
-    //       url: "https://open.spotify.com/embed/show/[id]?utm_source=generator",
-    //     },
-    //     {
-    //       name: "YouTube",
-    //       logo: youtube,
-    //       url: "https://www.youtube.com/embed/[id]",
-    //     },
-    //     {
-    //       name: "Apple Podcast",
-    //       logo: applePodcast,
-    //       url: "https://embed.podcasts.apple.com/us/podcast/id[YOUR_APPLE_PODCAST_ID]",
-    //     },
-    //   ],
-    // },
-    // {
-    //   title: "Channelers are a Problem",
-    //   description:
-    //     "What if people actually live for 1,000 years and have magic powers? How would that impact society and human progress?",
-    //   imageSrc: channeler,
-    //   streamers: [
-    //     {
-    //       name: "Spotify",
-    //       logo: spotify,
-    //       url: "https://open.spotify.com/embed/show/5sHqxcoUkFoJJqXE2XIENB?utm_source=generator",
-    //     },
-    //     {
-    //       name: "YouTube",
-    //       logo: youtube,
-    //       url: "https://www.youtube.com/embed/Uqx-d6vQbeQ?si=7ha2BA8GH8aXwfal",
-    //     },
-    //     {
-    //       name: "Apple Podcast",
-    //       logo: applePodcast,
-    //       url: "https://embed.podcasts.apple.com/us/podcast/id[YOUR_APPLE_PODCAST_ID]",
-    //     },
-    //   ],
-    // },
+    {
+      title: "Road to Caemlyn",
+      description:
+        "Rand and Mat walk non-stop for 3-4 weeks. Counting on their wits, luck, and Thom Merrilin's teachings to survive.",
+      imageSrc: caemlynRoad,
+      streamers: [
+        {
+          name: "Spotify",
+          logo: spotify,
+          url: "https://open.spotify.com/embed/show/[id]?utm_source=generator",
+        },
+        {
+          name: "YouTube",
+          logo: youtube,
+          url: "https://www.youtube.com/embed/[id]",
+        },
+        {
+          name: "Apple Podcast",
+          logo: applePodcast,
+          url: "https://embed.podcasts.apple.com/us/podcast/id[YOUR_APPLE_PODCAST_ID]",
+        },
+      ],
+    },
+    {
+      title: "Channelers are a Problem",
+      description:
+        "What if people actually live for 1,000 years and have magic powers? How would that impact society and human progress?",
+      imageSrc: channeler,
+      streamers: [
+        {
+          name: "Spotify",
+          logo: spotify,
+          url: "https://open.spotify.com/embed/show/5sHqxcoUkFoJJqXE2XIENB?utm_source=generator",
+        },
+        {
+          name: "YouTube",
+          logo: youtube,
+          url: "https://www.youtube.com/embed/Uqx-d6vQbeQ?si=7ha2BA8GH8aXwfal",
+        },
+        {
+          name: "Apple Podcast",
+          logo: applePodcast,
+          url: "https://embed.podcasts.apple.com/us/podcast/id[YOUR_APPLE_PODCAST_ID]",
+        },
+      ],
+    },
     // {
     //   title: "The Borderlands",
     //   description:
@@ -214,15 +216,17 @@ function EpisodesPage() {
             <EpisodeTile
               key={index}
               episode={episode}
-              onStreamerClick={(url) => showPlayer(url)}
+              setPlayerUrl={setPlayerUrl}
             />
           ))}
         </div>
       </div>
-      {player && (
+      {playerUrl && (
         <>
           <div className={styles.overlayBackground} onClick={closePlayer}></div>
-          <div className={styles.playerContainer}>{player}</div>
+          <div className={styles.playerContainer}>
+            {PlayerComponent(playerUrl)}
+          </div>
         </>
       )}
     </>

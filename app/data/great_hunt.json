@@ -599,6 +599,77 @@
       "things": {},
       "events": {},
       "description": ""
+    },
+    "cairhien": {
+      "name": "cairhien",
+      "type": "Place",
+      "people": [
+        "hurin",
+        "rand al'thor",
+        "loial",
+        "elricain tavolin",
+        "thom merrilin",
+        "asan sandair",
+        "cuale",
+        "zera",
+        "dena",
+        "ivan",
+        "seaghan"
+      ],
+      "places": [
+        "foregate",
+        "the bunch of grapes",
+        "Defender of the Dragonwall"
+      ],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "foregate": {
+      "name": "foregate",
+      "type": "Place",
+      "people": [
+        "hurin",
+        "rand al'thor",
+        "loial",
+        "elricain tavolin",
+        "thom merrilin",
+        "zera",
+        "dena",
+        "ivan",
+        "seaghan"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "Defender of the Dragonwall": {
+      "name": "Defender of the Dragonwall",
+      "type": "Place",
+      "people": ["hurin", "rand al'thor", "loial", "cuale"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "the bunch of grapes": {
+      "name": "the bunch of grapes",
+      "type": "Place",
+      "people": ["rand al'thor", "thom merrilin", "zera", "dena"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "gaelin river": {
+      "name": "gaelin river",
+      "type": "Place",
+      "people": ["hurin", "rand al'thor", "loial", "elricain tavolin"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
     }
   },
   "people": {
@@ -636,7 +707,12 @@
         "siuan sanche",
         "rand al'thor",
         "hurin",
-        "galadedrid damodred"
+        "galadedrid damodred",
+        "thom merrilin",
+        "dena",
+        "zera",
+        "asan sandair",
+        "cuale"
       ],
       "places": [
         "fal dara",
@@ -652,7 +728,12 @@
         "raven monument",
         "kinslayer's dagger",
         "tremonsien",
-        "the nine rings"
+        "the nine rings",
+        "cairhien",
+        "foregate",
+        "Defender of the Dragonwall",
+        "the bunch of grapes",
+        "gaelin river"
       ],
       "things": {},
       "description": ""
@@ -1635,7 +1716,7 @@
       "name": "basil gill",
       "type": "Person",
       "role": "",
-      "people": ["elaida a'roihan"],
+      "people": ["elaida a'roihan", "thom merrilin"],
       "places": [],
       "things": {},
       "description": ""
@@ -1733,7 +1814,9 @@
         "siuan sanche",
         "rand al'thor",
         "perrin aybara",
-        "hurin"
+        "hurin",
+        "asan sandair",
+        "cuale"
       ],
       "places": [
         "fal dara",
@@ -1749,7 +1832,11 @@
         "raven monument",
         "kinslayer's dagger",
         "tremonsien",
-        "the nine rings"
+        "the nine rings",
+        "cairhien",
+        "foregate",
+        "Defender of the Dragonwall",
+        "gaelin river"
       ],
       "things": {},
       "description": ""
@@ -1769,7 +1856,9 @@
         "rand al'thor",
         "perrin aybara",
         "hurin",
-        "melia"
+        "melia",
+        "asan sandair",
+        "cuale"
       ],
       "places": [
         "fal dara",
@@ -1787,7 +1876,11 @@
         "raven monument",
         "kinslayer's dagger",
         "tremonsien",
-        "the nine rings"
+        "the nine rings",
+        "cairhien",
+        "foregate",
+        "Defender of the Dragonwall",
+        "gaelin river"
       ],
       "things": {},
       "description": ""
@@ -1990,8 +2083,8 @@
       "name": "elricain tavolin",
       "type": "Person",
       "role": "",
-      "people": [],
-      "places": ["the nine rings"],
+      "people": ["asan sandair"],
+      "places": ["the nine rings", "cairhien", "foregate", "gaelin river"],
       "things": {},
       "description": ""
     },
@@ -2099,8 +2192,7 @@
         "min",
         "elayne trakand",
         "rand al'thor",
-        "gawyn trakand",
-        "galadedrid damodred"
+        "gawyn trakand"
       ],
       "places": ["the white tower"],
       "things": {},
@@ -2202,6 +2294,76 @@
       "role": "",
       "people": ["egwene al'vere", "elayne trakand"],
       "places": ["the white tower"],
+      "things": {},
+      "description": ""
+    },
+    "thom merrilin": {
+      "name": "thom merrilin",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "dena",
+        "zera",
+        "ivan",
+        "seaghan",
+        "basil gill"
+      ],
+      "places": ["cairhien", "foregate", "the bunch of grapes"],
+      "things": {},
+      "description": ""
+    },
+    "asan sandair": {
+      "name": "asan sandair",
+      "type": "Person",
+      "role": "",
+      "people": ["rand al'thor", "loial", "hurin", "elricain tavolin"],
+      "places": ["cairhien"],
+      "things": {},
+      "description": "gate clerk which recorded Rand, Loial, and Hurin's entry to the city of Cairhien."
+    },
+    "cuale": {
+      "name": "cuale",
+      "type": "Person",
+      "role": "",
+      "people": ["rand al'thor", "loial", "hurin"],
+      "places": ["cairhien", "Defender of the Dragonwall"],
+      "things": {},
+      "description": "inn keep of the Defender of the Dragonwall inn. Plump, unctuous man with a single strip of green across a dark gray coat."
+    },
+    "zera": {
+      "name": "zera",
+      "type": "Person",
+      "role": "",
+      "people": ["thom merrilin", "rand al'thor", "dena"],
+      "places": ["cairhien", "foregate", "the bunch of grapes"],
+      "things": {},
+      "description": "Inn keep of the bunch of grapes where Thom and Dena were living in The Foregate."
+    },
+    "dena": {
+      "name": "dena",
+      "type": "Person",
+      "role": "",
+      "people": ["thom merrilin", "rand al'thor", "zera", "ivan", "seaghan"],
+      "places": ["cairhien", "foregate", "the bunch of grapes"],
+      "things": {},
+      "description": "Thom's lover and student."
+    },
+    "ivan": {
+      "name": "ivan",
+      "type": "Person",
+      "role": "",
+      "people": ["dena", "thom merrilin"],
+      "places": ["cairhien", "foregate"],
+      "things": {},
+      "description": ""
+    },
+    "seaghan": {
+      "name": "seaghan",
+      "type": "Person",
+      "role": "",
+      "people": ["dena", "thom merrilin"],
+      "places": ["cairhien", "foregate"],
       "things": {},
       "description": ""
     }
