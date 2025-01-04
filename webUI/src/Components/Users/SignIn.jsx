@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import {
   CognitoUserPool,
   AuthenticationDetails,
@@ -7,83 +8,77 @@ import {
 import cognitoConfig from "../../user/cognitoConfig";
 import styles from "./SignIn.module.css";
 import signInImage from "../../images/peter-robbins-zfKCB92H2ZI-unsplash_small.webp";
+import {
+  signInRequest,
+  signInSuccess,
+  signInFailure,
+} from "../../redux/actions/authActions";
 
 const SignIn = ({ onSignInSuccess }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+  const dispatch = useDispatch();
+  const { loading, error } = useSelector((state) => state.auth);
 
   const handleSignIn = () => {
+    dispatch(signInRequest());
+
     const userPool = new CognitoUserPool({
       UserPoolId: cognitoConfig.UserPoolId,
       ClientId: cognitoConfig.ClientId,
     });
 
     const userData = {
-      Username: email, // Use the email or username for signing in
+      Username: email,
       Pool: userPool,
     };
 
     const authenticationDetails = new AuthenticationDetails({
-      Username: email, // Use the email here
+      Username: email,
       Password: password,
     });
 
     const cognitoUser = new CognitoUser(userData);
-
     cognitoUser.authenticateUser(authenticationDetails, {
       onSuccess: (result) => {
-        console.log("Access Token:", result.getAccessToken().getJwtToken());
-
-        // Fetch user attributes to get preferred_username
-        cognitoUser.getUserAttributes((err, attributes) => {
-          if (err) {
-            setError("Error fetching user attributes");
-            console.error(err);
-            return;
-          }
-
-          // Find preferred_username (or fallback to email if not available)
-          const usernameAttr = attributes.find(
-            (attr) => attr.Name === "preferred_username"
-          );
-          const username = usernameAttr ? usernameAttr.Value : email;
-
-          // Call the callback with the username
-          onSignInSuccess(username);
-        });
+        dispatch(signInSuccess(result));
+        onSignInSuccess(email); // Pass the email as the username
       },
       onFailure: (err) => {
-        setError("Sign-in failed: " + err.message);
+        dispatch(signInFailure(err.message));
       },
     });
   };
 
   return (
-    <div className={styles.signInForm}>
+    <div className={styles.signInContainer}>
       <div className={styles.signInImage}>
-        <img src={signInImage} alt={`Photo by Peter Robbins on Unsplash`} />
-        <div className={styles.signInOverlayText}>Sign In</div>
+        <img src={signInImage} alt="Sign In" />
       </div>
-      <input
-        className={styles.inputField}
-        type="email"
-        placeholder="Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <input
-        className={styles.inputField}
-        type="password"
-        placeholder="Password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-      />
-      <button className={styles.signInButton} onClick={handleSignIn}>
-        Sign In
-      </button>
-
-      {error && <div style={{ color: "red" }}>{error}</div>}
+      <div className={styles.signInForm}>
+        <input
+          className={styles.inputField}
+          type="email"
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          className={styles.inputField}
+          type="password"
+          placeholder="Password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+        <button
+          className={styles.signInButton}
+          onClick={handleSignIn}
+          disabled={loading}
+        >
+          {loading ? "Signing In..." : "Sign In"}
+        </button>
+        {error && <p className={styles.error}>{error}</p>}
+      </div>
     </div>
   );
 };

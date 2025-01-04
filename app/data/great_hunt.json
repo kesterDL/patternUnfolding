@@ -2356,7 +2356,7 @@
       "people": ["dena", "thom merrilin"],
       "places": ["cairhien", "foregate"],
       "things": {},
-      "description": ""
+      "description": "Knife maker that was making Dena's knives."
     },
     "seaghan": {
       "name": "seaghan",
@@ -2365,7 +2365,7 @@
       "people": ["dena", "thom merrilin"],
       "places": ["cairhien", "foregate"],
       "things": {},
-      "description": ""
+      "description": "Theatre owner in the Foregate who employed Thom."
     }
   },
   "things": {}
