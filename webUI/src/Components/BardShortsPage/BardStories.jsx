@@ -8,6 +8,12 @@ import Reader from "../Stories/story-components/Reader";
 import stonesBoat from "../../images/stones_boat.webp";
 import valersNestCover from "../../images/ValersNest_cover.webp"; // For ValersNest cover image
 import ValersNestStoryText from "../../stories/ValersNestStoryText"; // ValersNest story text
+import WolfBannerSong from "../../stories/WolfBannerSong"; // WolfBanner story text
+import Manetheren from "../../images/Manetheren.webp";
+import BirgittesSeveredString from "../../stories/BirgettesSeveredString";
+import SeveredString from "../../images/severed_string.webp";
+import GaidalsHall from "../../stories/GaidalsHall";
+import TheBraveFall from "../../images/the_brave_fall.webp";
 
 Modal.setAppElement("#root");
 
@@ -43,6 +49,24 @@ function BardStories() {
       A mountain can't be fought and has no mercy to give and death is often slow and very painful.",
       coverImage: stonesBoat,
       storyText: <ValersNestStoryText />, // Valer's Nest full story content
+    },
+    {
+      title: "The Wolfhead Banner",
+      description: "A song for the Battle of the Two Rivers",
+      coverImage: Manetheren,
+      storyText: <WolfBannerSong />,
+    },
+    {
+      title: "Birgitte's Severed String",
+      description: "Birgitte's lament for Gaidal Cain",
+      coverImage: SeveredString,
+      storyText: <BirgittesSeveredString />,
+    },
+    {
+      title: "Guidal's Hall",
+      description: "Gaidal Cain's lament for Birgitte",
+      coverImage: TheBraveFall,
+      storyText: <GaidalsHall />,
     },
     // Add more stories here if needed
   ];
