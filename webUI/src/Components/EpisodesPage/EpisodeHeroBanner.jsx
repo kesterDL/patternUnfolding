@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import styles from "./EpisodeHeroBanner.module.css";
-import banner from "../../images/peter-conlan-axYF1KFjoDY-unsplash.webp";
+import banner from "../../images/ryoji-iwata-159p1Wsn9tE-unsplash-large.webp";
 import skyline from "../../images/mountain_skyline.svg";
 import spotify from "../../logos/Spotify_Logo_only_RGB_Black.png";
 import youtube from "../../logos/yt_logo_only_mono_light.png";
@@ -17,7 +17,7 @@ function Episode_Hero_Banner() {
         setPlayer(
           <iframe
             style={{ borderRadius: "12px" }}
-            src="https://podcasters.spotify.com/pod/show/weaveandthewheel/embed/episodes/The-Wind-Weaves--Wheel-of-Time-e2qjvrn/a-abk7o8v"
+            src="https://open.spotify.com/embed/episode/3Qi1HDq3N4wCiQR9LTAc41?utm_source=generator"
             width="100%"
             height="152" // Adjusted height for better layout
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
@@ -31,7 +31,7 @@ function Episode_Hero_Banner() {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/rvbFNRTTWH0?si=ZvWPrtpvf5i6HQp6"
+            src="https://www.youtube.com/embed/sv-obVM-oCk?si=amop8k8mAINuH7BM"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
@@ -51,7 +51,7 @@ function Episode_Hero_Banner() {
               borderRadius: "10px",
             }}
             sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
-            src="https://embed.podcasts.apple.com/us/podcast/the-wind-weaves-wheel-of-time/id1779188209?i=1000676574116"
+            src="https://creators.spotify.com/pod/show/weaveandthewheel/embed/episodes/Fall-of-Malkier-and-Jain-Farstrider--Wheel-of-Time-e2tdh1e/a-abnmoom"
           />
         );
         break;
@@ -76,11 +76,11 @@ function Episode_Hero_Banner() {
           className={styles.backgroundImage}
         />
         <div className={styles.actionCenter}>
-          <div className={styles.episodeTitle}>The Wind Weaves</div>
+          <div className={styles.episodeTitle}>The Fall of Malkier</div>
           <div className={styles.episodeDescription}>
-            - Opening the Eye of the World. Hot spiced cider, honey cakes, and
-            the Black Rider. Walking the well trod path of Tolkien, then going
-            beyond. -
+            - Malkier's Fall shaped cultures and events of the book. It's a
+            legend in a legend. Yet some how another legend Jain Farstrider
+            shows up? -
           </div>
           <div className={styles.streamingChannels}>
             <div

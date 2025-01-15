@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import styles from "./ArtGalleryPage.module.css";
 import ArtGalleryHeroBanner from "./ArtGalleryHeroBanner";
 import ArtGalleryTile from "../shared-components/ArtGalleryTile/ArtGalleryTile";
-import Modal from "../shared-components/Modal/Modal";
+import ArtModal from "./ArtModal";
 
 import thomMoiraine from "../../images/frank-mckenna-cRLEVt6SZxI-unsplash_small.webp";
 import channeler from "../../images/nathan-cima-y5aFdoCjB5U-unsplash_small.webp";
@@ -15,6 +15,7 @@ import mist from "../../images/tyler-lastovich-8_LZ9UWTKLE-unsplash_small.webp";
 import books from "../../images/paul-schafer-t6oZEgL0z18-unsplash_small.webp";
 import thread from "../../images/max-kleinen-GhrqMkA4cVA-unsplash_small.webp";
 import blight from "../../images/yousef-espanioly-AWYI4-h3VnM-unsplash_small.webp";
+import gates from "../../images/ryoji-iwata-159p1Wsn9tE-unsplash.webp";
 
 function ArtGalleryPage() {
   const [selectedArt, setSelectedArt] = useState(null);
@@ -97,6 +98,13 @@ function ArtGalleryPage() {
       imageLink:
         "https://unsplash.com/photos/close-up-photography-of-succulent-plant-AWYI4-h3VnM",
     },
+    {
+      title: "Shinto Gates in the Sea",
+      artist: "Ryoji Iwata",
+      artistLink: "https://unsplash.com/@ryoji__iwata",
+      imageSrc: gates,
+      imageLink: "https://unsplash.com/photos/tori-gate-159p1Wsn9tE",
+    },
   ];
 
   return (
@@ -124,31 +132,7 @@ function ArtGalleryPage() {
       </div>
 
       {/* Modal for enlarged Art Tile */}
-      {selectedArt && (
-        <Modal isOpen={!!selectedArt} onClose={() => setSelectedArt(null)}>
-          <div style={{ textAlign: "center" }}>
-            <img
-              src={selectedArt.imageSrc}
-              alt={selectedArt.title}
-              style={{ maxWidth: "65%", height: "auto", borderRadius: "8px" }}
-            />
-            <h2 style={{ marginTop: "20px", fontFamily: "Cinzel, serif" }}>
-              {selectedArt.title}
-            </h2>
-            <p style={{ fontFamily: "Cormorant, serif", fontSize: "18px" }}>
-              Art by:{" "}
-              <a
-                href={selectedArt.artistLink}
-                target="_blank"
-                rel="noreferrer"
-                style={{ textDecoration: "underline", color: "#333" }}
-              >
-                {selectedArt.artist}
-              </a>
-            </p>
-          </div>
-        </Modal>
-      )}
+      <ArtModal art={selectedArt} onClose={() => setSelectedArt(null)} />
     </>
   );
 }
