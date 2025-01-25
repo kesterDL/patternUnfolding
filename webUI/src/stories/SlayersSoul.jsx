@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function BirgittesSeveredString() {
+export default function SlayersSoul() {
   return (
     <>
       <p class="c2">

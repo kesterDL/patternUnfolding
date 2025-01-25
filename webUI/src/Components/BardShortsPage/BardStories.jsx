@@ -9,11 +9,24 @@ import stonesBoat from "../../images/stones_boat.webp";
 import valersNestCover from "../../images/ValersNest_cover.webp"; // For ValersNest cover image
 import ValersNestStoryText from "../../stories/ValersNestStoryText"; // ValersNest story text
 import WolfBannerSong from "../../stories/WolfBannerSong"; // WolfBanner story text
+import LamansSin from "../../stories/LamansSin"; // Lamans Sin story
+import AlcairDal from "../../stories/AlcairDal";
+import DanceWithMeShadowMan from "../../stories/DanceWithMeShadowMan";
+import SlayersSoul from "../../stories/SlayersSoul";
+import JakOTheShadows from "../../stories/DanceWithJakOTheShadows";
+import MalkiersCrown from "../../stories/MalkiersCrown";
+import TowersFlames from "../../stories/TowersFlames";
+
 import Manetheren from "../../images/Manetheren.webp";
 import BirgittesSeveredString from "../../stories/BirgettesSeveredString";
 import SeveredString from "../../images/severed_string.webp";
 import GaidalsHall from "../../stories/GaidalsHall";
 import TheBraveFall from "../../images/the_brave_fall.webp";
+import Chora from "../../images/Chora.webp";
+import CliffHome from "../../images/AlcairDal.webp";
+import Fade from "../../images/eyeless.webp";
+import TwoMen from "../../images/SlayersSoul.webp";
+import Jak from "../../images/Jak.webp"
 
 Modal.setAppElement("#root");
 
@@ -67,6 +80,48 @@ function BardStories() {
       description: "Gaidal Cain's lament for Birgitte",
       coverImage: TheBraveFall,
       storyText: <GaidalsHall />,
+    },
+    {
+      title: "Laman's Sin",
+      description: "A song abount Laman's Sin is a song about the heart break and anger felt by the Aiel people when they learned that Laman cut down the Chora tree.",
+      coverImage: Chora,
+      storyText: <LamansSin />,
+    },
+    {
+      title: "Alcair Dal",
+      description: "Alcair Dal is a call and response style song about the Seia Doon Warrior Society taunting everyone else.",
+      coverImage: CliffHome,
+      storyText: <AlcairDal />
+    },
+    {
+      title: "Dance With Me Shadowman",
+      description: "A song about the Aiel circling and taunting three Myrddraal.",
+      coverImage: Fade,
+      storyText: <DanceWithMeShadowMan />
+    },
+    {
+      title: "Slayer's Soul",
+      description: "An origin story song about Slayer.",
+      coverImage: TwoMen,
+      storyText: <SlayersSoul />
+    },
+    {
+      title: "Jak o' the Shadows",
+      description: "Robert Jordan's Jak o' the Shadows Song in full form.",
+      coverImage: Jak,
+      storyText: <JakOTheShadows />
+    },
+    {
+      title: "Malkier's Crown",
+      description: "Lan thinking about his parents and Malkier.",
+      coverImage: Jak,
+      storyText: <MalkiersCrown />
+    },
+    {
+      title: "Seven Towers Flames",
+      description: "A song for the hope and sorrow of those Malkieri who fought the Shadow during the fall of their nation.",
+      coverImage: Jak,
+      storyText: <TowersFlames />
     },
     // Add more stories here if needed
   ];
