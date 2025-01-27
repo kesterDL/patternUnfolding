@@ -44,7 +44,7 @@ h4 {
   font-family: "Cormorant", sans-serif;
   font-size: 1rem;
   height: 6.5rem;
-  overflow: scroll;
+  overflow: clip;
   color: rgb(46, 45, 45);
 }
 

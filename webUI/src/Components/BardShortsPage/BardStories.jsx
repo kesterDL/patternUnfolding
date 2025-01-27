@@ -27,6 +27,8 @@ import CliffHome from "../../images/AlcairDal.webp";
 import Fade from "../../images/eyeless.webp";
 import TwoMen from "../../images/SlayersSoul.webp";
 import Jak from "../../images/Jak.webp"
+import MountainFlames from "../../images/seven_tower_flames.webp";
+import GoldenCrane from "../../images/golden_crane.webp"
 
 Modal.setAppElement("#root");
 
@@ -114,13 +116,13 @@ function BardStories() {
     {
       title: "Malkier's Crown",
       description: "Lan thinking about his parents and Malkier.",
-      coverImage: Jak,
+      coverImage: GoldenCrane,
       storyText: <MalkiersCrown />
     },
     {
       title: "Seven Towers Flames",
       description: "A song for the hope and sorrow of those Malkieri who fought the Shadow during the fall of their nation.",
-      coverImage: Jak,
+      coverImage: MountainFlames,
       storyText: <TowersFlames />
     },
     // Add more stories here if needed
