@@ -3,7 +3,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import styles from "./BardStoriesHeroBanner.module.css";
 import skyline from "../../images/mountain_skyline.svg";
 import Header from "../Header/Header";
-import bardStories from "../../images/paul-schafer-t6oZEgL0z18-unsplash.webp";
 
 function BardStoriesHeroBanner() {
   return (
@@ -23,7 +22,7 @@ function BardStoriesHeroBanner() {
           </div>
           <div className={styles.fullWidthImageContainer}>
             <img
-              src={bardStories}
+              src="https://unsplash.com/photos/t6oZEgL0z18/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzM4MDc5NTM4fA&force=true&w=2400"
               alt="Bard Stories | Photo by Paul Schafer on Unsplash https://unsplash.com/photos/book-lot-in-bookcase-t6oZEgL0z18"
               className={styles.backgroundImage}
             />

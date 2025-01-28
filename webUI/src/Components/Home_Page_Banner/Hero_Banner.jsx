@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import { Helmet } from "react-helmet";
 import styles from "./Hero_Banner.module.css";
-import banner from "../../images/tyler-lastovich-8_LZ9UWTKLE-unsplash.webp";
 import skyline from "../../images/mountain_skyline.svg";
 import headphones from "../../logos/headphone.svg";
 import eyeglasses from "../../logos/eyeglasses.svg";
@@ -21,7 +20,7 @@ function Hero_Banner() {
       </div>
       <div className={styles.fullWidthImageContainer}>
         <img
-          src={banner}
+          src="https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/tyler-lastovich-8_LZ9UWTKLE-unsplash.webp"
           alt="Dragonmount Pattern Unfolding | Photo by Tyler Lastovich on Unsplash https://unsplash.com/@lastly"
           className={styles.backgroundImage}
         />

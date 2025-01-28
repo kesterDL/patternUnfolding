@@ -7,7 +7,7 @@ export default function SlayersSoul() {
         <span>
           <p>
             Luc rode high through the Mountains of Dhoom, His heart was bold,
-            but he met his doom. Eesam waited where shadows creep, A hunter born
+            but he met his doom. Isam waited where shadows creep, A hunter born
             in darkness deep.
           </p>
           <p>
@@ -29,12 +29,12 @@ export default function SlayersSoul() {
             Slayer walks, a shadow’s thirst.
           </p>
           <p>
-            The hunt begins with the Shadow’s hound, Luc and Eesam, forever
+            The hunt begins with the Shadow’s hound, Luc and Isam, forever
             bound. They prowl the world, they stalk the dream, A fractured soul
             with a silent scream.
           </p>
           <p>
-            The Town was dark, no child should stay, Yet Eesam survived in the
+            The Town was dark, no child should stay, Yet Isam survived in the
             shadow’s sway. Luc’s honor lost, his soul betrayed, Together they
             kill where shadows play.
           </p>

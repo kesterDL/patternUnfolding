@@ -17,7 +17,7 @@ function ArtGalleryHeroBanner() {
       </div>
       <div className={styles.fullWidthImageContainer}>
         <img
-          src={gallery}
+          src="https://unsplash.com/photos/iqeG5xA96M4/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzM4MDc3MjIyfA&force=true&w=2400"
           alt="Art Gallery | Photo by Claudio Testa on Unsplash https://unsplash.com/@claudiotesta"
           className={styles.backgroundImage}
         />

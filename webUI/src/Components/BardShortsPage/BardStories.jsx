@@ -54,7 +54,7 @@ function BardStories() {
       description:
         "In the city of Everlund, a young man plagued by boredom and over protection, \
         finds himself caught up in adventure.",
-      coverImage: valersNestCover,
+      coverImage: "https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/ValersNest_cover.webp",
       storyText: <ValersNestStoryText />, // Valer's Nest full story content
     },
     {
@@ -62,67 +62,67 @@ function BardStories() {
       description:
         "If Orcs attacks, you fight or you run. Even if Orcs catch you, sometimes, you can beg or bargain.\
       A mountain can't be fought and has no mercy to give and death is often slow and very painful.",
-      coverImage: stonesBoat,
+      coverImage: "https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/stones_boat.webp",
       storyText: <ValersNestStoryText />, // Valer's Nest full story content
     },
     {
       title: "The Wolfhead Banner",
       description: "A song for the Battle of the Two Rivers",
-      coverImage: Manetheren,
+      coverImage: "https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/Manetheren.webp",
       storyText: <WolfBannerSong />,
     },
     {
       title: "Birgitte's Severed String",
       description: "Birgitte's lament for Gaidal Cain",
-      coverImage: SeveredString,
+      coverImage: "https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/severed_string.webp",
       storyText: <BirgittesSeveredString />,
     },
     {
       title: "Guidal's Hall",
       description: "Gaidal Cain's lament for Birgitte",
-      coverImage: TheBraveFall,
+      coverImage: "https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/the_brave_fall.webp",
       storyText: <GaidalsHall />,
     },
     {
       title: "Laman's Sin",
       description: "A song abount Laman's Sin is a song about the heart break and anger felt by the Aiel people when they learned that Laman cut down the Chora tree.",
-      coverImage: Chora,
+      coverImage: "https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/Chora.webp",
       storyText: <LamansSin />,
     },
     {
       title: "Alcair Dal",
       description: "Alcair Dal is a call and response style song about the Seia Doon Warrior Society taunting everyone else.",
-      coverImage: CliffHome,
+      coverImage: "https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/AlcairDal.webp",
       storyText: <AlcairDal />
     },
     {
       title: "Dance With Me Shadowman",
       description: "A song about the Aiel circling and taunting three Myrddraal.",
-      coverImage: Fade,
+      coverImage: "https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/eyeless.webp",
       storyText: <DanceWithMeShadowMan />
     },
     {
       title: "Slayer's Soul",
       description: "An origin story song about Slayer.",
-      coverImage: TwoMen,
+      coverImage: "https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/SlayersSoul.webp",
       storyText: <SlayersSoul />
     },
     {
       title: "Jak o' the Shadows",
       description: "Robert Jordan's Jak o' the Shadows Song in full form.",
-      coverImage: Jak,
+      coverImage: "https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/Jak.webp",
       storyText: <JakOTheShadows />
     },
     {
       title: "Malkier's Crown",
       description: "Lan thinking about his parents and Malkier.",
-      coverImage: GoldenCrane,
+      coverImage: "https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/golden_crane.webp",
       storyText: <MalkiersCrown />
     },
     {
       title: "Seven Towers Flames",
       description: "A song for the hope and sorrow of those Malkieri who fought the Shadow during the fall of their nation.",
-      coverImage: MountainFlames,
+      coverImage: "https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/seven_tower_flames.webp",
       storyText: <TowersFlames />
     },
     // Add more stories here if needed

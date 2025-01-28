@@ -8,7 +8,6 @@ import thomMoiraine from "../../images/frank-mckenna-cRLEVt6SZxI-unsplash_small.
 import channeler from "../../images/nathan-cima-y5aFdoCjB5U-unsplash_small.webp";
 import sheep from "../../images/ariana-prestes-24bzOuENxHc-unsplash_small.webp";
 import switzerland from "../../images/peter-conlan-axYF1KFjoDY-unsplash_small.webp";
-import samurai from "../../images/sorasak-_UIN-pFfJ7c-unsplash_small.webp";
 import blight from "../../images/yousef-espanioly-AWYI4-h3VnM-unsplash_small.webp";
 import caemlynRoad from "../../images/antonio-janeski-cX5I1Wu_TYg-unsplash_small.webp";
 
