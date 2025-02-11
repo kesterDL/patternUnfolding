@@ -6,13 +6,11 @@ import styles from "./Header.module.css";
 import Header_Logo from "./Header_Logo";
 import UserAuthModal from "../shared-components/UserAuthModal/UserAuthModal";
 import UserSignUp from "../Users/UserSignUp";
-import SignIn from "../Users/SignIn";
 import cognitoConfig from "../../user/cognitoConfig";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [showSignUpModal, setShowSignUpModal] = useState(false);
-  const [showSignInModal, setShowSignInModal] = useState(false);
   const [isSignedIn, setIsSignedIn] = useState(false);
   const [username, setUsername] = useState("");
 
@@ -26,14 +24,6 @@ function Header() {
 
   const closeSignUpModal = () => {
     setShowSignUpModal(false);
-  };
-
-  const openSignInModal = () => {
-    setShowSignInModal(true);
-  };
-
-  const closeSignInModal = () => {
-    setShowSignInModal(false);
   };
 
   const handleSignInSuccess = (username) => {
@@ -110,9 +100,13 @@ function Header() {
               <Link to="/contact" className={styles.navLink}>
                 Contact
               </Link>
+              {/* New link added for ApiTextPage */}
+              <Link to="/apitext" className={styles.navLink}>
+                Api Text
+              </Link>
             </nav>
 
-            {/* Show username and sign out button if signed in, otherwise show sign-in/sign-up buttons */}
+            {/* Show username and sign out button or sign-in/register links */}
             <div className={styles.signUp}>
               {isSignedIn ? (
                 <>
@@ -126,12 +120,9 @@ function Header() {
                 </>
               ) : (
                 <>
-                  <button
-                    className={styles.signInButton}
-                    onClick={openSignInModal}
-                  >
+                  <Link to="/signin" className={styles.signInButton}>
                     Sign In
-                  </button>
+                  </Link>
                   <button
                     className={styles.registerButton}
                     onClick={openSignUpModal}
@@ -179,12 +170,9 @@ function Header() {
               </>
             ) : (
               <>
-                <button
-                  className={styles.signInButton}
-                  onClick={openSignInModal}
-                >
+                <Link to="/signin" className={styles.signInButton}>
                   Sign In
-                </button>
+                </Link>
                 <button
                   className={styles.registerButton}
                   onClick={openSignUpModal}
@@ -197,14 +185,10 @@ function Header() {
         </div>
       )}
 
-      {/* Modal for Sign Up */}
+      {/* Remove modals related to sign in */}
+      {/* Existing modal for Sign Up remains */}
       <UserAuthModal show={showSignUpModal} onClose={closeSignUpModal}>
         <UserSignUp />
-      </UserAuthModal>
-
-      {/* Modal for Sign In */}
-      <UserAuthModal show={showSignInModal} onClose={closeSignInModal}>
-        <SignIn onSignInSuccess={handleSignInSuccess} />
       </UserAuthModal>
     </>
   );
