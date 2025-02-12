@@ -18,7 +18,7 @@ function ApiTextPage() {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
-            Authorization: `${jwt}`,
+            Authorization: `Bearer ${jwt}`,
           },
         }
       );
