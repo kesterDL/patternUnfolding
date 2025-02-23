@@ -7,6 +7,7 @@ import ExploreTheMindPage from "./Components/MindMapPage/ExploreTheMindPage";
 import BardStories from "./Components/BardShortsPage/BardStories";
 import ContactUsPage from "./Components/ContactUsPage/ContactUsPage";
 import SignInPage from "./Components/Users/SignInPage";
+import SignUpPage from "./Components/Users/SignUpPage";
 import ApiTextPage from "./Components/ApiTextPage/ApiTextPage";
 import { AuthProvider } from "./user/AuthContext";
 
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/threads" element={<ExploreTheMindPage />} />
           <Route exact path="/contact" element={<ContactUsPage />} />
           <Route exact path="/signin" element={<SignInPage />} />
+          <Route path="/signup" element={<SignUpPage />} />
           <Route exact path="/apitext" element={<ApiTextPage />} />
           <Route path="*" element={<Navigate to="/about" replace />} />
         </Routes>

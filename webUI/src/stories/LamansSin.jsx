@@ -3,7 +3,11 @@ import React from "react";
 export default function LamansSin() {
   return (
     <>
-      <h3>Laman's Sin is a song about the heart break and anger felt by the Aiel people when they learned that Laman cut down the Chora tree they gifted his people to make a throne for himself.</h3>
+      <h3>
+        Laman's Sin is a song about the heart break and anger felt by the Aiel
+        people when they learned that Laman cut down the Chora tree they gifted
+        his people to make a throne for himself.
+      </h3>
       <p class="c2">
         <span>
           <p>Beneath the sun, the sapling grew,</p>
