@@ -94,7 +94,7 @@
   align-items: center;
   transform: translate(-50%, -50%);
   position: absolute;
-  z-index: 99;
+  z-index: 80;
   width: 25rem;
   height: 7rem;
   margin-top: 4rem;

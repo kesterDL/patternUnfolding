@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Nunito:wght@500;800&&family=Cinzel:wght@400..900&family=Raleway:wght@500&display=swap");
 
+.navLink:visited,
+.navLink:hover,
+.navLink:active {
+  text-decoration: none;
+  color: #2b2b2b;
+  padding: none;
+}
+
 /* Header backdrop styles */
 .headerBackdrop {
   width: 100%;
@@ -12,12 +20,12 @@
 }
 
 .headerRow {
-  flex-wrap: nowrap;
-  display: flex;
   align-items: center;
-  justify-content: space-between; /* Space items apart */
-  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   margin-left: 1rem;
+  width: 100%;
 }
 
 .navLink {
@@ -26,6 +34,7 @@
   cursor: pointer;
   font-weight: 700;
   z-index: 99;
+  text-decoration: none;
 }
 
 .navLink:hover {
@@ -42,6 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: none;
   gap: 1rem;
   margin-right: 1rem;
   z-index: 99;
@@ -49,32 +59,43 @@
 
 /* Sign up button group */
 .signUp {
-  display: flex;
-  justify-content: flex-end;
   align-items: center;
+  display: flex;
   gap: 1rem;
-  margin-right: 1rem;
+  justify-content: flex-end;
 }
 
 .registerButton {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   background-color: #812828;
   color: #eeecea;
   height: 2.5rem;
+  width: 6rem;
   border-style: solid;
   border-radius: 0.25rem;
   border-color: #2b2b2b;
   font-family: "Nunito";
   font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
-.signInButton {
+.signInLink {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   background-color: #eeecea;
   color: #2b2b2b;
+  height: 2.5rem;
+  width: 6rem;
   border-style: solid;
   border-radius: 0.25rem;
   border-color: #2b2b2b;
   font-family: "Nunito";
   font-weight: 700;
+  text-decoration: none;
 }
 
 /* Hide navigation and sign up buttons on mobile */
@@ -115,7 +136,7 @@
 }
 
 .hamburgerMenuLink {
-  padding: 1rem;
+  padding: 1re;
   border-bottom: 1px solid #ccc;
   text-align: center;
   text-decoration: none;
@@ -128,12 +149,13 @@
 }
 
 /* Style for sign in/register in the hamburger menu */
-.hamburgerSignUp {
+.userSignIn {
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 1rem;
-  padding: 1rem;
+  padding: none;
+  margin-right: 1rem;
+  width: 10rem;
 }
 
 .signOutButton {
@@ -147,4 +169,39 @@
 
 .signOutButton:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .hamburgerIcon {
+    display: block;
+    z-index: 99;
+  }
+
+  .headerContent {
+    display: none;
+  }
+
+  .hamburgerMenu {
+    position: absolute;
+    right: 0;
+    top: 4rem;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+  }
+
+  .hamburgerMenuLink {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    text-decoration: none;
+    color: #2b2b2b;
+    z-index: 99;
+  }
+
+  .hamburgerMenuLink:hover {
+    background-color: #f4f4f4;
+  }
 }
