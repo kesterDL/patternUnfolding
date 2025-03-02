@@ -21,7 +21,7 @@ const signUp = (email, password, preferredUsername) => {
     userPool.signUp(
       email,
       password,
-      [attributeEmail, attributePreferredUsername], // Add preferred_username to attributes
+      [attributeEmail, attributePreferredUsername],
       null,
       (err, result) => {
         if (err) {
