@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "aws-lambda-json-dynamodb"
+name = "fetch-profile-info"
 version = "0.1.0"
-description = "An AWS Lambda function to add data to a JSON document and create entries in DynamoDB."
+description = "An AWS Lambda function to fetch a users profile data from the dynamodb."
 authors = ["David Kester"]
 packages = [{include = "src"}]
 

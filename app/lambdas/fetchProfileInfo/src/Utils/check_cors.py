@@ -7,7 +7,7 @@ def check_cors_call(event) -> Optional[dict]:
         return {
             "statusCode": 200,
             "headers": {
-                "Access-Control-Allow-Origin": "https://weaveandthewheel.com",
+                "Access-Control-Allow-Origin": "https://weaveandthewheel.com, http://localhost:3000",
                 "Access-Control-Allow-Methods": "OPTIONS,POST",
                 "Access-Control-Allow-Headers": "Content-Type,Authorization"
             },
