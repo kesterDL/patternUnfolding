@@ -14,50 +14,50 @@ function ProfilePage() {
     userName: "ABC",
     email: "abc@email.com",
   });
-  const [activeTab, setActiveTab] = useState("userStories");
+  const [activeTab, setActiveTab] = useState("account");
 
   useEffect(() => {
     // TODO: Uncomment this code to fetch profile info from the API
     // Commented out so it doesn't call the API constantly
-    // const fetchProfileInfo = async () => {
-    //   try {
-    //     // Get JWT from local storage
-    //     const token = localStorage.getItem("idToken");
-    //     if (!token) {
-    //       throw new Error("No authentication token found");
-    //     }
-    //     // Decode JWT to get account_sub
-    //     const decoded = jwtDecode(token);
-    //     const account_sub = decoded.sub;
-    //     const response = await fetch(
-    //       "https://enwvvfsu32.execute-api.us-east-1.amazonaws.com/v1/fetchUserProfile",
-    //       {
-    //         method: "POST",
-    //         headers: {
-    //           "Content-Type": "application/json",
-    //           Authorization: `Bearer ${token}`,
-    //         },
-    //         body: JSON.stringify({
-    //           httpMethod: "POST",
-    //           account_sub: account_sub,
-    //         }),
-    //       }
-    //     );
-    //     if (!response.ok) {
-    //       throw new Error("Failed to fetch profile info");
-    //     }
-    //     const responseData = await response.json(); // convert response object into json
-    //     const data = JSON.parse(responseData.body); // parses a json string into a JS object
-    //     setProfileInfo({
-    //       profilePhoto: data.profilePhoto || profileInfo.profilePhoto,
-    //       userName: data.userName || profileInfo.userName,
-    //       email: data.email || profileInfo.email,
-    //     });
-    //   } catch (error) {
-    //     console.error("Error fetching profile:", error);
-    //   }
-    // };
-    // fetchProfileInfo();
+    const fetchProfileInfo = async () => {
+      try {
+        // Get JWT from local storage
+        const token = localStorage.getItem("idToken");
+        if (!token) {
+          throw new Error("No authentication token found");
+        }
+        // Decode JWT to get account_sub
+        const decoded = jwtDecode(token);
+        const account_sub = decoded.sub;
+        const response = await fetch(
+          "https://enwvvfsu32.execute-api.us-east-1.amazonaws.com/v1/fetchUserProfile",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: `Bearer ${token}`,
+            },
+            body: JSON.stringify({
+              httpMethod: "POST",
+              account_sub: account_sub,
+            }),
+          }
+        );
+        if (!response.ok) {
+          throw new Error("Failed to fetch profile info");
+        }
+        const responseData = await response.json(); // convert response object into json
+        const data = JSON.parse(responseData.body); // parses a json string into a JS object
+        setProfileInfo({
+          profilePhoto: data.profilePhoto || profileInfo.profilePhoto,
+          userName: data.userName || profileInfo.userName,
+          email: data.email || profileInfo.email,
+        });
+      } catch (error) {
+        console.error("Error fetching profile:", error);
+      }
+    };
+    fetchProfileInfo();
   }, []);
 
   return (
@@ -122,31 +122,20 @@ function ProfilePage() {
               </div>
             )}
             {activeTab === "userStories" && (
-              <div>
+              <div className={styles.userContent}>
                 <StoryTile
                   imageElement={eyeless}
-                  title="Your Story Title"
-                  description="A riviting description of your story."
-                />
-                <StoryTile
-                  imageElement={eyeless}
-                  title="Your Story Title"
-                  description="A riviting description of your story."
+                  title="Coming Soon"
+                  description="Soon you will be able to upload and share your stories with others here!"
                 />
               </div>
             )}
             {activeTab === "userArt" && (
-              <div>
+              <div className={styles.userContent}>
                 <ArtGalleryTile
                   key="0"
                   imageSrc={eyeless}
-                  title="Inspriational Art"
-                  artist={profileInfo.userName}
-                />
-                <ArtGalleryTile
-                  key="0"
-                  imageSrc={eyeless}
-                  title="Inspriational Art"
+                  title="Coming Soon! You can share your Wheel of Time Art here!"
                   artist={profileInfo.userName}
                 />
               </div>

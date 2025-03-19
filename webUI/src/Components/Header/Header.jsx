@@ -113,14 +113,13 @@ function Header() {
                 <Link to="/contact" className={styles.navLink}>
                   Contact
                 </Link>
-                <Link to="/apitext" className={styles.navLink}>
-                  Api Text
-                </Link>
               </nav>
               <div className={styles.userSignIn}>
                 {currentUser ? (
                   <>
-                    <span className={styles.usernameLabel}>{username}</span>
+                    <Link to="/profile" className={styles.usernameLabel}>
+                      My Profile
+                    </Link>
                     <button
                       className={styles.signOutButton}
                       onClick={handleSignOut}

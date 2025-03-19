@@ -98,6 +98,18 @@
   text-decoration: none;
 }
 
+.usernameLabel {
+  color: #2b2b2b;
+  font-family: "Nunito";
+  font-weight: 300;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.usernameLabel:hover {
+  text-decoration: underline;
+}
+
 /* Hide navigation and sign up buttons on mobile */
 @media (max-width: 768px) {
   .navigationGroup,
@@ -155,7 +167,7 @@
   gap: 1rem;
   padding: none;
   margin-right: 1rem;
-  width: 10rem;
+  width: 13rem;
 }
 
 .signOutButton {

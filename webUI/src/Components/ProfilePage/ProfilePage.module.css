@@ -82,3 +82,9 @@
 .contentDisplay {
   padding: 1rem;
 }
+
+.userContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
