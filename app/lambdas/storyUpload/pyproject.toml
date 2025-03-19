@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "fetch-profile-info"
+version = "0.1.0"
+description = "An AWS Lambda function to fetch a users profile data from the dynamodb."
+authors = ["David Kester"]
+packages = [{include = "src"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "^1.34"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.3.2"
+
+[tool.poetry.scripts]
+build = "build_scripts.build:build()"
+release = "build_scripts.build:build_release()"
+test = "build_scripts.build:run_tests()"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytests.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+    "integration"
+]
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["tests/*"]
+branch = true
+
+[tool.coverage.report]
+fail_under = 50
+show_missing = true
+
+[tool.coverage.html]
+directory = "coverage_report"

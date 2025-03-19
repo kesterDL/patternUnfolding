@@ -1,25 +1,16 @@
-.latestText {
-  font-family: "Cinzel";
-  font-size: 2.5rem;
-  font-weight: 400;
-}
-
 .latestEpisodeTile {
-  /* Div Size */
-  width: 60rem; /* Set maximum width */
-  height: 25rem;
-  margin: 0 auto; /* Center horizontally */
+  width: 100%; /* Adjust width for mobile responsiveness */
+  max-width: 60rem; /* Maintain a max width on larger screens */
+  height: auto;
+  margin: 0 auto;
   padding-top: 2rem;
-  /* Background Image */
-  background-image: url("../../../images/peter-conlan-axYF1KFjoDY-unsplash.jpg");
-  background-size: cover; /* <------ */
+  background-image: url("../../../images/peter-conlan-axYF1KFjoDY-unsplash.webp");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   filter: grayscale(25%);
-  /* Position Elements */
   display: flex;
   flex-direction: column;
-  align-items: left; /* Align items to the left */
   justify-content: flex-start;
   color: rgb(0, 0, 0);
   position: relative;
@@ -29,7 +20,7 @@
 .episode {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Align items to the left */
+  align-items: center;
 }
 
 .wreath {
@@ -53,7 +44,6 @@
 }
 
 .listenNow {
-  /* Button Size */
   height: 4rem;
   width: 10rem;
   display: flex;
@@ -66,4 +56,49 @@
   font-weight: 700;
   border-style: solid;
   border-color: #554700;
+  cursor: pointer;
+}
+
+.spotifyPlayer {
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.latestEpisodeTile .spotifyPlayer {
+  transform: translateY(0);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .latestEpisodeTile {
+    max-width: 90%; /* Full width on mobile */
+    padding: 1rem;
+  }
+
+  .wreath {
+    height: 5rem; /* Smaller image for mobile */
+  }
+
+  .episodeTitle {
+    font-size: 1.75rem; /* Smaller font size */
+    margin-bottom: 2rem;
+  }
+
+  .description {
+    font-size: 1rem; /* Adjust text size for mobile */
+  }
+
+  .listenNow {
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.25rem;
+  }
+
+  .spotifyPlayer {
+    width: 100%;
+  }
 }

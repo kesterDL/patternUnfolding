@@ -1,251 +1,286 @@
 {
   "places": {
-    "whitebridge": {
-      "name": "whitebridge",
+    "fal dara": {
+      "name": "fal dara",
       "type": "Place",
-      "people": [],
-      "places": {},
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "padan fain",
+        "tema",
+        "ragan",
+        "masema",
+        "uno",
+        "changu",
+        "nidao",
+        "elansu",
+        "ronan",
+        "anaiya",
+        "liandrin",
+        "verin mathwin",
+        "sarafelle",
+        "carlinya",
+        "alanna mosvani",
+        "leane sharif",
+        "siuan sanche",
+        "amalisa jagad",
+        "agelmar jagad",
+        "ingtar shinowa",
+        "kajin",
+        "lady timora",
+        "nisura",
+        "red",
+        "mandarb",
+        "aldieb",
+        "loial",
+        "hurin"
+      ],
+      "places": ["shienar"],
       "things": {},
       "events": {},
-      "description": "A city around the only bridge spanning the Arinelle south of Maradon in Saldaea."
-    },
-    "empty": {
-      "name": "",
-      "type": "Place",
-      "people": [],
-      "places": {},
-      "things": {},
-      "events": {},
-      "description": ""
-    },
-    "borderlands": {
-      "name": "Borderlands",
-      "type": "Place",
-      "people": [],
-      "places": { "Arafel": "", "Kandor": "", "Sheinar": "", "Saldea": "" },
-      "things": {},
-      "events": {},
-      "description": "The borderlands are named because they share a border against the Great Blight. Trollocs and Myrdrall (Fades) are a regular occurance in these lands, forcing the borderlanders to be a hard warrior people where all people no matter their occupation must be familar with and capable of using weapons to defend themselves, others, and their animals.  In the borderlands it is illegal to hide your face in a town as a defense against fades, and the towns all have lamps lit during the night."
-    },
-    "arafel": {
-      "name": "Arafel",
-      "type": "Place",
-      "people": ["Paitar Nachiman", "Lady Mahira Svetanya", "Setsuko"],
-      "places": {},
-      "things": {},
-      "events": {},
-      "description": "One of the borderlands between Shienar to the east and Kandor to the west. Arafel has kings but the queen rules while the king is on campaign. Both the men and women wear their hair in two braids. One braid over each ear which usually fall below the shoulder. Arafellin were generally considered 'touchy' and the men regularly fight duels. The choice of weapon goes to the one challenged. They are known to be creative with the choice such as fighting in a dark room. The women fight duels as well, though rarely, and deny they have done so if they did. Women don't use swords but have been known to use knives, whips, and lances. The primary exports are timber and furs. They also have several gem stone mines that produce firedrops and other gems, as well as gold and silver mines. Like all borderlands it is illegal to hide your face in a town as a defense against fades, and the towns all have lamps lit during the night."
+      "description": "Far north city and strong hold of Shienar. The homes are A frame style houses with wooden shingles and angled chimneys to let snow slide past."
     },
     "shienar": {
-      "name": "Shienar",
+      "name": "shienar",
       "type": "Place",
-      "people": ["Easar Togita", "Lady Merean Tihomar"],
-      "places": {
-        "Fal Moran": "Capital city of Shienar.",
-        "Tarwins Gap": "A large valley serving as a corridor out of the Great Blight."
-      },
-      "things": {},
-      "events": {},
-      "description": "One of the borderland nations with the Spine of the World to the East, Arafel to the West, and the Blight and Tarwins Gap to the North. Men shave portions of their head and fashion their hair into top knots, similar to the Japanese Samurai. Women were held in high regard and enjoyed saftey anywhere they went, in Sheinar a woman's rights were whatever she said they were. Sheinar had large public bathes of tiled pools were all people bathed together. Sheinar had a good number of gold mines, and was the largest source of firedrops. Timber and furs also were major exports."
-    },
-    "kandor": {
-      "name": "Kandor",
-      "type": "Place",
-      "people": ["Ethenielle Materasu"],
-      "places": { "Chachin": "Capital of Kandor" },
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "padan fain",
+        "tema",
+        "ragan",
+        "masema",
+        "uno",
+        "changu",
+        "nidao",
+        "elansu",
+        "ronan",
+        "anaiya",
+        "liandrin",
+        "verin mathwin",
+        "sarafelle",
+        "carlinya",
+        "alanna mosvani",
+        "leane sharif",
+        "siuan sanche",
+        "amalisa jagad",
+        "agelmar jagad",
+        "ingtar shinowa",
+        "kajin",
+        "lady timora",
+        "nisura",
+        "red",
+        "mandarb",
+        "aldieb",
+        "loial",
+        "hurin"
+      ],
+      "places": ["fal dara"],
       "things": {},
       "events": {},
       "description": ""
     },
-    "chachin": {
-      "name": "Chachin",
+    "tarabon": {
+      "name": "tarabon",
       "type": "Place",
-      "people": ["Ethenielle Materasu"],
-      "places": {
-        "The Silver Penny": "Seedy inn in the outer district of Kandor",
-        "The Ruffled Goose": "",
-        "Evening Star": "",
-        "Blind Pig": ""
-      },
-      "things": {
-        "The Strike at Shayol Ghul": "Fragment of a manuscript reavealing significant aspects on the War of the Shadow."
-      },
+      "people": ["geofram bornhald"],
+      "places": [],
+      "things": {},
       "events": {},
-      "description": "Located at a cross roads for the Borderlands for roads leading to Tar Valon, Bandar Evan and Fal Moran. Comparable in size to Tear. Noteably the main events of A New Spring and where Lan was bonded to Moiraine."
+      "description": ""
+    },
+    "almoth plain": {
+      "name": "almoth plain",
+      "type": "Place",
+      "people": ["geofram bornhald"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "amador": {
+      "name": "amador",
+      "type": "Place",
+      "people": ["geofram bornhald", "pedron niall"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "caemlyn": {
+      "name": "caemlyn",
+      "type": "Place",
+      "people": ["eamon valda", "dain bornhald", "elaida a'roihan"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "alcruna": {
+      "name": "alcruna",
+      "type": "Place",
+      "people": [
+        "geofram bornhald",
+        "einor saren",
+        "jaichim carridin",
+        "jaret byar"
+      ],
+      "places": ["amador"],
+      "things": {},
+      "events": {},
+      "description": "Village in Amaador that Geofram was ordered to travel, where he would recieve his final orders."
+    },
+    "tear": {
+      "name": "tear",
+      "type": "Place",
+      "people": ["siuan sanche"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "maule": {
+      "name": "maule",
+      "type": "Place",
+      "people": ["siuan sanche"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "the queen's blessing": {
+      "name": "the queen's blessing",
+      "type": "Place",
+      "people": ["elaida a'roihan"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "deven ride": {
+      "name": "deven ride",
+      "type": "Place",
+      "people": ["mavra mallen"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
     },
     "emond's field": {
       "name": "emond's field",
       "type": "Place",
-      "people": ["rand al'thor"],
-      "places": {},
-      "things": {},
-      "events": {},
-      "description": "Small farming village in the Two Rivers. Home town of the main characters."
-    },
-    "watch hill": {
-      "name": "watch hill",
-      "type": "Place",
-      "people": ["rand al'thor"],
-      "places": {},
-      "things": {},
-      "events": {},
-      "description": "Small farming village in the Two Rivers close to Emond's Field."
-    },
-    "taren ferry": {
-      "name": "taren ferry",
-      "type": "Place",
-      "people": ["perrin aybara"],
-      "places": {},
+      "people": ["mavra mallen", "master thane"],
+      "places": [],
       "things": {},
       "events": {},
       "description": ""
     },
-    "baerlon": {
-      "name": "baerlon",
+    "cairhein": {
+      "name": "cairhein",
       "type": "Place",
-      "people": [
-        "rand al'thor",
-        "Avin",
-        "Master Fitch",
-        "Ara",
-        "Mari",
-        "Cinda",
-        "Min"
-      ],
-      "places": {
-        "The Stag and Lion": "Inn where Min grew up and the Emond's Field crew stayed on their way out of the Two Rivers."
-      },
+      "people": ["hurin"],
+      "places": [],
       "things": {},
       "events": {},
       "description": ""
     },
-    "dragonmount": {
-      "name": "dragonmount",
+    "maradon": {
+      "name": "maradon",
       "type": "Place",
-      "people": ["rand al'thor"],
-      "places": {},
+      "people": ["hurin"],
+      "places": [],
       "things": {},
       "events": {},
       "description": ""
     },
-    "shadar logoth": {
-      "name": "shadar logoth",
+    "illian": {
+      "name": "illian",
       "type": "Place",
-      "people": [
-        "rand al'thor",
-        "mordeth",
-        "matrum cauthon",
-        "perrin aybara",
-        "nyanaeve al'mera",
-        "moraine damodred",
-        "lan mandragoran",
-        "egwene al'vere"
-      ],
-      "places": {},
+      "people": ["bayle domon", "nieda sidoro", "bili"],
+      "places": [],
       "things": {},
       "events": {},
       "description": ""
     },
-    "the stag and lion": {
-      "name": "The Stag and Lion",
+    "easing the badger": {
+      "name": "easing the badger",
       "type": "Place",
-      "people": ["ara", "mari", "cinda", "min", "master fitch"],
-      "places": {},
-      "things": {},
-      "events": {},
-      "description": ""
-    },
-    "white bridge": {
-      "name": "white bridge",
-      "type": "Place",
-      "people": ["rand al'thor", "matrim cauthon", "thom merrilin"],
-      "places": {},
+      "people": ["bayle domon", "nieda sidoro", "bili"],
+      "places": [],
       "things": {},
       "events": {},
       "description": ""
     }
   },
   "people": {
-    "empty": {
-      "name": "",
+    "rand al'thor": {
+      "name": "rand al'thor",
       "type": "Person",
-      "role": "",
-      "people": [],
-      "places": [],
+      "role": "The Dragon Reborn",
+      "people": [
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "alwyn al'van",
+        "padan fain",
+        "tema",
+        "ragan",
+        "masema",
+        "uno",
+        "changu",
+        "nidao",
+        "elansu",
+        "ronan",
+        "agelmar jagad",
+        "liandrin",
+        "ingtar shinowa",
+        "kajin",
+        "verin mathwin",
+        "sarafelle",
+        "master thane",
+        "nisura",
+        "loial",
+        "leane sharif",
+        "siuan sanche",
+        "rand al'thor",
+        "hurin"
+      ],
+      "places": ["fal dara", "shienar"],
       "things": {},
       "description": ""
     },
-    "rand al'thor": {
-      "name": "Rand al'Thor",
-      "type": "Person",
-      "role": "Dragon Reborn",
-      "people": [
-        "lan mandragoran",
-        "matrim cauthon",
-        "perrin aybara",
-        "master hightower",
-        "mordeth"
-      ],
-      "places": [
-        "dragonmount",
-        "emond's field",
-        "watch hill",
-        "taren ferry",
-        "baerlon",
-        "shadar logoth",
-        "white bridge"
-      ],
-      "things": {},
-      "description": "Tall with Red Hair. Likes Red Coats and sword fights."
-    },
-    "easar togita": {
-      "name": "Easar Togita",
-      "type": "Person",
-      "role": "King of Shienar",
-      "people": ["lan mandragoran", "rand al'thor"],
-      "places": ["Sheinar", "Tarwins Gap"],
-      "things": {},
-      "description": "King of Shienar. Stood about 5ft 7in tall with an unwrinkled slim square face. In the style of Sheinaran men he shaved his head except for a white top knot. Hosted the party from the Eye of the World at his manor. Provided aid to the WoT's heros on several occasions. Notably he backhanded Rand to test if he really was the Dragon, and writes poetry. In Japanese 'Togita' translates to 'Sharpened'."
-    },
-    "paitar nachiman": {
-      "name": "Paitar Nachiman",
-      "type": "Person",
-      "role": "King of Arafel",
-      "people": [],
-      "places": [],
-      "things": {},
-      "description": "Paitar Neramovni Nachiman, King of Arafel. name comes from the Japanese god of archery and war Hachiman."
-    },
-    "ethenielle materasu": {
-      "name": "Ethenielle Materasu",
-      "type": "Person",
-      "role": "Queen of Kandor",
-      "people": [
-        "lan mandragoran",
-        "Kalyan Ramsin",
-        "Diryk",
-        "Brys Noramaga",
-        "Merean Redhill",
-        "moiraine damodred"
-      ],
-      "places": ["Kandor"],
-      "things": {},
-      "description": "Queen of Kandor. Shield of the North. Highseat of House Materasu. 5ft 4in tall and buxom with blue eyes and black hair with whisps of gray. Married Brys Noramaga who was murdered by Merean Redhill of the Black Ajah along with their son. Fought in the Last Battle with Lan's army. Her family likely derives from the Japanese Sun Goddess 'Amaterasu', which translates to English as 'Heaven's Shining Light'."
-    },
     "matrim cauthon": {
-      "name": "matrum cauthon",
+      "name": "matrim cauthon",
       "type": "Person",
       "role": "",
-      "people": ["rand al'thor", "perrin aybara", "mordeth"],
-      "places": [
-        "emond's field",
-        "watch hill",
-        "taren ferry",
-        "baerlon",
-        "shadar logoth",
-        "shadar logoth",
-        "white bridge"
+      "people": [
+        "rand al'thor",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "padan fain",
+        "agelmar jagad",
+        "leane sharif",
+        "siuan sanche",
+        "verin mathwin",
+        "master thane"
       ],
+      "places": ["fal dara", "shienar"],
       "things": {},
       "description": ""
     },
@@ -253,349 +288,895 @@
       "name": "perrin aybara",
       "type": "Person",
       "role": "",
-      "people": ["matrim cauthon", "rand al'thor", "mordeth"],
-      "places": [
-        "emond's field",
-        "watch hill",
-        "taren ferry",
-        "baerlon",
-        "shadar logoth",
-        "shadar logoth"
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "padan fain",
+        "agelmar jagad",
+        "master thane",
+        "leane sharif",
+        "lady timora",
+        "ingtar shinowa",
+        "masema",
+        "uno",
+        "ragan",
+        "loial",
+        "siuan sanche",
+        "perrin aybara",
+        "hurin"
       ],
-      "things": {},
-      "description": ""
-    },
-    "master hightower": {
-      "name": "master hightower",
-      "type": "Person",
-      "role": "",
-      "people": ["lan mandragoran", "nyanaeve al'mera"],
-      "places": ["taren ferry"],
+      "places": ["fal dara", "shienar"],
       "things": {},
       "description": ""
     },
     "lan mandragoran": {
       "name": "lan mandragoran",
       "type": "Person",
-      "role": "Warder and King of Malkier",
+      "role": "",
       "people": [
-        "Avin",
-        "ara",
-        "lord bornhald",
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "moiraine damodred",
+        "egwene al'vere",
         "nyanaeve al'mera",
-        "master hightower"
+        "padan fain",
+        "agelmar jagad",
+        "ingtar shinowa",
+        "kajin",
+        "nisura"
       ],
-      "places": ["shadar logoth"],
+      "places": ["fal dara", "shienar"],
       "things": {},
       "description": ""
     },
     "moiraine damodred": {
       "name": "moiraine damodred",
       "type": "Person",
-      "role": "Aes Sedai of the Blue Ajah and Advisor to the Dragon Reborn",
+      "role": "",
       "people": [
         "rand al'thor",
-        "tam al'thor",
         "matrim cauthon",
         "perrin aybara",
-        "nyanaeve al'mera",
-        "moraine damodred",
         "lan mandragoran",
-        "bran al'vere",
         "egwene al'vere",
-        "thom merrilin",
-        "avin",
-        "lord bornhald"
+        "nyanaeve al'mera",
+        "padan fain",
+        "anaiya",
+        "liandrin",
+        "verin mathwin",
+        "sarafelle",
+        "carlinya",
+        "alanna mosvani",
+        "leane sharif",
+        "siuan sanche",
+        "amalisa jagad",
+        "agelmar jagad"
       ],
-      "places": [
-        "cairhein",
-        "tar valon",
-        "white tower",
-        "kandor",
-        "fal dara",
-        "baerlon",
-        "emond's field",
-        "baerlon",
-        "shadar logoth"
-      ],
+      "places": ["fal dara", "shienar"],
       "things": {},
       "description": ""
     },
-    "avin": {
-      "name": "avin",
+    "egwene al'vere": {
+      "name": "egwene al'vere",
       "type": "Person",
       "role": "",
-      "people": [
-        "lan mandragoran",
-        "moiraine damodred",
-        "arin",
-        "dar",
-        "lord bornhald"
-      ],
-      "places": ["baerlon"],
-      "things": {},
-      "description": "Gate guard for Baerlon that Moiraine and Lan used to pass in and out of the town discretely."
-    },
-    "master fitch": {
-      "name": "master fitch",
-      "type": "Person",
-      "role": "Inn Keeper of The Stag and Lion",
-      "people": ["ara", "mari", "cinda", "min", "master fitch", "mutch"],
-      "places": ["the stag and lion"],
-      "things": [],
-      "description": "Inn keeper of The Stag and Lion in Baerlon. Round man that wears a white apron and has wispy hair sticking out in all directions."
-    },
-    "ara": {
-      "name": "ara",
-      "type": "Person",
-      "role": "inn worker",
       "people": [
         "rand al'thor",
         "matrim cauthon",
         "perrin aybara",
-        "lan mandragoran"
-      ],
-      "places": ["the stag and lion"],
-      "things": {},
-      "description": "Tall young man, a bit lanky with dark hair. Speaks with an accent local to Baerlon like he has mush in his mouth."
-    },
-    "mari": {
-      "name": "mari",
-      "type": "Person",
-      "role": "Inn Maid",
-      "people": ["Master Fitch"],
-      "places": ["the stag and lion"],
-      "things": {},
-      "description": ""
-    },
-    "cinda": {
-      "name": "cinda",
-      "type": "Person",
-      "role": "Inn Maid",
-      "people": ["Master Fitch"],
-      "places": ["the stag and lion"],
-      "things": {},
-      "description": ""
-    },
-    "min": {
-      "name": "min",
-      "type": "Person",
-      "role": "Scholar of the Careathon cycle, Tavern Maid, and Lover of Rand al'Thor",
-      "people": [
-        "rand al'thor",
-        "moiraine damodred",
-        "master fitch",
-        "nyanaeve al'mera"
-      ],
-      "places": ["the stag and lion", "baerlon"],
-      "things": {},
-      "description": "Girl with large dark eyes and cropped hair. She wears a boy's coat and britches in contrast to the majority of women that wear dresses and skirts. Min often visits libraries and reads a lot. She's a few years older than Rand al'Thor."
-    },
-    "lord bornhald": {
-      "name": "lord bornhald",
-      "type": "Person",
-      "role": "Captain of the Children of the Light",
-      "people": [
-        "rand al'thor",
-        "lord bornhald",
-        "avin",
         "lan mandragoran",
-        "moiraine damordred"
-      ],
-      "places": ["baerlon"],
-      "things": [],
-      "description": "Wears an unblinking and arrogant look, as well as a breastplate and conical steel cap that shines like silver. A long pristine white cloak embroidered on the left breast with a golden sunburst."
-    },
-    "padan fain": {
-      "name": "padan fain",
-      "type": "Person",
-      "role": "Peddler",
-      "people": [
-        "rand al'thor",
-        "tam al'thor",
-        "bran al'vere",
-        "cenn buie",
+        "moiraine damodred",
+        "nyanaeve al'mera",
         "padan fain",
-        "mordeth"
+        "changu",
+        "nidao",
+        "elansu",
+        "agelmar jagad",
+        "master thane",
+        "amalisa jagad",
+        "nisura",
+        "kajin"
       ],
-      "places": ["emond's field", "baerlon"],
-      "things": [],
-      "description": "Often dressed in rags and has a half starved and crazed look. Destroyed and rebuilt as the dark one's hound doomed to hunt out Rand al'Thor and never rest."
-    },
-    "tam al'thor": {
-      "name": "tam al'thor",
-      "type": "Person",
-      "role": "",
-      "people": [
-        "kari al'thor",
-        "rand al'thor",
-        "bran al'vere",
-        "padan fain",
-        "cenn buie"
-      ],
-      "places": ["emond's field", "illian", "tar valon", "emond's field"],
-      "things": {},
-      "description": ""
-    },
-    "bran al'vere": {
-      "name": "bran al'vere",
-      "type": "Person",
-      "role": "",
-      "people": [],
-      "places": [],
-      "things": {},
-      "description": ""
-    },
-    "cenn buie": {
-      "name": "cenn buie",
-      "type": "Person",
-      "role": "",
-      "people": [
-        "rand al'thor",
-        "tam al'thor",
-        "bran al'vere",
-        "padan fain",
-        "cenn buie"
-      ],
-      "places": ["emond's field"],
-      "things": {},
-      "description": ""
-    },
-    "kari al'thor": {
-      "name": "kari al'thor",
-      "type": "Person",
-      "role": "Tam al'Thor's late wife",
-      "people": ["tam al'thor", "rand al'thor"],
-      "places": ["illian", "tar valon", "emond's field"],
+      "places": ["fal dara", "shienar"],
       "things": {},
       "description": ""
     },
     "nyanaeve al'mera": {
       "name": "nyanaeve al'mera",
       "type": "Person",
-      "role": "wisdom of emond's field",
+      "role": "",
       "people": [
         "rand al'thor",
-        "tam al'thor",
-        "kari al'thor",
-        "bran al'vere",
-        "egwene al'vere",
-        "cenn buie",
-        "mat cauthin",
+        "matrim cauthon",
         "perrin aybara",
         "lan mandragoran",
         "moiraine damodred",
-        "nyanaeve al'mera",
-        "master hightower",
-        "min",
-        "thom merrilin",
-        "mavra mallen"
+        "egwene al'vere",
+        "padan fain",
+        "agelmar jagad",
+        "master thane",
+        "nisura",
+        "mavra mallen",
+        "amalisa jagad"
       ],
-      "places": [
-        "emond's field",
-        "baerlon",
-        "the stag and lion",
-        "shadar logoth"
-      ],
-      "things": [],
-      "description": "Short, pretty, with dark hair and eyes. Stout shoes and dresses made of good two rivers wool. Wears her hair in a thick braid down to her waist."
-    },
-    "egwene al'vere": {
-      "name": "egwene al'vere",
-      "type": "Person",
-      "role": "",
-      "people": [],
-      "places": ["shadar logoth"],
+      "places": ["fal dara", "shienar"],
       "things": {},
       "description": ""
     },
-    "thom merrilin": {
-      "name": "thom merrilin",
+    "alwyn al'van": {
+      "name": "alwyn al'van",
+      "type": "Person",
+      "role": "Emond's Field Cobbler",
+      "people": ["rand al'thor"],
+      "places": [],
+      "things": {},
+      "description": ""
+    },
+    "jaichim carridin": {
+      "name": "jaichim carridin",
       "type": "Person",
       "role": "",
-      "people": ["nyanaeve al'mera"],
-      "places": ["white bridge"],
-      "things": {
-        "bargain of rogosh eagle-eye": "hunt for the horn tale",
-        "wind that shakes the willow": "sad but popular song",
-        "only one bucket  of water": "popular dance song",
-        "wild geese on the wing": "popular dance song"
-      },
+      "people": [
+        "ishamael",
+        "geofram bornhald",
+        "pedron niall",
+        "einor saren",
+        "jaichim carridin"
+      ],
+      "places": ["alcruna"],
+      "things": {},
+      "description": ""
+    },
+    "ishamael": {
+      "name": "ishamael",
+      "type": "Person",
+      "role": "",
+      "people": ["jaichim carridin"],
+      "places": [],
+      "things": {},
+      "description": ""
+    },
+    "padan fain": {
+      "name": "padan fain",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "changu",
+        "nidao",
+        "agelmar jagad"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "tema": {
+      "name": "tema",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "tema",
+        "ragan",
+        "masema",
+        "uno",
+        "changu",
+        "nidao",
+        "elansu",
+        "ronan",
+        "agelmar jagad"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": "Head Groom of Fal Dara's Keep. Received orders passed by Uno to not let horses out of the stables."
+    },
+    "ragan": {
+      "name": "ragan",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "tema",
+        "ragan",
+        "masema",
+        "uno",
+        "changu",
+        "nidao",
+        "elansu",
+        "ronan",
+        "agelmar jagad",
+        "ingtar shinowa",
+        "loial",
+        "leane sharif",
+        "siuan sanche",
+        "perrin aybara",
+        "hurin"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": "Soldier and Guard in Fal Dara"
+    },
+    "masema": {
+      "name": "masema",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "tema",
+        "ragan",
+        "masema",
+        "uno",
+        "changu",
+        "nidao",
+        "elansu",
+        "ronan",
+        "agelmar jagad",
+        "ingtar shinowa",
+        "loial",
+        "leane sharif",
+        "siuan sanche",
+        "perrin aybara",
+        "hurin"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": "Soldier and Guard in Fal Dara"
+    },
+    "uno": {
+      "name": "uno",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "tema",
+        "ragan",
+        "masema",
+        "uno",
+        "changu",
+        "nidao",
+        "elansu",
+        "ronan",
+        "agelmar jagad",
+        "ingtar shinowa",
+        "loial",
+        "leane sharif",
+        "siuan sanche",
+        "perrin aybara",
+        "hurin"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": "Soldier and Guard in Fal Dara"
+    },
+    "changu": {
+      "name": "changu",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "tema",
+        "ragan",
+        "masema",
+        "uno",
+        "changu",
+        "nidao",
+        "elansu",
+        "ronan",
+        "egwene al'vere",
+        "padan fain",
+        "agelmar jagad",
+        "ingtar shinowa"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": "Dungeon guard in Fal Dara. Was on watch when Rand and Egwene visited Padan Fain."
+    },
+    "nidao": {
+      "name": "nidao",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "tema",
+        "ragan",
+        "masema",
+        "uno",
+        "changu",
+        "nidao",
+        "elansu",
+        "ronan",
+        "egwene al'vere",
+        "padan fain",
+        "agelmar jagad",
+        "ingtar shinowa"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": "Dungeon guard in Fal Dara. Was on watch when Rand and Egwene visited Padan Fain."
+    },
+    "elansu": {
+      "name": "elansu",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "tema",
+        "ragan",
+        "masema",
+        "uno",
+        "changu",
+        "nidao",
+        "elansu",
+        "ronan",
+        "egwene al'vere",
+        "agelmar jagad"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "ronan": {
+      "name": "ronan",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "tema",
+        "ragan",
+        "masema",
+        "uno",
+        "changu",
+        "nidao",
+        "elansu",
+        "ronan",
+        "leane sharif",
+        "agelmar jagad"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "anaiya": {
+      "name": "anaiya",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "moiraine damodred",
+        "anaiya",
+        "liandrin",
+        "verin mathwin",
+        "sarafelle",
+        "carlinya",
+        "alanna mosvani",
+        "leane sharif",
+        "siuan sanche",
+        "amalisa jagad",
+        "agelmar jagad"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "liandrin": {
+      "name": "liandrin",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "moiraine damodred",
+        "anaiya",
+        "liandrin",
+        "verin mathwin",
+        "sarafelle",
+        "carlinya",
+        "alanna mosvani",
+        "leane sharif",
+        "siuan sanche",
+        "amalisa jagad",
+        "agelmar jagad",
+        "rand al'thor",
+        "ingtar shinowa"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "verin mathwin": {
+      "name": "verin mathwin",
+      "type": "Person",
+      "role": "Brown Aes Sedai",
+      "people": [
+        "moiraine damodred",
+        "anaiya",
+        "liandrin",
+        "verin mathwin",
+        "sarafelle",
+        "carlinya",
+        "alanna mosvani",
+        "leane sharif",
+        "siuan sanche",
+        "agelmar jagad",
+        "rand al'thor",
+        "ingtar shinowa",
+        "matrim cauthon"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": "Studied the trolloc script written on the wall in blood and filth in Fal Dara prisons. Found it most interesting."
+    },
+    "sarafelle": {
+      "name": "sarafelle",
+      "type": "Person",
+      "role": "Brown Aes Sedai",
+      "people": [
+        "moiraine damodred",
+        "anaiya",
+        "liandrin",
+        "verin mathwin",
+        "sarafelle",
+        "carlinya",
+        "alanna mosvani",
+        "leane sharif",
+        "siuan sanche",
+        "agelmar jagad",
+        "rand al'thor",
+        "ingtar shinowa"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": "Studied the trolloc script written on the wall in blood and filth in Fal Dara prisons. Found it most interesting."
+    },
+    "carlinya": {
+      "name": "carlinya",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "moiraine damodred",
+        "anaiya",
+        "liandrin",
+        "verin mathwin",
+        "sarafelle",
+        "carlinya",
+        "alanna mosvani",
+        "leane sharif",
+        "siuan sanche",
+        "agelmar jagad"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "alanna mosvani": {
+      "name": "alanna mosvani",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "moiraine damodred",
+        "anaiya",
+        "liandrin",
+        "verin mathwin",
+        "sarafelle",
+        "carlinya",
+        "alanna mosvani",
+        "leane sharif",
+        "siuan sanche",
+        "agelmar jagad"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "leane sharif": {
+      "name": "leane sharif",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "matrim cauthon",
+        "perrin aybara",
+        "ingtar shinowa",
+        "masema",
+        "uno",
+        "ragan",
+        "loial",
+        "leane sharif",
+        "siuan sanche",
+        "rand al'thor",
+        "hurin"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "siuan sanche": {
+      "name": "siuan sanche",
+      "type": "Person",
+      "role": "Amyrlin Seat",
+      "people": [
+        "moiraine damodred",
+        "anaiya",
+        "liandrin",
+        "verin mathwin",
+        "sarafelle",
+        "carlinya",
+        "alanna mosvani",
+        "leane sharif",
+        "siuan sanche",
+        "agelmar jagad",
+        "matrim cauthon",
+        "ingtar shinowa",
+        "masema",
+        "uno",
+        "ragan",
+        "loial",
+        "rand al'thor",
+        "perrin aybara",
+        "hurin"
+      ],
+      "places": [
+        "fal dara",
+        "shienar",
+        "tear",
+        "maule",
+        "fal dara",
+        "shienar",
+        "fal dara",
+        "shienar",
+        "fal dara",
+        "shienar"
+      ],
+      "things": {},
+      "description": ""
+    },
+    "amalisa jagad": {
+      "name": "amalisa jagad",
+      "type": "Person",
+      "role": "Lady of Fal Dara",
+      "people": [
+        "moiraine damodred",
+        "anaiya",
+        "liandrin",
+        "agelmar jagad",
+        "nyanaeve al'mera",
+        "nisura",
+        "egwene al'vere"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": "Tortured and manipulated by Liandrin Sedai into searching for Rand."
+    },
+    "agelmar jagad": {
+      "name": "agelmar jagad",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "leane sharif",
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "lan mandragoran",
+        "moiraine damodred",
+        "egwene al'vere",
+        "nyanaeve al'mera",
+        "padan fain",
+        "tema",
+        "ragan",
+        "masema",
+        "uno",
+        "changu",
+        "nidao",
+        "elansu",
+        "ronan",
+        "anaiya",
+        "liandrin",
+        "verin mathwin",
+        "sarafelle",
+        "carlinya",
+        "alanna mosvani",
+        "siuan sanche",
+        "amalisa jagad",
+        "nisura",
+        "agelmar jagad",
+        "kajin"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "geofram bornhald": {
+      "name": "geofram bornhald",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "pedron niall",
+        "eamon valda",
+        "dain bornhald",
+        "einor saren",
+        "jaichim carridin",
+        "jaret byar"
+      ],
+      "places": ["tarabon", "almoth plain", "amador", "alcruna"],
+      "things": {},
+      "description": ""
+    },
+    "pedron niall": {
+      "name": "pedron niall",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "geofram bornhald",
+        "eamon valda",
+        "dain bornhald",
+        "einor saren",
+        "jaichim carridin"
+      ],
+      "places": ["amador"],
+      "things": {},
+      "description": ""
+    },
+    "eamon valda": {
+      "name": "eamon valda",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "geofram bornhald",
+        "pedron niall",
+        "eamon valda",
+        "dain bornhald"
+      ],
+      "places": ["caemlyn"],
+      "things": {},
+      "description": ""
+    },
+    "dain bornhald": {
+      "name": "dain bornhald",
+      "type": "Person",
+      "role": "",
+      "people": ["geofram bornhald", "pedron niall", "eamon valda"],
+      "places": ["caemlyn"],
+      "things": {},
+      "description": ""
+    },
+    "einor saren": {
+      "name": "einor saren",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "geofram bornhald",
+        "pedron niall",
+        "jaichim carridin",
+        "jaret byar"
+      ],
+      "places": ["alcruna"],
+      "things": {},
+      "description": ""
+    },
+    "jaret byar": {
+      "name": "jaret byar",
+      "type": "Person",
+      "role": "",
+      "people": ["geofram bornhald", "einor saren"],
+      "places": ["alcruna"],
+      "things": {},
+      "description": ""
+    },
+    "ingtar shinowa": {
+      "name": "ingtar shinowa",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "liandrin",
+        "rand al'thor",
+        "ingtar shinowa",
+        "kajin",
+        "verin mathwin",
+        "sarafelle",
+        "lan mandragoran",
+        "nisura",
+        "masema",
+        "uno",
+        "ragan",
+        "loial",
+        "leane sharif",
+        "siuan sanche",
+        "perrin aybara",
+        "hurin",
+        "changu",
+        "nidao"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "kajin": {
+      "name": "kajin",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "ingtar shinowa",
+        "lan mandragoran",
+        "nisura",
+        "agelmar jagad",
+        "egwene al'vere"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": "After the attack on Fal Dara keep, he checks for anybody missing. Indicating those missing people could be darkfriends that betrayed Fal Dara."
+    },
+    "elaida a'roihan": {
+      "name": "elaida a'roihan",
+      "type": "Person",
+      "role": "",
+      "people": ["basil gill"],
+      "places": ["caemlyn", "the queen's blessing"],
+      "things": {},
+      "description": ""
+    },
+    "basil gill": {
+      "name": "basil gill",
+      "type": "Person",
+      "role": "",
+      "people": ["elaida a'roihan"],
+      "places": [],
+      "things": {},
+      "description": ""
+    },
+    "lady timora": {
+      "name": "lady timora",
+      "type": "Person",
+      "role": "",
+      "people": ["perrin aybara"],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "master thane": {
+      "name": "master thane",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "rand al'thor",
+        "matrim cauthon",
+        "perrin aybara",
+        "egwene al'vere",
+        "nyanaeve al'mera"
+      ],
+      "places": ["emond's field"],
+      "things": {},
+      "description": ""
+    },
+    "nisura": {
+      "name": "nisura",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "lan mandragoran",
+        "rand al'thor",
+        "ingtar shinowa",
+        "nyanaeve al'mera",
+        "amalisa jagad",
+        "nisura",
+        "agelmar jagad",
+        "kajin",
+        "egwene al'vere"
+      ],
+      "places": ["fal dara", "shienar"],
+      "things": {},
       "description": ""
     },
     "mavra mallen": {
       "name": "mavra mallen",
       "type": "Person",
-      "role": "wisdom of Deven Ride",
-      "people": ["nyanaeve al'mera", "mavra mallen"],
-      "places": ["emond's field", "deven ride"],
-      "things": [],
-      "description": "Wisdom in the Two Rivers. Substituted for Nyanaeve when she chased after the other four."
+      "role": "",
+      "people": ["nyanaeve al'mera"],
+      "places": ["deven ride", "emond's field"],
+      "things": {},
+      "description": ""
     },
-    "haral luhan": {
-      "name": "haral luhan",
-      "type": "Person",
-      "role": "Emond's Field blacksmith",
-      "people": [
-        "nyanaeve al'mera",
-        "rand al'thor",
-        "perrin aybara",
-        "alsbet luhan",
-        "haral luhan"
-      ],
-      "places": ["emond's field"],
-      "things": [],
-      "description": "Strong arms and beard"
-    },
-    "alsbet luhan": {
-      "name": "alsbet luhan",
+    "red": {
+      "name": "red",
       "type": "Person",
       "role": "",
       "people": [],
-      "places": [],
+      "places": ["fal dara", "shienar"],
       "things": {},
       "description": ""
     },
-    "mutch": {
-      "name": "mutch",
+    "mandarb": {
+      "name": "mandarb",
       "type": "Person",
       "role": "",
-      "people": ["master fitch"],
-      "places": ["the stag and lion"],
+      "people": [],
+      "places": ["fal dara", "shienar"],
       "things": {},
       "description": ""
     },
-    "arin": {
-      "name": "arin",
+    "aldieb": {
+      "name": "aldieb",
       "type": "Person",
       "role": "",
-      "people": ["avin"],
-      "places": ["the stag and lion"],
+      "people": [],
+      "places": ["fal dara", "shienar"],
       "things": {},
       "description": ""
     },
-    "dar": {
-      "name": "dar",
-      "type": "Person",
-      "role": "",
-      "people": ["avin"],
-      "places": ["the stag and lion"],
-      "things": {},
-      "description": ""
-    },
-    "mordeth": {
-      "name": "mordeth",
+    "loial": {
+      "name": "loial",
       "type": "Person",
       "role": "",
       "people": [
+        "ingtar shinowa",
+        "masema",
+        "uno",
+        "ragan",
+        "loial",
+        "leane sharif",
+        "siuan sanche",
         "rand al'thor",
-        "matrum cauthon",
         "perrin aybara",
-        "padan fain"
+        "hurin"
       ],
-      "places": ["shadar logoth"],
+      "places": ["fal dara", "shienar"],
+      "things": {},
+      "description": ""
+    },
+    "hurin": {
+      "name": "hurin",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "ingtar shinowa",
+        "masema",
+        "uno",
+        "ragan",
+        "loial",
+        "leane sharif",
+        "siuan sanche",
+        "rand al'thor",
+        "perrin aybara",
+        "hurin"
+      ],
+      "places": ["fal dara", "shienar", "cairhein", "maradon"],
+      "things": {},
+      "description": ""
+    },
+    "bayle domon": {
+      "name": "bayle domon",
+      "type": "Person",
+      "role": "",
+      "people": ["nieda sidoro", "bili"],
+      "places": ["illian", "easing the badger"],
+      "things": {},
+      "description": ""
+    },
+    "nieda sidoro": {
+      "name": "nieda sidoro",
+      "type": "Person",
+      "role": "",
+      "people": ["bayle domon", "bili"],
+      "places": ["illian", "easing the badger"],
+      "things": {},
+      "description": ""
+    },
+    "bili": {
+      "name": "bili",
+      "type": "Person",
+      "role": "",
+      "people": ["bayle domon", "nieda sidoro"],
+      "places": ["illian", "easing the badger"],
       "things": {},
       "description": ""
     }
-  }
+  },
+  "things": {}
 }

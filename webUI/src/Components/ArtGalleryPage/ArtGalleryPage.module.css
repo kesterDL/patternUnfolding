@@ -1,0 +1,6 @@
+.artsContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allows tiles to wrap into multiple rows */
+  gap: 1rem; /* Space between each tile */
+  padding: 2rem; /* Adds padding around the container */
+}

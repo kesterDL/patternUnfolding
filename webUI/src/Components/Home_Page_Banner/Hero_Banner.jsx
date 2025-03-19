@@ -1,7 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import { Helmet } from "react-helmet";
 import styles from "./Hero_Banner.module.css";
-import banner from "../../images/tyler-lastovich-8_LZ9UWTKLE-unsplash.jpg";
 import skyline from "../../images/mountain_skyline.svg";
 import headphones from "../../logos/headphone.svg";
 import eyeglasses from "../../logos/eyeglasses.svg";
@@ -20,38 +20,39 @@ function Hero_Banner() {
       </div>
       <div className={styles.fullWidthImageContainer}>
         <img
-          src={banner}
+          src="https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/tyler-lastovich-8_LZ9UWTKLE-unsplash.webp"
           alt="Dragonmount Pattern Unfolding | Photo by Tyler Lastovich on Unsplash https://unsplash.com/@lastly"
           className={styles.backgroundImage}
         />
         <div className={styles.actionCenter}>
           <div className={styles.podcastTitle}>The Pattern Unfolds</div>
           <div className={styles.subTitle}>- weaves of the wheel -</div>
-          <div className={styles.listen}>
+          {/* Wrap the 'listen' div in a Link to enable navigation */}
+          <Link to="/episodes" className={styles.listen}>
             <img
               src={headphones}
               alt="Listen to The Pattern Unfolding"
               className={styles.headphones}
             />
             <div>Listen | Watch</div>
-          </div>
+          </Link>
           <div className={styles.learnPlay}>
-            <div className={styles.secondaryLink}>
+            <Link to="/threads" className={styles.secondaryLink}>
               <img
                 src={eyeglasses}
-                alt="Listen to The Pattern Unfolding"
+                alt="Learn more about The Pattern Unfolding"
                 className={styles.eyeglasses}
               />
               <div>Learn</div>
-            </div>
-            <div className={styles.secondaryLink}>
+            </Link>
+            <Link to="/artgallery" className={styles.secondaryLink}>
               <img
                 src={fox}
-                alt="Listen to The Pattern Unfolding"
+                alt="Play games related to The Pattern Unfolding"
                 className={styles.fox}
               />
-              <div>Play</div>
-            </div>
+              <div>Art</div>
+            </Link>
           </div>
         </div>
         <div className={styles.gradientOverlay}>

@@ -94,7 +94,7 @@ class PeopleHandler:
 
     def connect_people(self, target_name: str, targets_connections: list[str], connection_name: str, connections_people: list[str]):
         try:
-            if connection_name not in targets_connections:
+            if connection_name not in targets_connections and connection_name != target_name:
                 targets_connections.append(connection_name)
                 self.logger.info(f"Successfully added {connection_name} as a connection for target: {target_name}")
             if target_name not in connections_people:

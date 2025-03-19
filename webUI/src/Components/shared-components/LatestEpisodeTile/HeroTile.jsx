@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import styles from "./HeroTile.module.css";
-import latest from "../../../images/peter-conlan-axYF1KFjoDY-unsplash.jpg";
 import wreath from "../../../logos/wovenWreath.svg";
 
 function HeroTile() {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handlePlayPodcast = () => {
+    setIsPlaying(true); // Show the Spotify player when clicked
+  };
+
   return (
     <>
       <Helmet>
@@ -20,10 +25,28 @@ function HeroTile() {
           <h3 className={styles.episodeTitle}>The Wind Weaves</h3>
           <p className={styles.description}>
             Opening the Eye of the World. Hot spiced cider, honey cakes, and the
-            Black Rider. Walking the well tred path of Tolkien, then going
+            Black Rider. Walking the well-trodden path of Tolkien, then going
             beyond.
           </p>
-          <div className={styles.listenNow}>Listen Now</div>
+
+          {/* Show the Listen Now button or the Spotify player */}
+          {!isPlaying ? (
+            <div className={styles.listenNow} onClick={handlePlayPodcast}>
+              Listen Now
+            </div>
+          ) : (
+            <div className={styles.spotifyPlayer}>
+              <iframe
+                style={{ borderRadius: "12px" }}
+                src="https://podcasters.spotify.com/pod/show/weaveandthewheel/embed/episodes/The-Wind-Weaves--Wheel-of-Time-e2qjvrn/a-abk7o8v"
+                width="100%"
+                height="152" // Adjusted height for better layout
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+                title="Spotify Episode - The Wind Weaves"
+              ></iframe>
+            </div>
+          )}
         </div>
       </div>
     </>

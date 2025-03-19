@@ -1,235 +1,92 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Nunito:wght@500;800&&family=Cinzel:wght@400..900&family=Raleway:wght@500&display=swap");
 
-/* Define breakpoints for responsive design */
-@media (max-width: 1024px) {
-  .podcastTitle {
-    font-size: 5rem !important; /* Font size for screens smaller than 950px */
-  }
-  /* Additional styles for the Header component */
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    z-index: 900;
-  }
+/* Background Image */
+.backgroundImage {
+  width: 100%;
+  min-height: 50rem;
+  height: auto; /* Control the height for large screens */
+  object-fit: cover; /* Ensure the image covers the container */
+  margin-top: -100px;
+  transform: translateZ(0);
+  will-change: transform;
+}
 
-  .podcastTitle {
-    position: absolute;
-    white-space: nowrap;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Cinzel";
-    font-size: 8rem;
-    font-weight: 600;
-    color: #812828;
+@media (max-width: 768px) {
+  .backgroundImage {
+    width: 100%;
+    height: 50rem;
+    min-height: 50rem;
+    transform: translateZ(0);
+    will-change: transform;
   }
-  .subTitle {
-    font-family: "Cinzel";
-    font-size: 2rem;
-    font-weight: 600;
-    color: #c5a603;
+}
+
+/* Full-Width Image Container */
+.fullWidthImageContainer {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  position: relative;
+  width: 100%; /* Ensure full width */
+  height: auto; /* Adjust height */
+}
+
+@media (max-width: 768px) {
+  .fullWidthImageContainer {
+    width: 100%;
+    height: 50rem;
   }
+}
+
+/* Overlay for Header */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Podcast Title */
+.podcastTitle {
+  position: absolute;
+  white-space: nowrap;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Cinzel";
+  font-size: 5rem;
+  font-weight: 600;
+  color: #812828;
 }
 
 @media (max-width: 768px) {
   .podcastTitle {
-    font-size: 3rem !important; /* Font size for screens smaller than 768px */
-  }
-  /* Additional styles for the Header component */
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-  }
-
-  .podcastTitle {
-    position: absolute;
-    white-space: nowrap;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Cinzel";
-    font-size: 12rem;
-    font-weight: 600;
-    color: #812828;
-  }
-  .backgroundImage {
-    width: auto; /* Reset width to auto */
-    height: 100%; /* Take full height */
-    object-fit: cover; /* Cover the container */
-    object-position: center; /* Center the image */
+    font-size: 2rem; /* Smaller text size for mobile */
   }
 }
 
-@media (max-width: 450px) {
-  .podcastTitle {
-    font-size: 2.5rem !important; /* Font size for screens smaller than 768px */
-  }
-  .backgroundImage {
-    width: auto; /* Reset width to auto */
-    height: 45rem; /* Set height to 200% of its container */
-    min-width: 100%; /* Ensure the image is at least as wide as its container */
-    object-fit: cover; /* Cover the container */
-    object-position: center; /* Center the image */
-    background-size: auto 100%;
-    margin-left: -5rem; /* Ensure the image's width is auto and height is 100% */
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    z-index: 900;
-  }
-  .fullWidthImageContainer {
-    position: absolute;
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    position: relative;
-    z-index: 100;
-  }
-  .navigationLinks {
-    position: absolute; /* Position the navigation links */
-    bottom: 0.5rem; /* Adjust the distance from the bottom */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-    display: flex;
-    justify-content: center;
-    gap: 2rem; /* Adjust the gap between links */
-  }
-
-  .socialLogo {
-    height: 1rem;
-    width: auto;
-  }
-  .navLink {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 300px) {
-  .podcastTitle {
-    font-size: 1.5rem !important; /* Font size for screens smaller than 768px */
-  }
-  .backgroundImage {
-    width: auto; /* Reset width to auto */
-    height: 45rem; /* Set height to 200% of its container */
-    min-width: 100%; /* Ensure the image is at least as wide as its container */
-    object-fit: cover; /* Cover the container */
-    object-position: center; /* Center the image */
-    background-size: auto 100%;
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-  }
-  .fullWidthImageContainer {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    position: relative;
-  }
-  .navigationLinks {
-    position: absolute; /* Position the navigation links */
-    bottom: 0.5rem; /* Adjust the distance from the bottom */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-    display: flex;
-    justify-content: center;
-    gap: 2rem; /* Adjust the gap between links */
-  }
-
-  .socialLogo {
-    height: 1rem;
-    width: auto;
-  }
-  .navLink {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .backgroundImage {
-    width: 100%;
-    height: auto; /* Adjust height automatically */
-    flex: 1; /* Take remaining space */
-    object-fit: cover; /* Ensure the image covers the container */
-    margin-top: -100px;
-  }
-  .fullWidthImageContainer {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    position: relative;
-  }
-  /* Additional styles for the Header component */
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    z-index: 900;
-  }
-  h1 {
-    font-weight: 200;
-  }
-
-  .podcastTitle {
-    position: absolute;
-    white-space: nowrap;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Cinzel";
-    font-size: 5rem;
-    font-weight: 600;
-    color: #812828;
-  }
-  .subTitle {
-    position: absolute;
-    white-space: nowrap;
-    top: 27%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Cinzel";
-    font-size: 2rem;
-    font-weight: 600;
-    color: #c5a603;
-  }
-}
-
-.Header {
+/* Subtitle */
+.subTitle {
   position: absolute;
-  z-index: 1001; /* Ensure the Header component is above the background image */
+  white-space: nowrap;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Cinzel";
+  font-size: 2rem;
+  font-weight: 600;
+  color: #c5a603;
 }
 
+@media (max-width: 768px) {
+  .subTitle {
+    font-size: 1.5rem; /* Smaller subtitle for mobile */
+  }
+}
+
+/* Listen Button */
 .listen {
   top: 43%;
   left: 50%;
@@ -239,13 +96,23 @@
   flex-direction: column;
   transform: translate(-50%, -50%);
   position: absolute;
-  z-index: 1001;
+  z-index: 90;
   background-color: #812828;
   color: whitesmoke;
   width: 20rem;
   height: 7rem;
+  cursor: pointer;
+  text-decoration: none;
 }
 
+@media (max-width: 768px) {
+  .listen {
+    width: 15rem; /* Adjust button size for mobile */
+    height: 5rem;
+  }
+}
+
+/* Learn/Play Section */
 .learnPlay {
   top: 57%;
   left: 50%;
@@ -255,10 +122,22 @@
   align-items: center;
   transform: translate(-50%, -50%);
   position: absolute;
-  z-index: 1001;
+  z-index: 90;
   width: 20rem;
   height: 7rem;
 }
+
+@media (max-width: 768px) {
+  .learnPlay {
+    flex-direction: column; /* Stack vertically on mobile */
+    gap: 0.5rem;
+    width: 15rem;
+    height: auto;
+    margin-top: 2rem;
+  }
+}
+
+/* Secondary Links (Learn and Art) */
 .secondaryLink {
   width: 10rem;
   height: 7rem;
@@ -271,18 +150,51 @@
   color: white;
   border-style: solid;
   border-color: white;
+  cursor: pointer;
+  text-decoration: none;
 }
 
+.listen,
+.learnPlay,
+.secondaryLink {
+  z-index: 95; /* Lower than the hamburger menu */
+}
+
+@media (max-width: 768px) {
+  .secondaryLink {
+    width: 7.5rem;
+    height: 5rem;
+    z-index: 90;
+  }
+  .listen,
+  .learnPlay,
+  .secondaryLink {
+    z-index: 80; /* Lower than the hamburger menu */
+  }
+}
+
+/* Headphones, Eyeglasses, and Fox Icons */
 .headphones {
   height: 5rem;
 }
-.eyeglasses {
-  height: 2.5rem;
-}
+
+.eyeglasses,
 .fox {
   height: 2.5rem;
 }
 
+@media (max-width: 768px) {
+  .headphones {
+    height: 3.5rem; /* Adjust icon size for mobile */
+  }
+
+  .eyeglasses,
+  .fox {
+    height: 2rem;
+  }
+}
+
+/* Gradient Overlay */
 .gradientOverlay {
   position: absolute;
   bottom: 0;
@@ -290,4 +202,12 @@
   width: 100%;
   transform: translateY(7rem);
   z-index: 2;
+}
+
+@media (max-width: 768px) {
+  /* Gradient Overlay */
+  .gradientOverlay {
+    transform: translateY(0rem);
+    transform: translatex(1rem);
+  }
 }

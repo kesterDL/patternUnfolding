@@ -11,8 +11,7 @@ function ValersNest() {
   );
 
   const valersNestDesc =
-    "This novella marks the start of Valer Hatch's story. \
-    In the city of Everlund, a young man plagued by boredom and over protection, \
+    "In the city of Everlund, a young man plagued by boredom and over protection, \
     finds himself caught up in adventure.";
 
   return (

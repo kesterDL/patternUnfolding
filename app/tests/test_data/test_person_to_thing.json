@@ -1,0 +1,5 @@
+{
+  "type": "person_to_thing",
+  "persons": ["moiraine damodred"],
+  "things": ["woman in flowing robes"]
+}

@@ -13,10 +13,11 @@ h4 {
   height: 25rem;
   width: 23rem;
   background-color: whitesmoke;
+  z-index: 100;
 }
 
 .storyImgContainer {
-  width: 40%; /* Ensure the image container takes full width */
+  width: 100%; /* Ensure the image container takes full width */
   height: 40%; /* Set a fixed height for the image container */
   overflow: hidden;
 }
@@ -42,39 +43,21 @@ h4 {
 .description {
   font-family: "Cormorant", sans-serif;
   font-size: 1rem;
+  height: 6.5rem;
+  overflow: clip;
   color: rgb(46, 45, 45);
 }
 
 .button {
+  display: flex;
   height: 3rem;
   width: 70%;
   font-family: "Cormorant", sans-serif;
   font-size: 1.7rem;
   color: rgb(46, 45, 45);
-  border-style: solid;
-  align-content: center;
-  justify-content: center;
-}
-
-@media (max-width: 850px) {
-  .textContainer {
-    margin-right: 2vw;
-    font-weight: normal;
-  }
-
-  .storyContainer {
-    height: 20rem;
-    width: 17rem;
-    margin: 1rem;
-    padding: 15px;
-    justify-content: flex-start; /* Adjust alignment as needed */
-  }
-
-  .title {
-    font-size: 1.5rem;
-  }
-
-  .description {
-    font-size: 0.75rem;
-  }
+  border: 1px solid rgb(46, 45, 45);
+  align-items: center; /* Vertically center the text */
+  justify-content: center; /* Horizontally center the text */
+  text-align: center; /* Ensure text stays centered */
+  cursor: pointer; /* Add pointer cursor to indicate button */
 }
