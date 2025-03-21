@@ -220,15 +220,6 @@
       "events": {},
       "description": ""
     },
-    "cairhein": {
-      "name": "cairhein",
-      "type": "Place",
-      "people": ["hurin"],
-      "places": [],
-      "things": {},
-      "events": {},
-      "description": ""
-    },
     "maradon": {
       "name": "maradon",
       "type": "Place",
@@ -274,7 +265,7 @@
     "the spray": {
       "name": "the spray",
       "type": "Place",
-      "people": ["yarin maeldan", "bayle domon", "carn"],
+      "people": ["yarin maeldan", "bayle domon", "carn", "egeanin", "caban"],
       "places": [],
       "things": {},
       "events": {},
@@ -499,7 +490,19 @@
     "kinslayer's dagger": {
       "name": "kinslayer's dagger",
       "type": "Place",
-      "people": ["loial", "hurin", "rand al'thor", "lanfear", "padan fain"],
+      "people": [
+        "loial",
+        "hurin",
+        "rand al'thor",
+        "lanfear",
+        "padan fain",
+        "matrim cauthon",
+        "perrin aybara",
+        "masema",
+        "uno",
+        "verin mathwin",
+        "ingtar shinowa"
+      ],
       "places": [],
       "things": {},
       "events": {},
@@ -512,7 +515,7 @@
       "places": ["the nine rings"],
       "things": {},
       "events": {},
-      "description": "Cairhien village on a flattened hill top with terraces and retaining walls."
+      "description": "cairhien village on a flattened hill top with terraces and retaining walls."
     },
     "the nine rings": {
       "name": "the nine rings",
@@ -614,12 +617,22 @@
         "zera",
         "dena",
         "ivan",
-        "seaghan"
+        "seaghan",
+        "lanfear",
+        "matrim cauthon",
+        "perrin aybara",
+        "masema",
+        "uno",
+        "verin mathwin",
+        "ingtar shinowa",
+        "aldrin caldevwin",
+        "galladrian",
+        "barthanes"
       ],
       "places": [
         "foregate",
         "the bunch of grapes",
-        "Defender of the Dragonwall"
+        "defender of the dragonwall"
       ],
       "things": {},
       "events": {},
@@ -637,17 +650,31 @@
         "zera",
         "dena",
         "ivan",
-        "seaghan"
+        "seaghan",
+        "lanfear",
+        "matrim cauthon",
+        "perrin aybara",
+        "masema",
+        "uno",
+        "verin mathwin",
+        "ingtar shinowa"
       ],
       "places": [],
       "things": {},
       "events": {},
       "description": ""
     },
-    "Defender of the Dragonwall": {
-      "name": "Defender of the Dragonwall",
+    "defender of the dragonwall": {
+      "name": "defender of the dragonwall",
       "type": "Place",
-      "people": ["hurin", "rand al'thor", "loial", "cuale"],
+      "people": [
+        "matrim cauthon",
+        "perrin aybara",
+        "masema",
+        "uno",
+        "verin mathwin",
+        "ingtar shinowa"
+      ],
       "places": [],
       "things": {},
       "events": {},
@@ -666,6 +693,83 @@
       "name": "gaelin river",
       "type": "Place",
       "people": ["hurin", "rand al'thor", "loial", "elricain tavolin"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "illuminator chapter house": {
+      "name": "illuminator chapter house",
+      "type": "Place",
+      "people": ["lanfear", "rand al'thor", "loial", "aludra", "tammuz"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "the great tree": {
+      "name": "the great tree",
+      "type": "Place",
+      "people": [
+        "matrim cauthon",
+        "perrin aybara",
+        "masema",
+        "uno",
+        "verin mathwin",
+        "ingtar shinowa",
+        "lanfear"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "barthanes manor": {
+      "name": "barthanes manor",
+      "type": "Place",
+      "people": [
+        "matrim cauthon",
+        "uno",
+        "verin mathwin",
+        "ingtar shinowa",
+        "loial",
+        "hurin",
+        "rand al'thor",
+        "red",
+        "ashin",
+        "barthanes",
+        "thom merrilin",
+        "alaine chuliandred",
+        "belevaere osiellin",
+        "breane taborwin",
+        "padan fain"
+      ],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "toman head": {
+      "name": "toman head",
+      "type": "Place",
+      "people": ["padan fain"],
+      "places": [],
+      "things": {},
+      "events": {},
+      "description": ""
+    },
+    "falme": {
+      "name": "falme",
+      "type": "Place",
+      "people": [
+        "padan fain",
+        "turak",
+        "huan",
+        "bayle domon",
+        "yarin maeldan",
+        "egeanin",
+        "caban"
+      ],
       "places": [],
       "things": {},
       "events": {},
@@ -712,7 +816,15 @@
         "dena",
         "zera",
         "asan sandair",
-        "cuale"
+        "cuale",
+        "aludra",
+        "tammuz",
+        "tiedra",
+        "ashin",
+        "barthanes",
+        "alaine chuliandred",
+        "belevaere osiellin",
+        "breane taborwin"
       ],
       "places": [
         "fal dara",
@@ -731,9 +843,13 @@
         "the nine rings",
         "cairhien",
         "foregate",
-        "Defender of the Dragonwall",
+        "defender of the dragonwall",
         "the bunch of grapes",
-        "gaelin river"
+        "gaelin river",
+        "illuminator chapter house",
+        "illuminator chapter house",
+        "barthanes manor",
+        "barthanes manor"
       ],
       "things": {},
       "description": ""
@@ -754,7 +870,20 @@
         "leane sharif",
         "siuan sanche",
         "verin mathwin",
-        "master thane"
+        "master thane",
+        "urien",
+        "cuale",
+        "tiedra",
+        "matrim cauthon",
+        "ingtar shinowa",
+        "loial",
+        "hurin",
+        "ashin",
+        "barthanes",
+        "thom merrilin",
+        "alaine chuliandred",
+        "belevaere osiellin",
+        "breane taborwin"
       ],
       "places": [
         "fal dara",
@@ -765,7 +894,14 @@
         "river erinin",
         "field of talidar",
         "hardan",
-        "portal stone - hardan"
+        "portal stone - hardan",
+        "kinslayer's dagger",
+        "foregate",
+        "cairhien",
+        "the great tree",
+        "defender of the dragonwall",
+        "barthanes manor",
+        "barthanes manor"
       ],
       "things": {},
       "description": ""
@@ -797,7 +933,10 @@
         "smoke",
         "two deer",
         "winter dawn",
-        "verin mathwin"
+        "verin mathwin",
+        "urien",
+        "cuale",
+        "tiedra"
       ],
       "places": [
         "fal dara",
@@ -808,7 +947,12 @@
         "river erinin",
         "field of talidar",
         "hardan",
-        "portal stone - hardan"
+        "portal stone - hardan",
+        "kinslayer's dagger",
+        "foregate",
+        "cairhien",
+        "the great tree",
+        "defender of the dragonwall"
       ],
       "things": {},
       "description": ""
@@ -1014,7 +1158,11 @@
         "nyanaeve al'mera",
         "changu",
         "nidao",
-        "agelmar jagad"
+        "agelmar jagad",
+        "barthanes",
+        "padan fain",
+        "turak",
+        "huan"
       ],
       "places": [
         "fal dara",
@@ -1025,7 +1173,10 @@
         "river erinin",
         "field of talidar",
         "hardan",
-        "kinslayer's dagger"
+        "kinslayer's dagger",
+        "barthanes manor",
+        "toman head",
+        "falme"
       ],
       "things": {},
       "description": ""
@@ -1108,7 +1259,10 @@
         "siuan sanche",
         "perrin aybara",
         "hurin",
-        "verin mathwin"
+        "verin mathwin",
+        "urien",
+        "cuale",
+        "tiedra"
       ],
       "places": [
         "fal dara",
@@ -1119,7 +1273,12 @@
         "river erinin",
         "field of talidar",
         "hardan",
-        "portal stone - hardan"
+        "portal stone - hardan",
+        "kinslayer's dagger",
+        "foregate",
+        "cairhien",
+        "the great tree",
+        "defender of the dragonwall"
       ],
       "things": {},
       "description": "Soldier and Guard in Fal Dara"
@@ -1145,7 +1304,10 @@
         "siuan sanche",
         "perrin aybara",
         "hurin",
-        "verin mathwin"
+        "verin mathwin",
+        "urien",
+        "cuale",
+        "tiedra"
       ],
       "places": [
         "fal dara",
@@ -1156,7 +1318,14 @@
         "river erinin",
         "field of talidar",
         "hardan",
-        "portal stone - hardan"
+        "portal stone - hardan",
+        "kinslayer's dagger",
+        "foregate",
+        "cairhien",
+        "the great tree",
+        "defender of the dragonwall",
+        "barthanes manor",
+        "barthanes manor"
       ],
       "things": {},
       "description": "Soldier and Guard in Fal Dara"
@@ -1349,9 +1518,34 @@
         "ragan",
         "masema",
         "uno",
-        "perrin aybara"
+        "perrin aybara",
+        "urien",
+        "cuale",
+        "tiedra",
+        "verin mathwin",
+        "loial",
+        "hurin",
+        "ashin",
+        "barthanes",
+        "thom merrilin",
+        "alaine chuliandred",
+        "belevaere osiellin",
+        "breane taborwin"
       ],
-      "places": ["fal dara", "shienar", "Medo", "River Queen", "River Mora"],
+      "places": [
+        "fal dara",
+        "shienar",
+        "Medo",
+        "River Queen",
+        "River Mora",
+        "kinslayer's dagger",
+        "foregate",
+        "cairhien",
+        "the great tree",
+        "defender of the dragonwall",
+        "barthanes manor",
+        "barthanes manor"
+      ],
       "things": {},
       "description": "Studied the trolloc script written on the wall in blood and filth in Fal Dara prisons. Found it most interesting."
     },
@@ -1660,7 +1854,17 @@
         "perrin aybara",
         "hurin",
         "changu",
-        "nidao"
+        "nidao",
+        "urien",
+        "cuale",
+        "tiedra",
+        "matrim cauthon",
+        "ashin",
+        "barthanes",
+        "thom merrilin",
+        "alaine chuliandred",
+        "belevaere osiellin",
+        "breane taborwin"
       ],
       "places": [
         "fal dara",
@@ -1671,7 +1875,14 @@
         "river erinin",
         "field of talidar",
         "hardan",
-        "portal stone - hardan"
+        "portal stone - hardan",
+        "kinslayer's dagger",
+        "foregate",
+        "cairhien",
+        "the great tree",
+        "defender of the dragonwall",
+        "barthanes manor",
+        "barthanes manor"
       ],
       "things": {},
       "description": ""
@@ -1778,7 +1989,7 @@
       "type": "Person",
       "role": "",
       "people": [],
-      "places": ["fal dara", "shienar"],
+      "places": ["fal dara", "shienar", "barthanes manor"],
       "things": {},
       "description": ""
     },
@@ -1819,7 +2030,17 @@
         "cuale",
         "thom merrilin",
         "zera",
-        "dena"
+        "dena",
+        "aludra",
+        "tammuz",
+        "tiedra",
+        "matrim cauthon",
+        "verin mathwin",
+        "ashin",
+        "barthanes",
+        "alaine chuliandred",
+        "belevaere osiellin",
+        "breane taborwin"
       ],
       "places": [
         "fal dara",
@@ -1838,10 +2059,13 @@
         "the nine rings",
         "cairhien",
         "foregate",
-        "Defender of the Dragonwall",
+        "defender of the dragonwall",
         "gaelin river",
-        "foregate",
-        "the bunch of grapes"
+        "the bunch of grapes",
+        "illuminator chapter house",
+        "illuminator chapter house",
+        "barthanes manor",
+        "barthanes manor"
       ],
       "things": {},
       "description": ""
@@ -1863,12 +2087,21 @@
         "hurin",
         "melia",
         "asan sandair",
-        "cuale"
+        "cuale",
+        "tiedra",
+        "matrim cauthon",
+        "verin mathwin",
+        "ashin",
+        "barthanes",
+        "thom merrilin",
+        "alaine chuliandred",
+        "belevaere osiellin",
+        "breane taborwin"
       ],
       "places": [
         "fal dara",
         "shienar",
-        "cairhein",
+        "cairhien",
         "maradon",
         "river erinin",
         "field of talidar",
@@ -1884,8 +2117,10 @@
         "the nine rings",
         "cairhien",
         "foregate",
-        "Defender of the Dragonwall",
-        "gaelin river"
+        "defender of the dragonwall",
+        "gaelin river",
+        "barthanes manor",
+        "barthanes manor"
       ],
       "things": {},
       "description": ""
@@ -1894,8 +2129,25 @@
       "name": "bayle domon",
       "type": "Person",
       "role": "Captain and Owner of The Spray",
-      "people": ["nieda sidoro", "bili", "carn", "yarin maeldan"],
-      "places": ["illian", "easing the badger", "the spray", "maradon"],
+      "people": [
+        "nieda sidoro",
+        "bili",
+        "carn",
+        "yarin maeldan",
+        "bayle domon",
+        "egeanin",
+        "caban",
+        "turak",
+        "huan"
+      ],
+      "places": [
+        "illian",
+        "easing the badger",
+        "the spray",
+        "maradon",
+        "falme",
+        "the spray"
+      ],
       "things": {},
       "description": ""
     },
@@ -1921,8 +2173,23 @@
       "name": "yarin maeldan",
       "type": "Person",
       "role": "Second on The Spray",
-      "people": ["nieda sidoro", "bili", "carn", "bayle domon"],
-      "places": ["illian", "easing the badger", "silver dolphin", "the spray"],
+      "people": [
+        "nieda sidoro",
+        "bili",
+        "carn",
+        "bayle domon",
+        "yarin maeldan",
+        "egeanin",
+        "caban"
+      ],
+      "places": [
+        "illian",
+        "easing the badger",
+        "silver dolphin",
+        "the spray",
+        "falme",
+        "the spray"
+      ],
       "things": {},
       "description": ""
     },
@@ -1975,7 +2242,7 @@
       "name": "lanfear",
       "type": "Person",
       "role": "",
-      "people": [],
+      "people": ["aludra", "tammuz"],
       "places": [
         "portal stone - hardan",
         "hardan",
@@ -1983,7 +2250,11 @@
         "raven monument",
         "kinslayer's dagger",
         "tremonsien",
-        "the nine rings"
+        "the nine rings",
+        "foregate",
+        "cairhien",
+        "illuminator chapter house",
+        "the great tree"
       ],
       "things": {},
       "description": ""
@@ -2071,7 +2342,7 @@
       "type": "Person",
       "role": "",
       "people": [],
-      "places": ["the nine rings"],
+      "places": ["the nine rings", "cairhien"],
       "things": {},
       "description": ""
     },
@@ -2313,9 +2584,24 @@
         "ivan",
         "seaghan",
         "basil gill",
-        "loial"
+        "loial",
+        "matrim cauthon",
+        "verin mathwin",
+        "ingtar shinowa",
+        "hurin",
+        "ashin",
+        "barthanes",
+        "thom merrilin",
+        "alaine chuliandred",
+        "belevaere osiellin",
+        "breane taborwin"
       ],
-      "places": ["cairhien", "foregate", "the bunch of grapes"],
+      "places": [
+        "cairhien",
+        "foregate",
+        "the bunch of grapes",
+        "barthanes manor"
+      ],
       "things": {},
       "description": ""
     },
@@ -2326,16 +2612,26 @@
       "people": ["rand al'thor", "loial", "hurin", "elricain tavolin"],
       "places": ["cairhien"],
       "things": {},
-      "description": "gate clerk which recorded Rand, Loial, and Hurin's entry to the city of Cairhien."
+      "description": "gate clerk which recorded Rand, Loial, and Hurin's entry to the city of cairhien."
     },
     "cuale": {
       "name": "cuale",
       "type": "Person",
       "role": "",
-      "people": ["rand al'thor", "loial", "hurin"],
-      "places": ["cairhien", "Defender of the Dragonwall"],
+      "people": [
+        "rand al'thor",
+        "loial",
+        "hurin",
+        "matrim cauthon",
+        "perrin aybara",
+        "masema",
+        "uno",
+        "verin mathwin",
+        "ingtar shinowa"
+      ],
+      "places": ["cairhien", "defender of the dragonwall"],
       "things": {},
-      "description": "inn keep of the Defender of the Dragonwall inn. Plump, unctuous man with a single strip of green across a dark gray coat."
+      "description": "inn keep of the defender of the dragonwall inn. Plump, unctuous man with a single strip of green across a dark gray coat."
     },
     "zera": {
       "name": "zera",
@@ -2379,6 +2675,222 @@
       "places": ["cairhien", "foregate"],
       "things": {},
       "description": "Theatre owner in the Foregate who employed Thom."
+    },
+    "aludra": {
+      "name": "aludra",
+      "type": "Person",
+      "role": "",
+      "people": ["rand al'thor", "loial", "lanfear", "aludra", "tammuz"],
+      "places": ["illuminator chapter house"],
+      "things": {},
+      "description": ""
+    },
+    "tammuz": {
+      "name": "tammuz",
+      "type": "Person",
+      "role": "",
+      "people": ["rand al'thor", "loial", "lanfear", "aludra", "tammuz"],
+      "places": ["illuminator chapter house"],
+      "things": {},
+      "description": ""
+    },
+    "urien": {
+      "name": "urien",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "matrim cauthon",
+        "perrin aybara",
+        "masema",
+        "uno",
+        "verin mathwin",
+        "ingtar shinowa"
+      ],
+      "places": [],
+      "things": {},
+      "description": ""
+    },
+    "tiedra": {
+      "name": "tiedra",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "matrim cauthon",
+        "perrin aybara",
+        "masema",
+        "uno",
+        "verin mathwin",
+        "ingtar shinowa",
+        "loial",
+        "hurin",
+        "rand al'thor"
+      ],
+      "places": [],
+      "things": {},
+      "description": ""
+    },
+    "ashin": {
+      "name": "ashin",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "matrim cauthon",
+        "verin mathwin",
+        "ingtar shinowa",
+        "loial",
+        "hurin",
+        "rand al'thor",
+        "ashin",
+        "barthanes",
+        "thom merrilin",
+        "alaine chuliandred",
+        "belevaere osiellin",
+        "breane taborwin"
+      ],
+      "places": ["barthanes manor"],
+      "things": {},
+      "description": ""
+    },
+    "barthanes": {
+      "name": "barthanes",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "matrim cauthon",
+        "verin mathwin",
+        "ingtar shinowa",
+        "loial",
+        "hurin",
+        "rand al'thor",
+        "ashin",
+        "barthanes",
+        "thom merrilin",
+        "alaine chuliandred",
+        "belevaere osiellin",
+        "breane taborwin",
+        "padan fain"
+      ],
+      "places": ["barthanes manor", "cairhien"],
+      "things": {},
+      "description": ""
+    },
+    "alaine chuliandred": {
+      "name": "alaine chuliandred",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "matrim cauthon",
+        "verin mathwin",
+        "ingtar shinowa",
+        "loial",
+        "hurin",
+        "rand al'thor",
+        "ashin",
+        "barthanes",
+        "thom merrilin",
+        "alaine chuliandred",
+        "belevaere osiellin",
+        "breane taborwin"
+      ],
+      "places": ["barthanes manor"],
+      "things": {},
+      "description": ""
+    },
+    "belevaere osiellin": {
+      "name": "belevaere osiellin",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "matrim cauthon",
+        "verin mathwin",
+        "ingtar shinowa",
+        "loial",
+        "hurin",
+        "rand al'thor",
+        "ashin",
+        "barthanes",
+        "thom merrilin",
+        "alaine chuliandred",
+        "belevaere osiellin",
+        "breane taborwin"
+      ],
+      "places": ["barthanes manor"],
+      "things": {},
+      "description": ""
+    },
+    "breane taborwin": {
+      "name": "breane taborwin",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "matrim cauthon",
+        "verin mathwin",
+        "ingtar shinowa",
+        "loial",
+        "hurin",
+        "rand al'thor",
+        "ashin",
+        "barthanes",
+        "thom merrilin",
+        "alaine chuliandred",
+        "belevaere osiellin",
+        "breane taborwin"
+      ],
+      "places": ["barthanes manor"],
+      "things": {},
+      "description": ""
+    },
+    "turak": {
+      "name": "turak",
+      "type": "Person",
+      "role": "",
+      "people": ["padan fain", "turak", "huan", "bayle domon", "egeanin"],
+      "places": ["falme"],
+      "things": {},
+      "description": ""
+    },
+    "huan": {
+      "name": "huan",
+      "type": "Person",
+      "role": "",
+      "people": ["padan fain", "turak", "huan", "bayle domon", "egeanin"],
+      "places": ["falme"],
+      "things": {},
+      "description": ""
+    },
+    "egeanin": {
+      "name": "egeanin",
+      "type": "Person",
+      "role": "",
+      "people": [
+        "bayle domon",
+        "yarin maeldan",
+        "egeanin",
+        "caban",
+        "turak",
+        "huan"
+      ],
+      "places": ["falme", "the spray"],
+      "things": {},
+      "description": ""
+    },
+    "caban": {
+      "name": "caban",
+      "type": "Person",
+      "role": "",
+      "people": ["bayle domon", "yarin maeldan", "egeanin", "caban"],
+      "places": ["falme", "the spray"],
+      "things": {},
+      "description": ""
+    },
+    "galladrian": {
+      "name": "galladrian",
+      "type": "Person",
+      "role": "",
+      "people": [],
+      "places": ["cairhien"],
+      "things": {},
+      "description": ""
     }
   },
   "things": {}
