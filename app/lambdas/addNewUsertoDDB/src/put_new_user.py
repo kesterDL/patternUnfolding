@@ -1,7 +1,8 @@
 import logging
 import boto3
+from datetime import datetime
 from botocore.exceptions import ClientError
-from Util.constants import (WEAVE_AND_THE_WHEEL_PROFILES, REQUEST, USER_ATTRIBUTES, DYNAMODB, EMAIL, PREFERRED_USERNAME, SUB,PARTION_KEY)
+from Util.constants import (WEAVE_AND_THE_WHEEL_PROFILES, REQUEST, USER_ATTRIBUTES, DYNAMODB, EMAIL, PREFERRED_USERNAME, SUB,PARTION_KEY, CREATION_DATE, SHARED_CONTENT, PROFILE_PIC)
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -50,11 +51,15 @@ def add_user_to_dynamodb(user_attributes: dict) -> None:
     try:
         dynamodb = boto3.resource(DYNAMODB)
         table = dynamodb.Table(WEAVE_AND_THE_WHEEL_PROFILES)
+        creation_date = datetime.now().replace(microsecond=0).isoformat()
 
         item = {
             PARTION_KEY: user_attributes[SUB],
             EMAIL: user_attributes[EMAIL],
             PREFERRED_USERNAME: user_attributes[PREFERRED_USERNAME],
+            SHARED_CONTENT: [],
+            CREATION_DATE: creation_date,
+            PROFILE_PIC: "https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/eyeless.webp"
         }
 
         table.put_item(Item=item)
