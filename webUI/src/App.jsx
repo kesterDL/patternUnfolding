@@ -9,6 +9,7 @@ import ContactUsPage from "./Components/ContactUsPage/ContactUsPage";
 import SignInPage from "./Components/Users/SignInPage";
 import SignUpPage from "./Components/Users/SignUpPage";
 import ProfilePage from "./Components/ProfilePage/ProfilePage";
+import ImageUploadPage from "./Components/ImageUploadPage/ImageUploadPage";
 import { AuthProvider } from "./user/AuthContext";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route exact path="/signin" element={<SignInPage />} />
           <Route path="/signup" element={<SignUpPage />} />
           <Route exact path="/profile" element={<ProfilePage />} />
+          <Route exact path="/upload" element={<ImageUploadPage />} />
           <Route path="*" element={<Navigate to="/about" replace />} />
         </Routes>
       </HashRouter>

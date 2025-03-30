@@ -1,0 +1,22 @@
+services:
+  dynamodb-local:
+    image: amazon/dynamodb-local
+    container_name: dynamodb-local
+    ports:
+      - "8000:8000"
+    command: "-jar DynamoDBLocal.jar -sharedDb"
+
+  lambda:
+    image: public.ecr.aws/lambda/python:3.11-x86_64
+    container_name: lambda
+    volumes:
+      - ./app/lambdas:/var/task:ro
+    environment:
+      - AWS_ACCESS_KEY_ID=local
+      - AWS_SECRET_ACCESS_KEY=local
+      - AWS_REGION=us-west-2
+    command: "src.fetch_profile.lambda_handler"
+
+networks:
+  default:
+    name: local-network
