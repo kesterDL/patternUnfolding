@@ -8,7 +8,7 @@ from src.Util.constants import (
     SHARED_CONTENT, 
     DYNAMODB, 
     SORT_KEY, 
-    SUB,
+    USER_ID,
     PARTITION_KEY, 
     UPLOAD_DATE, 
     WEAVE_AND_THE_WHEEL_USER_CONTENT,
@@ -18,6 +18,7 @@ from src.Util.constants import (
     S3_KEY,
     TYPE,
     LOCATION,
+    USER_ID
     )
 
 logger = logging.getLogger()
@@ -35,7 +36,7 @@ class Cataloger:
         self.event = event
         self.dynamodb = boto3.resource(DYNAMODB)
         self.content_id: str = str(uuid4())
-        self.user_id: str = event[SUB]
+        self.user_id: str = event[USER_ID]
         self.creation_date: str = datetime.now().replace(microsecond=0).isoformat()
         self.profile_table = self.dynamodb.Table(WEAVE_AND_THE_WHEEL_PROFILES)
         self.user_content_table = self.dynamodb.Table(WEAVE_AND_THE_WHEEL_USER_CONTENT)
@@ -100,7 +101,7 @@ class Cataloger:
         try:
             item = {
                 PARTITION_KEY: contentId,
-                SORT_KEY: event[SUB],
+                SORT_KEY: event[USER_ID],
                 UPLOAD_DATE: create_date,
                 TITLE: event[TITLE],
                 DESCRIPTION: event.get(DESCRIPTION, ""),

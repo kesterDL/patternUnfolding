@@ -16,7 +16,7 @@ def lambda_handler(event: dict, context: object) -> dict:
 
     Example:
         {
-            'user_id': 'e4283478-8091-70d0-8813-6006f20efbdb', (required, user sub)
+            'user_id': 'e4283478-8091-70d0-8813-6006f20efbdb', (required, user_id)
             's3_key': 'https://weave-and-the-wheel-public-images.s3.us-east-1.amazonaws.com/user-created-content/test_one', (required)
             'title': 'test_one', (required, max 50 characters)
             'description': 'test_one description', (optional, max 250 characters)

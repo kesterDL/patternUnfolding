@@ -16,6 +16,7 @@ TYPE: Final[str] = "type"
 LOCATION: Final[str] = "location"
 S3_KEY: Final[str] = "s3_key"
 CONTENT_TYPE: Final[str] = "content_type"
+USER_ID: Final[str] = "user_id"
 
 DYNAMODB: Final[str] = 'dynamodb'
 PARTITION_KEY: Final[str] = 'PartitionKey'
