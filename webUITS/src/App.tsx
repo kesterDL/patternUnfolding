@@ -19,7 +19,6 @@ function App() {
     console.error = () => {};
     console.debug = () => {};
   }
-  const myName: string = "nate";
 
   return (
     <AuthProvider>
