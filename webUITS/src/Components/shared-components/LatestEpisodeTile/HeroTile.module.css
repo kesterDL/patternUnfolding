@@ -1,0 +1,104 @@
+.latestEpisodeTile {
+  width: 100%; /* Adjust width for mobile responsiveness */
+  max-width: 60rem; /* Maintain a max width on larger screens */
+  height: auto;
+  margin: 0 auto;
+  padding-top: 2rem;
+  background-image: url("../../../images/peter-conlan-axYF1KFjoDY-unsplash.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: grayscale(25%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgb(0, 0, 0);
+  position: relative;
+  z-index: 1002;
+}
+
+.episode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wreath {
+  height: 7rem;
+}
+
+.episodeTitle {
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: "Cinzel";
+}
+
+.description {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: "Cormorant";
+}
+
+.listenNow {
+  height: 4rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c5a603;
+  color: #ffffff;
+  font-family: "Cormorant";
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-style: solid;
+  border-color: #554700;
+  cursor: pointer;
+}
+
+.spotifyPlayer {
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.latestEpisodeTile .spotifyPlayer {
+  transform: translateY(0);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .latestEpisodeTile {
+    max-width: 90%; /* Full width on mobile */
+    padding: 1rem;
+  }
+
+  .wreath {
+    height: 5rem; /* Smaller image for mobile */
+  }
+
+  .episodeTitle {
+    font-size: 1.75rem; /* Smaller font size */
+    margin-bottom: 2rem;
+  }
+
+  .description {
+    font-size: 1rem; /* Adjust text size for mobile */
+  }
+
+  .listenNow {
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.25rem;
+  }
+
+  .spotifyPlayer {
+    width: 100%;
+  }
+}

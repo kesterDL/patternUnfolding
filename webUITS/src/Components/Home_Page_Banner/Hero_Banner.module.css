@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Nunito:wght@500;800&&family=Cinzel:wght@400..900&family=Raleway:wght@500&display=swap");
+
+/* Background Image */
+.backgroundImage {
+  width: 100%;
+  min-height: 50rem;
+  height: auto; /* Control the height for large screens */
+  object-fit: cover; /* Ensure the image covers the container */
+  margin-top: -100px;
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+@media (max-width: 768px) {
+  .backgroundImage {
+    width: 100%;
+    height: 50rem;
+    min-height: 50rem;
+    transform: translateZ(0);
+    will-change: transform;
+  }
+}
+
+/* Full-Width Image Container */
+.fullWidthImageContainer {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  position: relative;
+  width: 100%; /* Ensure full width */
+  height: auto; /* Adjust height */
+}
+
+@media (max-width: 768px) {
+  .fullWidthImageContainer {
+    width: 100%;
+    height: 50rem;
+  }
+}
+
+/* Overlay for Header */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Podcast Title */
+.podcastTitle {
+  position: absolute;
+  white-space: nowrap;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Cinzel";
+  font-size: 5rem;
+  font-weight: 600;
+  color: #812828;
+}
+
+@media (max-width: 768px) {
+  .podcastTitle {
+    font-size: 2rem; /* Smaller text size for mobile */
+  }
+}
+
+/* Subtitle */
+.subTitle {
+  position: absolute;
+  white-space: nowrap;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Cinzel";
+  font-size: 2rem;
+  font-weight: 600;
+  color: #c5a603;
+}
+
+@media (max-width: 768px) {
+  .subTitle {
+    font-size: 1.5rem; /* Smaller subtitle for mobile */
+  }
+}
+
+/* Listen Button */
+.listen {
+  top: 43%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 90;
+  background-color: #812828;
+  color: whitesmoke;
+  width: 20rem;
+  height: 7rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .listen {
+    width: 15rem; /* Adjust button size for mobile */
+    height: 5rem;
+  }
+}
+
+/* Learn/Play Section */
+.learnPlay {
+  top: 57%;
+  left: 50%;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 90;
+  width: 20rem;
+  height: 7rem;
+}
+
+@media (max-width: 768px) {
+  .learnPlay {
+    flex-direction: column; /* Stack vertically on mobile */
+    gap: 0.5rem;
+    width: 15rem;
+    height: auto;
+    margin-top: 2rem;
+  }
+}
+
+/* Secondary Links (Learn and Art) */
+.secondaryLink {
+  width: 10rem;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: #eeeeee68;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.listen,
+.learnPlay,
+.secondaryLink {
+  z-index: 95; /* Lower than the hamburger menu */
+}
+
+@media (max-width: 768px) {
+  .secondaryLink {
+    width: 7.5rem;
+    height: 5rem;
+    z-index: 90;
+  }
+  .listen,
+  .learnPlay,
+  .secondaryLink {
+    z-index: 80; /* Lower than the hamburger menu */
+  }
+}
+
+/* Headphones, Eyeglasses, and Fox Icons */
+.headphones {
+  height: 5rem;
+}
+
+.eyeglasses,
+.fox {
+  height: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .headphones {
+    height: 3.5rem; /* Adjust icon size for mobile */
+  }
+
+  .eyeglasses,
+  .fox {
+    height: 2rem;
+  }
+}
+
+/* Gradient Overlay */
+.gradientOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(7rem);
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  /* Gradient Overlay */
+  .gradientOverlay {
+    transform: translateY(0rem);
+    transform: translatex(1rem);
+  }
+}
