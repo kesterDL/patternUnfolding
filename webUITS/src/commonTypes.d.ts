@@ -11,3 +11,10 @@ export type Pattern = {
     descriptor?: string;
   };
 };
+
+export type UserData = {
+  idToken: string;
+  accessToken: string;
+  refreshToken: string;
+  username: string;
+};

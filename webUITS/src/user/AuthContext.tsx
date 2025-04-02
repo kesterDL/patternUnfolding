@@ -1,6 +1,7 @@
 import React, { createContext, useState, useContext, useEffect } from "react";
 import AuthService from "./AuthService";
 import { Children } from "../react-app-env";
+import { UserData } from "../commonTypes";
 
 const AuthContext = createContext({});
 
@@ -39,7 +40,10 @@ export const AuthProvider = ({ children }: { children: Children }) => {
     setAuthLoading(true);
     setError(null);
     try {
-      const userData = await authService.signIn(username, password);
+      const userData: UserData = (await authService.signIn(
+        username,
+        password
+      )) as UserData;
       setCurrentUser({
         idToken: userData.idToken,
         accessToken: userData.accessToken,
