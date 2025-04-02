@@ -6,6 +6,8 @@ import {
 import cognitoConfig from "./cognitoConfig";
 
 class AuthService {
+  userPool: CognitoUserPool;
+  storageService: typeof localStorage;
   constructor(storageService = localStorage) {
     this.storageService = storageService;
     this.userPool = new CognitoUserPool({
@@ -14,7 +16,7 @@ class AuthService {
     });
   }
 
-  signIn(username, password) {
+  signIn(username: string, password: string) {
     return new Promise((resolve, reject) => {
       const authenticationDetails = new AuthenticationDetails({
         Username: username,
