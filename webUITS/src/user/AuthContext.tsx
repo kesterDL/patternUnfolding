@@ -1,10 +1,14 @@
 import React, { createContext, useState, useContext, useEffect } from "react";
 import AuthService from "./AuthService";
+import { Children } from "../react-app-env";
+import { UserData } from "../commonTypes";
 
-const AuthContext = createContext(null);
+const AuthContext = createContext({});
 
-export const AuthProvider = ({ children }) => {
-  const [currentUser, setCurrentUser] = useState(null);
+type CurrentUser = { idToken: string; accessToken: string } | null;
+
+export const AuthProvider = ({ children }: { children: Children }) => {
+  const [currentUser, setCurrentUser]: [CurrentUser, Function] = useState(null);
   const [authLoading, setAuthLoading] = useState(false);
   const [error, setError] = useState(null);
 
@@ -32,11 +36,14 @@ export const AuthProvider = ({ children }) => {
     }
   }, []);
 
-  const login = async (username, password) => {
+  const login = async (username: string, password: string) => {
     setAuthLoading(true);
     setError(null);
     try {
-      const userData = await authService.signIn(username, password);
+      const userData: UserData = (await authService.signIn(
+        username,
+        password
+      )) as UserData;
       setCurrentUser({
         idToken: userData.idToken,
         accessToken: userData.accessToken,
@@ -44,7 +51,8 @@ export const AuthProvider = ({ children }) => {
         username: userData.username,
       });
       setAuthLoading(false);
-    } catch (err) {
+    } catch (err: unknown) {
+      //@ts-ignore
       setError(err.message);
       setAuthLoading(false);
       throw err;

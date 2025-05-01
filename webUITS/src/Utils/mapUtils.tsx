@@ -1,6 +1,8 @@
-export function generateNodesAndEdges(json) {
-  const nodes = [];
-  const edges = [];
+import { Pattern } from "../commonTypes";
+
+export function generateNodesAndEdges(json: Pattern) {
+  const nodes: object[] = [];
+  const edges: object[] = [];
   const edgeSet = new Set(); // To track created edges
 
   // Create nodes first

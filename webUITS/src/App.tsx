@@ -24,16 +24,16 @@ function App() {
     <AuthProvider>
       <HashRouter>
         <Routes>
-          <Route exact path="/about" element={<LandingPage />} />
-          <Route exact path="/episodes" element={<EpisodesPage />} />
-          <Route exact path="/artgallery" element={<ArtGalleryPage />} />
-          <Route exact path="/stories" element={<BardStories />} />
-          <Route exact path="/threads" element={<ExploreTheMindPage />} />
-          <Route exact path="/contact" element={<ContactUsPage />} />
-          <Route exact path="/signin" element={<SignInPage />} />
+          <Route path="/about" element={<LandingPage />} />
+          <Route path="/episodes" element={<EpisodesPage />} />
+          <Route path="/artgallery" element={<ArtGalleryPage />} />
+          <Route path="/stories" element={<BardStories />} />
+          <Route path="/threads" element={<ExploreTheMindPage />} />
+          <Route path="/contact" element={<ContactUsPage />} />
+          <Route path="/signin" element={<SignInPage />} />
           <Route path="/signup" element={<SignUpPage />} />
-          <Route exact path="/profile" element={<ProfilePage />} />
-          <Route exact path="/upload" element={<ImageUploadPage />} />
+          <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/upload" element={<ImageUploadPage />} />
           <Route path="*" element={<Navigate to="/about" replace />} />
         </Routes>
       </HashRouter>
