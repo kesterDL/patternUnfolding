@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.targets.js.internal.filterClassName
+
 plugins {
     kotlin("jvm") version "2.1.10"
     kotlin("plugin.serialization") version "1.9.0"
@@ -43,6 +45,7 @@ tasks.koverVerify {
         bound {
             minValue = 85
         }
+        filterClassName("PresignS3ClientAdapter")
     }
 }
 

@@ -1,15 +1,15 @@
 package cloudStorageHandler
 
-import aws.sdk.kotlin.services.s3.S3Client
 import aws.sdk.kotlin.services.s3.model.PutObjectRequest
-import aws.sdk.kotlin.services.s3.presigners.presignPutObject
 import aws.smithy.kotlin.runtime.http.request.HttpRequest
 import requestModel.RequestModel
 import utils.Constants
 import utils.GeneralUtils.Companion.createS3Key
+import utils.ServiceProvider
+import weaveandthewheel.adapters.S3ClientWrapper
 import kotlin.time.Duration
 
-class S3Handler(private val s3Client: S3Client = S3Client { region = "us-east-1" }): CloudStorageHandler {
+class S3Handler(private val s3Client: S3ClientWrapper = ServiceProvider.s3ClientAdapter): CloudStorageHandler {
 
     fun createS3PutObjectRequest(s3bucket: String, s3Key: String, type: String): PutObjectRequest {
         return PutObjectRequest {
