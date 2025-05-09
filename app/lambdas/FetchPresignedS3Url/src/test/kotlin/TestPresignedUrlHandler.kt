@@ -6,7 +6,6 @@ import aws.smithy.kotlin.runtime.net.url.Url
 import com.amazonaws.services.lambda.runtime.Context
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent
 import io.mockk.coEvery
-import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkObject
 import io.mockk.mockkStatic
@@ -15,12 +14,12 @@ import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.Disabled
 import requestModel.RequestModel
+import testMocks.S3ClientStub
 import utils.GeneralUtils
 import utils.ServiceProvider
-import utils.Validator
 import weaveandthewheel.PresignedUrlHandler
+import weaveandthewheel.adapters.S3ClientWrapper
 
 
 class TestPresignedUrlHandler {
@@ -34,9 +33,7 @@ class TestPresignedUrlHandler {
 
         // Mock S3Client and S3Handler
         mockkStatic("aws.sdk.kotlin.services.s3.presigners.PresignersKt")
-        val mockS3Client: S3Client = mockk()
-        val mockResponse = HttpRequest(method = HttpMethod.PUT, url = Url.parse("https://example.com"))
-        coEvery { mockS3Client.presignPutObject(any(), any()) } returns mockResponse
+        val mockS3Client: S3ClientWrapper = S3ClientStub()
         val mockS3Handler = cloudStorageHandler.S3Handler(mockS3Client)
 
         // Mock ServiceProvider and inject mockS3Handler

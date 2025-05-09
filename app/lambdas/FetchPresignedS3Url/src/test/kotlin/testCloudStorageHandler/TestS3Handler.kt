@@ -10,9 +10,9 @@ import io.mockk.coEvery
 import io.mockk.mockk
 import io.mockk.mockkStatic
 import kotlinx.coroutines.test.runTest
-import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 import requestModel.RequestModel
+import testMocks.S3ClientStub
 import utils.Constants
 import kotlin.test.assertEquals
 import kotlin.time.Duration.Companion.seconds
@@ -22,7 +22,7 @@ class TestS3Handler {
     @Test
     fun `given expected values, createS3PutObjectRequest returns valid PutObjectRequest`() = runTest {
         // Arrange
-        val s3Client = mockk<S3Client>()
+        val s3Client = S3ClientStub()
         val s3Handler = S3Handler(s3Client = s3Client)
         // Act
         val request = s3Handler.createS3PutObjectRequest(
@@ -39,13 +39,19 @@ class TestS3Handler {
     @Test
     fun `given a valid expected call, getPresignedUrl returns valid PutObjectRequest`() = runTest {
         // Arrange
-        mockkStatic("aws.sdk.kotlin.services.s3.presigners.PresignersKt")
-        val s3Client: S3Client = mockk()
-        val mockResponse = HttpRequest(method= HttpMethod.PUT, url = Url.parse("https://example.com"))
-        coEvery { s3Client.presignPutObject(any(), any()) } returns mockResponse
-
+        val s3Client = S3ClientStub()
         val s3Handler = S3Handler(s3Client)
+        // Act
+        val request = s3Handler.getPresignedUrl(requestModel = RequestModel(fileName="testFileName"), duration = 30.seconds)
+        // Assert
+        assertEquals(request, "https://example.com")
+    }
 
+    @Test
+    fun `using MockS3Client, getPresignedUrl returns valid PutObjectRequest`() = runTest {
+        // Arrange
+        val s3Client = S3ClientStub()
+        val s3Handler = S3Handler(s3Client)
         // Act
         val request = s3Handler.getPresignedUrl(requestModel = RequestModel(fileName="testFileName"), duration = 30.seconds)
         // Assert
