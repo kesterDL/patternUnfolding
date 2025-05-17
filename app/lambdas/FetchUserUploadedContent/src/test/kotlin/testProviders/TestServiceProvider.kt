@@ -2,7 +2,7 @@ package testProviders
 
 import aws.sdk.kotlin.services.dynamodb.DynamoDbClient
 import weaveandthewheel.adapters.DynamoClientAdapter
-import weaveandthewheel.handlers.DynamoHandler
+import weaveandthewheel.handlers.Handler
 import weaveandthewheel.providers.ServiceProvider
 import kotlin.test.Test
 import kotlin.test.assertTrue
@@ -16,7 +16,7 @@ class TestServiceProvider {
         // Act
         val dynamoHandler = serviceProvider.getDynamoHandler()
         // Assert
-        assertTrue(dynamoHandler is DynamoHandler)
+        assertTrue(dynamoHandler is Handler)
     }
 
     @Test

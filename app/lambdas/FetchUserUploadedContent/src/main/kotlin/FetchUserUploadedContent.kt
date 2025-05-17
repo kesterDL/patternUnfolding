@@ -17,13 +17,14 @@ class FetchUserUploadedContent : RequestHandler<APIGatewayProxyRequestEvent?, AP
         context: Context?
     ): APIGatewayProxyResponseEvent? = runBlocking {
 
-        val logger = LoggerFactory.getLogger(FetchUserUploadedContent::class.java)
-
         try {
             // Fetch the relevant data from the input
             val inputBody = input!!.body
+            println("Input body: $inputBody")
             val requestModel: RequestModel = Json.decodeFromString<RequestModel>(inputBody)
+            println("Parsed RequestModel: $requestModel")
             val userId = requestModel.userId
+            println("User ID: $userId")
 
             // Fetch the user uploaded content from DynamoDB
             val dynamoHandler = ServiceProvider.getInstance().getDynamoHandler()
@@ -31,7 +32,7 @@ class FetchUserUploadedContent : RequestHandler<APIGatewayProxyRequestEvent?, AP
             return@runBlocking GeneralUtils.makeResponse(statusCode=200, userContent = queryResponse)
         } catch (e: Exception) {
             // Log the error and return a failure response
-            logger.error("Error occurred: ${e.message}")
+            println("Error occurred: ${e.message}")
             return@runBlocking GeneralUtils.makeResponse(
                 statusCode = 500,
                 userContent = null

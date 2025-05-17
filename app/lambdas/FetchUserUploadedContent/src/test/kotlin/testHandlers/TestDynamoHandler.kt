@@ -10,6 +10,7 @@ import testStubs.DynamoClientStub
 import weaveandthewheel.adapters.DynamoClientAdapter
 import weaveandthewheel.adapters.DynamoClientWrapper
 import weaveandthewheel.handlers.DynamoHandler
+import weaveandthewheel.handlers.Handler
 import weaveandthewheel.providers.ServiceProvider
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -30,8 +31,8 @@ class TestDynamoHandler {
 
         // Assert
         assert(actualQueryRequest.tableName == "WeaveAndTheWheelUserContent")
-        assert(actualQueryRequest.keyConditionExpression == "#SortKey = :userId")
-        assert(actualQueryRequest.expressionAttributeNames.toString() == "{#SortKey=SortKey}")
+        assert(actualQueryRequest.keyConditionExpression == "#PartitionKey = :userId")
+        assert(actualQueryRequest.expressionAttributeNames.toString() == "{#PartitionKey=PartitionKey}")
         assert(actualQueryRequest.expressionAttributeValues.toString() == "{:userId=S(value=4177ac7c-438c-40c2-ab02-22fb02d37168)}")
     }
 
@@ -63,12 +64,12 @@ class TestDynamoHandler {
         val dynamoHandler = DynamoHandler(dynamoClientAdapter = mockDynamoAdapter)
 
         // Act
-        val actualQueryResponse: QueryResponse = dynamoHandler.fetchUserUploadedContent(userId = userId)
+        val actualQueryResponse: QueryResponse? = dynamoHandler.fetchUserUploadedContent(userId = userId)
 
         // Assert
-        assertEquals(1, actualQueryResponse.count)
-        assertEquals(1, actualQueryResponse.scannedCount)
-        assertEquals("4177ac7c-438c-40c2-ab02-22fb02d37168", actualQueryResponse.items?.get(0)?.get("SortKey")?.asS())
+        assertEquals(1, actualQueryResponse?.count)
+        assertEquals(1, actualQueryResponse?.scannedCount)
+        assertEquals("4177ac7c-438c-40c2-ab02-22fb02d37168", actualQueryResponse?.items?.get(0)?.get("SortKey")?.asS())
     }
 
     @Test
@@ -124,6 +125,6 @@ class TestDynamoHandler {
         val dynamoHandler = serviceProvider.getDynamoHandler()
 
         // Assert
-        assertTrue(dynamoHandler is DynamoHandler)
+        assertTrue(dynamoHandler is Handler)
     }
 }

@@ -32,6 +32,11 @@ dependencies {
     implementation("aws.sdk.kotlin:dynamodb:1.0.0")
 }
 
+configurations.all {
+    exclude(group = "org.slf4j", module = "slf4j-log4j12")
+    exclude(group = "org.slf4j", module = "slf4j-jdk14")
+}
+
 tasks.test {
     useJUnitPlatform()
 }
@@ -40,7 +45,7 @@ tasks.koverVerify {
     rule {
         name = "Minimal line coverage rate in percents"
         bound {
-            minValue = 85
+            minValue = 90
         }
     }
 }

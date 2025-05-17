@@ -4,13 +4,11 @@ import aws.sdk.kotlin.runtime.AwsServiceException
 import aws.sdk.kotlin.services.dynamodb.model.AttributeValue
 import aws.sdk.kotlin.services.dynamodb.model.QueryRequest
 import aws.sdk.kotlin.services.dynamodb.model.QueryResponse
-import org.slf4j.LoggerFactory
 import weaveandthewheel.adapters.DynamoClientWrapper
 import weaveandthewheel.providers.ServiceProvider
 import weaveandthewheel.utils.Constants
 
-class DynamoHandler(private val dynamoClientAdapter: DynamoClientWrapper = ServiceProvider.getInstance().getDynamoClientAdapter()) {
-    private val logger = LoggerFactory.getLogger(DynamoHandler::class.java)
+class DynamoHandler(private val dynamoClientAdapter: DynamoClientWrapper = ServiceProvider.getInstance().getDynamoClientAdapter()): Handler {
 
     /**
      * Creates a query request to fetch all content for a given userId from the Content Table.
@@ -21,8 +19,8 @@ class DynamoHandler(private val dynamoClientAdapter: DynamoClientWrapper = Servi
     fun createUserContentQuery(userId: String): QueryRequest {
         return QueryRequest {
             tableName = Constants.WEAVE_AND_THE_WHEEL_USER_CONTENT
-            keyConditionExpression = Constants.SORT_KEY_TO_USER_ID
-            expressionAttributeNames = mapOf("#${Constants.SORT_KEY}" to Constants.SORT_KEY)
+            keyConditionExpression = Constants.PARTITION_KEY_TO_USER_ID
+            expressionAttributeNames = mapOf("#${Constants.PARTITION_KEY}" to Constants.PARTITION_KEY)
             expressionAttributeValues = mapOf(":${Constants.USER_ID}" to AttributeValue.S(userId))
         }
     }
@@ -46,15 +44,15 @@ class DynamoHandler(private val dynamoClientAdapter: DynamoClientWrapper = Servi
      * @return The content uploaded by the user.
      * @throws Exception If an error occurs during the query.
      */
-    suspend fun fetchUserUploadedContent(userId: String): QueryResponse {
+    override suspend fun fetchUserUploadedContent(userId: String): QueryResponse? {
         return try {
             val response: QueryResponse = dynamoClientAdapter.queryUserContent(query = createUserContentQuery(userId = userId))
             response
         } catch (e: AwsServiceException) {
-            logger.error("AWS service error while fetching user content for userId=$userId: ${e.message}", e)
+            println("AWS service error while fetching user content for userId=$userId: ${e.message}")
             throw e
         } catch (e: Exception) {
-            logger.error("Unexpected error while fetching user content for userId=$userId: ${e.message}", e)
+            println("Unexpected error while fetching user content for userId=$userId: ${e.message}")
             throw e
         }
     }

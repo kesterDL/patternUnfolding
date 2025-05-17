@@ -57,7 +57,7 @@ class DynamoCatalogerTest {
         val request: PutItemRequest = dynamoCataloger.buildPutItemRequest(catalogData = catalogData, contentId = "num1", uploadTime = "2021-01-01")
 
         // Assert
-        assertEquals(userId, request.item!!.getValue("SortKey").asS())
+        assertEquals(userId, request.item!!.getValue("PartitionKey").asS())
         assertEquals(title, request.item!!.getValue("title").asS())
     }
 

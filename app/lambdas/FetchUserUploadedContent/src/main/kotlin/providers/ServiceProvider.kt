@@ -4,6 +4,7 @@ import aws.sdk.kotlin.services.dynamodb.DynamoDbClient
 import weaveandthewheel.adapters.DynamoClientAdapter
 import weaveandthewheel.adapters.DynamoClientWrapper
 import weaveandthewheel.handlers.DynamoHandler
+import weaveandthewheel.handlers.Handler
 
 class ServiceProvider {
     /**
@@ -21,7 +22,7 @@ class ServiceProvider {
      */
     private var dynamoDbClient: DynamoDbClient? = null
     private var dynamoClientAdapter: DynamoClientWrapper? = null
-    private var dynamoHandler: DynamoHandler? = null
+    private var dynamoHandler: Handler? = null
 
     /**
      * Returns the singleton instance of the DynamoDB client.
@@ -39,7 +40,7 @@ class ServiceProvider {
      *
      * @return The singleton instance of the DynamoHandler.
      */
-    fun getDynamoHandler(): DynamoHandler {
+    fun getDynamoHandler(): Handler {
         if (dynamoHandler == null) {
             dynamoHandler = DynamoHandler(getDynamoClientAdapter())
         }
@@ -55,5 +56,16 @@ class ServiceProvider {
             dynamoClientAdapter = DynamoClientAdapter(getDynamoDbClient())
         }
         return dynamoClientAdapter!!
+    }
+
+    // For test injection
+    fun setDynamoDbClient(mock: DynamoDbClient) {
+        dynamoDbClient = mock
+    }
+    fun setDynamoClientAdapter(mock: DynamoClientWrapper) {
+        dynamoClientAdapter = mock
+    }
+    fun setDynamoHandler(mock: Handler) {
+        dynamoHandler = mock
     }
 }
