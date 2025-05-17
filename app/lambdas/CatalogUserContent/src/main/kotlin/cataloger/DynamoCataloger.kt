@@ -21,7 +21,6 @@ public class DynamoCataloger(private val ddbClient: DynamoDbClient): Cataloger {
 
             val newItem: PutItemResponse = addContentToCatalog(catalogData = catalogData, contentId = contentId, uploadTime = timestamp)
             val addedToUser: UpdateItemResponse = addContentToUser(catalogData = catalogData, contentId = contentId)
-//            println("Content added to user $addedToUser, and DynamoDB: $newItem.")
             return true
         } catch (e: Exception) {
             throw Exception("Failed to catalog content: ${e.message}")
@@ -50,8 +49,8 @@ public class DynamoCataloger(private val ddbClient: DynamoDbClient): Cataloger {
     internal fun buildPutItemRequest(catalogData: CatalogData, contentId: String, uploadTime: String): PutItemRequest {
         // Build the item to be added to the DynamoDB table
         val contentInfo = mapOf(
-            "PartitionKey" to AttributeValue.S(contentId),
-            "SortKey" to AttributeValue.S(catalogData.userId),
+            "PartitionKey" to AttributeValue.S(catalogData.userId),
+            "SortKey" to AttributeValue.S(contentId),
             "uploadDate" to AttributeValue.S(uploadTime),
             "title" to AttributeValue.S(catalogData.title),
             "description" to AttributeValue.S(catalogData.description ?: ""),

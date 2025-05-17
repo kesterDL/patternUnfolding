@@ -35,7 +35,7 @@ class CatalogHandlerTest {
                         .withBody(
                                 """
         {
-            "userId": "user1",
+            "userId": "user5",
             "s3Key": "some/key",
             "title": "Test Title",
             "description": "test descripton",
@@ -45,17 +45,16 @@ class CatalogHandlerTest {
                         )
 
         val mockContext = mockk<Context>()
-        // Force inject a mock DynamoDbClient into the handler
-        mockkConstructor(DynamoDbClient::class)
-        coEvery { anyConstructed<DynamoDbClient>().updateItem(any()) } returns mockk(relaxed = true)
+        val mockCataloger = mockk<Cataloger>()
+        coEvery { mockCataloger.catalogContent(any()) } returns true
 
+        // Inject the mock into the ServiceLocator
+        ServiceLocator.cataloger = mockCataloger
         val handler = CatalogHandler()
 
         // Act
         val result = handler.handleRequest(fakeInput, mockContext)
 
-        println("====== Status: ${result.statusCode}")
-        println("====== string: ${result}")
         // Assert
         assert(result.statusCode == 200)
         assert(
@@ -72,7 +71,7 @@ class CatalogHandlerTest {
                         .withBody(
                                 """
     {
-        "userId": "user1",
+        "userId": "user4",
         "s3Key": "some/key",
         "title": "Test Title",
         "description": "test description",
