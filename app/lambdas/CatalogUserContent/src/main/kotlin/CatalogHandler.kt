@@ -40,17 +40,33 @@ class CatalogHandler : RequestHandler<APIGatewayProxyRequestEvent?, APIGatewayPr
             context: Context
     ): APIGatewayProxyResponseEvent = runBlocking {
         // Fetch the relevant data from the input into CatalogData
-        val inputBody = input!!.body
-        val catalogData: CatalogData = Json.decodeFromString<CatalogData>(inputBody)
-        // Create Catalog Object
-        val cataloger: Cataloger = ServiceLocator.cataloger
-        // Call DynamoDB with all data to catalog the content to the user
-        val result: Boolean = cataloger.catalogContent(catalogData)
-        // Return the result of cataloging
-        if (result) {
-            return@runBlocking makeResponse(statusCode = 200, "Content successfully cataloged")
-        } else {
-            return@runBlocking makeResponse(statusCode = 500, "Failed to catalog: $input")
+        if (input == null) {
+            return@runBlocking makeResponse(statusCode = 400, "Input is null")
+        }
+        println("Input: $input")
+        try {
+            val inputBody = input!!.body
+            if (inputBody.isNullOrEmpty()) {
+                return@runBlocking makeResponse(statusCode = 400, "Input body is empty or null")
+            }
+            println("Input body: $inputBody")
+            val catalogData: CatalogData = Json.decodeFromString<CatalogData>(inputBody)
+            // Create Catalog Object
+            val cataloger: Cataloger = ServiceLocator.cataloger
+            // Call DynamoDB with all data to catalog the content to the user
+            val result: Boolean = cataloger.catalogContent(catalogData)
+            // Return the result of cataloging
+            if (result) {
+                return@runBlocking makeResponse(statusCode = 200, "Content successfully cataloged")
+            } else {
+                return@runBlocking makeResponse(statusCode = 500, "Failed to catalog: $input")
+            }
+        } catch (e: Exception) {
+            println("Exception: ${e.message}")
+            return@runBlocking makeResponse(
+                    statusCode = 500,
+                    "Error processing request: ${e.message}"
+            )
         }
     }
 }

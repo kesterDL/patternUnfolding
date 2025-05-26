@@ -50,6 +50,44 @@ function ImageUploadPage() {
     }
   };
 
+  const handleUserContentCatalog = async (
+    userId,
+    s3Key,
+    imageTitle,
+    imageDescription,
+    token
+  ) => {
+    const payload = {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        userId: userId,
+        s3Key: s3Key,
+        title: imageTitle,
+        description: imageDescription,
+        contentType: "image",
+      }),
+    };
+
+    try {
+      const response = await fetch(
+        "https://enwvvfsu32.execute-api.us-east-1.amazonaws.com/v1/upload/catalog",
+        payload
+      );
+      if (response.ok) {
+        const data = await response.json();
+        console.log("User content catalog updated:", data);
+      } else {
+        alert("Failed to update user content catalog.");
+      }
+    } catch (error) {
+      console.error("Error updating user content catalog:", error);
+    }
+  };
+
   const handleTitleNameChange = (event) => {
     if (
       event.target &&
@@ -99,8 +137,20 @@ function ImageUploadPage() {
       const presignedUrl = presignedResponse.presignedUrl;
       const s3Key = presignedResponse.pathToImage;
       const uploadSuccessful = await uploadFile(presignedUrl, selectedFile);
+
       if (uploadSuccessful) {
+        const userId = account_sub;
+        const imageUrl = s3Key;
+        const imageTitle = titleName;
+        const imageDescription = "Image description"; // Placeholder for description
         // Call api to associate the image with the user
+        handleUserContentCatalog(
+          userId,
+          imageUrl,
+          imageTitle,
+          imageDescription,
+          token
+        );
         // Redirect to the user's profile page
       }
     } else {

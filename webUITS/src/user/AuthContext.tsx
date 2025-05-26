@@ -51,6 +51,7 @@ export const AuthProvider = ({ children }: { children: Children }) => {
         username: userData.username,
       });
       setAuthLoading(false);
+
     } catch (err: unknown) {
       //@ts-ignore
       setError(err.message);
